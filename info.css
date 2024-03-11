@@ -35,6 +35,14 @@ margin-top: 40px;
 background-color:#AD9A64;
 width: 20%;
   }
+
+  .card img {
+   
+      max-height: 50%;
+    
+    
+  }
+  
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
     .column {

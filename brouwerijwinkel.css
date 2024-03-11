@@ -1,28 +1,115 @@
-.rondleidingen-section {
-    max-width: 1300px;
-    margin: 20px auto; /* Horizontaal centreren */
-    display: flex;
-    flex-direction: column;
+.brouwerij-section {
+    position: relative;
+    text-align: left;
 }
 
 .image-container {
-    position: relative;
-    width: 100%; /* Afbeelding neemt de volledige breedte in */
-    max-width: 100%;
-    margin-bottom: 20px; /* Ruimte toevoegen onder de afbeelding */
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    max-height: 550px; /* Maximale hoogte van de afbeelding container */
+    overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
 }
 
 .image-container img {
-    width: 100%;
-    height: auto; /* Behoud de aspectverhouding van de afbeelding */
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
 }
 
-.text-container {
+.text-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.7); /* Maak de achtergrond semi-transparant */
-    width: 80%; /* Breedte van de tekstcontainer */
-    max-width: 400px; /* Max breedte van de tekstcontainer */
+    top: 380px; /* Plaats de tekst-overlay meer naar boven */
+    left: 20px;
+    width: 70%;
 }
+
+.text-overlay h2 {
+    font-family: "Georgia", serif;
+    font-size: 52pt;
+}
+
+.text-overlay p {
+    font-family: "Roboto Slab";
+    font-size: 14pt;
+}
+
+
+.picknick {
+    border: 9px solid #fff; /* Witte border */
+    padding: 10px; /* Ruimte binnen de border */
+    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.picknick img {
+    flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
+    margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
+    max-height: 300px;
+}
+.picknick p {
+    flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
+    text-align: left; /* Tekst links uitlijnen */
+    font-family: "Roboto Slab"; /* Lettertype */
+    font-size: 12pt; /* Lettergrootte */
+    width: 90%;
+    
+}
+
+.picknick h2{
+    font-family: "Georgia", serif;
+    font-size: 18pt;
+    width: 90%;
+    margin-top: 80px;
+}
+
+/* TABEL OPENING */
+
+table {
+    width: 80%; /* Verklein de breedte van de tabel naar 80% van de container */
+    margin: 0 auto; /* Centreer de tabel */
+}
+
+td, th {
+    padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
+}
+
+
+.container {
+    display: flex; /* Maak de container een flex container */
+    justify-content: space-between; /* Verdeel de ruimte tussen de tabellen */
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+td {
+   
+    padding: 8px;
+    text-align: left;
+    font-family: "Roboto Slab";
+}
+
+th {
+    border-bottom: 5px solid #8b0000; /* Voeg een border toe aan de cellen */
+    padding: 8px;
+    text-align: left;
+    font-family: "Georgia", serif;
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* Verwijder de border aan de rechterkant van de laatste cel */
+    border-top: none;
+}
+
+.container p{
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 110px;
+   background-color: #8b0000;
+   padding: 10px;
+   font-family: "Roboto Slab";
+   color: white;
+}
+
+/* TABEL OPENING EINDE*/

@@ -19,13 +19,13 @@
 .text-overlay {
     
     padding: 10px;
-    text-align: left;
+    text-align:left;
     color: white;
     position: absolute;
     bottom: 0;
-    left: 20px;
+    left: 710px;
     margin-bottom: 20px;
-    width: 40%;
+    width: 50%;
 
 }
 
@@ -51,18 +51,7 @@ td, th {
     padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
 }
 
-.text-overlay {
-    width: 30%; /* Verklein de breedte van de tekst-overlay naar 30% */
-    left: 20px; /* Plaats de tekst-overlay links met een marge van 20px */
-}
 
-.text-overlay h2 {
-    font-size: 32pt; /* Verklein de grootte van de kop in de tekst-overlay */
-}
-
-.text-overlay p {
-    font-size: 12pt; /* Verklein de grootte van de alinea in de tekst-overlay */
-}
 
 .container {
     display: flex; /* Maak de container een flex container */
@@ -93,7 +82,7 @@ td:last-child, th:last-child {
 .container p{
    position: absolute;
    margin-top: 350px;
-   margin-left: 110px;
+   margin-left: 80px;
    background-color: #8b0000;
    padding: 10px;
    font-family: "Roboto Slab";

@@ -99,7 +99,7 @@
     <section class="new-image-section">
         <div class="new-image-container">
             <div class="image-wrapper">
-                <a href="brouwerij.html">  <img src="WEBSITE/Stokerij Vroeger en nu/Distillery Wilderen.jpg" alt="Vroeger en Nu"></a>
+                <a href="brouwerij.html">  <img src="WEBSITE/Stokerij Vroeger en nu/KVDS-20150807-185506-5449-NIKON D800.jpg" alt="Vroeger en Nu"></a>
                 <div class="image-title">Vroeger en Nu</div>
             </div>
         </div>
@@ -119,17 +119,31 @@
     
     <div style="display: flex; justify-content: space-around;">
         <!-- Eerste video -->
-        <video width="560" controls>
+        <video id="myVideo" width="560" controls>
             <source src="WEBSITE/Tripel Kanunnik/ILBASKaan_TripelKanunnik_Monroe_v4.mp4" type="video/mp4">
-            Your browser does not support the video tag.
         </video>
-        
+    
         <!-- Tweede video -->
-        <iframe width="560" height="285" src="https://www.youtube.com/embed/dOFLb-Di_Vw?si=8E3S0FZiUpvH3RdQ&amp;clip=UgkxbTUB9kEO-aHo2J-BtoPMReKJmlbMTUpo&amp;clipt=EIG_JhiPuig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+        <iframe width="560"  src="https://www.youtube.com/embed/dOFLb-Di_Vw?si=8E3S0FZiUpvH3RdQ&amp;clip=UgkxbTUB9kEO-aHo2J-BtoPMReKJmlbMTUpo&amp;clipt=EIG_JhiPuig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var video = document.getElementById('myVideo');
     
+            // Wacht tot de metadata van de video is geladen
+            video.addEventListener('loadedmetadata', function() {
+                // Stel het starttijdstip in op 5 seconden
+                video.currentTime = 5;
+            });
+    
+            // Speel de video af
+            video.play();
+        });
+    </script>
+    
+    
+   
     
       
 
@@ -216,6 +230,7 @@
         <p> - Laatste tap: een 1/2u voor sluiting<br>
             - Honden toegelaten<br>
             - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang<br>
+            - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer<br>
             - Geen trouwlocatie of feestzalenverhuur</p>
     </section>
     
