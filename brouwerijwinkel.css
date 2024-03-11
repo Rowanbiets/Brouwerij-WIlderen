@@ -1,0 +1,28 @@
+.rondleidingen-section {
+    max-width: 1300px;
+    margin: 20px auto; /* Horizontaal centreren */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Afbeelding neemt de volledige breedte in */
+    max-width: 100%;
+    margin-bottom: 20px; /* Ruimte toevoegen onder de afbeelding */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; /* Behoud de aspectverhouding van de afbeelding */
+}
+
+.text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Maak de achtergrond semi-transparant */
+    width: 80%; /* Breedte van de tekstcontainer */
+    max-width: 400px; /* Max breedte van de tekstcontainer */
+}

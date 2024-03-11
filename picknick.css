@@ -1,0 +1,123 @@
+.brouwerij-section {
+    position: relative;
+    text-align: left;
+}
+
+.image-container {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    max-height: 550px; /* Maximale hoogte van de afbeelding container */
+    overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+}
+
+.image-container img {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+}
+
+.text-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 380px; /* Plaats de tekst-overlay meer naar boven */
+    left: 20px;
+    width: 40%;
+}
+
+.text-overlay h2 {
+    font-family: "Georgia", serif;
+    font-size: 52pt;
+}
+
+.text-overlay p {
+    font-family: "Roboto Slab";
+    font-size: 14pt;
+}
+
+
+
+
+.picknick {
+    border: 9px solid #fff; /* Witte border */
+    padding: 10px; /* Ruimte binnen de border */
+    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.picknick img {
+    flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
+    margin-right: 90px; /* Ruimte tussen afbeelding en tekst */
+}
+
+.picknick p {
+    flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
+    text-align: left; /* Tekst links uitlijnen */
+    font-family: "Roboto Slab"; /* Lettertype */
+    font-size: 12pt; /* Lettergrootte */
+    width: 70%;
+}
+
+.picknick h2{
+    font-family: "Georgia", serif;
+    font-size: 18pt;
+    width: 80%;
+}
+
+
+
+
+
+
+/* Stijlen voor de carousel-container */
+.carousel-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 80%; /* Verklein de breedte van de carousel */
+    margin: 0 auto; /* Centreer de carousel */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Stel de breedte van de pijltjes in */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px; /* Stel de breedte van de pijltjespictogrammen in */
+    height: 50px; /* Stel de hoogte van de pijltjespictogrammen in */
+    
+    
+    border: none; /* Verwijder de rand van de pijltjespictogrammen */
+    color: white; /* Stel de kleur van de pijltjespictogrammen in */
+    font-size: 24px; /* Stel de grootte van de pijltjespictogrammen in */
+    line-height: 50px; /* Centreer de pijltjespictogrammen verticaal */
+    text-align: center; /* Centreer de pijltjespictogrammen horizontaal */
+    cursor: pointer; /* Wijzig de cursor naar een wijzer */
+    
+}
+
+/* Stijlen voor de carousel */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: auto;
+    max-width: 100%;
+}

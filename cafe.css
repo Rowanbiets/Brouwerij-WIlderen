@@ -1,0 +1,162 @@
+.brouwerij-section {
+    position: relative;
+    text-align: left;
+    
+}
+
+.image-container {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    max-height: 500px; /* Maximale hoogte van de afbeelding container */
+    overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+   
+}
+
+.image-container img {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+}
+
+.text-overlay {
+    
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+
+}
+
+.text-overlay h2{
+    font-family: "Georgia", serif;
+    font-size: 52pt;
+}
+
+.text-overlay p{
+    font-family: "Roboto Slab";
+    font-size: 14pt;
+}
+
+
+/* TABEL OPENING */
+
+table {
+    width: 80%; /* Verklein de breedte van de tabel naar 80% van de container */
+    margin: 0 auto; /* Centreer de tabel */
+}
+
+td, th {
+    padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
+}
+
+.text-overlay {
+    width: 30%; /* Verklein de breedte van de tekst-overlay naar 30% */
+    left: 20px; /* Plaats de tekst-overlay links met een marge van 20px */
+}
+
+.text-overlay h2 {
+    font-size: 32pt; /* Verklein de grootte van de kop in de tekst-overlay */
+}
+
+.text-overlay p {
+    font-size: 12pt; /* Verklein de grootte van de alinea in de tekst-overlay */
+}
+
+.container {
+    display: flex; /* Maak de container een flex container */
+    justify-content: space-between; /* Verdeel de ruimte tussen de tabellen */
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+td {
+   
+    padding: 8px;
+    text-align: left;
+    font-family: "Roboto Slab";
+}
+
+th {
+    border-bottom: 5px solid #8b0000; /* Voeg een border toe aan de cellen */
+    padding: 8px;
+    text-align: left;
+    font-family: "Georgia", serif;
+}
+
+td:last-child, th:last-child {
+    border-right: none; /* Verwijder de border aan de rechterkant van de laatste cel */
+    border-top: none;
+}
+
+.container p{
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 110px;
+   background-color: #8b0000;
+   padding: 10px;
+   font-family: "Roboto Slab";
+   color: white;
+}
+
+/* TABEL OPENING EINDE*/
+
+/* CAROUSEL */
+
+/* Stijlen voor de carousel-container */
+.carousel-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 80%; /* Verklein de breedte van de carousel */
+    margin: 0 auto; /* Centreer de carousel */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Stel de breedte van de pijltjes in */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px; /* Stel de breedte van de pijltjespictogrammen in */
+    height: 50px; /* Stel de hoogte van de pijltjespictogrammen in */
+    
+    
+    border: none; /* Verwijder de rand van de pijltjespictogrammen */
+    color: white; /* Stel de kleur van de pijltjespictogrammen in */
+    font-size: 24px; /* Stel de grootte van de pijltjespictogrammen in */
+    line-height: 50px; /* Centreer de pijltjespictogrammen verticaal */
+    text-align: center; /* Centreer de pijltjespictogrammen horizontaal */
+    cursor: pointer; /* Wijzig de cursor naar een wijzer */
+    
+}
+
+
+
+/* Stijlen voor de carousel */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: auto;
+    max-width: 100%;
+}
+
+

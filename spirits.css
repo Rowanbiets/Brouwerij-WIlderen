@@ -1,0 +1,62 @@
+/* Resetting default margin and padding */
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0;
+}
+
+
+
+/* Standaardstijl voor afbeeldingen binnen de container */
+.container img {
+    max-width: 100%; /* Afbeeldingen schalen binnen de beschikbare ruimte */
+    height: auto; /* Behoud de aspectverhouding van de afbeeldingen */
+    height: 200px; /* Stel de hoogte van alle afbeeldingen in op 200px */
+    transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
+}
+
+.container img:hover {
+    transform: scale(1.1); /* Maak de afbeelding iets groter bij zweven */
+}
+.row {
+    margin-bottom: 50px; /* Voeg een onderste marge van 30px toe tussen de rijen */
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.fade-in-title {
+    position: absolute;
+    top: 140px;
+    color: #AD9A64;
+    left: 50px;
+    font-family: 'Playfair Display', serif;
+    opacity: 0; /* Zorg ervoor dat de titel in eerste instantie onzichtbaar is */
+    animation: fade-in 2s ease-in-out forwards; /* Definieer de fade-in animatie */
+    font-family: 'Roboto', sans-serif; /* Gebruik het gewenste lettertype */
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0; /* Start met volledige transparantie */
+    }
+    100% {
+        opacity: 1; /* Eindig met volledige dekking */
+    }
+}
+
+

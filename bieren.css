@@ -1,0 +1,42 @@
+/* Resetting default margin and padding */
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    /* Voeg eventueel aanvullende stijlen toe, zoals lettergrootte, gewicht, etc. */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0;
+}
+
+
+
+.container {
+    margin-top: 80px;
+    
+    
+}
+
+/* Standaardstijl voor afbeeldingen binnen de container */
+.container img {
+    max-width: 100%; /* Afbeeldingen schalen binnen de beschikbare ruimte */
+    height: auto; /* Behoud de aspectverhouding van de afbeeldingen */
+    height: 200px; /* Stel de hoogte van alle afbeeldingen in op 200px */
+    transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
+}
+
+.container img:hover {
+    transform: scale(1.1); /* Maak de afbeelding iets groter bij zweven */
+}
+

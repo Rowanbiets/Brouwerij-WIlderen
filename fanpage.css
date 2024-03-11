@@ -1,0 +1,56 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0;
+}
+
+.fan-page-section {
+    padding: 20px;
+}
+
+.fan-page-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.wild-logo {
+    display: block;
+    margin: 0 auto 20px; /* Zorgt voor wat ruimte onder de afbeelding */
+}
+
+.fan-page-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.fan-page-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.fan-page-content a {
+    color: #AD9A64;
+}
+
+/* Footer opmaak */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,106 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    /* Voeg eventueel aanvullende stijlen toe, zoals lettergrootte, gewicht, etc. */
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    margin: 0;
+}
+
+.container {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.container img {
+    width: 80%; /* Afbeeldingen 100% breedte van de container maken */
+    height: auto; /* Behoud de aspectverhouding */
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 160px;
+    left: -180%; /* Startpositie buiten het zicht */
+    width: 100%; /* Breedte van de kader aanpassen */
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.524); /* Witte achtergrond met lichte transparantie */
+    transition: left 0.5s ease; /* Voeg een vloeiende overgang toe */
+    padding: 10px; /* Ruimte rond de tekst */
+    box-sizing: border-box; /* Padding wordt opgenomen in de totale breedte en hoogte */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Verdeling van ruimte binnen de overlay */
+    align-items: left;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.position-relative {
+    position: relative;
+    text-decoration: none;
+}
+
+.container:hover .overlay {
+    left: 120%; /* Verplaats de overlay naar de zichtbare positie bij hover */
+    text-decoration: none;
+}
+
+.beer-name {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #333;
+   
+}
+
+.buy-button {
+    background-color:#AD9A64;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+
+.buy-button2 {
+    background-color:rgba(255, 60, 0, 0.724);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+ 
+}
+
+.button-buy:hover {
+    text-decoration: none !important; 
+}
+
+ a:hover {
+    text-decoration: none; /* Verwijder onderstreping bij hover */
+}
+
+
+.info {
+    font-size: 16px;
+   text-align: left;
+    line-height: 1.4; /* Regelhoogte voor betere leesbaarheid */
+}
+

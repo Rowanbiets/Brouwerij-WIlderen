@@ -1,0 +1,160 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia, serif";
+    text-decoration: none;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#8b0000;
+    text-decoration: none;
+}
+
+.logo-link {
+    display: block;
+}
+
+.logo {
+    width: 130px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style: none;
+    font-family: "Georgia, serif";
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 190px;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 900;
+    width: 180px;
+    left: 150px;
+    top: 60px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);   
+   
+}
+
+.submenu2{
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black    ;
+    z-index: 900;
+    width: 180px;
+    left: 400px; 
+    top: 60px;
+    text-decoration: none;
+}
+
+.submenu3{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 900;
+    width: 200px;
+    left: 1155px;
+    top: 60px; 
+    text-decoration: none;
+}
+
+.submenu1 > li:hover{
+    display: block;
+    background-color: #8b0000;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.submenu2 > li:hover{
+    display: block;
+    background-color: #8b0000;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.submenu3 > li:hover{
+    display: block;
+    background-color: #8b0000;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav > ul > li:hover > .submenu {
+    display: block;
+    background-color: #AD9A64;
+}
+
+nav .submenu2 > li:hover > .sub-submenu2 {
+    display: block;
+    background-color: #8b0000;
+}
+
+
+nav > ul > li:hover > ul {
+    display: block;
+    
+}
+
+nav ul ul li {
+    display: block;
+    width: 100%; /* Neem de volledige breedte van het submenu in beslag */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+nav ul ul li a {
+    display: block;
+    padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10px;
+}
+ 
+nav ul ul li a:hover {
+    display: block;
+    padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.submenu {
+    display: none;
+    
+}
+
+.submenu.open {
+    display: block;
+}
+
+
+ /*openingsuren*/
+
+ 
+
+ 
+
