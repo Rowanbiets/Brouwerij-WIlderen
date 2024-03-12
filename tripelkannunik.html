@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bieren</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="kannunik.css">
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <a href="index.html" class="logo-link"><img src="WEBSITE/Logo/LOGO W 2020BW.png" alt="logo WIlderen" class="logo"></a>
+            <a href="index.html" class="logo-link"><img src="WEBSITE/Logo/Wilderen Logo 2020.png" alt="logo WIlderen" class="logo"></a>
             <nav>
                 <ul>
                     <li><a href="#">Productie</a>
@@ -69,5 +70,58 @@
             <!-- Voeg hier meer afbeeldingen toe -->
         </div>
     </div>
+
+    <section class="container">
+        <h2>Andere Bieren</h2>
+        <div id="beerCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png" class="d-block w-100 beer-img" alt="Bier 1">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 2">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 3">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#beerCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#beerCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#beerCarousel").on('slide.bs.carousel', function () {
+                // Wanneer de carousel schuift, verander de vervaagde toestand van de items
+                $(".carousel-item").css("opacity", "0.5");
+            });
+
+            $("#beerCarousel").on('slid.bs.carousel', function () {
+                // Nadat de carousel is geschoven, zet de huidige item naar de voorgrond
+                $(".carousel-item.active").css("opacity", "1");
+            });
+        });
+    </script>
+
+    
 </body>
 </html>

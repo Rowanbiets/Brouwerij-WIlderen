@@ -104,3 +104,84 @@ body {
     line-height: 1.4; /* Regelhoogte voor betere leesbaarheid */
 }
 
+
+.carousel-inner .row {
+    display: flex;
+    justify-content: space-between; /* Om ervoor te zorgen dat de ruimte tussen de afbeeldingen gelijk verdeeld wordt */
+}
+
+.carousel-inner .col-md-3 {
+    flex: 0 0 24%; /* Gebruik een iets lagere waarde om ervoor te zorgen dat er ruimte is tussen de afbeeldingen */
+    margin-bottom: 10px; /* Voeg wat ruimte toe onder elke afbeelding */
+}
+
+.carousel-inner .col-md-3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Behoud de aspectverhouding van de afbeeldingen en zorg ervoor dat ze de hele ruimte van de container bedekken */
+}
+
+.carousel-inner .carousel-item.active .col-md-3 img {
+    opacity: 1;
+}
+
+
+.carousel-inner .col-md-3 {
+    flex: 0 0 auto;
+}
+
+.carousel-inner .col-md-3 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-inner .carousel-item.active .col-md-3:first-child img {
+    opacity: 1;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item {
+    transition: opacity 0.5s ease;
+    opacity: 0.5; /* Standaard vervaagde toestand */
+}
+
+.carousel-item.active {
+    opacity: 1; /* Bier in de spotlight */
+}
+
+.carousel-inner .col-md-3 {
+    flex: 0 0 25%;
+    transition: opacity 0.5s ease; /* Voeg een overgang toe voor vervaagde toestand */
+}
+
+.carousel-inner .col-md-3 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; /* Standaard vervaagde toestand voor afbeeldingen */
+}
+
+.carousel-inner .col-md-3 img:hover {
+    opacity: 1; /* Afbeelding wordt helder bij hover */
+}
+
+.carousel-control-prev {
+    margin-left: -15%; /* Verplaats de linker pijl naar links */
+}
+
+.carousel-control-next {
+    margin-right: -15%; /* Verplaats de rechter pijl naar rechts */
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Verander de kleur van de pijltjes */
+}
+

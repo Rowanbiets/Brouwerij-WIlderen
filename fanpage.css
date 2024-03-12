@@ -1,51 +1,52 @@
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-}
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+.brouwerij-section {
+    position: relative;
+    text-align: left;
     
 }
 
-p {
-    font-family: 'Roboto', sans-serif; 
+.image-container {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    max-height: 500px; /* Maximale hoogte van de afbeelding container */
+    overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+   
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+.image-container img {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+}
+
+.text-overlay {
     
-    margin: 0;
+    padding: 10px;
+    text-align:left;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    margin-bottom: 20px;
+    width: 50%;
+
 }
 
-.fan-page-section {
-    padding: 20px;
+.text-overlay h2{
+    font-family: "Georgia", serif;
+    font-size: 52pt;
 }
 
-.fan-page-content {
-    max-width: 800px;
-    margin: 0 auto;
+.text-overlay p{
+    font-family: "Roboto Slab";
+    font-size: 14pt;
 }
 
-.wild-logo {
-    display: block;
-    margin: 0 auto 20px; /* Zorgt voor wat ruimte onder de afbeelding */
+.text-overlay a{
+    font-family: "Roboto Slab";
+    font-size: 14pt;
+    color:#bdffbd;
 }
 
-.fan-page-content p {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
-}
 
-.fan-page-content ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-.fan-page-content a {
-    color: #AD9A64;
-}
 
 /* Footer opmaak */
 footer {
@@ -53,4 +54,163 @@ footer {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+}
+
+
+.story {
+    width: 70%;
+    padding-left: 350px;
+   
+  }
+
+  .story p{
+    text-align: center;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .story h2{
+    text-align: center;
+    color: red;
+  }
+
+
+.kleine-afbeelding {
+    width: 200px; /* Pas de breedte aan naar wens */
+    height: auto; /* Behoudt de aspectverhouding */
+    margin-left: 50%;
+   
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poor Story', cursive;
+  background: #bdffbd;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; /* Voeg wat ruimte toe aan de zijkanten */
+    margin-left: 70px; 
+}
+
+
+
+.item:nth-child(odd) {
+    order: -1; /* Oneven items komen eerst (links) */
+}
+
+@media (max-width: 768px) {
+    .item {
+        width: 100%; /* Op kleinere schermen, neem de volledige breedte in */
+    }
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  
+}
+
+
+
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+.caption {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2em;
+}
+.item {
+  position:relative;
+  width: 30%;
+
+  display: inline-block;
+  position:relative;
+  filter: grayscale(100%);
+
+}
+.item .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transition: all 0.35s;
+}
+.item:nth-of-type(4n+1) {
+  transform: scale(0.8, 0.8) rotate(5deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(4n+1) .polaroid:before {
+  transform: rotate(6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.item:nth-of-type(4n+2) {
+  transform: scale(0.8, 0.8) rotate(-5deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(4n+2) .polaroid:before {
+  transform: rotate(-6deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.4);
+}
+.item:nth-of-type(4n+4) {
+  transform: scale(0.8, 0.8) rotate(3deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(4n+4) .polaroid:before {
+  transform: rotate(4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  right: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+.item:nth-of-type(4n+3) {
+  transform: scale(0.8, 0.8) rotate(-3deg);
+  transition: all 0.35s;
+}
+.item:nth-of-type(4n+3) .polaroid:before {
+  transform: rotate(-4deg);
+  height: 20%;
+  width: 47%;
+  bottom: 30px;
+  left: 12px;
+  box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
+}
+.item:hover {
+  filter: none;
+  transform: scale(1, 1) rotate(0deg) !important;
+  transition: all 0.35s;
+}
+.item:hover .polaroid:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  transform: rotate(0deg);
+  height: 90%;
+  width: 90%;
+  bottom: 0%;
+  right: 5%;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.2);
+  transition: all 0.35s;
 }
