@@ -1,6 +1,6 @@
 {
   "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
-  "rows1": [
+  "table1": [
     ["Maandag", "GESLOTEN", ""],
     ["Dinsdag", "GESLOTEN", ""],
     ["Woensdag", "12:00 - 18:00u", ""],
@@ -9,13 +9,13 @@
     ["Zaterdag", "12:00 - 18:00u", "12u - 00u"],
     ["Zondag", "12:00 - 18:00u", "12u - 21u"]
   ],
-  "rows2": [
+  "table2": [
     ["vrijdag", "12u - 00u"],
     ["zaterdag", "12u - 00u"],
     ["zondag", "12u - 21u"]
   ],
 
-  "rows3": [
+  "table3": [
     ["31/03", "OPEN PASEN", "12u - 21u"],
     ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
     ["29/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
