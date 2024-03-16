@@ -16,9 +16,6 @@ function renderTables(data) {
   table2.innerHTML = "";
   table3.innerHTML = "";
 
-  //   data.forEach((elem) => {
-  // const tr = document.createElement("tr");
-  console.log(data);
 
   //---April/September---
 
@@ -28,43 +25,43 @@ function renderTables(data) {
         <th colspan="2">${data.headers[0]}</th>
         <tr>
         <td></td>
-        <td>${data.table1[0][0]}</td>
-        <td>${data.table1[0][1]}</td>
+        <td>${data.table1.row1[0]}</td>
+        <td>${data.table1.row1[1]}</td>
     </tr>
     <tr>
     <td></td>
-        <td>${data.table1[1][0]}</td>
-        <td>${data.table1[1][1]}</td>
-    </tr>
-    <tr>
-    <td></td>
-
-        <td>${data.table1[2][0]}</td>
-        <td>${data.table1[2][1]}</td>
+        <td>${data.table1.row2[0]}</td>
+        <td>${data.table1.row2[1]}</td>
     </tr>
     <tr>
     <td></td>
 
-        <td>${data.table1[3][0]}</td>
-        <td>${data.table1[3][1]}</td>
+        <td>${data.table1.row3[0]}</td>
+        <td>${data.table1.row3[1]}</td>
     </tr>
     <tr>
     <td></td>
 
-        <td>${data.table1[4][0]}</td>
-        <td>${data.table1[4][1]}</td>
+        <td>${data.table1.row4[0]}</td>
+        <td>${data.table1.row4[1]}</td>
     </tr>
     <tr>
     <td></td>
 
-        <td>${data.table1[5][0]}</td>
-        <td>${data.table1[5][1]}</td>
+        <td>${data.table1.row5[0]}</td>
+        <td>${data.table1.row5[1]}</td>
     </tr>
     <tr>
     <td></td>
 
-        <td>${data.table1[6][0]}</td>
-        <td>${data.table1[6][1]}</td>
+        <td>${data.table1.row6[0]}</td>
+        <td>${data.table1.row6[1]}</td>
+    </tr>
+    <tr>
+    <td></td>
+
+        <td>${data.table1.row7[0]}</td>
+        <td>${data.table1.row7[1]}</td>
     </tr>
     `;
 
@@ -74,17 +71,17 @@ function renderTables(data) {
     
             <th colspan="2">${data.headers[1]}</th>
             <tr>
-            <td>${data.table2[0][0]}</td>
-            <td>${data.table2[0][1]}</td>
+            <td>${data.table2.row1[0]}</td>
+            <td>${data.table2.row1[1]}</td>
         </tr>
         <tr>
-            <td>${data.table2[1][0]}</td>
-            <td>${data.table2[1][1]}</td>
+            <td>${data.table2.row2[0]}</td>
+            <td>${data.table2.row2[1]}</td>
         </tr>
         <tr>
     
-            <td>${data.table2[2][0]}</td>
-            <td>${data.table2[2][1]}</td>
+            <td>${data.table2.row3[0]}</td>
+            <td>${data.table2.row3[1]}</td>
             <tr>
             <td></td>
             <td></td>
@@ -112,15 +109,15 @@ function renderTables(data) {
         <th colspan="1"></th>
 
                     <tr>
-                    <td>${data.table3[0][0]}</td>
-                    <td>${data.table3[0][1]}</td>
-                    <td>${data.table3[0][2]}</td>
+                    <td>${data.table3.row1[0]}</td>
+                    <td>${data.table3.row1[1]}</td>
+                    <td>${data.table3.row1[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[1][0]}</td>
-                    <td>${data.table3[1][1]}</td>
-                    <td>${data.table3[1][2]}</td>
+                    <td>${data.table3.row2[0]}</td>
+                    <td>${data.table3.row2[1]}</td>
+                    <td>${data.table3.row2[2]}</td>
 
                     <td></td>
 
@@ -128,72 +125,72 @@ function renderTables(data) {
                 <tr>
            
             
-                    <td>${data.table3[2][0]}</td>
-                    <td>${data.table3[2][1]}</td>
-                    <td>${data.table3[2][2]}</td>
+                    <td>${data.table3.row2[0]}</td>
+                    <td>${data.table3.row2[1]}</td>
+                    <td>${data.table3.row2[2]}</td>
                     <td></td>
 
 
                 </tr>
                 <tr>
-                    <td>${data.table3[3][0]}</td>
-                    <td>${data.table3[3][1]}</td>
-                    <td>${data.table3[2][2]}</td>
+                    <td>${data.table3.row3[0]}</td>
+                    <td>${data.table3.row3[1]}</td>
+                    <td>${data.table3.row3[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
 
-                    <td>${data.table3[4][0]}</td>
-                    <td>${data.table3[4][1]}</td>
-                    <td>${data.table3[4][2]}</td>
+                    <td>${data.table3.row4[0]}</td>
+                    <td>${data.table3.row4[1]}</td>
+                    <td>${data.table3.row4[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[5][0]}</td>
-                    <td>${data.table3[5][1]}</td>
-                    <td>${data.table3[5][2]}</td>
+                    <td>${data.table3.row5[0]}</td>
+                    <td>${data.table3.row5[1]}</td>
+                    <td>${data.table3.row5[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[6][0]}</td>
-                    <td>${data.table3[6][1]}</td>
-                    <td>${data.table3[6][2]}</td>
+                    <td>${data.table3.row6[0]}</td>
+                    <td>${data.table3.row6[1]}</td>
+                    <td>${data.table3.row6[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[7][0]}</td>
-                    <td>${data.table3[7][1]}</td>
-                    <td>${data.table3[7][2]}</td>
+                    <td>${data.table3.row7[0]}</td>
+                    <td>${data.table3.row7[1]}</td>
+                    <td>${data.table3.row7[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[8][0]}</td>
-                    <td>${data.table3[8][1]}</td>
-                    <td>${data.table3[8][2]}</td>
+                    <td>${data.table3.row8[0]}</td>
+                    <td>${data.table3.row8[1]}</td>
+                    <td>${data.table3.row8[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[9][0]}</td>
-                    <td>${data.table3[9][1]}</td>
-                    <td>${data.table3[9][2]}</td>
+                    <td>${data.table3.row9[0]}</td>
+                    <td>${data.table3.row9[1]}</td>
+                    <td>${data.table3.row9[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[10][0]}</td>
-                    <td>${data.table3[10][1]}</td>
-                    <td>${data.table3[10][2]}</td>
+                    <td>${data.table3.row10[0]}</td>
+                    <td>${data.table3.row10[1]}</td>
+                    <td>${data.table3.row10[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[11][0]}</td>
-                    <td>${data.table3[11][1]}</td>
-                    <td>${data.table3[11][2]}</td>
+                    <td>${data.table3.row11[0]}</td>
+                    <td>${data.table3.row11[1]}</td>
+                    <td>${data.table3.row11[2]}</td>
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3[12][0]}</td>
-                    <td>${data.table3[12][1]}</td>
-                    <td>${data.table3[12][2]}</td>
+                    <td>${data.table3.row12[0]}</td>
+                    <td>${data.table3.row12[1]}</td>
+                    <td>${data.table3.row12[2]}</td>
                     <td></td>
 
                 </tr>`;
