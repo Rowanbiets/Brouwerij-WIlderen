@@ -120,7 +120,11 @@ body {
 }
 
 .carousel h2{
-    color:#9c121f;
+    color:#de1420;
+    border-bottom: 2px solid #FBB117;
+    
+    
+   
     width: 30%;
     padding: 10px;
     margin-left: 35%;
@@ -228,7 +232,7 @@ body {
 .new-image-section {
     display: flex;
     justify-content: space-between;
-    background-color: #9c121f;
+    background-color: #de1420;
     padding: 40px;
     margin-bottom: 50px;
 }
