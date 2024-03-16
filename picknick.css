@@ -111,6 +111,20 @@
     
 }
 
+.carousel-control-prev {
+    margin-left: -15%; /* Verplaats de linker pijl naar links */
+}
+
+.carousel-control-next {
+    margin-right: -15%; /* Verplaats de rechter pijl naar rechts */
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Verander de kleur van de pijltjes */
+}
+
 /* Stijlen voor de carousel */
 .carousel {
     width: 50%;

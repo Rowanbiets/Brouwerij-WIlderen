@@ -41,7 +41,7 @@
 
 .book-now{
     
-    background-color:#AD9A64;
+    background-color:#c31212;
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -124,11 +124,23 @@
     width: 5%; /* Stel de breedte van de pijltjes in */
 }
 
+.carousel-control-prev {
+    margin-left: -15%; /* Verplaats de linker pijl naar links */
+}
+
+.carousel-control-next {
+    margin-right: -15%; /* Verplaats de rechter pijl naar rechts */
+    
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Verander de kleur van de pijltjes */
+}
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
     width: 50px; /* Stel de breedte van de pijltjespictogrammen in */
     height: 50px; /* Stel de hoogte van de pijltjespictogrammen in */
-    
-    
     border: none; /* Verwijder de rand van de pijltjespictogrammen */
     color: white; /* Stel de kleur van de pijltjespictogrammen in */
     font-size: 24px; /* Stel de grootte van de pijltjespictogrammen in */

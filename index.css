@@ -120,12 +120,12 @@ body {
 }
 
 .carousel h2{
-    color:#dada58;
+    color:#9c121f;
     width: 30%;
     padding: 10px;
     margin-left: 35%;
     font-size: 36pt;
-    font-family: "Georgia", serif;
+    font-family: "Georgia", sans-serif;
 }
 
 
@@ -163,33 +163,33 @@ body {
 }
 
 .webshop-link {
-    background-color:#AD9A64;
+    background-color:#c31212;
     color: #fff;
     padding: 15px 30px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     font-family: "Roboto-Slab";
 }
 
 .webshop-link2 {
-    background-color:#AD9A64;
+    background-color:#c31212;
     color: #fff;
     padding: 15px 30px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     margin-left: 20px;
     font-family: "Roboto-Slab";
 }
 .webshop-link3 {
-    background-color:#AD9A64;
+    background-color:#c31212;
     color: #fff;
     padding: 15px 30px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
     margin-left: 20px;
@@ -228,7 +228,7 @@ body {
 .new-image-section {
     display: flex;
     justify-content: space-between;
-    background-color: #b42b2b;
+    background-color: #9c121f;
     padding: 40px;
     margin-bottom: 50px;
 }
@@ -242,13 +242,13 @@ body {
 .image-wrapper:hover img {
     transform: scale(1.1); /* Vergroot de afbeelding met 10% */
     transition: transform 0.5s; /* Voeg een overgang toe voor een vloeiend effect */
+    border-radius: 10px;
 }
 
 
 .image-wrapper {
     position: relative;
     overflow: hidden;
-    
     height: 300px; /* Vaste hoogte voor alle afbeeldingen */
 }
 
@@ -260,13 +260,14 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Halfdoorzichtige zwarte overlay */
+    border-radius: 10px;
 }
 
 .image-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Behoud de aspect ratio en vul de container */
-    
+    border-radius: 10px;
 }
 
 .image-title {
