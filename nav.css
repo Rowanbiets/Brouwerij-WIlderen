@@ -10,7 +10,7 @@ body, h1, h2, h3, p, ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#9c121f;
+    background-color:#333333;
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ nav ul ul {
 
 .submenu1 > li:hover{
     display: block;
-    background-color: #9c121f;
+    background-color: #333333;
     text-decoration: none;
     color: white;
     
@@ -86,7 +86,7 @@ nav ul ul {
 
 .submenu2 > li:hover{
     display: block;
-    background-color: #9c121f;
+    background-color: #333333;
     text-decoration: none;
     color: white;
     
@@ -94,7 +94,7 @@ nav ul ul {
 
 .submenu3 > li:hover{
     display: block;
-    background-color: #9c121f;
+    background-color: #333333;
     text-decoration: none;
     color: white;
     
