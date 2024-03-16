@@ -1,0 +1,33 @@
+{
+  "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+  "rows1": [
+    ["Maandag", "GESLOTEN", ""],
+    ["Dinsdag", "GESLOTEN", ""],
+    ["Woensdag", "12:00 - 18:00u", ""],
+    ["Donderdag", "12:00 - 18:00u", ""],
+    ["Vrijdag", "12:00 - 18:00u", "12u - 00u"],
+    ["Zaterdag", "12:00 - 18:00u", "12u - 00u"],
+    ["Zondag", "12:00 - 18:00u", "12u - 21u"]
+  ],
+  "rows2": [
+    ["vrijdag", "12u - 00u"],
+    ["zaterdag", "12u - 00u"],
+    ["zondag", "12u - 21u"]
+  ],
+
+  "rows3": [
+    ["31/03", "OPEN PASEN", "12u - 21u"],
+    ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
+    ["29/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
+    ["30/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
+    ["1/05", "OPEN 1 MEI", "12u-19u"],
+    ["9/05", "OPEN HEMELVAART", "12u-19u"],
+    ["19/05", "OPEN PINKSTERZONDAG", "12u-19u"],
+    ["20/05", "OPEN PINKSTERMAANDAG", "12u-19u"],
+    ["21/07", "OPEN NATIONALE FEESTDAG", "12u-19u"],
+    ["15/08", "OPEN OLV HEMELVAART", "12u-19u"],
+    ["1/11", "OPEN ALLERHEILIGEN", "12u-19u"],
+    ["2/11", "OPEN ALLERZIELEN", "12u-19u"],
+    ["11/11", "OPEN WAPENSTILSTAND", "12u-19u"]
+  ]
+}
