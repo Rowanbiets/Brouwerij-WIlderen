@@ -122,9 +122,7 @@ body {
 .carousel h2{
     color:#de1420;
     border-bottom: 2px solid #FBB117;
-    
-    
-   
+    border-top: 2px solid #FBB117;
     width: 30%;
     padding: 10px;
     margin-left: 35%;

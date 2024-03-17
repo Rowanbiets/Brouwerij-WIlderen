@@ -2,6 +2,7 @@ body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
     font-family: "Georgia, serif";
+    font-size: 15pt;
     text-decoration: none;
 }
 
@@ -30,7 +31,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin-right: 190px;
+    margin-right: 175px;
     text-decoration: none;
 }
 

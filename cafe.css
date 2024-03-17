@@ -14,8 +14,8 @@
 .image-container img {
     width: 100%; /* Afbeelding neemt volledige breedte in beslag */
     height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+    
 }
-
 
 .text-overlay {
     
@@ -39,6 +39,76 @@
     font-family: "Roboto Slab";
     font-size: 14pt;
 }
+
+.picknick {
+   
+    padding: 20px; /* Ruimte binnen de border */
+    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    margin-left: 90px;
+    border-left: 2px solid #FBB117;
+    
+    
+}
+.award{
+    margin-top: -35px;
+    margin-left: 420px;
+    
+    
+}
+
+    
+
+
+.picknick img {
+   
+    flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
+    margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
+    max-height: 300px;
+}
+.picknick p {
+    flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
+    text-align: left; /* Tekst links uitlijnen */
+    font-family: "Roboto Slab"; /* Lettertype */
+    font-size: 12pt; /* Lettergrootte */
+    width: 90%;
+    margin-top: 5px;
+    
+}
+
+.picknick h2{
+    
+    font-family: "Georgia", serif;
+    font-size: 21pt;
+    font-weight: bold;
+    width: 90%;
+    margin-top: 80px;
+}
+
+.book-now{
+    
+    background-color:#c31212;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto-Slab";
+}
+
+.book-now a{
+    font-family: "Roboto-Slab";
+}
+
+.book-now:hover {
+    transform: translateZ(20px); /* Beweeg de link een beetje naar voren */
+    background-color: #FBB117;
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto-Slab";
+}
+
 
 
 /* TABEL OPENING */
@@ -95,6 +165,7 @@ td:last-child, th:last-child {
 /* CAROUSEL */
 
 /* Stijlen voor de carousel-container */
+/* Stijlen voor de carousel-container */
 .carousel-container {
     text-align: center;
     margin-top: 50px;
@@ -133,8 +204,19 @@ td:last-child, th:last-child {
     line-height: 50px; /* Centreer de pijltjespictogrammen verticaal */
     text-align: center; /* Centreer de pijltjespictogrammen horizontaal */
     cursor: pointer; /* Wijzig de cursor naar een wijzer */
-    
 }
+
+/* Stijlen voor de carousel */
+.carousel {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    width: 70%;
+    height: auto;
+}
+
 
 .carousel-control-prev {
     margin-left: -15%; /* Verplaats de linker pijl naar links */
@@ -149,17 +231,3 @@ td:last-child, th:last-child {
 .carousel-control-next-icon {
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Verander de kleur van de pijltjes */
 }
-
-
-/* Stijlen voor de carousel */
-.carousel {
-    width: 50%;
-    margin: 0 auto;
-}
-
-.carousel-item img {
-    height: auto;
-    max-width: 100%;
-}
-
-

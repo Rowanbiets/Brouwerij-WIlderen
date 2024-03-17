@@ -43,11 +43,20 @@
     display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
     margin-top: 80px;
     margin-left: 90px;
+    
+}
+
+.picknick-content{
+    border-right:2px solid #FBB117;
+    border-top: 2px solid #FBB117;
+    margin-right: 40px;
+    
 }
 
 .picknick img {
     flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
     margin-right: 90px; /* Ruimte tussen afbeelding en tekst */
+    
 }
 
 .picknick p {
@@ -56,12 +65,16 @@
     font-family: "Roboto Slab"; /* Lettertype */
     font-size: 12pt; /* Lettergrootte */
     width: 70%;
+    margin-top: 20px;
+    
 }
 
 .picknick h2{
     font-family: "Georgia", serif;
     font-size: 18pt;
+    font-weight: bold;
     width: 80%;
+    margin-top: 20px;
 }
 
 

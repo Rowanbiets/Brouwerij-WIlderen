@@ -73,6 +73,9 @@
 .picknick-content{
     margin-top: 40px;
     margin-left: 50px;
+    border-top-left-radius:4px solid #FBB117;
+    border-left:2px solid #FBB117;
+    padding: 20px;
 }
 
 .picknick img {
@@ -86,13 +89,14 @@
     text-align: left; /* Tekst links uitlijnen */
     font-family: "Roboto Slab"; /* Lettertype */
     font-size: 12pt; /* Lettergrootte */
-    width: 70%;
+    width: 100%;
 }
 
 .picknick h2{
     font-family: "Georgia", serif;
     font-size: 18pt;
-    width: 80%;
+    font-weight: bold;
+    width: 100%;
 }
 
 

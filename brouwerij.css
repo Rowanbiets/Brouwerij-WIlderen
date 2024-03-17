@@ -25,6 +25,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 80px;
+   
 }
 
 .image-wrapper {
@@ -40,17 +41,23 @@ body {
 .text-container {
     flex: 1;
     padding: 0 80px; 
+    /* border-top:2px solid #FBB117; */
+    border-top: 2px solid #FBB117;
+    border-left:2px solid #FBB117;
+    padding: 10px;
     
 }
 
 .text-container h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: "Georgia", serif;
 }
 
 .text-container p {
     font-size: 16px;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* SECTION 2 */
@@ -74,16 +81,20 @@ body {
 .text-container2 {
     flex: 1;
     padding: 0 80px; /* Voeg wat ruimte toe aan de linkerkant van de tekst */
-    
+    border-bottom: 2px solid #FBB117;
+    border-right: 2px solid #FBB117;
+    padding: 20px;
 }
 
 .text-container h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: "Georgia", serif;
 }
 
 .text-container p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
 }
 
