@@ -113,52 +113,6 @@
 
 /* TABEL OPENING */
 
-table {
-    width: 80%; /* Verklein de breedte van de tabel naar 80% van de container */
-    margin: 0 auto; /* Centreer de tabel */
-}
-
-td, th {
-    padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
-}
-
-
-
-.container {
-    display: flex; /* Maak de container een flex container */
-    justify-content: space-between; /* Verdeel de ruimte tussen de tabellen */
-    margin-bottom: 80px;
-    margin-top: 80px;
-}
-
-td {
-   
-    padding: 8px;
-    text-align: left;
-    font-family: "Roboto Slab";
-}
-
-th {
-    border-bottom: 5px solid #8b0000; /* Voeg een border toe aan de cellen */
-    padding: 8px;
-    text-align: left;
-    font-family: "Georgia", serif;
-}
-
-td:last-child, th:last-child {
-    border-right: none; /* Verwijder de border aan de rechterkant van de laatste cel */
-    border-top: none;
-}
-
-.container p{
-   position: absolute;
-   margin-top: 350px;
-   margin-left: 80px;
-   background-color: #8b0000;
-   padding: 10px;
-   font-family: "Roboto Slab";
-   color: white;
-}
 
 /* TABEL OPENING EINDE*/
 
