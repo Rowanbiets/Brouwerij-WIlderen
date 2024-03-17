@@ -18,8 +18,8 @@
   "table33": [
     ["31/03", "OPEN PASEN", "12u - 21u"],
     ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
-    ["29/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
-    ["30/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
+    ["29/04", "BLOESEM", "12u-19u"],
+    ["30/04", "BLOESEM", "12u-19u"],
     ["1/05", "OPEN 1 MEI", "12u-19u"],
     ["9/05", "OPEN HEMELVAART", "12u-19u"],
     ["19/05", "OPEN PINKSTERZONDAG", "12u-19u"],
@@ -49,8 +49,8 @@
 "table3":{
   "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
   "row2": ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
-  "row3": ["29/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
-  "row4": ["30/04", "BLOESEM: UITZONDERLIJK OPEN", "12u-19u"],
+  "row3": ["29/04 - 30/04", "BLOESEM <br><small>uitzonderlijk open</small></br>", "12u-19u"],
+  "row4": ["30/04", "BLOESEM", "12u-19u"],
   "row5": ["1/05", "OPEN 1 MEI", "12u-19u"],
   "row6": ["9/05", "OPEN HEMELVAART", "12u-19u"],
   "row7": ["19/05", "OPEN PINKSTERZONDAG", "12u-19u"],
