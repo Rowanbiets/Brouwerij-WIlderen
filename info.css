@@ -12,6 +12,20 @@ body {
     
     margin: 0;
 }
+
+.info {
+  display: flex;
+}
+
+.map {
+  flex: 1;
+  margin-right: 10px; /* Optionele marge tussen de kaart en de andere informatie */
+}
+
+.info-details {
+  flex: 3;
+}
+
 .column {
     float: left;
     width: 20%;
@@ -23,7 +37,7 @@ body {
   .info{
     text-align: left;
     margin-top: 20px;
-    margin-left: 30%;
+    margin-left: 10%;
   }
   .titleW h1{
       color:#fff593;
