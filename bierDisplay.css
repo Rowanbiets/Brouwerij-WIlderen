@@ -1,5 +1,5 @@
 :root{
-    --theme-color: #fff;
+    --themeColor: #fff;
 }
 
 #table {
@@ -55,6 +55,7 @@
   width: 70%;
   bottom: 0;
   object-fit: contain;
+  max-width: 400px;
   /* background-color: red; */
 }
 .bierTitle {
@@ -129,7 +130,7 @@ ul {
   /* background: green; */
   width: fit-content;
   height: fit-content;
-  border: 2px solid #6d9170;
+  border: 2px solid var(--themeColor);
   color: white;
   display: inline-block;
   overflow: hidden;
@@ -140,7 +141,7 @@ ul {
   z-index: 1;
   &:before,
   &:after {
-    background: #6d9170;
+    background: var(--themeColor);
     transition: 0.3s ease;
     content: "";
     position: absolute;

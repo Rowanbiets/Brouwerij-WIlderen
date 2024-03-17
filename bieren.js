@@ -28,6 +28,7 @@ function renderBeer(data, beer) {
 
 
     root.style.setProperty("--themeColor", data[beer].themeColor);
+    console.log(root)
 
   neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[beer].neonColor})`;
 //   const buttonFill = document.querySelector(".button-fill");
@@ -42,7 +43,7 @@ beerLogo.style.borderRadius = "0";
 // beerLogo.style.width = "50%";
 beerLogo.style.height = "50%";
 beerLogo.style.transform = "translate(0%, -100%)";
-buyButton.style.backgroundColor = data[beer].themeColor;
+// buyButton.style.backgroundColor = data[beer].themeColor;
 
   }else{
     beerLogo.style.border = `5px solid ${data[beer].themeColor}`;
