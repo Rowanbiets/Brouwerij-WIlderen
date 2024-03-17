@@ -16,6 +16,7 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="bierDisplay.css" />
+    <script src="bieren.js" defer></script>
   </head>
   <body>
     <header>
@@ -62,29 +63,29 @@
         <div class="col-md-6">
           <div class="position-relative">
             <div class="imgBorderOverlay">
-              <div class="imgBorder">
+              <div class="imgBorder themed" >
                 <div class="bierTitle">
-                <h1>Betty Ford 5,2%</h1>
-                <h2>Proef van Betty en smacht naar meer...</h2>
+                <h1 class="themed" id="beerName">Betty Ford 5,2%</h1>
+                <h2 class="themed" id="beerTagLine">Proef van Betty en smacht naar meer...</h2>
             </div>
               </div>
-            <button><img class="arrow" src="arrowLeft.svg" alt=""></button>  
+            <button><img id="arrowLeft" class="arrow" src="arrowLeft.svg" alt=""></button>  
               <img
                 id="bierImg"
                 src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png"
                 alt="Tripel Kanunnik"
                 class="img-fluid2"
               />
-             <button> <img class="arrow" src="arrowRight.svg" alt=""></button>
+             <button> <img id="arrowRight" class="arrow" src="arrowRight.svg" alt=""></button>
             </div>
             <div class="overlay">
               <!-- <div class="beer-name">Betty Ford 5,2%</div> -->
               <!-- <div class="imgRadius"> -->
-              <img src="WEBSITE/Betty Ford/Banner_1.png" alt="">
+              <img id="beerLogo" src="WEBSITE/Betty Ford/Banner_1.png" alt="">
             <!-- </div> -->
               <div class="beerInfo">
-                <div class="info">
-                    <ul>
+                <div class="info themed">
+                    <ul id="beerInfo">
                         <li>Verfrissend oldskool.</li>
                         <li>Helder amberkleurig bier</li>
                         <li>Retro “Speciale Belge”</li>
@@ -97,13 +98,13 @@
         <a
 
             href="https://webshop.brouwerijwilderen.be/collections/bieren/products/tripel-kanunnik-8-2-4x33cl"
-            class="buy-button2"
+            class="buy-button2 themed"
             >  KOOP BETTY FORD</a>
                   
         </div>
                
              
-               <p class="extraInfo">De intense amberkleur is te danken aan een speciaal
+               <p id="beerDescription" class="extraInfo">De intense amberkleur is te danken aan een speciaal
                 geselecteerde donkere mout. Betty Ford bier is vernoemd naar
                 Betty Ford, de voormalige First Lady van de Verenigde Staten, en
                 draagt daarmee een historische en culturele verwijzing naar de
