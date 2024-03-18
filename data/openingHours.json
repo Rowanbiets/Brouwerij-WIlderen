@@ -1,67 +1,37 @@
 {
   "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
-  "table11": [
-    ["Maandag", "GESLOTEN", ""],
-    ["Dinsdag", "GESLOTEN", ""],
-    ["Woensdag", "12:00 - 18:00u", ""],
-    ["Donderdag", "12:00 - 18:00u", ""],
-    ["Vrijdag", "12:00 - 18:00u", "12u - 00u"],
-    ["Zaterdag", "12:00 - 18:00u", "12u - 00u"],
-    ["Zondag", "12:00 - 18:00u", "12u - 21u"]
-  ],
-  "table22": [
-    ["vrijdag", "12u - 00u"],
-    ["zaterdag", "12u - 00u"],
-    ["zondag", "12u - 21u"]
-  ],
 
-  "table33": [
-    ["31/03", "OPEN PASEN", "12u - 21u"],
-    ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
-    ["29/04", "BLOESEM", "12u-19u"],
-    ["30/04", "BLOESEM", "12u-19u"],
-    ["1/05", "OPEN 1 MEI", "12u-19u"],
-    ["9/05", "OPEN HEMELVAART", "12u-19u"],
-    ["19/05", "OPEN PINKSTERZONDAG", "12u-19u"],
-    ["20/05", "OPEN PINKSTERMAANDAG", "12u-19u"],
-    ["21/07", "OPEN NATIONALE FEESTDAG", "12u-19u"],
-    ["15/08", "OPEN OLV HEMELVAART", "12u-19u"],
-    ["1/11", "OPEN ALLERHEILIGEN", "12u-19u"],
-    ["2/11", "OPEN ALLERZIELEN", "12u-19u"],
-    ["11/11", "OPEN WAPENSTILSTAND", "12u-19u"]
-  ],
+  "table1": {
+    "row1": ["Maandag", "GESLOTEN"],
+    "row2": ["Dinsdag", "GESLOTEN"],
+    "row3": ["Woensdag", "12u - 19u"],
+    "row4": ["Donderdag", "12u - 19u"],
+    "row5": ["Vrijdag", "12u - 00u"],
+    "row6": ["Zaterdag", "12u- 00u"],
+    "row7": ["Zondag", "12u - 21u"]
+  },
 
-"table1":{
-  "row1": ["Maandag", "GESLOTEN"],
-  "row2": ["Dinsdag", "GESLOTEN"],
-  "row3": ["Woensdag", "12:00 - 18:00u"],
-  "row4": ["Donderdag", "12:00 - 18:00u"],
-  "row5": ["Vrijdag", "12:00 - 18:00u"],
-  "row6": ["Zaterdag", "12:00 - 18:00u"],
-  "row7": ["Zondag", "12:00 - 18:00u"]
-},
-
-"table2":{
-  "row1": ["vrijdag", "12u - 00u"],
-  "row2": ["zaterdag", "12u - 00u"],
-  "row3": ["zondag", "12u - 21u"]
-},
-"table3":{
-  "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
-  "row2": ["1/04", "OPEN PAASMAANDAG", "12u-19u"],
-  "row3": ["29/04 - 30/04", "BLOESEM <br><small>uitzonderlijk open</small></br>", "12u-19u"],
-  "row4": ["30/04", "BLOESEM", "12u-19u"],
-  "row5": ["1/05", "OPEN 1 MEI", "12u-19u"],
-  "row6": ["9/05", "OPEN HEMELVAART", "12u-19u"],
-  "row7": ["19/05", "OPEN PINKSTERZONDAG", "12u-19u"],
-  "row8": ["20/05", "OPEN PINKSTERMAANDAG", "12u-19u"],
-  "row9": ["21/07", "OPEN NATIONALE FEESTDAG", "12u-19u"],
-  "row10": ["15/08", "OPEN OLV HEMELVAART", "12u-19u"],
-  "row11": ["1/11", "OPEN ALLERHEILIGEN", "12u-19u"],
-  "row12": ["2/11", "OPEN ALLERZIELEN", "12u-19u"],
-  "row13": ["11/11", "OPEN WAPENSTILSTAND", "12u-19u"]
-}
-
-
-  
+  "table2": {
+    "row1": ["vrijdag", "12u - 00u"],
+    "row2": ["zaterdag", "13u - 00u"],
+    "row3": ["zondag", "13u - 21u"]
+  },
+  "table3": {
+    "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
+    "row2": ["1/04", "OPEN PAASMAANDAG", "12u - 19u"],
+    "row3": [
+      "29/04 - 30/04",
+      "BLOESEM <br><small>uitzonderlijk open</small></br>",
+      "12u - 19u"
+    ],
+    "row4": ["1/05", "OPEN 1 MEI", "12u - 19u"],
+    "row5": ["9/05", "OPEN HEMELVAART", "12u - 19u"],
+    "row6": ["19/05", "OPEN PINKSTERZONDAG", "12u - 21u"],
+    "row7": ["20/05", "OPEN PINKSTERMAANDAG", "12u - 19u"],
+    "row8": ["21/07", "OPEN NATIONALE FEESTDAG", "12u - 21u"],
+    "row9": ["15/08", "OPEN OLV HEMELVAART", "12u - 19u"],
+    "row10": ["1/11", "OPEN ALLERHEILIGEN", "13u - 00u"],
+    "row11": ["2/11", "OPEN ALLERZIELEN", "13u - 00u"],
+    "row12": ["11/11", "OPEN WAPENSTILSTAND", "13u -19u"]
+  }
 }
