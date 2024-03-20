@@ -15,7 +15,8 @@
     "beerImg": "WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png",
     "themeColor": "gold",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
-    "neonColor": "gold"
+    "neonColor": "gold",
+    "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg"
   },
 
   {
@@ -34,7 +35,8 @@
     "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png",
     "themeColor": "#6D9170",
     "beerLogo": "WEBSITE/Betty Ford/Banner_1.png",
-    "neonColor": "#20ff32"
+    "neonColor": "#20ff32",
+    "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg"
   },
   {
     "id": 3,
@@ -52,7 +54,9 @@
     "beerImg": "WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png",
     "themeColor": "gold",
     "beerLogo": "",
-    "neonColor": "gold"
+    "neonColor": "gold",
+    "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg"
+
   },
   {
     "id": 4,
@@ -70,7 +74,8 @@
     "beerImg": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png",
     "themeColor": "#460610",
     "beerLogo": "",
-    "neonColor": "#460610"
+    "neonColor": "#460610",
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg"
   },
   {
     "id": 5,

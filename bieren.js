@@ -46,6 +46,7 @@ function renderBeer(data, beer) {
   const buyButton = document.querySelector(".buy-button2");
   const neonborder = document.querySelector(".imgBorder");
   const root = document.querySelector(":root");
+  const beerBackground = document.querySelector(".beerBackground");
 
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
   root.style.setProperty("--themeColor", data[beer].themeColor);
@@ -67,6 +68,20 @@ function renderBeer(data, beer) {
     beerLogo.style.height = "40%";
     beerLogo.style.transform = "translate(0%, -130%)";
   }
+  if(data[beer].beerLogo == ""){
+    beerLogo.style.display = "none";
+  console.log(data[beer].beerLogo);
+  beerLogo.style.display = "none";
+  } else {
+    beerLogo.style.display = "block";
+  }
+
+  if(data[beer].id == 5 || data[beer].id == 6){
+    console.log(data[beer].id);
+    beerName.style.fontSize = "1.5rem";
+  } else {
+    beerName.style.fontSize = "2rem";
+  }
 
   beerLogo.src = data[beer].beerLogo;
   buyButton.innerHTML = `Koop ${data[beer].buyname}`;
@@ -81,6 +96,7 @@ function renderBeer(data, beer) {
   beerTagline.innerHTML = data[beer].beerTagline;
   beerDescription.innerHTML = data[beer].beerDescription;
   beerInfo.innerHTML = "";
+  beerBackground.src = data[beer].beerBG;
 
   data[beer].beerInfo.forEach((beer) => {
     beerInfo.innerHTML += `<li>${beer}</li>`;
