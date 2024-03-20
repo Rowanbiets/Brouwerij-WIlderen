@@ -83,7 +83,6 @@
   {
     "id": 5,
     "beerName": "Cuvée Clarisse Whisky Infused 10,2%",
-    "buyname": "Online bestellen",
 
     "beerTagline": "De beste smaken verweven in één bier",
     "beerInfo": [
@@ -105,7 +104,7 @@
   {
     "id": 6,
     "beerName": "Cuvée Clarisse Rum Infused 11,2%",
-    "buyname": "Online bestellen",
+  
 
     "beerTagline": "Verleiding en geheimzinnigheid in elke slok.",
     "beerInfo": [
@@ -125,7 +124,7 @@
   {
     "id": 7,
     "beerName": "Wilderen Kriek 3,5%",
-    "buyname": "Koop Wilderen Kriek",
+    "buyname": "Wilderen Kriek",
 
     "beerTagline": "Fris en fruitig.",
     "beerInfo": [
@@ -144,7 +143,7 @@
   {
     "id": 8,
     "beerName": "Clarisse Rouge 8%",
-    "buyname": "Koop Clarisse Rouge",
+    "buyname": "Clarisse Rouge",
 
     "beerTagline": "Het fruitige zusje van Cuvée Clarisse.",
     "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles"],

@@ -214,6 +214,7 @@ button:hover {
     transparent
   );
   width: 100% !important;
+  filter: drop-shadow(5px 5px 10px var(--themeColor));
 }
 
 .bierTitle {

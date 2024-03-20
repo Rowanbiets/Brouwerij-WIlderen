@@ -107,7 +107,11 @@ function renderBeer(data, beer) {
   }
 
   beerLogo.src = data[beer].beerLogo;
+  if(data[beer].buyname){
   buyButton.innerHTML = `Koop ${data[beer].buyname}`;
+  } else{
+    buyButton.innerHTML ="Online bestellen"
+  }
   colors.forEach((color) => {
     color.style.borderColor = data[beer].themeColor;
     console.log(data[beer].themeColor);
@@ -154,7 +158,7 @@ function renderBeer(data, beer) {
 
   if (getParamBeer() == 0) {
     leftArrow.style.display = "none";
-  } else if (getParamBeer() > allBeer.length - 1) {
+  } else if (getParamBeer() == allBeer.length - 1) {
     rightArrow.style.display = "none";
   } else {
     leftArrow.style.display = "block";
