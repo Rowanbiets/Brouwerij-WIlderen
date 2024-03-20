@@ -16,7 +16,8 @@
     "themeColor": "gold",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
     "neonColor": "gold",
-    "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg"
+    "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg",
+    "awards": ["WEBSITE/Awards/Wilderen Goud/bbc2016-gold-medal.png"]
   },
 
   {
@@ -55,7 +56,8 @@
     "themeColor": "#F97700",
     "beerLogo": "",
     "neonColor": "#F97700",
-    "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg"
+    "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg",
+    "awards": ["WEBSITE/Awards/Tripel Kanunnik/WBA18-Belgium-GOLD.png", "WEBSITE/Awards/Tripel Kanunnik/WBA19-Belgium-GOLD.png"]
 
   },
   {
@@ -75,7 +77,8 @@
     "themeColor": "#460610",
     "beerLogo": "",
     "neonColor": "#460610",
-    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg"
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg", 
+    "awards": ["WEBSITE/Awards/Cuv‚e Clarisse/bbc2016-gold-medal.png", "WEBSITE/Awards/Cuv‚e Clarisse/WBA17-Silver-1.png" ]
   },
   {
     "id": 5,
@@ -95,7 +98,9 @@
     "themeColor": "#521B6D",
     "beerLogo": "",
     "neonColor": "#521B6D",
-    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded.jpg"
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded.jpg",
+    "awards": ["WEBSITE/Awards/Cuv‚e Clarisse/WBA18-Belgium-WINNER.png", "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-WB-StyleWinner.png"]
+
   },
   {
     "id": 6,

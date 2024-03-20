@@ -223,15 +223,14 @@ button:hover {
 #beerTagLine {
   color: white;
 }
-#arrowRight{
+#arrowRight {
   user-select: none;
   border: none;
   outline: none;
 }
 
-
-button:focus{
-outline: none;
+button:focus {
+  outline: none;
 }
 
 .arrows {
@@ -248,11 +247,34 @@ outline: none;
 .logoAwards img {
   position: absolute;
   width: 8%;
-height: fit-content !important;
+  height: fit-content !important;
   margin: 10px;
   border-radius: 10px !important;
   opacity: 80%;
   border: var(--themeColor) 5px solid;
+  bottom: 0;
+  right: 0;
+}
+
+.awards {
+  position: absolute;
+  left: 0;
+  transform: translateY(50%);
+  max-height: 100px;
+  list-style: none;
+  /* background-color: red; */
+}
+
+.awards img {
+  width: 8%;
+  min-width: 75px;
+  max-height: 1200px;
+  /* height: fit-content !important; */
+  margin: 10px;
+  margin-left: 20px;
+  /* border-radius: 10px !important; */
+  /* opacity: 80%; */
+  /* border: var(--themeColor) 5px solid; */
   bottom: 0;
   right: 0;
 }
