@@ -50,9 +50,9 @@
     ],
     "beerDescription": "In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd, wat deze Tripel een typisch karakter geeft. <br> Het eerder klassieke Tripelglas staat voor vertrouwen en verbergt een geheime afbeelding.",
     "beerImg": "WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png",
-    "themeColor": "",
+    "themeColor": "gold",
     "beerLogo": "",
-    "neonColor": ""
+    "neonColor": "gold"
   },
   {
     "id": 4,
@@ -68,9 +68,9 @@
     ],
     "beerDescription": "Een verleidelijk aroma, met toetsen van zoethout en een vleugje karamel <br> Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid. <br> Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid.",
     "beerImg": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png",
-    "themeColor": "",
+    "themeColor": "#460610",
     "beerLogo": "",
-    "neonColor": ""
+    "neonColor": "#460610"
   },
   {
     "id": 5,
@@ -87,9 +87,9 @@
     ],
     "beerDescription": "Subtiele aroma's van bourbon, fruitige toetsen van vanille en zoethout. <br> Cuvée Clarisse Whisky Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Wild Weasel Whisky. <br> Officiëel uitgeroepen als de Beste Whisky Infused van België! ",
     "beerImg": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/CC whisky inf met glas no backgr.png",
-    "themeColor": "",
+    "themeColor": "#521B6D",
     "beerLogo": "",
-    "neonColor": ""
+    "neonColor": "#521B6D"
   },
   {
     "id": 6,
@@ -97,12 +97,18 @@
     "buyname": "Online bestellen",
 
     "beerTagline": "Verleiding en geheimzinnigheid in elke slok.",
-    "beerInfo": ["", "", "", "", ""],
+    "beerInfo": [
+    "donker zwaar bier",
+    "hoge gisting – hergist op fles",
+    "infused met Omerta Rum Liquor",
+    "11,2% Vol.",
+    "Vat - fles"
+    ],
     "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. <br> Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. ene en onze Omerta Rum liquor.",
-    "beerImg": "GEEN FOTO",
-    "themeColor": "",
+    "beerImg": "WEBSITE/teamfotos/CC Rum inf new bottle 2023-B.png",
+    "themeColor": "#FBA953",
     "beerLogo": "",
-    "neonColor": ""
+    "neonColor": "#FBA953"
   },
   {
     "id": 7,
@@ -118,9 +124,9 @@
     ],
     "beerDescription": "Wilderen Kriek is gebrouwen met spontaan gegiste Lambic. <br> Langzaam gerijpt op grote eikenhouten foedervaten.",
     "beerImg": "WEBSITE/Wilderen Kriek/Kriek/Kriek fleske en glas no backgr.png",
-    "themeColor": "",
+    "themeColor": "#FF232D",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
-    "neonColor": ""
+    "neonColor": "#FF232D"
   },
   {
     "id": 8,
@@ -130,9 +136,9 @@
     "beerTagline": "Het fruitige zusje van Cuvée Clarisse.",
     "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles"],
     "beerDescription": "Schitterend aperitiefbier. <br> Een smaakprofiel van kers, amandel en een toets van marsepein.",
-    "beerImg": "",
-    "themeColor": "",
+    "beerImg": "WEBSITE/Afbeeldingen voor website/Clarisse Rouge pint visueel.png",
+    "themeColor": "#750001",
     "beerLogo": "",
-    "neonColor": ""
+    "neonColor": "#750001"
   }
 ]

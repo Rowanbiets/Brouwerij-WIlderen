@@ -1,6 +1,5 @@
 "use strict";
 
-
 let beer = 0;
 let allBeer = [];
 const bierNames = [
@@ -9,14 +8,15 @@ const bierNames = [
   "tripel-kanunnik",
   "curvee-clarisse",
   "whiskey-infused",
+  "rum-infused",
   "kriek",
+  "clarrise-rouge",
 ];
 function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
   // selecteer de array index op basis van de naam
   const bierParams = new URLSearchParams(window.location.search).get("beer");
   console.log(bierParams);
-
 
   const bierIndex = bierNames.indexOf(bierParams);
   return bierIndex;
@@ -28,7 +28,7 @@ function fetchBeer() {
       console.log(data);
       // showData(data);
       allBeer = data;
-console.warn(getParamBeer());
+      console.warn(getParamBeer());
       renderBeer(data, getParamBeer());
     });
 }
@@ -104,8 +104,9 @@ function buttonClick() {
   rightArrow.addEventListener("click", function () {
     if (beer < allBeer.length - 1) {
       beer++;
-      renderBeer(allBeer, getParamBeer());
       updateParams();
+      renderBeer(allBeer, getParamBeer());
+
       console.warn(getParamBeer());
     }
   });
