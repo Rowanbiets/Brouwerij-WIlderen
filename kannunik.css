@@ -44,7 +44,7 @@ body {
   left: 120%; /* Startpositie buiten het zicht */
   width: 110%; /* Breedte van de kader aanpassen */
   height: 60%;
-  background-color: #282b2e; /* Witte achtergrond met lichte transparantie */
+  background-color: transparent; /* Witte achtergrond met lichte transparantie */
   transition: left 0.5s ease; /* Voeg een vloeiende overgang toe */
   padding: 0px; /* Ruimte rond de tekst */
   box-sizing: border-box; /* Padding wordt opgenomen in de totale breedte en hoogte */
@@ -52,7 +52,7 @@ body {
   flex-direction: column;
   align-items: left;
   text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.6); */
   border-radius: 15px;
   text-decoration: none;
   color: white;
@@ -61,6 +61,7 @@ body {
 .position-relative {
   position: relative;
   text-decoration: none;
+  right: 0;
 }
 
 .container:hover .overlay {

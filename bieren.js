@@ -1,5 +1,8 @@
 "use strict";
 
+
+
+
 let beer = 0;
 let allBeer = [];
 const bierNames = [
@@ -12,6 +15,12 @@ const bierNames = [
   "kriek",
   "clarrise-rouge",
 ];
+
+const blackTextNeeded = [2];
+
+const rightArrow = document.getElementById("arrowRight");
+const leftArrow = document.getElementById("arrowLeft");
+
 function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
   // selecteer de array index op basis van de naam
@@ -35,6 +44,9 @@ function fetchBeer() {
 // const questionLang = new URLSearchParams(window.location.search).get(
 //   "taal"
 // );
+
+
+
 function renderBeer(data, beer) {
   const beerName = document.getElementById("beerName");
   const beerTagline = document.getElementById("beerTagLine");
@@ -47,8 +59,11 @@ function renderBeer(data, beer) {
   const neonborder = document.querySelector(".imgBorder");
   const root = document.querySelector(":root");
   const beerBackground = document.querySelector(".beerBackground");
-
+  const navLogo = document.querySelector(".logo");
+  const nav = document.querySelectorAll("nav ul li a");
+console.error(nav);
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
+  console.warn(data);
   root.style.setProperty("--themeColor", data[beer].themeColor);
   neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[beer].neonColor})`;
   console.warn(data[beer].beerLogo);
@@ -59,14 +74,14 @@ function renderBeer(data, beer) {
     beerLogo.style.border = "none";
     beerLogo.style.borderRadius = "0";
     beerLogo.style.height = "50%";
-    beerLogo.style.transform = "translate(0%, -100%)";
+    // beerLogo.style.transform = "translate(0%, -100%)";
   } else {
     beerLogo.style.border = `5px solid ${data[beer].themeColor}`;
-    beerLogo.style.borderRadius = "50%";
-    beerLogo.style.objectFit = "cover";
-    beerLogo.style.width = "40%";
-    beerLogo.style.height = "40%";
-    beerLogo.style.transform = "translate(0%, -130%)";
+    // beerLogo.style.borderRadius = "0";
+    // beerLogo.style.objectFit = "cover";
+    // beerLogo.style.width = "40%";
+    // beerLogo.style.height = "50%";
+    // beerLogo.style.transform = "translate(0%, -130%)";
   }
   if(data[beer].beerLogo == ""){
     beerLogo.style.display = "none";
@@ -103,33 +118,78 @@ function renderBeer(data, beer) {
     console.log(beer);
   });
 
-  beerImage.src = data[beer].beerImg;
+  // beerImage.src = data[beer].beerImg;
   beerLogo.innerHTML = data[beer].logo;
+console.warn(data[beer].id);
+if(blackTextNeeded.includes(data[beer].id)){
+  // beerName.style.color = "black";
+  beerTagline.style.color = "black";
+  beerDescription.style.color = "black";
+  beerInfo.style.color = "black";
+
+  navLogo.src = "WEBSITE/Logo/LOGO W 2020BW.png";
+  nav.forEach((navItem) => {
+navItem.style.color = "black";
+  });
+  // buyButton.style.color = "black";
+} else{
+  // beerName.style.color = "white";
+  beerTagline.style.color = "white";
+  beerDescription.style.color = "white";
+  beerInfo.style.color = "white";
+  navLogo.src = "WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png";
+  nav.forEach((navItem) => {
+    navItem.style.color = "white";
+      });
+  // buyButton.style.color = "white";
+
 }
 
-const leftArrow = document.getElementById("arrowLeft");
-const rightArrow = document.getElementById("arrowRight");
+if (getParamBeer() == 0) {
+  leftArrow.style.display = "none";
+} else if (getParamBeer() > allBeer.length - 1) {
+  rightArrow.style.display = "none";
+} else{
+  leftArrow.style.display = "block";
+  rightArrow.style.display = "block";
+
+}
+}
+
+
+
+
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-    if (beer > 0) {
+    console.log("!!!!!!!CLICKED!!!!!!!!!");
+    console.log(beer);
+    console.log(getParamBeer())
+    console.warn(getParamBeer());
+    if (getParamBeer() > 0 ) {
       beer--;
-      updateParams();
+      updateParams(getParamBeer() - 1);
       renderBeer(allBeer, getParamBeer());
-    }
+    } 
   });
   rightArrow.addEventListener("click", function () {
-    if (beer < allBeer.length - 1) {
+    console.log("!!!!!!!CLICKED!!!!!!!!!");
+    console.log(beer);
+    console.log(getParamBeer())
+    console.warn(allBeer.length - 1);
+    if (getParamBeer() < allBeer.length - 1) {
       beer++;
-      updateParams();
+      updateParams(getParamBeer() + 1);
       renderBeer(allBeer, getParamBeer());
 
       console.warn(getParamBeer());
-    }
+    } 
   });
 }
 
-function updateParams() {
-  const bierIndex = bierNames[beer];
+function updateParams(param) {
+  console.warn("getting updated")
+  const bierIndex = bierNames[param];
+  console.log(bierIndex);
   history.pushState(null, null, `?beer=${bierIndex}`);
   console.log(history);
 }
