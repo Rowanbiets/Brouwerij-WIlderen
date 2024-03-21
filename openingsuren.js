@@ -115,14 +115,6 @@ function renderTables(data) {
                     <td></td>
                 </tr>
                 <tr>
-                    <td>${data.table3.row2[0]}</td>
-                    <td>${data.table3.row2[1]}</td>
-                    <td>${data.table3.row2[2]}</td>
-
-                    <td></td>
-
-                </tr>
-                <tr>
            
             
                     <td>${data.table3.row2[0]}</td>
