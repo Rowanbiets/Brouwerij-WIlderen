@@ -3,8 +3,8 @@
 let spirit = 0;
 let allSpirits = [];
 const spiritNames = [
-  "double-you-gin-vanille",
   "double-you-gin",
+  "double-you-gin-vanille",
   "ocus-organic-gin",
   "omerta-rum-liquor",
   "omerta-black-magnum",
@@ -68,23 +68,25 @@ function renderSpirits(data, spirit) {
   spiritBackground.src = data[spirit].spiritBG;
   console.log(data[spirit].spiritBG);
   // spiritImage.src = data[spirit].spiritImg;
-  // if (data[spirit].id == 2 ) {
-  //   spiritTagLine.style.fontSize = "1.5rem";
-  // } else {
-  //   spiritTagLine.style.fontSize = "2rem";
-  // }
+  
+  if (data[spirit].id == null ) {
+    spiritName.style.fontSize = "1.5rem";
+  } else {
+    spiritName.style.fontSize = "2rem";
+  }
+  if (getParamSpirit() == 0) {
+    leftArrow.style.display = "none";
+  } else if (getParamSpirit() == allSpirits.length - 1) {
+    rightArrow.style.display = "none";
+  } else {
+    leftArrow.style.display = "block";
+    rightArrow.style.display = "block";
+  }
 }
 
 
 
-if (getParamSpirit() == 0) {
-  leftArrow.style.display = "none";
-} else if (getParamSpirit() == allSpirits.length - 1) {
-  rightArrow.style.display = "none";
-} else {
-  leftArrow.style.display = "block";
-  rightArrow.style.display = "block";
-}
+
 
 
 function buttonClick() {

@@ -2,8 +2,7 @@
   --themeColor: #030303;
 }
 
-
-body{
+body {
   background-color: black;
 }
 
@@ -11,8 +10,6 @@ body{
   display: flex;
   align-items: center;
 }
-
-
 
 .arrows {
   display: flex;
@@ -23,7 +20,6 @@ body{
 }
 
 .arrowLeft:hover {
-
   transform: translateX(-15px);
 }
 
@@ -40,16 +36,15 @@ body{
   /* margin: 10%; */
 }
 
-.spiritInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
-    padding: 10%;
+.spiritInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
 }
 
-
-.imgBorderOverlay{
+.imgBorderOverlay {
   display: flex;
   justify-content: center;
   height: 80vh;
@@ -68,14 +63,14 @@ body{
 }
 
 .smallBorder {
-  border-bottom: white 3px solid;
+  border-bottom: var(--themeColor) 3px solid;
   /* margin-bottom: 10px; */
   padding: 10px;
   width: 60%;
 }
 
-.spiritBackground{
-    width: 100%;
+.spiritBackground {
+  width: 100%;
   height: 100%;
   z-index: -2;
   position: fixed;
@@ -83,7 +78,11 @@ body{
   object-fit: cover;
 }
 
-#spiritName{
+button:focus {
+  outline: none;
+}
+
+#spiritName {
   /* color: rgb(34, 34, 34); */
   color: white;
   text-align: center;
@@ -91,7 +90,7 @@ body{
   background-image: linear-gradient(
     to right,
     transparent,
-    #D8D9DD,
+    var(--themeColor),
     transparent
   );
   width: 100% !important;
@@ -112,9 +111,8 @@ body{
   justify-content: center;
   align-items: center;
   height: 100%;
-/* vertical-align: middle; */
+  /* vertical-align: middle; */
 }
-
 
 #spiritTagLine {
   font-size: 1em;
@@ -131,7 +129,6 @@ button {
   margin-top: 50%;
   padding: 10px;
   transition: all 0.3s ease-in-out;
-
 }
 
 .buy-button2 {

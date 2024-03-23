@@ -1,17 +1,6 @@
 [
   {
     "id": "1",
-    "spiritName": "Double You Gin Vintage Vanilla 43,7%",
-    "spiritTagLine": "",
-    "spiritDescription": "Naar aanleiding van de gewonnen prestigieuze Crystal Award voor Double You Gin werd deze “very” Special Edition gelanceerd! <br> Naast de 21 kruiden in de standaard Double You Gin, voegden we natuurlijke vanille toe aan het distilleerproces. Dit resulteert in een gin met heerlijke florale aroma’s, een aangename en vooral herkenbare en uitgesproken vanillesmaak. <br> Top af met verse munt.",
-    "buyname": "Vintage Vanilla",
-    "spiritImg": "WEBSITE/Double You Vintage Vanilla/Vintage Vanilla met doos.jpg",
-    "buyLink": "",
-    "themeColor": "red",
-    "spiritBG": ""
-  },
-  {
-    "id": "2",
     "spiritName": "Double You Gin 43,7%",
     "spiritTagLine": "Gedistilleerd, gebotteld, gelabeld én verzegeld in Brouwerij & Distilleerderij Wilderen",
     "spiritDescription": "And the winner is: Dit prijsbeest wint zowat alle Awards! Double You is een meer dan gekend merk van Wilderen. Geproduceerd met 21 plantaardige en regionale botanicals. Een uniek distillatieproces zorgen voor een gin van ongeëvenaarde kwaliteit en smaak. <br> Een karaktervolle smaakperceptie, zo complex als een Engel en een Duivel op je schouder… De Engel staat voor welbewust en is altijd vergezeld van een Duivel welke staat voor verleiding… Zo ook het karakter van deze Double You Gin: je kan niet aan deze verleiding weerstaan! Een uitgesproken karakter, de duivel en de engel samen in een glas.",
@@ -24,6 +13,19 @@
     "spiritBG": "WEBSITE/Double You Gin/New-shot-GIN-2019-BG.jpg"
   },
   {
+    "id": "2",
+    "spiritName": "Double You Gin Vintage Vanilla 43,7%",
+    "spiritTagLine": "",
+    "spiritDescription": "Naar aanleiding van de gewonnen prestigieuze Crystal Award voor Double You Gin werd deze “very” Special Edition gelanceerd! <br> Naast de 21 kruiden in de standaard Double You Gin, voegden we natuurlijke vanille toe aan het distilleerproces. Dit resulteert in een gin met heerlijke florale aroma’s, een aangename en vooral herkenbare en uitgesproken vanillesmaak. <br> Top af met verse munt.",
+    "buyname": "Vintage Vanilla",
+    "spiritImg": "WEBSITE/Double You Vintage Vanilla/Vintage Vanilla met doos.jpg",
+    "buyLink": "",
+    "themeColor": "#D3B378",
+    "neonColor": "#D3B378",
+    "spiritBG": "WEBSITE/Double You Vintage Vanilla/vanilla-gin-BG.jpg"
+  },
+  
+  {
     "id": "3",
     "spiritName": "Ocus Organic Gin 50cl",
     "spiritTagLine": "By Lost Frequencies",
@@ -32,7 +34,7 @@
     "spiritImg": "",
     "buyLink": "",
     "themeColor": "red",
-    "spiritBG": ""
+    "spiritBG": "WEBSITE/ocusgin/Ocus_Background.jpg"
   },
   {
     "id": "4",
