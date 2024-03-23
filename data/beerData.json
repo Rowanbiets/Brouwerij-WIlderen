@@ -4,7 +4,7 @@
     "beerName": "Wilderen Goud 6,2%",
     "buyname": "Wilderen Goud",
 
-    "beerTagline": "Stoer en onweerstaanbaar, Jong van karakter",
+    "beerTagline": "Stoer en onweerstaanbaar",
     "beerInfo": [
       "Goudkleurig speciaal bier",
       "Hoge gisting - hergist in fles",
@@ -41,8 +41,8 @@
   },
   {
     "id": 3,
-    "beerName": "Triple Kanunnik 8,2%",
-    "buyname": "Triple Kanunnik",
+    "beerName": "Tripel Kanunnik 8,2%",
+    "buyname": "Tripel Kanunnik",
 
     "beerTagline": "Klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever",
     "beerInfo": [
@@ -65,7 +65,7 @@
     "beerName": "Cuvée Clarisse 9,2%",
     "buyname": "Cuvée Clarisse",
 
-    "beerTagline": "(H)eerlijk hartverwarmend donker bier",
+    "beerTagline": "(H)eerlijk hartverwarmend",
     "beerInfo": [
       "robijnrood donker zwaar bier ",
       "hoge gisting - hergist op fles",
@@ -106,7 +106,7 @@
     "beerName": "Cuvée Clarisse Rum Infused 11,2%",
   
 
-    "beerTagline": "Verleiding en geheimzinnigheid in elke slok.",
+    "beerTagline": "Verleiding en geheimzinnigheid",
     "beerInfo": [
     "donker zwaar bier",
     "hoge gisting – hergist op fles",
@@ -149,9 +149,9 @@
     "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles"],
     "beerDescription": "Schitterend aperitiefbier. Een smaakprofiel van kers, amandel en een toets van marsepein.",
     "beerImg": "WEBSITE/Afbeeldingen voor website/Clarisse Rouge pint visueel.png",
-    "themeColor": "#750001",
+    "themeColor": "#cc1223",
     "beerLogo": "",
-    "neonColor": "#750001",
+    "neonColor": "##cc1223",
     "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg"
   }
 ]

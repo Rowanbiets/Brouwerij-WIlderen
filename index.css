@@ -21,11 +21,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Georgia", serif;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Helvetica Neue", Raleway, sans-serif
 }
 
 body {
@@ -34,13 +34,13 @@ body {
 }
 
 .text-fade-in {
-  font-family: "Georgia", serif;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
   font-size: 21pt; /* Aanpassen aan de gewenste grootte */
   line-height: 1.5; /* Regelhoogte */
 }
 
 .signature {
-  font-family: "Georgia", serif;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
   font-size: 24px;
   display: block;
   margin-top: 10px;
@@ -290,3 +290,6 @@ body {
 /* TABEL OPENING */
 
 
+.text-container{
+  margin-top: 50px;
+}

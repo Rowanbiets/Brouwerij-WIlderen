@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="kannunik.css" />
     <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="buttonAnimation.css">
     <link
       rel="icon"
       href="WEBSITE/Logo/favicon_io (1)/favicon.ico"
@@ -63,40 +64,49 @@
       <div class="row">
         <div class="col-md-6">
           <div class="position-relative">
-            <!-- <div class="imgBorderOverlay"> -->
-            <!-- <div class="imgBorder themed" > -->
-            <div class="bierTitle">
-              <h1 class="themed" id="spiritName">Betty Ford 5,2%</h1>
-              <h2 class="themed" id="spiritTagLine">
-                Proef van Betty en smacht naar meer...
-              </h2>
-              <!-- </div>
-              </div> -->
-              <div class="spiritSelection">
-              <button >
-                <img id="arrowLeft" class="arrow" src="arrowLeft.svg" alt="" />
-              </button>
-              <img
-                id="spiritImage"
-                src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png"
+              <div class="imgBorderOverlay">
+              <div class="imgBorder themed"></div>
+              <div class="arrows">
+                <button class="arrowLeft">
+                  <img
+                    id="arrowLeft"
+                    class="arrow"
+                    src="arrowLeft.svg"
+                    alt=""
+                  />
+                </button>
+                <!-- <img
+                id="bierImg"
+                src=""
                 alt="Tripel Kanunnik"
                 class="img-fluid2"
-              />
-              <button >
-                <img
-                  id="arrowRight"
-                  class="arrow"
-                  src="arrowRight.svg"
-                  alt=""
-                />
-              </button>
+              /> -->
+                <button class="arrowRight">
+                  <img
+                    id="arrowRight"
+                    class="arrow"
+                    src="arrowRight.svg"
+                    alt=""
+                  />
+                </button>
+              </div>
             </div>
-            </div>
-            <div style="height: fit-content" class="overlay">
+            <div class="overlay">
               <!-- <div class="spirit-name">Betty Ford 5,2%</div> -->
               <!-- <div class="imgRadius"> -->
               <!-- <img id="spiritLogo" src="WEBSITE/Betty Ford/Banner_1.png" alt=""> -->
               <!-- </div> -->
+              <div class="spiritTitle">
+                <h1 class="themed" id="spiritName"></h1>
+                <h2 class="themed" id="spiritTagLine">
+                </h2>
+                <a
+                    href="https://webshop.brouwerijwilderen.be/collections/bieren/products/tripel-kanunnik-8-2-4x33cl"
+                    class="buy-button2 themed"
+                  >
+                    </a
+                  >
+              </div>
               <div class="spiritInfo">
                 <p id="spiritDescription" class="extraInfo">
                 <div class="smallBorder"></div>
@@ -107,8 +117,10 @@
           </div>
         </div>
       </div>
-      <!-- Voeg hier meer afbeeldingen toe -->
     </div>
+      <!-- Voeg hier meer afbeeldingen toe -->
+    <img class="spiritBackground"  alt="" />
+
     <!-- <img
       class="brouwerijwinkel-img"
       src="WEBSITE\Wilderen\Brouwerij & Alcoholstokerij Wilderen.jpg"
