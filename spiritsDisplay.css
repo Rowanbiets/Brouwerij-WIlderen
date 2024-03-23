@@ -1,25 +1,34 @@
+:root {
+  --themeColor: #030303;
+}
+
+
+body{
+  background-color: black;
+}
+
 .spiritSelection {
   display: flex;
   align-items: center;
 }
 
-.spiritSelection button {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(61, 61, 61);
+
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  /* background-color: red; */
 }
 
-.spiritSelection button:hover {
-  transition: all 0.3s ease-in-out;
-  background-color: black;
+.arrowLeft:hover {
+
+  transform: translateX(-15px);
 }
 
-.spiritSelection button:first-child:hover {
-  transform: translateX(-10px);
-}
-
-.spiritSelection button:last-child:hover {
-  transform: translateX(10px);
+.arrowRight:hover {
+  transform: translateX(15px);
 }
 
 #spiritDescription {
@@ -39,9 +48,128 @@
     padding: 10%;
 }
 
+
+.imgBorderOverlay{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.imgBorder {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 90%;
+  /* background-color: white; */
+  /* border: #6d9170 solid 5px; */
+  filter: drop-shadow(0px 0px 15px #20ff32);
+  display: flex;
+  justify-content: center;
+}
+
 .smallBorder {
   border-bottom: white 3px solid;
   /* margin-bottom: 10px; */
   padding: 10px;
   width: 60%;
+}
+
+.spiritBackground{
+    width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: fixed;
+  top: 0;
+  object-fit: cover;
+}
+
+#spiritName{
+  /* color: rgb(34, 34, 34); */
+  color: white;
+  text-align: center;
+  /* background-color: var(--themeColor); */
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #D8D9DD,
+    transparent
+  );
+  width: 100% !important;
+  filter: drop-shadow(5px 5px 10px var(--themeColor));
+
+  /* Beter met of zonder border?? */
+
+  /* border-top: #000000 2px solid;
+  border-bottom: #000000 2px solid; */
+}
+
+.spiritTitle {
+  width: 100%;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+/* vertical-align: middle; */
+}
+
+
+#spiritTagLine {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 10px;
+
+  /* text-align: center; */
+}
+
+button {
+  all: unset;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50%;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.buy-button2 {
+  color: white !important;
+
+  margin-left: 10px;
+  /* background: green; */
+  width: fit-content;
+  height: fit-content;
+  border: 2px solid var(--themeColor);
+  color: white;
+  display: inline-block;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.4s ease;
+  z-index: 1;
+  &:before,
+  &:after {
+    background: var(--themeColor);
+    transition: 0.3s ease;
+    content: "";
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+.buy-button2 {
+  &:before {
+    top: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  &:hover {
+    &:before {
+      top: 0;
+    }
+  }
 }

@@ -30,9 +30,7 @@ body {
     transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
 }
 
-.container img:hover {
-    transform: scale(1.1); /* Maak de afbeelding iets groter bij zweven */
-}
+
 .row {
     margin-bottom: 50px; /* Voeg een onderste marge van 30px toe tussen de rijen */
     padding: 20px;
@@ -60,3 +58,22 @@ body {
 }
 
 
+.container{
+    margin-top: 100px;
+}
+
+.container img:hover:not(.shelf img) {
+    transform: scale(1.1); /* Maak de afbeelding iets groter bij zweven */
+    transform: translate(
+      0,
+      -10px
+    ); /* Maak de afbeelding iets groter bij zweven */
+  }
+  
+  .shelf img {
+    margin-top: -100px;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    height: 20px !important;
+  }
