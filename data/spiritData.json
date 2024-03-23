@@ -30,10 +30,11 @@
     "spiritName": "Ocus Organic Gin 50cl",
     "spiritTagLine": "By Lost Frequencies",
     "spiritDescription": "Ocus Gin is een biologische premium gin, gecreëerd en gebotteld in België. Gedistilleerd op natuurlijke basis zonder toevoegingen, dus 0% suiker. Ocus Gin heeft een opmerkelijke zachtheid en een fantastische kruiden- en bloemenfrisheid.  <br> Elke fles is afgewerkt met een festivalbandje. Verzamel de 11 bandjes en maak kans op een meet & greet met Lost Frequencies! <br> Neem altijd de Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
-    "buyname": "",
+    "buyname": "Ocus Organic",
     "spiritImg": "",
     "buyLink": "",
-    "themeColor": "red",
+    "themeColor": "#86acdd",
+    "neonColor": "#86acdd",
     "spiritBG": "WEBSITE/ocusgin/Ocus_Background.jpg"
   },
   {
@@ -41,11 +42,12 @@
     "spiritName": "Omerta Rum Liquor 35%",
     "spiritTagLine": "What happens in Wilderen, stays in Wilderen",
     "spiritDescription": "Wanneer we aan rum denken beelden we ons de rookkringen van een dikke sigaar in, zachte muziek op de achtergrond. De nacht lijkt eindeloos te duren, gesprekken tot in de vroege uurtjes, de fles Omerta Rum Liquor en de vriendschap wordt gedeeld. Tijd voor rust en reflectie, waarin de wereld buiten even lijkt te verdwijnen, alleen het moment dat telt. Deze donkere Rum-Likeur is een unieke blend van een geïmporteerde Jamaicaanse Rum,eigen Wilderen-distillaat…en het geheim van Omerta. <br> Verrassende creatie. De mooie diepbruine kleur verraadt uitmuntende smaken van vanille, verborgen bourbon vaten en karamel. Puur, uiteraard in een mix met Cola of de perfecte basis voor cocktails!",
-    "buyname": "",
+    "buyname": "Omerta Rum",
     "spiritImg": "",
     "buyLink": "",
-    "themeColor": "red",
-    "spiritBG": ""
+    "themeColor": "#D03F00",
+    "neonColor": "#D03F00",
+    "spiritBG": "WEBSITE/Omerta Rum/Omerta-studio-BG.jpg"
   },
   {
     "id": "5",
