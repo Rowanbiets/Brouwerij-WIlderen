@@ -12,6 +12,7 @@ table {
   /* width: 80%; Verklein de breedte van de tabel naar 80% van de container */
   width: 100%; /* Maak de tabel 100% breed (zorg dat de bordeaux lijn over de volledige breedte spant) */
   border-right: white solid 5px;
+  color: black;
 }
 
 td,
@@ -47,7 +48,7 @@ td {
 }
 
 th {
-  border-bottom: 5px solid #8b0000; /* Voeg een border toe aan de cellen */
+  border-bottom: 5px solid #af0000; /* Voeg een border toe aan de cellen */
   padding: 8px;
   text-align: center;
   font-family: "Georgia", serif;
@@ -74,11 +75,11 @@ th:last-child {
 }
 
 tr:nth-child(even) {
-  background-color: #d2c8ac;
+  background-color: rgba(139, 0, 0, 0.829);
 }
 
 tr:nth-child(odd):not(:first-child) {
-  background-color: #f0ece2;
+  background-color: rgba(253, 195, 195, 0.678)
 }
 
 table#table3 {
@@ -87,6 +88,7 @@ table#table3 {
 td {
   height: 40px;
   width: 20%;
+  font-weight: bolder;
 }
 
 /* placeholder footer, moest het nodig zijn */

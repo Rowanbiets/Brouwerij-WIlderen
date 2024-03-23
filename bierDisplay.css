@@ -198,6 +198,7 @@ button img {
 #beerTagLine {
   font-size: 1em;
   text-align: center;
+  margin-top: 10px;
 
   /* text-align: center; */
 }
