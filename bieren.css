@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 /* Standaardstijl voor afbeeldingen binnen de container */
@@ -124,4 +124,5 @@ h2 {
   font-family: "Georgia", sans-serif;
   text-align: center;
   margin-bottom: 20px !important;
+  margin-top: 150px;
 }

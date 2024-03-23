@@ -1,162 +1,205 @@
-body, h1, h2, h3, p, ul {
-    margin: 0;
-    padding: 0;
-    
-    text-decoration: none;
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
 }
 
-
 .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#333333;
-    text-decoration: none;
-    font-family: "Georgia, serif";
-    font-size: 15pt;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* align-items: center; */
+  margin-top: 15px;
+  position: absolute;
+  /* background-color:#333333; */
+  z-index: 1;
+  top: 0;
+  text-decoration: none;
+  font-family: "Oswald";
+  font-size: 15pt;
 }
 
 .logo-link {
-    display: block;
+  display: block;
 }
 
 .logo {
-    width: 100px; /* Adjust logo size */
+  width: 100px; /* Adjust logo size */
 }
 
 nav ul {
-    list-style: none;
-    font-family: "Georgia, serif";
-    text-decoration: none;
+  list-style: none;
+  font-family: "Oswald";
+  text-decoration: none;
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 175px;
-    text-decoration: none;
+  display: inline-block;
+  margin-right: 175px;
+  text-decoration: none;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #fff;
-
+  text-decoration: none;
+  color: #fff;
 }
 
 nav ul ul {
-    display: none;
-    position: absolute;
-    background-color: white;
-    border-radius: 5px;
-    z-index: 900;
-    width: 180px;
-    left: 150px;
-    top: 60px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);   
-   
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 900;
+  width: 180px;
+  /* left: 150px; */
+  /* top: 60px;  */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
-.submenu2{
-    display: none;
-    position: absolute;
-    background-color: white;
-    color: black    ;
-    z-index: 900;
-    width: 180px;
-    left: 400px; 
-    top: 60px;
-    text-decoration: none;
+.submenu2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  z-index: 900;
+  width: 180px;
+  /* left: 400px;  */
+  /* top: 60px; */
+  text-decoration: none;
 }
 
-.submenu3{
-    display: none;
-    position: absolute;
-    background-color: white;
-    z-index: 900;
-    width: 200px;
-    left: 1155px;
-    top: 60px; 
-    text-decoration: none;
+.submenu3 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 900;
+  width: 200px;
+  /* left: 1155px; */
+  /* top: 60px;  */
+  text-decoration: none;
 }
 
-.submenu1 > li:hover{
-    display: block;
-    background-color: #333333;
-    text-decoration: none;
-    color: white;
-    
+.submenu1 > li:hover {
+  display: block;
+  background-color: #333333;
+  text-decoration: none;
+  color: white;
 }
 
-.submenu2 > li:hover{
-    display: block;
-    background-color: #333333;
-    text-decoration: none;
-    color: white;
-    
+.submenu2 > li:hover {
+  display: block;
+  background-color: #333333;
+  text-decoration: none;
+  color: white;
 }
 
-.submenu3 > li:hover{
-    display: block;
-    background-color: #333333;
-    text-decoration: none;
-    color: white;
-    
+.submenu3 > li:hover {
+  display: block;
+  background-color: #333333;
+  text-decoration: none;
+  color: white;
 }
 
 nav > ul > li:hover > .submenu {
-    display: block;
-    background-color: #AD9A64;
+  display: block;
+  background-color: #ad9a64;
 }
 
 nav .submenu2 > li:hover > .sub-submenu2 {
-    display: block;
-    background-color: #8b0000;
+  display: block;
+  background-color: #8b0000;
 }
 
-
 nav > ul > li:hover > ul {
-    display: block;
-    
+  display: block;
 }
 
 nav ul ul li {
-    display: block;
-    width: 100%; /* Neem de volledige breedte van het submenu in beslag */
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+  display: block;
+  width: 100%; /* Neem de volledige breedte van het submenu in beslag */
 }
 
 nav ul ul li a {
-    display: block;
-    padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
-    color: black;
-    text-decoration: none;
-    text-align: left;
-    margin-left: 10px;
-}
- 
-nav ul ul li a:hover {
-    display: block;
-    padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
-    color: white;
-    text-decoration: none;
-    text-align: left;
-    margin-left: 10px;
+  display: block;
+  padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 10px;
 }
 
+nav ul ul li a:hover {
+  display: block;
+  padding: 10px 0; /* Voeg wat ruimte boven en onder de link toe */
+  color: white;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 10px;
+}
 
 .submenu {
-    display: none;
-    
+  display: none;
 }
 
 .submenu.open {
-    display: block;
+  display: block;
+}
+
+/* voeg klasse toe indien er een witte achtergrond is/geen achtergrond image */
+/* Wilderen logo moet in dat geval ook zwart => rood/geel logo desnoods overal gebruiker? */
+.blackNav {
+  background-color: #333333 !important;
+  margin-top: 0;
+  width: 100%;
 }
 
 
- /*openingsuren*/
 
- 
+.submenu1 > li:not(:last-child) > a,
+.submenu2 > li:not(:last-child) > a,
+.submenu3 > li:not(:last-child) > a {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: #ad9a64 1px solid;
+}
 
- 
+.submenu1 > li:not(:last-child) > a:hover,
+.submenu2 > li:not(:last-child) > a:hover,
+.submenu3 > li:not(:last-child) > a:hover {
+  border-bottom: none;
+}
 
+li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul li img {
+  margin-top: 5px;
+  /* background-color: red; */
+
+}
+
+.submenu1 >  li > a:hover,
+.submenu2  > li > a:hover,
+.submenu3 li a:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+ul li img {
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-90deg);
+}
+
+ul li:hover img{
+transform: rotate(0deg);
+    /* transform: translateY(5px); */
+}
