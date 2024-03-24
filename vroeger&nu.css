@@ -61,6 +61,11 @@ body {
 .overlay p {
     font-size: 24px;
     font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.overlay a{
+    text-decoration: none;
+    color: white;
 }
 
 .container:hover .background-container img {
