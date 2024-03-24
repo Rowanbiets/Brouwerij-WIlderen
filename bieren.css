@@ -57,31 +57,31 @@ body {
 }
 
 #wilderen-goud:hover {
-  filter: drop-shadow(0px 0px 3px gold);
+  filter: drop-shadow(0px 0px 50px gold);
 }
 
 #kriek:hover {
-  filter: drop-shadow(0px 0px 3px red);
+  filter: drop-shadow(0px 0px 50px red);
 }
 
 #betty-ford:hover {
-  filter: drop-shadow(0px 0px 3px #20ff32);
+  filter: drop-shadow(0px 0px 50px #20ff32);
 }
 #curvee-clarisse:hover {
-  filter: drop-shadow(0px 0px 3px #460610);
+  filter: drop-shadow(0px 0px 50px #460610);
 }
 #whiskey-infused:hover {
-  filter: drop-shadow(0px 0px 3px #852fb1);
+  filter: drop-shadow(0px 0px 50px #852fb1);
 }
 
 #rum-infused:hover {
-  filter: drop-shadow(0px 0px 3px #fba953);
+  filter: drop-shadow(0px 0px 50px #fba953);
 }
 #tripel-kanunnik:hover {
-  filter: drop-shadow(0px 0px 3px #f97700);
+  filter: drop-shadow(0px 0px 50px #f97700);
 }
 #clarrise-rouge:hover {
-  filter: drop-shadow(0px 0px 3px #750001);
+  filter: drop-shadow(0px 0px 50px #750001);
 }
 
 h3 {

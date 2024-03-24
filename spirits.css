@@ -67,15 +67,16 @@ body {
   margin-top: 100px;
 }
 
-h3{
-    transition: all 0.3s ease;
+h3 {
+  transition: all 0.3s ease;
 }
 
 .container img:hover:not(.shelf img) {
   transform: translate(0, -20px) scale(1.1);
 }
 
-.container .lowered-image:hover h3, .container .col-md-4:hover h3 {
+.container .lowered-image:hover h3,
+.container .col-md-4:hover h3 {
   transform: translate(0, -20px);
 }
 
@@ -99,39 +100,39 @@ h3{
 }
 
 #spirit1:hover {
-  filter: drop-shadow(0px 0px 3px #d8d9dd);
+  filter: drop-shadow(0px 0px 50px #d8d9dd);
 }
 
 #spirit2:hover {
-  filter: drop-shadow(0px 0px 3px #d3b378);
+  filter: drop-shadow(0px 0px 50px #d3b378);
 }
 
 #spirit3:hover {
-  filter: drop-shadow(0px 0px 3px #86acdd);
+  filter: drop-shadow(0px 0px 50px #86acdd);
 }
 
 #spirit4:hover {
-  filter: drop-shadow(0px 0px 3px #d03f00);
+  filter: drop-shadow(0px 0px 50px #d03f00);
 }
 
 #spirit5:hover {
-  filter: drop-shadow(0px 0px 3px #680009);
+  filter: drop-shadow(0px 0px 50px #680009);
 }
 
 #spirit6:hover {
-  filter: drop-shadow(0px 0px 3px #ce7701);
+  filter: drop-shadow(0px 0px 50px #ce7701);
 }
 
 #spirit7:hover {
-  filter: drop-shadow(0px 0px 3px #fe026e);
+  filter: drop-shadow(0px 0px 50px #fe026e);
 }
 
 #spirit8:hover {
-  filter: drop-shadow(0px 0px 3px #ffd989);
+  filter: drop-shadow(0px 0px 50px #ffd989);
 }
 
 #spirit9:hover {
-  filter: drop-shadow(0px 0px 3px #e6a941);
+  filter: drop-shadow(0px 0px 50px #e6a941);
 }
 
 h3 {
