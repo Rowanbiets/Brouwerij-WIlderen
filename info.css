@@ -12,6 +12,17 @@ body {
     
     margin: 0;
 }
+.image-container {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  max-height: 550px; /* Maximale hoogte van de afbeelding container */
+  overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+}
+
+.image-container img {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+  background-color: rgba(0, 0, 0, 0.746);
+}
 
 .info {
   display: flex;
