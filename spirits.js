@@ -105,6 +105,7 @@ function buttonClick() {
       spirit--;
       updateParams(getParamSpirit() - 1);
       renderSpirits(allSpirits, getParamSpirit());
+      handleRadio();
     }
   });
   rightArrow.addEventListener("click", function () {
@@ -112,6 +113,7 @@ function buttonClick() {
       spirit++;
       updateParams(getParamSpirit() + 1);
       renderSpirits(allSpirits, getParamSpirit());
+      handleRadio();
     }
   });
 }
@@ -121,5 +123,28 @@ function updateParams(param) {
   history.pushState(null, null, `?spirit=${spiritIndex}`);
 }
 
+function handleRadio(){
+  console.log(getParamSpirit());
+  // getParamSpirit();
+  const radios = document.querySelectorAll("input[type='radio']");
+  console.log(radios);
+  radios[getParamSpirit()].checked = true;
+}
+
+function radioClick() {
+
+  const form = document.querySelector("form");
+
+form.addEventListener("change", function (event) {
+console.log(event.target.id)
+  const bierIndex = spiritNames.indexOf(event.target.id);
+  updateParams(bierIndex);
+  renderSpirits(allSpirits, getParamSpirit());
+  handleRadio();
+});
+}
+
 fetchSpirits();
 buttonClick();
+radioClick();
+handleRadio();

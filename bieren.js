@@ -16,8 +16,8 @@ const beerBackground = document.querySelector(".beerBackground");
 const navLogo = document.querySelector(".logo");
 const nav = document.querySelectorAll("nav ul li");
 const awards = document.querySelector(".awards");
-
-
+const radios = document.querySelectorAll("input[type='radio']");
+console.log(radios);
 
 let beer = 0;
 let allBeer = [];
@@ -70,7 +70,7 @@ function renderBeer(data, beer) {
     data[beer].awards.forEach((award) => {
       awards.innerHTML += `<li> <img src="${award}" alt="award"></li>`;
     });
-  } else{
+  } else {
     awards.innerHTML = "";
   }
 
@@ -97,10 +97,10 @@ function renderBeer(data, beer) {
   }
 
   beerLogo.src = data[beer].beerLogo;
-  if(data[beer].buyname){
-  buyButton.innerHTML = `Koop ${data[beer].buyname}`;
-  } else{
-    buyButton.innerHTML ="Online bestellen"
+  if (data[beer].buyname) {
+    buyButton.innerHTML = `Koop ${data[beer].buyname}`;
+  } else {
+    buyButton.innerHTML = "Online bestellen";
   }
   colors.forEach((color) => {
     color.style.borderColor = data[beer].themeColor;
@@ -157,6 +157,7 @@ function buttonClick() {
       beer--;
       updateParams(getParamBeer() - 1);
       renderBeer(allBeer, getParamBeer());
+      handleRadio();
     }
   });
   rightArrow.addEventListener("click", function () {
@@ -164,7 +165,7 @@ function buttonClick() {
       beer++;
       updateParams(getParamBeer() + 1);
       renderBeer(allBeer, getParamBeer());
-
+      handleRadio();
     }
   });
 }
@@ -174,5 +175,28 @@ function updateParams(param) {
   history.pushState(null, null, `?beer=${bierIndex}`);
 }
 
+function handleRadio(){
+  console.log(getParamBeer());
+  // getParamBeer();
+  const radios = document.querySelectorAll("input[type='radio']");
+  console.log(radios);
+  radios[getParamBeer()].checked = true;
+}
+
+function radioClick() {
+
+  const form = document.querySelector("form");
+
+form.addEventListener("change", function (event) {
+console.log(event.target.id)
+  const bierIndex = bierNames.indexOf(event.target.id);
+  updateParams(bierIndex);
+  renderBeer(allBeer, getParamBeer());
+  handleRadio();
+});
+}
+
 fetchBeer();
 buttonClick();
+handleRadio();
+radioClick();
