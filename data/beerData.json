@@ -3,6 +3,7 @@
     "id": 1,
     "beerName": "Wilderen Goud 6,2%",
     "buyname": "Wilderen Goud",
+    "buyLink": "https://webshop.brouwerijwilderen.be/collections/bieren/products/wilderen-goud-6-2-4x33cl",
 
     "beerTagline": "Stoer en onweerstaanbaar",
     "beerInfo": [
@@ -25,6 +26,7 @@
     "beerName": "Betty Ford 5,2%",
     "buyname": "Betty Ford",
     "beerTagline": "Verfrissend oldskool",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/products/betty-ford-5-2-4x25cl",
     "beerInfo": [
       "Helder amberkleurig bier",
       "Retro “Speciale Belge”",
@@ -43,6 +45,7 @@
     "id": 3,
     "beerName": "Tripel Kanunnik 8,2%",
     "buyname": "Tripel Kanunnik",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/tripel-kanunnik-8-2-4x33cl",
 
     "beerTagline": "Klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever",
     "beerInfo": [
@@ -66,6 +69,8 @@
     "id": 4,
     "beerName": "Cuvée Clarisse 9,2%",
     "buyname": "Cuvée Clarisse",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-9-2-4x33cl",
+
 
     "beerTagline": "(H)eerlijk hartverwarmend",
     "beerInfo": [
@@ -88,6 +93,8 @@
   {
     "id": 5,
     "beerName": "Cuvée Clarisse Whisky Infused 10,2%",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-whisky-infused-10-2-75cl",
+
 
     "beerTagline": "De beste smaken verweven in één bier",
     "beerInfo": [
@@ -111,6 +118,8 @@
   {
     "id": 6,
     "beerName": "Cuvée Clarisse Rum Infused 11,2%",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-omerta-rum-liquor-infused-4x33cl",
+
 
     "beerTagline": "Verleiding en geheimzinnigheid",
     "beerInfo": [
@@ -131,6 +140,8 @@
     "id": 7,
     "beerName": "Wilderen Kriek 3,5%",
     "buyname": "Wilderen Kriek",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/wilderen-kriek-3-5-4x25cl",
+
 
     "beerTagline": "Fris en fruitig.",
     "beerInfo": [
@@ -150,6 +161,8 @@
     "id": 8,
     "beerName": "Clarisse Rouge 8%",
     "buyname": "Clarisse Rouge",
+    "buyLink": "",
+
 
     "beerTagline": "Het fruitige zusje van Cuvée Clarisse.",
     "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles"],

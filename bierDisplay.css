@@ -348,14 +348,14 @@ gap: 100%; */
 
 form {
   position: absolute;
+  z-index: 5;
   bottom: 0;
   margin-bottom: 50px;
 }
 
-.radios{
+.radios {
   display: flex;
   gap: 20px;
-
 }
 /* 
 #goud {

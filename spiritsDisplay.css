@@ -18,7 +18,7 @@ body {
   margin-top: 20px;
   /* background-color: red; */
 }
-.arrowRight{
+.arrowRight {
   margin-left: 50px;
 }
 .arrowLeft:hover {
@@ -82,12 +82,43 @@ body {
   object-fit: cover;
 }
 
+.awards {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 100px;
+  margin-top: 80px;
+  /* width: fit-content; */
+  /* transform: translateY(50%); */
+  max-height: 100%;
+  list-style: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  /* mix-blend-mode: multiply; */
+
+  /* background-color: red; */
+}
+
+.awards img {
+  width: 8%;
+  min-width: 75px;
+  max-height: 1200px;
+  /* height: fit-content !important; */
+  margin: 10px;
+  margin-left: 20px;
+  /* border-radius: 10px !important; */
+  /* opacity: 80%; */
+  /* border: var(--themeColor) 5px solid; */
+  bottom: 0;
+  right: 0;
+}
+
 button:focus {
   outline: none;
 }
 
 #spiritName {
-  
   /* color: rgb(34, 34, 34); */
   color: white;
   text-align: center;
@@ -100,7 +131,6 @@ button:focus {
   );
   width: 100% !important;
   filter: drop-shadow(5px 5px 10px var(--themeColor));
-
 
   /* Beter met of zonder border?? */
 
@@ -194,7 +224,7 @@ button {
   /* margin-right: 20%; */
   /* margin-left: -500px;
 gap: 100%; */
-gap: 100%;
+  gap: 100%;
 }
 
 .overlay {
@@ -220,21 +250,20 @@ gap: 100%;
   /* vertical-align: middle; */
 }
 
-
 button img {
   height: 60px !important;
 }
 
 form {
   position: absolute;
+  z-index: 5;
   bottom: 0;
   margin-bottom: 50px;
 }
 
-.radios{
+.radios {
   display: flex;
   gap: 20px;
-
 }
 /* 
 #goud {

@@ -210,3 +210,7 @@ nav > ul > li > a {
 nav > ul > li:hover > a {
   color: #ad9a64 !important;
 }
+
+nav > ul > li > a {
+  text-shadow: #333333 1px 1px 1px;
+}
