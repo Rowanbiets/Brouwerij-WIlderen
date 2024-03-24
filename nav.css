@@ -159,8 +159,6 @@ nav ul ul li a:hover {
   width: 100%;
 }
 
-
-
 .submenu1 > li:not(:last-child) > a,
 .submenu2 > li:not(:last-child) > a,
 .submenu3 > li:not(:last-child) > a {
@@ -185,21 +183,28 @@ li a {
 ul li img {
   margin-top: 5px;
   /* background-color: red; */
-
 }
 
-.submenu1 >  li > a:hover,
-.submenu2  > li > a:hover,
+.submenu1 > li > a:hover,
+.submenu2 > li > a:hover,
 .submenu3 li a:hover {
   transition: all 0.2s ease-in-out;
 }
 
 ul li img {
-    transition: all 0.3s ease-in-out;
-    transform: rotate(-90deg);
+  transition: all 0.3s ease-in-out;
+  transform: rotate(-90deg);
 }
 
-ul li:hover img{
-transform: rotate(0deg);
-    /* transform: translateY(5px); */
+ul li:hover img {
+  transform: rotate(0deg);
+  /* transform: translateY(5px); */
+}
+
+nav > ul > li > a {
+text-decoration: none !important;
+}
+
+nav > ul > li:hover > a {
+  color: #ad9a64 !important;
 }
