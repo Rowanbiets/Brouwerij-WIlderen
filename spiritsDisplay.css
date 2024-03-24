@@ -224,3 +224,62 @@ gap: 100%;
 button img {
   height: 60px !important;
 }
+
+form {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+.radios{
+  display: flex;
+  gap: 20px;
+
+}
+/* 
+#goud {
+  color: black;
+  accent-color: gold;
+}
+
+#betty-ford {
+  accent-color: #6D9170;
+}
+
+#kannunik {
+  accent-color: #F97700;
+}
+#clarisse {
+  accent-color: #460610;
+}
+#whiskey {
+  accent-color: #521B6D;
+}
+#rum {
+  accent-color: #FBA953;
+}
+#kriek {
+  accent-color: #FF232D;
+}
+#rouge {
+  accent-color: #cc1223;
+} */
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #999; /* Border color for unchecked */
+  outline: none;
+  cursor: pointer;
+}
+
+/* Checked radio button style */
+input[type="radio"]:checked {
+  border-color: var(--themeColor); /* Border color for checked */
+  background-color: var(--themeColor);
+  filter: drop-shadow(0px 0px 5px var(--themeColor));
+}

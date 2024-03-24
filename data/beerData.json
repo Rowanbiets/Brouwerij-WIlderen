@@ -35,7 +35,7 @@
     "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio",
     "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png",
     "themeColor": "#6D9170",
-    "beerLogo": "WEBSITE/Betty Ford/Banner_1.png",
+    "beerLogo": "WEBSITE/Betty Ford/BF LOGO 2023.png",
     "neonColor": "#20ff32",
     "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg"
   },
@@ -57,8 +57,10 @@
     "beerLogo": "",
     "neonColor": "#F97700",
     "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg",
-    "awards": ["WEBSITE/Awards/Tripel Kanunnik/WBA18-Belgium-GOLD.png", "WEBSITE/Awards/Tripel Kanunnik/WBA19-Belgium-GOLD.png"]
-
+    "awards": [
+      "WEBSITE/Awards/Tripel Kanunnik/WBA18-Belgium-GOLD.png",
+      "WEBSITE/Awards/Tripel Kanunnik/WBA19-Belgium-GOLD.png"
+    ]
   },
   {
     "id": 4,
@@ -77,8 +79,11 @@
     "themeColor": "#460610",
     "beerLogo": "",
     "neonColor": "#460610",
-    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg", 
-    "awards": ["WEBSITE/Awards/Cuv‚e Clarisse/bbc2016-gold-medal.png", "WEBSITE/Awards/Cuv‚e Clarisse/WBA17-Silver-1.png" ]
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg",
+    "awards": [
+      "WEBSITE/Awards/Cuv‚e Clarisse/bbc2016-gold-medal.png",
+      "WEBSITE/Awards/Cuv‚e Clarisse/WBA17-Silver-1.png"
+    ]
   },
   {
     "id": 5,
@@ -98,21 +103,22 @@
     "beerLogo": "",
     "neonColor": "#521B6D",
     "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded.jpg",
-    "awards": ["WEBSITE/Awards/Cuv‚e Clarisse/WBA18-Belgium-WINNER.png", "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-WB-StyleWinner.png"]
-
+    "awards": [
+      "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-Belgium-WINNER.png",
+      "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-WB-StyleWinner.png"
+    ]
   },
   {
     "id": 6,
     "beerName": "Cuvée Clarisse Rum Infused 11,2%",
-  
 
     "beerTagline": "Verleiding en geheimzinnigheid",
     "beerInfo": [
-    "donker zwaar bier",
-    "hoge gisting – hergist op fles",
-    "infused met Omerta Rum Liquor",
-    "11,2% Vol.",
-    "Vat - fles"
+      "donker zwaar bier",
+      "hoge gisting – hergist op fles",
+      "infused met Omerta Rum Liquor",
+      "11,2% Vol.",
+      "Vat - fles"
     ],
     "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. ene en onze Omerta Rum liquor.",
     "beerImg": "WEBSITE/teamfotos/CC Rum inf new bottle 2023-B.png",
@@ -150,8 +156,8 @@
     "beerDescription": "Schitterend aperitiefbier. Een smaakprofiel van kers, amandel en een toets van marsepein.",
     "beerImg": "WEBSITE/Afbeeldingen voor website/Clarisse Rouge pint visueel.png",
     "themeColor": "#cc1223",
-    "beerLogo": "",
-    "neonColor": "##cc1223",
+    "beerLogo": "WEBSITE/Clarisse Rouge/Rouge.png",
+    "neonColor": "#cc1223",
     "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg"
   }
 ]

@@ -104,20 +104,6 @@ ul {
 }
 
 .overlay img {
-  /* width: 100%;
-  height: 40%; */
-  width: 40%;
-  /* position: absolute;
-  z-index: 1; */
-  /* filter: opacity(50%); */
-  /* opacity: 20%; */
-  /* transform: translate(0%, -130%); */
-  border-radius: 100%;
-  object-fit: cover;
-  object-position: top;
-  filter: drop-shadow(0px 0px 5px #000000);
-  border: #6d9170 5px solid;
-  /* background-size: fill; */
 }
 
 /* .overlay {
@@ -171,23 +157,18 @@ ul {
   }
 }
 
-button {
+.arrows button {
   all: unset;
   width: fit-content;
   height: fit-content;
   margin-top: 50%;
   padding: 10px;
   transition: all 0.3s ease-in-out;
-
 }
 
-button img {
+.arrows button img {
   height: 60px !important;
 }
-
-
-
-
 
 #beerTagLine {
   font-size: 1em;
@@ -237,9 +218,8 @@ button:focus {
   /* background-color: red; */
 }
 
-.arrows{
+.arrows {
   margin-left: 100px;
-
 }
 
 .header-container {
@@ -252,16 +232,16 @@ button:focus {
   height: fit-content !important;
   margin: 10px;
   border-radius: 10px !important;
-  opacity: 80%;
+  /* opacity: 80%; */
   border: var(--themeColor) 5px solid;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 
 .awards {
   position: absolute;
   left: 0;
-  margin-top: 50px;
+  margin-top: 80px;
   transform: translateY(50%);
   max-height: 100px;
   list-style: none;
@@ -281,7 +261,7 @@ button:focus {
   bottom: 0;
   right: 0;
 }
-body{
+body {
   background-color: #000000;
 }
 
@@ -302,7 +282,7 @@ body{
   /* margin-right: 20%; */
   /* margin-left: -500px;
 gap: 100%; */
-gap: 100%;
+  gap: 100%;
 }
 
 .overlay {
@@ -325,4 +305,102 @@ gap: 100%;
 
 .arrowRight:hover {
   transform: translateX(15px);
+}
+
+.shelfNav button {
+  all: unset;
+}
+
+.shelfNav {
+  width: 500px;
+  height: auto;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+  /* display: flex; */
+  height: 250px;
+  /* border: var(--themeColor) 2px solid; */
+  --webkit-scrollbar-thumb: var(--themeColor);
+  scrollbar-width: thin;
+  scrollbar-color: var(--themeColor) transparent;
+  margin-top: 20px;
+  width: 600px;
+  /* background-color: var(--themeColor); */
+}
+
+.shelf {
+  z-index: 1;
+  width: 600px;
+}
+
+.shelfNav img:not(.shelf) {
+  width: 100px;
+  height: fit-content;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: -30px;
+  z-index: 10;
+  position: relative;
+}
+
+.overlay {
+  flex-direction: column;
+}
+
+form {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+.radios{
+  display: flex;
+  gap: 20px;
+
+}
+/* 
+#goud {
+  color: black;
+  accent-color: gold;
+}
+
+#betty-ford {
+  accent-color: #6D9170;
+}
+
+#kannunik {
+  accent-color: #F97700;
+}
+#clarisse {
+  accent-color: #460610;
+}
+#whiskey {
+  accent-color: #521B6D;
+}
+#rum {
+  accent-color: #FBA953;
+}
+#kriek {
+  accent-color: #FF232D;
+}
+#rouge {
+  accent-color: #cc1223;
+} */
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #999; /* Border color for unchecked */
+  outline: none;
+  cursor: pointer;
+}
+
+/* Checked radio button style */
+input[type="radio"]:checked {
+  border-color: var(--themeColor); /* Border color for checked */
+  background-color: var(--themeColor);
+  filter: drop-shadow(0px 0px 5px var(--themeColor));
 }
