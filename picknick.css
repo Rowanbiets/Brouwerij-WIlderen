@@ -12,6 +12,7 @@
 .image-container img {
     width: 100%; /* Afbeelding neemt volledige breedte in beslag */
     height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+    background-color: rgba(0, 0, 0, 0.746);
 }
 
 .text-overlay {
