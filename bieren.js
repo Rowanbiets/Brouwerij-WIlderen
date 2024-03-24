@@ -62,7 +62,7 @@ function fetchBeer() {
 function renderBeer(data, beer) {
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
   root.style.setProperty("--themeColor", data[beer].themeColor);
-  neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[beer].neonColor})`;
+  // neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[beer].neonColor})`;
 
   if (data[beer].awards) {
     awards.innerHTML = "";

@@ -42,13 +42,7 @@ body {
   transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
 }
 
-.container img:hover:not(.shelf img) {
-  transform: scale(1.1); /* Maak de afbeelding iets groter bij zweven */
-  transform: translate(
-    0,
-    -10px
-  ); /* Maak de afbeelding iets groter bij zweven */
-}
+
 
 .shelf img {
   margin-top: -100px;
@@ -63,31 +57,31 @@ body {
 }
 
 #wilderen-goud:hover {
-  filter: drop-shadow(0px 0px 3px gold);
+  filter: drop-shadow(0px 0px 50px gold);
 }
 
 #kriek:hover {
-  filter: drop-shadow(0px 0px 3px red);
+  filter: drop-shadow(0px 0px 50px red);
 }
 
 #betty-ford:hover {
-  filter: drop-shadow(0px 0px 3px #20ff32);
+  filter: drop-shadow(0px 0px 50px #20ff32);
 }
 #curvee-clarisse:hover {
-  filter: drop-shadow(0px 0px 3px #460610);
+  filter: drop-shadow(0px 0px 50px #460610);
 }
 #whiskey-infused:hover {
-  filter: drop-shadow(0px 0px 3px #852fb1);
+  filter: drop-shadow(0px 0px 50px #852fb1);
 }
 
 #rum-infused:hover {
-  filter: drop-shadow(0px 0px 3px #fba953);
+  filter: drop-shadow(0px 0px 50px #fba953);
 }
 #tripel-kanunnik:hover {
-  filter: drop-shadow(0px 0px 3px #f97700);
+  filter: drop-shadow(0px 0px 50px #f97700);
 }
 #clarrise-rouge:hover {
-  filter: drop-shadow(0px 0px 3px #750001);
+  filter: drop-shadow(0px 0px 50px #750001);
 }
 
 h3 {
@@ -138,4 +132,17 @@ h2 {
   object-fit: cover;
 /* filter: blur(1px); */
 
+}
+
+h3{
+  transition: all 0.3s ease;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
+}
+
+.container img:hover:not(.shelf img) {
+transform: translate(0, -20px) scale(1.1);
+}
+
+.container .lowered-image:hover h3, .container .col-md-3:hover h3 {
+transform: translate(0, -20px);
 }

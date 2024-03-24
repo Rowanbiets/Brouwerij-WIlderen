@@ -3,8 +3,8 @@
 let spirit = 0;
 let allSpirits = [];
 const spiritNames = [
-  "double-you-gin-vanille",
   "double-you-gin",
+  "double-you-gin-vanille",
   "ocus-organic-gin",
   "omerta-rum-liquor",
   "omerta-black-magnum",
@@ -25,6 +25,7 @@ const buyButton = document.querySelector(".buy-button2");
 const neonborder = document.querySelector(".imgBorder");
 const root = document.querySelector(":root");
 const spiritBackground = document.querySelector(".spiritBackground");
+// const nav = document.querySelectorAll("nav ul li");
 
 const leftArrow = document.getElementById("arrowLeft");
 const rightArrow = document.getElementById("arrowRight");
@@ -32,13 +33,14 @@ const rightArrow = document.getElementById("arrowRight");
 function getParamSpirit() {
   // zoek de spiritnaam op in de url -> ?spirit=""
   // selecteer de array index op basis van de naam
-  const spiritParams = new URLSearchParams(window.location.search).get("spirit");
+  const spiritParams = new URLSearchParams(window.location.search).get(
+    "spirit"
+  );
 
   const spiritIndex = spiritNames.indexOf(spiritParams);
 
   return spiritIndex;
 }
-
 
 function fetchSpirits() {
   fetch("data/spiritData.json")
@@ -54,7 +56,7 @@ function fetchSpirits() {
 function renderSpirits(data, spirit) {
   // spiritLogo.src = data[spirit].spiritLogo;
   root.style.setProperty("--themeColor", data[spirit].themeColor);
-  neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[spirit].neonColor})`;
+  // neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[spirit].neonColor})`;
   console.log(data[spirit]);
   buyButton.innerHTML = `Koop ${data[spirit].buyname}`;
   colors.forEach((color) => {
@@ -68,46 +70,55 @@ function renderSpirits(data, spirit) {
   spiritBackground.src = data[spirit].spiritBG;
   console.log(data[spirit].spiritBG);
   // spiritImage.src = data[spirit].spiritImg;
-  // if (data[spirit].id == 2 ) {
-  //   spiritTagLine.style.fontSize = "1.5rem";
-  // } else {
-  //   spiritTagLine.style.fontSize = "2rem";
-  // }
+
+  if (data[spirit].id == null) {
+    spiritName.style.fontSize = "1.5rem";
+  } else {
+    spiritName.style.fontSize = "2rem";
+  }
+  if (getParamSpirit() == 0) {
+    leftArrow.style.display = "none";
+  } else if (getParamSpirit() == allSpirits.length - 1) {
+    rightArrow.style.display = "none";
+  } else {
+    leftArrow.style.display = "block";
+    rightArrow.style.display = "block";
+  }
+
+  console.log(data[spirit].id);
+  if (data[spirit].id == 6 || data[spirit].id == 8) {
+    spiritDescription.style.color = "black";
+    buyButton.style.color = "black";
+    buyButton.style.backgroundcolor = "red";
+
+    spiritTagline.style.color = "black ";
+  } else {
+    spiritDescription.style.color = "white";
+    buyButton.style.color = "white";
+    spiritTagline.style.color = "white";
+  }
 }
-
-
-
-if (getParamSpirit() == 0) {
-  leftArrow.style.display = "none";
-} else if (getParamSpirit() == allSpirits.length - 1) {
-  rightArrow.style.display = "none";
-} else {
-  leftArrow.style.display = "block";
-  rightArrow.style.display = "block";
-}
-
 
 function buttonClick() {
-leftArrow.addEventListener("click", function () {
-  if (getParamSpirit() > 0) {
-    spirit--;
-    updateParams(getParamSpirit() - 1);
-    renderSpirits(allSpirits, getParamSpirit());
-  }
-});
-rightArrow.addEventListener("click", function () {
-  if (getParamSpirit() < allSpirits.length - 1) {
-    spirit++;
-    updateParams(getParamSpirit() + 1);
-    renderSpirits(allSpirits, getParamSpirit());
-
-  }
-});
+  leftArrow.addEventListener("click", function () {
+    if (getParamSpirit() > 0) {
+      spirit--;
+      updateParams(getParamSpirit() - 1);
+      renderSpirits(allSpirits, getParamSpirit());
+    }
+  });
+  rightArrow.addEventListener("click", function () {
+    if (getParamSpirit() < allSpirits.length - 1) {
+      spirit++;
+      updateParams(getParamSpirit() + 1);
+      renderSpirits(allSpirits, getParamSpirit());
+    }
+  });
 }
 
 function updateParams(param) {
-const spiritIndex = spiritNames[param];
-history.pushState(null, null, `?spirit=${spiritIndex}`);
+  const spiritIndex = spiritNames[param];
+  history.pushState(null, null, `?spirit=${spiritIndex}`);
 }
 
 fetchSpirits();
