@@ -10,7 +10,8 @@
     "themeColor": "#D8D9DD",
     "neonColor": "#D8D9DD",
 
-    "spiritBG": "WEBSITE/Double You Gin/New-shot-GIN-2019-BG.jpg"
+    "spiritBG": "WEBSITE/Double You Gin/New-shot-GIN-2019-BG.jpg",
+    "awards": ["WEBSITE/Double You Gin/Awards/WGinA19-Belgian-Flavoured.png", "WEBSITE/Double You Gin/Awards/S16BRONZE-1750x1750cmyk.png", "WEBSITE/Double You Gin/Awards/SSEL2015_gold.png", "WEBSITE/Double You Gin/Awards/ITI_2017_LABEL_EN_RGB_150dpi_3STARS.png", "WEBSITE/Double You Gin/Awards/ITI_2018_LABEL_EN_RGB_150dpi_3STARS.png", "WEBSITE/Double You Gin/Awards/ITI_LABEL_2019_3STAR_RGB_50dpi.png", "WEBSITE/Double You Gin/Awards/ITQI-AwardBlue3stars15EN.png", "WEBSITE/Double You Gin/Awards/ITQI-AwardBlue3stars16EN.png"]
   },
   {
     "id": "2",
@@ -18,7 +19,7 @@
     "spiritTagLine": "",
     "spiritDescription": "Naar aanleiding van de gewonnen prestigieuze Crystal Award voor Double You Gin werd deze “very” Special Edition gelanceerd! <br> Naast de 21 kruiden in de standaard Double You Gin, voegden we natuurlijke vanille toe aan het distilleerproces. Dit resulteert in een gin met heerlijke florale aroma’s, een aangename en vooral herkenbare en uitgesproken vanillesmaak. <br> Top af met verse munt.",
     "buyname": "Vintage Vanilla",
-    "spiritImg": "WEBSITE/Double You Vintage Vanilla/Vintage Vanilla met doos.jpg",
+    "spiritImg": "WEBSITE/Double You Vintage Vanilla/Vintage Vanilla met doos.png",
     "buyLink": "",
     "themeColor": "#D3B378",
     "neonColor": "#D3B378",
@@ -47,7 +48,8 @@
     "buyLink": "",
     "themeColor": "#D03F00",
     "neonColor": "#D03F00",
-    "spiritBG": "WEBSITE/Omerta Rum/Omerta-studio-BG.jpg"
+    "spiritBG": "WEBSITE/Omerta Rum/Omerta-studio-BG.jpg",
+      "awards": ["WEBSITE/Awards/Omerta/WRUMA19-StyleWinner.png"]
   },
   {
     "id": "5",
@@ -83,7 +85,7 @@
     "buyLink": "",
     "themeColor": "#FE026E",
     "neonColor": "#FE026E",
-    "spiritBG": "WEBSITE/Wiggle/wiggle--red-BG.jpg"
+    "spiritBG": "WEBSITE/Wiggle/wiggle--red-BG.png"
   },
   {
     "id": "8",

@@ -1,6 +1,5 @@
 "use strict";
 
-
 // select all needed elements
 const beerName = document.getElementById("beerName");
 const beerTagline = document.getElementById("beerTagLine");
@@ -14,7 +13,9 @@ const neonborder = document.querySelector(".imgBorder");
 const root = document.querySelector(":root");
 const beerBackground = document.querySelector(".beerBackground");
 const navLogo = document.querySelector(".logo");
-const nav = document.querySelectorAll("nav ul li");
+const nav = document.querySelectorAll("nav > ul >  li  > a");
+
+console.log("🚀 ~ nav:", nav);
 const awards = document.querySelector(".awards");
 const radios = document.querySelectorAll("input[type='radio']");
 console.log(radios);
@@ -106,6 +107,7 @@ function renderBeer(data, beer) {
     color.style.borderColor = data[beer].themeColor;
   });
 
+  buyButton.href = data[beer].buyLink;
   beerName.innerHTML = data[beer].beerName;
   beerTagline.innerHTML = data[beer].beerTagline;
   beerDescription.innerHTML = data[beer].beerDescription;
@@ -175,7 +177,7 @@ function updateParams(param) {
   history.pushState(null, null, `?beer=${bierIndex}`);
 }
 
-function handleRadio(){
+function handleRadio() {
   console.log(getParamBeer());
   // getParamBeer();
   const radios = document.querySelectorAll("input[type='radio']");
@@ -184,16 +186,15 @@ function handleRadio(){
 }
 
 function radioClick() {
-
   const form = document.querySelector("form");
 
-form.addEventListener("change", function (event) {
-console.log(event.target.id)
-  const bierIndex = bierNames.indexOf(event.target.id);
-  updateParams(bierIndex);
-  renderBeer(allBeer, getParamBeer());
-  handleRadio();
-});
+  form.addEventListener("change", function (event) {
+    console.log(event.target.id);
+    const bierIndex = bierNames.indexOf(event.target.id);
+    updateParams(bierIndex);
+    renderBeer(allBeer, getParamBeer());
+    handleRadio();
+  });
 }
 
 fetchBeer();
