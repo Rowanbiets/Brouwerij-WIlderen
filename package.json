@@ -1,0 +1,24 @@
+{
+  "name": "brouwerij-wilderen",
+  "version": "1.0.0",
+  "description": "Website for Brewery Wilderen",
+  "main": "translations.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Rowanbiets/Brouwerij-Wilderen"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "i18next": "^23.10.1",
+    "i18next-browser-languagedetector": "^7.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
