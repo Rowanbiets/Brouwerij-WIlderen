@@ -60,6 +60,21 @@ document.querySelectorAll(".butt a").forEach((button) => {
   button.textContent = i18next.t(key);
 
 });
+console.log(resources)
+// setTimeout(() => {
+// console.log(document.querySelectorAll('[data-i18n]'));
+  
+// }, 1000);
+
+// document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(() => {
+document.querySelectorAll('[data-i18n]').forEach(element => {
+  const key = element.getAttribute('data-i18n');
+  console.log(key);
+  // console.log(element);
+  element.textContent = i18next.t(key);
+});
+  }, 1000);
 
 document.getElementById("IndexBierenTitle").textContent = i18next.t("indexTitles.1");
 document.querySelectorAll(".image-title").forEach((title) => {

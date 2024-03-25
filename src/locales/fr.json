@@ -1,6 +1,16 @@
 {
   "nav": ["Production", "Visiter", "L'industrie", "Page de fan", "Contact"],
-  "submenu": [],
+  "subMenu": [
+    "Bières",
+    "Spiritueux",
+    "Passé et présent",
+    "Café de la brasserie",
+    "Visites",
+    "Pique-nique",
+    "Boutique de la brasserie",
+    "Équipe Info & Faune",
+    "FAQ"
+  ],
 
   "indexTitles": [
     "Créations tendances. Brassée traditionnellement.",
@@ -12,7 +22,45 @@
   ],
   "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est désormais connue pour produire des bières et des distillats de haute qualité. L'artisanat belge dans un contexte contemporain et idiosyncrasique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
   "indexButtons": ["Webshop", "Réservez une visite", "Heures d'ouverture"],
-  "table": [],
+  "table": [
+    {
+      "headers": ["AVRIL À SEPTEMBRE", "OCTOBRE À MARS", "FÉVRIER"],
+
+      "table1": {
+        "row1": [" Lundi ", " FERMÉ "],
+        "row2": [" Mardi ", " FERMÉ "],
+        "row3": [" Mercredi ", " 12 h - 19 h "],
+        "row4": ["Jeudi", "12h - 19h"],
+        "row5": ["Vendredi", "12h - 00h"],
+        "row6": ["Samedi", "12h - 00h"],
+        "row7": ["Dimanche", "12h - 21h"]
+      },
+
+      "table2": {
+        "row1": [" Friday ", " 12h - 00h "],
+        "row2": [" Samedi ", " 13h - 00h "],
+        "row3": [" Dimanche ", " 13 h - 21 h "]
+      },
+      "table3": {
+        "row1": ["31/03", " OUVERT Pâques ", "12h - 21h"],
+        "row2": ["1/04", " Ouvert le lundi de Pâques ", "12h - 19h"],
+        "row3": [
+          "29/04 - 30/04",
+          "BLOESEM exceptionnellement ouvert",
+          "12h - 19h"
+        ],
+        "row4": ["1/05", "OUVERT 1 MAI", "12h - 19h"],
+        "ligne5": ["9/05", "OUVERT MAI", "12h - 19h"],
+        "row6": ["19/05", " OUVERT PINKSTER DIMANCHE ", "12h - 21h"],
+        "row7": ["20/05", " OUVERT PINKSTER MONDAY ", "12h - 19h"],
+        "row8": ["21/07", " OUVERT JOURNÉE NATIONALE ", "12h - 21h"],
+        "row9": ["15/08", " OUVERT OLV HEMELVAART ", "12h - 19h"],
+        "row10": ["1/11", " OUVERT TOUT ", " 13h - 00h "],
+        "rangée11": ["2/11", "OUVRIR TOUT", "13h - 00h"],
+        "row12": ["11/11", " OUVRIR ARMEE ARRÊT ", "13h -19h"]
+      }
+    }
+  ],
   "tableExtraInfo": [],
   "footer": []
 }

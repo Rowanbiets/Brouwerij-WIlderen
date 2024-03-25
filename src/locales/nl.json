@@ -1,6 +1,16 @@
 {
   "nav": ["Productie", "Bezoeken", "Horeca", "Fan-page", "Contact"],
-  "submenu": [],
+  "subMenu": [
+    "Bieren",
+    "Spirits",
+    "Vroeger en nu",
+    "Brouwerijcafé",
+    "Rondleidingen",
+    "Picknick",
+    "brouwerijwinkel",
+    "Info & Wilderen Team",
+    "FAQ"
+  ],
   "indexTitles": [
     "Trendy creaties. Traditioneel gebrouwen.",
     "Bieren",
@@ -11,7 +21,45 @@
   ],
   "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen staat ondertussen gekend voor het produceren van hoogwaardige bieren en distillaten. Belgisch vakmanschap in een eigentijdse en eigenzinnige context. We gaan met ons Wilderen Team voor innovatie en creativiteit, waarbij we klassieke stijlen combineren met moderne invloeden om unieke en verrassende bieren te creëren. De brouwerij beleeft een sterke band met zijn lokale gemeenschap & erfgoed, wat zich vertaalt in kwaliteit en trots die we in onze producten leggen. Zo willen we graag Wilderen op de wereldkaart zetten. Daarvoor hebben we jullie als enthousiaste fan, klant of bezoeker nodig.“ ",
   "indexButtons": ["Webshop", "Rondleiding boeken", "Openingsuren"],
-  "table": [],
+  "table": [
+    {
+      "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+
+      "table1": {
+        "row1": ["Maandag", "GESLOTEN"],
+        "row2": ["Dinsdag", "GESLOTEN"],
+        "row3": ["Woensdag", "12u - 19u"],
+        "row4": ["Donderdag", "12u - 19u"],
+        "row5": ["Vrijdag", "12u - 00u"],
+        "row6": ["Zaterdag", "12u- 00u"],
+        "row7": ["Zondag", "12u - 21u"]
+      },
+
+      "table2": {
+        "row1": ["vrijdag", "12u - 00u"],
+        "row2": ["zaterdag", "13u - 00u"],
+        "row3": ["zondag", "13u - 21u"]
+      },
+      "table3": {
+        "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
+        "row2": ["1/04", "OPEN PAASMAANDAG", "12u - 19u"],
+        "row3": [
+          "29/04 - 30/04",
+          "BLOESEM uitzonderlijk open",
+          "12u - 19u"
+        ],
+        "row4": ["1/05", "OPEN 1 MEI", "12u - 19u"],
+        "row5": ["9/05", "OPEN HEMELVAART", "12u - 19u"],
+        "row6": ["19/05", "OPEN PINKSTERZONDAG", "12u - 21u"],
+        "row7": ["20/05", "OPEN PINKSTERMAANDAG", "12u - 19u"],
+        "row8": ["21/07", "OPEN NATIONALE FEESTDAG", "12u - 21u"],
+        "row9": ["15/08", "OPEN OLV HEMELVAART", "12u - 19u"],
+        "row10": ["1/11", "OPEN ALLERHEILIGEN", "13u - 00u"],
+        "row11": ["2/11", "OPEN ALLERZIELEN", "13u - 00u"],
+        "row12": ["11/11", "OPEN WAPENSTILSTAND", "13u -19u"]
+      }
+    }
+  ],
   "tableExtraInfo": [],
   "footer": []
 }
