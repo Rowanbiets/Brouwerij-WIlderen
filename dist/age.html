@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leeftijdsverificatie</title>
+<link rel="stylesheet" href="age.css">
+</head>
+<body>
+
+    <div class="age-verification">
+        <h2>Brouwerij Wilderen</h2>
+        <h3>Ben je wettelijk gezien oud genoeg om alcohol te drinken?</h3>
+        <p>Bevestig alstublieft dat u 18 jaar of ouder bent om deze website te bekijken:</p>
+        <form id="ageForm"> <!-- Geef het formulier een id -->
+            <div class="buttons">
+                <button type="button" class="yes-button">Ja, ik ben 18 jaar of ouder</button> <!-- Gebruik type="button" om het standaardgedrag van formulieren te voorkomen -->
+                <button type="button" class="no-button">Nee</button> <!-- Gebruik type="button" om het standaardgedrag van formulieren te voorkomen -->
+            </div>
+        </form>
+    </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("ageForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Voorkom standaard gedrag van het formulier
+
+            
+            if (document.getElementById("yes-button").checked) {
+                window.location.href = "index.html"; // Stuur door naar de startpagina als "Ja" is aangevinkt
+            } else {
+                window.location.href = "https://www.nix18.nl/"; // Stuur door naar de "te jong" pagina als "Nee" is aangevinkt
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

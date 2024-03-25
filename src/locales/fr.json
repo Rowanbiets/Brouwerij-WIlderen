@@ -1,0 +1,18 @@
+{
+  "nav": ["Production", "Visiter", "L'industrie", "Page de fan", "Contact"],
+  "submenu": [],
+
+  "indexTitles": [
+    "Créations tendances. Brassée traditionnellement.",
+    "Bières",
+    "Hier et aujourd'hui",
+    "spiritueux",
+    "visitez-nous",
+    "Horaires d'ouverture 2024 Café-brasserie"
+  ],
+  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est désormais connue pour produire des bières et des distillats de haute qualité. L'artisanat belge dans un contexte contemporain et idiosyncrasique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
+  "indexButtons": ["Webshop", "Réservez une visite", "Heures d'ouverture"],
+  "table": [],
+  "tableExtraInfo": [],
+  "footer": []
+}

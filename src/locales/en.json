@@ -1,5 +1,17 @@
-[
-  {
-    "nav": ["Production, Visit", "Industry", "Fan-page", "Contact"]
-  }
-]
+{
+  "nav": ["Production", "Visit", "Industry", "Fan-page", "Contact"],
+  "submenu": [],
+  "indexTitles": [
+    "Trendy creations. Traditionally brewed.",
+    "Beers",
+    "Then and now",
+    "Spirits",
+    "Visit us",
+    "Opening hours 2024 Brewery café"
+  ],
+  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen is now known for producing high-quality beers and distillates. Belgian craftsmanship in a contemporary and idiosyncratic context. With our Wilderen Team we aim for innovation and creativity, combining classic styles with modern influences to create unique and surprising beers. The brewery experiences a strong bond with its local community & heritage, which translates into the quality and pride we put in our products. In this way we would like to put Wilderen on the world map. For this we need you as an enthusiastic fan, customer or visitor.” ",
+  "indexButtons": ["Webshop", "Book a tour", "Opening hours"],
+  "table": [],
+  "tableExtraInfo": [],
+  "footer": []
+}

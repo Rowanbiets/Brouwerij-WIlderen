@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bieren</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="kannunik.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="icon" href="WEBSITE/Logo/favicon_io (1)/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo-link"><img src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png" alt="logo WIlderen" class="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#">Productie</a>
+                        <ul class="submenu1">
+                            <li><a href="bieren.html">BIEREN</a>
+                               
+                            </li>
+                            <li><a href="spirits.html">SPIRITS</a>
+                             
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bezoek</a>
+                        <ul class="submenu2">
+                            <li><a href="cafe.html">Brouwerijcafé</a> </li>
+                            <li><a href="rondleiding.html">Rondleidingen</a> </li>
+                            <li><a href="picknick.html">Picknick</a></li>
+                            <li><a href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
+                           
+                        </ul>
+                    </li>
+                    <li><a href="horeca.html">Horeca</a></li>
+                    <li><a href="fanpage.html">Fan-page</a></li>
+                    <li><a href="#">Contact</a>
+                        <ul class="submenu3">
+                            <li><a href="info.html">Info & Wilderen Team</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="position-relative">
+                    <img src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png" alt="Tripel Kanunnik" class="img-fluid">
+                    <div class="overlay">
+                        <div class="beer-name">Tripel Kanunnik 8,2%</div>
+                        <p class="info">
+                            <br>
+                             Goudkleurige tripel<br>
+                             Hoge gisting - hergist in fles<br>
+                             8.2% Vol.<br>
+                             Vat - fles<br>
+                             Klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever.<br>
+                            In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd, wat deze Tripel een typisch karakter geeft. Het eerder klassieke Tripelglas staat voor vertrouwen en verbergt een geheime afbeelding.
+                        </p>
+                        <a href="https://webshop.brouwerijwilderen.be/collections/bieren/products/tripel-kanunnik-8-2-4x33cl" class="buy-button">KOOP TRIPEL KANUNNIK</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Voeg hier meer afbeeldingen toe -->
+        </div>
+    </div>
+
+    <section class="container">
+        <h2>Andere Bieren</h2>
+        <div id="beerCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png" class="d-block w-100 beer-img" alt="Bier 1">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 2">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 3">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png" class="d-block w-100 beer-img" alt="Bier 4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#beerCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#beerCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $("#beerCarousel").on('slide.bs.carousel', function () {
+                // Wanneer de carousel schuift, verander de vervaagde toestand van de items
+                $(".carousel-item").css("opacity", "0.5");
+            });
+
+            $("#beerCarousel").on('slid.bs.carousel', function () {
+                // Nadat de carousel is geschoven, zet de huidige item naar de voorgrond
+                $(".carousel-item.active").css("opacity", "1");
+            });
+        });
+    </script>
+
+    
+</body>
+</html>
