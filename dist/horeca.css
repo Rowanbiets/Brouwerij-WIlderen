@@ -1,0 +1,204 @@
+.brouwerij-section {
+    position: relative;
+    text-align: left;
+}
+
+.image-container {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    max-height: 540px; /* Maximale hoogte van de afbeelding container */
+    overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+
+}
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Donkere tint met 50% opaciteit */
+}
+
+.image-container img {
+    width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+    height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+}
+
+.text-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 380px; /* Plaats de tekst-overlay meer naar boven */
+    left: 20px;
+    width: 50%;
+    z-index: 2;
+}
+
+
+.text-overlay h2 {
+    font-family: "Georgia", serif;
+    font-size: 52pt;
+}
+
+.text-overlay p {
+    font-family: "Roboto Slab";
+    font-size: 14pt;
+}
+
+
+
+
+.picknick {
+    border: 9px solid #fff; /* Witte border */
+    padding: 10px; /* Ruimte binnen de border */
+    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.picknick img {
+    flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
+    margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
+    max-height: 300px;
+}
+.picknick p {
+    flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
+    text-align: left; /* Tekst links uitlijnen */
+    font-family: "Roboto Slab"; /* Lettertype */
+    font-size: 12pt; /* Lettergrootte */
+    width: 90%;
+    
+}
+
+.picknick h2{
+    font-family: "Georgia", serif;
+    font-size: 18pt;
+    width: 90%;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+/* Stijlen voor de carousel-container */
+.carousel-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    width: 80%; /* Verklein de breedte van de carousel */
+    margin: 0 auto; /* Centreer de carousel */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Stel de breedte van de pijltjes in */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 50px; /* Stel de breedte van de pijltjespictogrammen in */
+    height: 50px; /* Stel de hoogte van de pijltjespictogrammen in */
+    
+    
+    border: none; /* Verwijder de rand van de pijltjespictogrammen */
+    color: white; /* Stel de kleur van de pijltjespictogrammen in */
+    font-size: 24px; /* Stel de grootte van de pijltjespictogrammen in */
+    line-height: 50px; /* Centreer de pijltjespictogrammen verticaal */
+    text-align: center; /* Centreer de pijltjespictogrammen horizontaal */
+    cursor: pointer; /* Wijzig de cursor naar een wijzer */
+    
+}
+
+/* Stijlen voor de carousel */
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+
+
+.contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    margin-top: 80px;
+    
+}
+
+.contact-form h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #AD9A64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+button[type="submit"]:hover {
+    background-color: #7d6b3b;
+    text-decoration: none;
+}
+

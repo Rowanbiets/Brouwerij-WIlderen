@@ -1,0 +1,134 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  margin: 0;
+}
+.image-container {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  max-height: 550px; /* Maximale hoogte van de afbeelding container */
+  overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60.5%;
+  background-color: rgba(0, 0, 0, 0.3); /* Donkere tint met 50% opaciteit */
+}
+
+.image-container img {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+  background-color: rgba(0, 0, 0, 0.746);
+}
+
+.info {
+  display: flex;
+}
+
+.map {
+  flex: 1;
+  margin-right: 10px; /* Optionele marge tussen de kaart en de andere informatie */
+}
+
+.info-details {
+  flex: 3;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  margin-left: 120px;
+  margin-top: 80px;
+  padding: 0 12px;
+}
+.info {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.titleW h1 {
+  color: #fff593;
+  margin-left: 30%;
+  padding: 18px;
+  text-align: center;
+  font-family: "Great Vibes";
+  margin-top: 40px;
+  background-color: #9c121f;
+  width: 40%;
+}
+
+.card img {
+  width: 100% !important;
+  max-height: 50%;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(114, 100, 100);
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgba(255, 60, 0, 0.724);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #fbb117;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brouwerij WIlderen</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="openingsuren.css" />
+    <link rel="stylesheet" href="buttonAnimation.css" />
+    <link
+      rel="icon"
+      href="WEBSITE/Logo/favicon_io (1)/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="footer.css" />
+    <script type="module" src="../src/openingsuren.js" defer></script>
+    <!-- <script src="../src/translations.js"></script> -->
+    <script type="module" src="../dist/bundle.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo-link"
+          ><img
+            loading="lazy"
+            src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png"
+            alt="logo WIlderen"
+            class="logo"
+        /></a>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" id="production"
+                >Productie
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
+              <ul class="submenu1">
+                <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                <li><a data-i18n="subMenu.1" href="spirits.html">Spirits</a></li>
+                <li><a data-i18n="subMenu.2" href="vroeger&nu.html">Vroeger en nu</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" id="visit"
+                >Bezoek
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
+              <ul class="submenu2">
+                <li><a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a></li>
+                <li><a data-i18n="subMenu.4" href="rondleiding.html">Rondleidingen</a></li>
+                <li><a data-i18n="subMenu.5" href="picknick.html">Picknick</a></li>
+                <li><a data-i18n="subMenu.6" href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
+              </ul>
+            </li>
+            <li><a id="horeca" href="horeca.html">Horeca</a></li>
+            <li><a id="fanpage" href="fanpage.html">Fan-page</a></li>
+            <li>
+              <a href="#" id="contact"
+                >Contact
+
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
+              <ul class="submenu3">
+                <li><a data-i18n="subMenu.7" href="info.html">Info & Wilderen Team</a></li>
+                <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li id="langButtons">
+              <button id="toggle-lang-nl">NL</button>
+              <p>/</p>
+              <button id="toggle-lang-fr">FR</button>
+              <p>/</p>
+              <button id="toggle-lang-en">EN</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="content">
+      <div class="image-container">
+        <img
+          loading="lazy"
+          src="WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg"
+          alt="homepageimg"
+          class="homeimg"
+          id="slideshow-image"
+        />
+        <div class="overlay">
+          <img
+            loading="lazy"
+            src="WEBSITE/Logo/Wilderen Logo 2020.png"
+            alt="logo WIlderen"
+            class="logo"
+          />
+        </div>
+        <div class="text-container">
+          <h2 id="indexTitle" class="text-fade-in">Trendy creaties. Traditioneel gebrouwen.</h2>
+
+          <p id="indexSubtitle" class="text-fade-in">
+            “Brouwerij & Distilleerderij Wilderen staat ondertussen gekend voor
+            het produceren van hoogwaardige bieren en distillaten. Belgisch
+            vakmanschap in een eigentijdse en eigenzinnige context. <br />
+            We gaan met ons Wilderen Team voor innovatie en creativiteit,
+            waarbij we klassieke stijlen combineren met moderne invloeden om
+            unieke en verrassende bieren te creëren. De brouwerij beleeft een
+            sterke band met zijn lokale gemeenschap & erfgoed, wat zich vertaalt
+            in kwaliteit en trots die we in onze producten leggen. Zo willen we
+            graag Wilderen op de wereldkaart zetten. Daarvoor hebben we jullie
+            als enthousiaste fan, klant of bezoeker nodig.” <br />
+          </p>
+          <span class="signature">Mike & Roniek</span>
+
+          <div class="butt">
+            <a
+              href="https://webshop.brouwerijwilderen.be/"
+              class="webshop-link buttonAnimation"
+              data-translation-key="indexButtons.0"
+              >Webshop</a
+            >
+            <a
+              href="https://webshop.brouwerijwilderen.be/"
+              class="webshop-link2 buttonAnimation"
+              data-translation-key="indexButtons.1"
+              >Rondleiding boeken</a
+            >
+            <a href="#openingsuren" class="webshop-link3 buttonAnimation"
+            data-translation-key="indexButtons.2" 
+              >Openingsuren</a
+            >
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">
+      <h2 id="IndexBierenTitle">Bieren</h2>
+      <div class="carousel-container">
+        <div class="beer">
+          <a href="bierenDisplay.html?beer=wilderen-goud"
+            ><img
+              loading="lazy"
+              src="WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png"
+              alt="Wilderen Goud"
+          /></a>
+        </div>
+        <div class="beer">
+          <a href="bierenDisplay.html?beer=tripel-kanunnik"
+            ><img
+              loading="lazy"
+              src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png"
+              alt="Tripel Kannunik"
+          /></a>
+        </div>
+        <div class="beer">
+          <a href="bierenDisplay.html?beer=curvee-clarisse">
+            <img
+              loading="lazy"
+              src="WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png"
+              alt="Cuvée Clarisse"
+          /></a>
+        </div>
+        <div class="beer">
+          <a href="bierenDisplay.html?beer=kriek">
+            <img
+              loading="lazy"
+              src="WEBSITE/Wilderen Kriek/Kriek/Kriek fleske en glas no backgr.png"
+              alt="Wilderen Kriek"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="new-image-section">
+      <div class="new-image-container">
+        <div class="image-wrapper">
+          <a href="vroeger&nu.html">
+            <img
+              loading="lazy"
+              src="WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud034.jpg"
+              alt="Vroeger en Nu"
+          /></a>
+          <div  data-translation-key="indexTitles.2" class="image-title">Vroeger en Nu</div>
+        </div>
+      </div>
+      <div class="new-image-container">
+        <div class="image-wrapper">
+          <a href="spirits.html">
+            <img
+              loading="lazy"
+              src="WEBSITE/Omerta Rum/Omerta 2.png"
+              alt="Spirits"
+          /></a>
+          <div  data-translation-key="indexTitles.3" class="image-title">Spirits</div>
+        </div>
+      </div>
+      <div class="new-image-container">
+        <div class="image-wrapper">
+          <a href="cafe.html"
+            ><img
+              loading="lazy"
+              src="WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg"
+              alt="Bezoek Ons"
+          /></a>
+          <div  data-translation-key="indexTitles.4" class="image-title">Bezoek Ons</div>
+        </div>
+      </div>
+    </section>
+
+    <div style="display: flex; justify-content: space-around">
+      <!-- Eerste video -->
+      <video id="myVideo" width="560" controls muted>
+        <source
+          src="WEBSITE/Tripel Kanunnik/ILBASKaan_TripelKanunnik_Monroe_v4.mp4"
+          type="video/mp4"
+        />
+      </video>
+
+      <!-- Tweede video -->
+      <iframe
+        width="560"
+        src="https://www.youtube.com/embed/dOFLb-Di_Vw?si=8E3S0FZiUpvH3RdQ&amp;clip=UgkxbTUB9kEO-aHo2J-BtoPMReKJmlbMTUpo&amp;clipt=EIG_JhiPuig"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var video = document.getElementById("myVideo");
+
+        // Wacht tot de metadata van de video is geladen
+        video.addEventListener("loadedmetadata", function () {
+          // Stel het starttijdstip in op 5 seconden
+          video.currentTime = 5;
+        });
+      });
+    </script>
+    <img loading="lazy" id="klok" src="WEBSITE/svg/klok.svg" alt="" />
+    <h2 id="openingsurenTitle" class="openingsurenTitle">
+      Openingsuren 2024 <br />
+      Brouwerijcafé
+    </h2>
+
+    <section id="openingsuren" class="container">
+      <table cellspacing="0" id="table1">
+        <th colspan="1"></th>
+        <th colspan="2">APRIL t/m SEPTEMBER</th>
+      </table>
+      <table cellspacing="0" id="table2">
+        <th colspan="2">OKTOBER t/m MAART</th>
+      </table>
+
+      <table cellspacing="0" id="table3">
+        <th colspan="3">FEESTDAGEN</th>
+        <th colspan="1"></th>
+      </table>
+    </section>
+    <p id="extraInfo">
+      - Laatste tap: een 1/2u voor sluiting<br />
+
+      - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang<br />
+      - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer<br />
+      - Geen trouwlocatie of feestzalenverhuur<br />
+      - Honden toegelaten in het brouwerijcafé/terras<br />
+      - Honden niet toegelaten tijdens de rondleidingen/productieruimte<br />
+      - Picknick niet toegelaten
+    </p>
+    <footer>
+      <div class="footerWrapper">
+        <div class="topFooter">
+          <div class="logoContainer">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                src="WEBSITE/Logo/Wilderen Logo 2020.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="socialeMedia">
+            <h4>Ontdek meer over ons</h4>
+            <a href="https://www.facebook.com/BrouwerijW/">
+              <img
+                loading="lazy"
+                src="WEBSITE/svg/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+              <img
+                loading="lazy"
+                src="WEBSITE/svg/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="bottomFooter">
+          <div class="leftBottom">
+            <p>Brouwerij Wilderen - extra info</p>
+          </div>
+          <div class="rightBottom">
+            <a href="">Sitemap</a>
+            <a href="">Privacy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Function to check if an element is in view
+      function isInView(element) {
+        var rect = element.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <=
+            (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+
+      // Function to play the video when it's in view
+      function playVideoIfInView() {
+        var videoSection = document.getElementById("video-section");
+        if (isInView(videoSection)) {
+          var video = document.getElementById("video-frame");
+          video.play();
+        }
+      }
+
+      // Event listener to check if the video is in view when scrolling
+      window.addEventListener("scroll", function () {
+        playVideoIfInView();
+      });
+
+      // Initial check if the video is already in view when the page loads
+      playVideoIfInView();
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector(".overlay").classList.add("show");
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        var images = [
+          "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
+          "WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg ",
+          "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
+        ]; // Voeg hier de paden toe van de afbeeldingen die je wilt laten zien
+        var currentImageIndex = 0;
+        var slideshowImage = document.getElementById("slideshow-image");
+
+        setInterval(function () {
+          currentImageIndex = (currentImageIndex + 1) % images.length;
+          slideshowImage.src = images[currentImageIndex];
+        }, 2000); // Verander elke 2 seconden (2000 milliseconden)
+      });
+    </script>
+  </body>
+</html>
