@@ -4,7 +4,7 @@ module.exports = {
   entry: "./src/translations.js", // Entry point of your application
   output: {
     filename: "bundle.js", // Output bundle filename
-    path: path.resolve(__dirname, "dist"), // Output directory
+    path: path.resolve(__dirname, "docs"), // Output directory
   },
   mode: 'development',
   watch: true,
