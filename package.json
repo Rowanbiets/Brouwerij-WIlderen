@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website for Brewery Wilderen",
   "main": "translations.js",
-  "homepage": "https://rowanbiets.github.io/Brouwerij-Wilderen/",
+  "homepage": "https://rowanbiets.github.io/Brouwerij-WIlderen/",
   "scripts": {
     "test": "test",
     "build": "webpack --mode production"
