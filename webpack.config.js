@@ -2,11 +2,11 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    _translations: "./src/translations.js",
-    _bieren: "./src/bieren.js",
-    _spirits: "./src/spirits.js",
-    _vroeger: "./src/vroeger.js",
-    _openingsuren: "./src/openingsuren.js",
+    translations: "./src/translations.js",
+    bieren: "./src/bieren.js",
+    spirits: "./src/spirits.js",
+    vroeger: "./src/vroeger.js",
+    openingsuren: "./src/openingsuren.js",
 
     // Add entries for other scripts as needed
   },
