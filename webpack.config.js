@@ -1,12 +1,20 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/translations.js", // Entry point of your application
+  entry: {
+    _translations: "./src/translations.js",
+    _bieren: "./src/bieren.js",
+    _spirits: "./src/spirits.js",
+    _vroeger: "./src/vroeger.js",
+    _openingsuren: "./src/openingsuren.js",
+
+    // Add entries for other scripts as needed
+  },
   output: {
-    filename: "bundle.js", // Output bundle filename
+    filename: "[name].bundle.js", // Output bundle filename with placeholder for entry name
     path: path.resolve(__dirname, "docs"), // Output directory
   },
-  mode: 'development',
+  mode: "development",
   watch: true,
   module: {
     rules: [
@@ -21,7 +29,6 @@ module.exports = {
         },
       },
       // Add rules for other file types if needed (e.g., JSON files)
-     
     ],
   },
 };

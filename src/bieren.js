@@ -48,7 +48,7 @@ function getParamBeer() {
   return bierIndex;
 }
 function fetchBeer() {
-  fetch("../src/data/beerData.json")
+  fetch("data/beerData.json")
     .then((response) => response.json())
     .then((data) => {
       // showData(data);

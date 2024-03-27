@@ -1,5 +1,5 @@
 function fetchOpeningsuren() {
-  fetch("../src/data/openingHours.json")
+  fetch("data/openingHours.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);

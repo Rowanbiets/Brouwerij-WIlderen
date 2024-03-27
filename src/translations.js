@@ -8,9 +8,9 @@ import i18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 // import fs from "fs";
 // import path from "path";
 
-import enTranslations from "./locales/en.json";
-import nlTranslations from "./locales/nl.json";
-import frTranslations from "./locales/fr.json";
+import enTranslations from "../docs/locales/en.json";
+import nlTranslations from "../docs/locales/nl.json";
+import frTranslations from "../docs/locales/fr.json";
 // Import other translations as needed
 
 const resources = {

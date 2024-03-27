@@ -50,7 +50,7 @@ function getParamSpirit() {
 }
 
 function fetchSpirits() {
-  fetch("../src/data/spiritData.json")
+  fetch("data/spiritData.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
