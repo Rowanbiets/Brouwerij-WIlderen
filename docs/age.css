@@ -1,0 +1,63 @@
+body {
+    background-image: url('/WEBSITE/Wilderen/Banner\ Skyline\ Wilderen.jpg'); /* Vervang 'background-image.png' door de naam van je achtergrondafbeelding */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    height: 100vh; /* Zorg ervoor dat de achtergrond de volledige hoogte van het scherm bedekt */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.age-verification {
+    background-color: rgba(255, 255, 255, 0.8);/* Witte achtergrond met een lichte transparantie */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.age-verification h2 {
+    font-family: "Georgia, serif";
+    font-size: 24px;
+    color: black
+}
+
+.age-verification h3 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
+.age-verification p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.age-verification form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.age-verification input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+.age-verification button {
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.age-verification button:hover {
+    background-color: #0056b3;
+}

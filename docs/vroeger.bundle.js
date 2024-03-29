@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){var t=document.querySelector(".title"),e=t.textContent;t.textContent="";var n=0,o=setInterval((function(){n<e.length?(t.textContent+=e[n],n++):clearInterval(o)}),100)}));

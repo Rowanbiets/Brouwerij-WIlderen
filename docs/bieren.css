@@ -1,0 +1,148 @@
+/* Resetting default margin and padding */
+/* Resetting default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  /* Voeg eventueel aanvullende stijlen toe, zoals lettergrootte, gewicht, etc. */
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+background-color: rgb(7, 7, 7);
+  margin: 0;
+}
+
+.container {
+  margin-top: 75px;
+}
+
+/* Standaardstijl voor afbeeldingen binnen de container */
+.container img {
+  max-width: 100%; /* Afbeeldingen schalen binnen de beschikbare ruimte */
+  height: auto; /* Behoud de aspectverhouding van de afbeeldingen */
+  height: 200px; /* Stel de hoogte van alle afbeeldingen in op 200px */
+  transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
+}
+
+
+
+.shelf img {
+  margin-top: -100px;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+  height: 20px !important;
+}
+
+.bottom {
+  margin-top: 20px;
+}
+
+#wilderen-goud:hover {
+  filter: drop-shadow(0px 0px 50px gold);
+}
+
+#kriek:hover {
+  filter: drop-shadow(0px 0px 50px red);
+}
+
+#betty-ford:hover {
+  filter: drop-shadow(0px 0px 50px #20ff32);
+}
+#curvee-clarisse:hover {
+  filter: drop-shadow(0px 0px 50px #460610);
+}
+#whiskey-infused:hover {
+  filter: drop-shadow(0px 0px 50px #852fb1);
+}
+
+#rum-infused:hover {
+  filter: drop-shadow(0px 0px 50px #fba953);
+}
+#tripel-kanunnik:hover {
+  filter: drop-shadow(0px 0px 50px #f97700);
+}
+#clarrise-rouge:hover {
+  filter: drop-shadow(0px 0px 50px #750001);
+}
+
+h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 15px !important;
+  color: white;
+}
+
+#whiskey,
+#rum {
+  font-size: 1em;
+}
+
+.container a {
+  display: flex;
+  justify-content: center;
+}
+
+.titleBieren {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #de1420;
+  border-bottom: 2px solid #fbb117;
+  border-top: 2px solid #fbb117;
+  width: 50%;
+  padding: 10px;
+  font-size: 36pt;
+  font-family: "Georgia", sans-serif;
+  text-align: center;
+  margin-bottom: 20px !important;
+  margin-top: 150px;
+}
+
+#backgroundShelf {
+  filter: brightness(20%);
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: fixed;
+  top: 0;
+  object-fit: cover;
+/* filter: blur(1px); */
+
+}
+
+h3{
+  transition: all 0.3s ease;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
+}
+
+.container img:hover:not(.shelf img) {
+transform: translate(0, -20px) scale(1.1);
+}
+
+.container .lowered-image:hover h3, .container .col-md-3:hover h3 {
+transform: translate(0, -20px);
+}

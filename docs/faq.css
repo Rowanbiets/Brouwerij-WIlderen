@@ -1,0 +1,57 @@
+
+
+/* Algemene stijl voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title{
+  background-color:#AD9A64;
+  color: white;
+  padding: 20px;
+  width: 40%;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+.container {
+    max-width: 100px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  
+}
+
+.faq{
+  margin-left: 20%;
+  margin-top: 30px;
+  width: 43%;
+}
+
+details {
+  border: 1px solid #aaa;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 1em;
+}
+
+
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
