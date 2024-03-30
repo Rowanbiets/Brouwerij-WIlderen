@@ -37,6 +37,20 @@ body {
   height: auto; /* Behoudt de aspectverhouding van de afbeelding */
   background-color: rgba(0, 0, 0, 0.746);
 }
+.text-overlay {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 420px; /* Plaats de tekst-overlay meer naar boven */
+  left: 40px;
+  width: 70%;
+}
+
+.text-overlay h2 {
+  font-family: "Georgia", serif;
+  font-size: 52pt;
+}
 
 .info {
   display: flex;
