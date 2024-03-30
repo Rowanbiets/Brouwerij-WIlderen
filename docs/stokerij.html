@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brouwerij WIlderen</title>
+
     <link rel="stylesheet" href="brouwerij.css">
-    
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="openingsuren.css">
     <link rel="stylesheet" href="buttonAnimation.css">
     <link rel="icon" href="WEBSITE/Logo/favicon_io (1)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap">
+
+
 </head>
 <body>
     <header>
@@ -25,7 +28,7 @@
                             <li><a href="spirits.html">Spirits</a>
                              
                             </li>
-                            <li><a href="brouwerij.html">Vroeger en nu</a>
+                            <li><a href="vroeger&nu.html">Vroeger en nu</a>
                                 
                             </li>
                            
@@ -61,23 +64,23 @@
         <div class="modern-image-container">
             <img src="WEBSITE/productie/WEB_Brouwerij-Wilderen-Productie-27-02-2024-WEB-014.jpg" alt="Moderne foto 1">
             <div class="text-overlay">
-                <h2 class="title">Stokerij toen: Erfgoed.</h2>
-                <p>In de volksmond de oude stokerij van Wilderen. Een historisch juweeltje dat teruggaat tot in de 17e eeuw. Binnenin vind je een schat aan oude distilleerapparatuur. Het is een bijzondere plek waar elke hoek en elk detail een verhaal vertelt, een verhaal van toewijding.
+                <h2 class="title typemachine-text">Stokerij toen: Erfgoed.</h2>
+                <p class="typemachine-text-p">In de volksmond de oude stokerij van Wilderen. Een historisch juweeltje dat teruggaat tot in de 17e eeuw. Binnenin vind je een schat aan oude distilleerapparatuur. Het is een bijzondere plek waar elke hoek en elk detail een verhaal vertelt, een verhaal van toewijding.
                     De oude stokerij van Wilderen is niet alleen een monumentaal pand, maar ook een levendige herinnering aan een eerder tijdperk. Het is een eerbetoon aan “rijk” erfgoed en een belofte om deze erfenis voort te zetten voor de komende generaties.
                     De hoge schoorsteen is een écht herkenbaar 'landmark' in Wilderen.
                     </p>
             </div>
         </div>
     </section>
-    <section class="brouwerij-section">
+    <section class="brouwerij-section" id="section2">
         <div class="background-container">
             <img src="WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud057.jpg" alt="Oude foto 1">
         </div>
         <div class="modern-image-container">
             <img src="WEBSITE/productie/WEB_Brouwerij-Wilderen-Productie-27-02-2024-WEB-015.jpg" alt="Moderne foto 1">
             <div class="text-overlay">
-                <h2 class="title">Distilleerderij nu: Trendy creaties.</h2>
-                <p>De huidige apparatuur voor het distilleren of ‘stoken’ is van Duitse makelij. De basis of het beslag wordt geproduceerd in de brouwerij. Daar gebeurt ook de gisting, die nodig is voor het bekomen van de alcohol. Distilleren is een moeilijk klassiek gegeven.
+                <h2 class="title typemachine-text">Distilleerderij nu: Trendy creaties.</h2>
+                <p class="typemachine-text-p">De huidige apparatuur voor het distilleren of ‘stoken’ is van Duitse makelij. De basis of het beslag wordt geproduceerd in de brouwerij. Daar gebeurt ook de gisting, die nodig is voor het bekomen van de alcohol. Distilleren is een moeilijk klassiek gegeven.
                     Distilleren is telkens weer dat vleugje magie. De distilleerderij van Wilderen gaat dan ook voor een klassieke maar eigenzinnige stijl. We geven onze spirits een hippe twist. Noem het Rock ’n Roll in de fles met trendy merken zoals Double You Gin en Omerta Rum.
                     
                     </p>
@@ -85,12 +88,67 @@
         </div>
     </section>
 
-  
-
-    <!-- Voeg meer secties toe zoals hierboven voor de andere afbeeldingen -->
-
 <script src="vroeger.bundle.js"></script>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var section2 = document.getElementById("section2");
+        var section2TextOverlay = section2.querySelector(".text-overlay");
+        var section2Title;
+        var section2PTag;
+    
+        var section2TitleText = "Distilleerderij nu: Trendy creaties.";
+        var section2PTagText = "De huidige apparatuur voor het distilleren of ‘stoken’ is van Duitse makelij. De basis of het beslag wordt geproduceerd in de brouwerij. Daar gebeurt ook de gisting, die nodig is voor het bekomen van de alcohol. Distilleren is een moeilijk klassiek gegeven. Distilleren is telkens weer dat vleugje magie. De distilleerderij van Wilderen gaat dan ook voor een klassieke maar eigenzinnige stijl. We geven onze spirits een hippe twist. Noem het Rock ’n Roll in de fles met trendy merken zoals Double You Gin en Omerta Rum.";
+    
+        var isSection2Visible = false;
+    
+        function checkVisibility() {
+            var rect = section2.getBoundingClientRect();
+            var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+            isSection2Visible = (rect.top <= viewportHeight);
+        }
+    
+        function typeSection2Text() {
+            section2TextOverlay.innerHTML = ''; // Clear existing content
+            section2Title = document.createElement('h2');
+            section2Title.classList.add('title', 'typemachine-text');
+            section2TextOverlay.appendChild(section2Title);
+            section2PTag = document.createElement('p');
+            section2PTag.classList.add('typemachine-text-p');
+            section2TextOverlay.appendChild(section2PTag);
+    
+            var indexTitle = 0;
+            var indexP = 0;
+    
+            var titleInterval = setInterval(function() {
+                if (indexTitle < section2TitleText.length) {
+                    section2Title.textContent += section2TitleText[indexTitle];
+                    indexTitle++;
+                } else {
+                    clearInterval(titleInterval); // Stop de interval wanneer alle tekst van de titel is getypt
+                }
+            }, 100); // Interval van 100 milliseconden voor de titel
+    
+            var pInterval = setInterval(function() {
+                if (indexP < section2PTagText.length) {
+                    section2PTag.textContent += section2PTagText[indexP];
+                    indexP++;
+                } else {
+                    clearInterval(pInterval); // Stop de interval wanneer alle tekst van de paragraaf is getypt
+                }
+            }, 50); // Interval van 50 milliseconden voor de paragraaf (snellere snelheid)
+        }
+    
+        function handleScroll() {
+            checkVisibility();
+            if (isSection2Visible) {
+                typeSection2Text();
+                window.removeEventListener("scroll", handleScroll);
+            }
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    });
+    </script>
 
 </body>
 </html>

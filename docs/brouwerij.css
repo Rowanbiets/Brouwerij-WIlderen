@@ -7,7 +7,7 @@ body {
 
 /* CSS for old-school lettertype */
 .title {
-    font-family: 'YourOldSchoolFont', cursive;
+    font-family: 'Courier Prime', monospace;
     /* Add any other styling for the title */
 }
 
@@ -44,7 +44,7 @@ body {
     height: auto;
     z-index: 2;
     margin-left: 52%;
-    margin-top: 11%;
+    margin-top: 15%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);   
 }
 
@@ -52,7 +52,6 @@ body {
     position: absolute;
     top: 20%;
     margin-left: 5%;
-
     max-width: 150%;
     text-align: left;
     color: white;
@@ -61,7 +60,7 @@ body {
 
 .text-overlay h2 {
     font-size: 12pt;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 180%;
     
 }
@@ -69,7 +68,7 @@ body {
 .text-overlay p {
     
     width: 120%;
-    font-family: "Roboto Slab";
+    font-family: 'Courier Prime', monospace;
     font-size: 14pt;
 }
 

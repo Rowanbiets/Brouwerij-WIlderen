@@ -6,14 +6,26 @@
 
 .image-container {
     width: 100%; /* Afbeelding neemt volledige breedte in beslag */
-    max-height: 500px; /* Maximale hoogte van de afbeelding container */
+    max-height: 600px; /* Maximale hoogte van de afbeelding container */
     overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+    
    
 }
 
 .image-container img {
     width: 100%; /* Afbeelding neemt volledige breedte in beslag */
     height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 10, 10, 0.3); /* Donkere tint met 50% opaciteit */
 }
 
 .text-overlay {
@@ -26,7 +38,7 @@
     left: 20px;
     margin-bottom: 20px;
     width: 40%;
-
+z-index: 2;
 }
 
 .text-overlay h2{
