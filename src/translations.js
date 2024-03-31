@@ -44,20 +44,20 @@ function updateTranslations() {
   console.log(document.getElementById("production"));
 
 // Nav
-  document.getElementById("production").textContent = i18next.t("nav.0");
-  document.getElementById("visit").textContent = i18next.t("nav.1");
-  document.getElementById("horeca").textContent = i18next.t("nav.2");
-  document.getElementById("fanpage").textContent = i18next.t("nav.3");
-  document.getElementById("contact").textContent = i18next.t("nav.4");
+  document.getElementById("production").innerHTML = i18next.t("nav.0");
+  document.getElementById("visit").innerHTML = i18next.t("nav.1");
+  document.getElementById("horeca").innerHTML = i18next.t("nav.2");
+  document.getElementById("fanpage").innerHTML = i18next.t("nav.3");
+  document.getElementById("contact").innerHTML = i18next.t("nav.4");
 
 // Index
-document.getElementById("indexTitle").textContent = i18next.t("indexTitles.0");
-document.getElementById("indexSubtitle").textContent = i18next.t("indexSubtitle");
+document.getElementById("indexTitle").innerHTML = i18next.t("indexTitles.0");
+document.getElementById("indexSubtitle").innerHTML = i18next.t("indexSubtitle");
 document.querySelectorAll(".butt a").forEach((button) => {
   const key = button.dataset.translationKey; // Get the translation key from data attribute
   console.log(key);
   console.log(document.querySelectorAll(".butt a"))
-  button.textContent = i18next.t(key);
+  button.innerHTML = i18next.t(key);
 
 });
 console.log(resources)

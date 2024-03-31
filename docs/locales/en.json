@@ -1,8 +1,18 @@
 {
   "nav": ["Production", "Visit", "Industry", "Fan-page", "Contact"],
-  "subMenu": ["Beers", "Spirits", "Past and Present", "Brewery Cafe", "Tours", "Picnic", "Brewery Store", "Info & Wildlife Team", "FAQ"],
+  "subMenu": [
+    "Beers",
+    "Spirits",
+    "Past and Present",
+    "Brewery Cafe",
+    "Tours",
+    "Picnic",
+    "Brewery Store",
+    "Info & Wildlife Team",
+    "FAQ"
+  ],
   "indexTitles": [
-    "Trendy creations. Traditionally brewed.",
+    "Trendy creations. <br> Traditionally brewed.",
     "Beers",
     "Then and now",
     "Spirits",
@@ -33,13 +43,9 @@
       "table3": {
         "row1": ["31/03", "OPEN Easter", "12h - 9pm"],
         "row2": ["1/04", "OPEN EASTER Monday", "12h - 19h"],
-        "row3": [
-          "29/04 - 30/04",
-          "BLOESEM exceptionally open",
-          "12pm - 7pm"
-        ],
-        "row4": ["1/05", "OPEN MAY 1", "12pm - 7pm" ],
-        "row5": ["9/05", "OPEN HEMSDAY", "12h - 19h" ],
+        "row3": ["29/04 - 30/04", "BLOESEM exceptionally open", "12pm - 7pm"],
+        "row4": ["1/05", "OPEN MAY 1", "12pm - 7pm"],
+        "row5": ["9/05", "OPEN HEMSDAY", "12h - 19h"],
         "row6": ["19/05", "OPEN PINKSTER SUNDAY", "12pm - 9pm"],
         "row7": ["20/05", "OPEN PINKSTER MONDAY", "12pm - 7pm"],
         "row8": ["21/07", "OPEN NATIONAL FEST DAY", "12pm - 9pm"],
