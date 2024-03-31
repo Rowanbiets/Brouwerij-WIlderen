@@ -144,7 +144,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 25%; /* Pas de grootte van het logo naar wens aan */
+  margin-top: 20px;
+  max-width: 23%; /* Pas de grootte van het logo naar wens aan */
 
   /* margin-left: 40px; */
   /* margin-top: 5%; */
@@ -153,7 +154,7 @@ body {
 .text-container {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 30%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: #fff; /* Witte tekstkleur */
