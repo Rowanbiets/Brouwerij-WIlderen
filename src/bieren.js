@@ -26,7 +26,7 @@ const bierNames = [
   "wilderen-goud",
   "betty-ford",
   "tripel-kanunnik",
-  "curvee-clarisse",
+  "cuvee-clarisse",
   "whiskey-infused",
   "rum-infused",
   "kriek",

@@ -80,6 +80,8 @@
 }
 ul {
   list-style: none;
+  text-align: left;
+  /* width: fit-content; */
   /* padding: 0;
   margin: 0; */
 }
@@ -87,12 +89,14 @@ ul {
 .info {
   border-right: #6d9170 2px solid;
   list-style: none;
-  width: 40%;
+  width: 50%;
   text-align: left;
   padding: 10px;
   flex-direction: column;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
 }
 
 .extraInfo {
@@ -101,9 +105,6 @@ ul {
   width: 70%;
   padding: 10px;
   align-items: center;
-}
-
-.overlay img {
 }
 
 /* .overlay {
@@ -164,6 +165,7 @@ ul {
   margin-top: 50%;
   padding: 10px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .arrows button img {
@@ -399,11 +401,55 @@ input[type="radio"] {
   cursor: pointer;
 }
 
+input[type="radio"] {
+  transition: all 0.3s ease-in-out;
+}
+
 /* Checked radio button style */
 input[type="radio"]:checked {
-  border-color: var(--themeColor); /* Border color for checked */
+  border-color: var(--themeColor);
   background-color: var(--themeColor);
   filter: drop-shadow(0px 0px 5px var(--themeColor));
-  transition: all 0.3s ease-in-out;
+}
 
+input[type="radio"]:nth-child(1):hover {
+  border-color: gold;
+  filter: drop-shadow(0px 0px 5px gold);
+}
+
+input[type="radio"]:nth-child(2):hover {
+  border-color: #6d9170;
+  filter: drop-shadow(0px 0px 5px #6d9170);
+}
+
+input[type="radio"]:nth-child(3):hover {
+  border-color: #f97700;
+  filter: drop-shadow(0px 0px 5px #f97700);
+}
+
+input[type="radio"]:nth-child(4):hover {
+  border-color: #460610;
+  filter: drop-shadow(0px 0px 5px #460610);
+}
+input[type="radio"]:nth-child(5):hover {
+  border-color: #521b6d;
+  filter: drop-shadow(0px 0px 5px #521b6d);
+}
+input[type="radio"]:nth-child(6):hover {
+  border-color: #fba953;
+  filter: drop-shadow(0px 0px 5px #fba953);
+}
+input[type="radio"]:nth-child(7):hover {
+  border-color: #ff232d;
+  filter: drop-shadow(0px 0px 5px #ff232d);
+}
+input[type="radio"]:nth-child(8):hover {
+  border-color: red;
+  filter: drop-shadow(0px 0px 5px red);
+}
+
+input[type="radio"]:nth-child(8):checked {
+  border-color: red;
+  background-color: red;
+  filter: drop-shadow(0px 0px 5px red);
 }

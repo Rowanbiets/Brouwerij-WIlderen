@@ -5,14 +5,14 @@
     "buyname": "Wilderen Goud",
     "buyLink": "https://webshop.brouwerijwilderen.be/collections/bieren/products/wilderen-goud-6-2-4x33cl",
 
-    "beerTagline": "Stoer en onweerstaanbaar",
+    "beerTagline": "Stoer en onweerstaanbaar.", 
     "beerInfo": [
       "Goudkleurig speciaal bier",
       "Hoge gisting - hergist in fles",
       "6,2% Vol.",
       "Vat - fles"
     ],
-    "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Het excentrieke glas is eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
+    "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
     "beerImg": "WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png",
     "themeColor": "gold",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
@@ -25,7 +25,7 @@
     "id": 2,
     "beerName": "Betty Ford 5,2%",
     "buyname": "Betty Ford",
-    "beerTagline": "Verfrissend oldskool",
+    "beerTagline": "Verfrissend oldskool.",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/products/betty-ford-5-2-4x25cl",
     "beerInfo": [
       "Helder amberkleurig bier",
@@ -34,8 +34,8 @@
       "5.2% Vol.",
       "Vat - fles"
     ],
-    "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio",
-    "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png",
+    "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio.",
+    "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png.",
     "themeColor": "#6D9170",
     "beerLogo": "WEBSITE/Betty Ford/BF LOGO 2023.png",
     "neonColor": "#20ff32",
@@ -47,14 +47,14 @@
     "buyname": "Tripel Kanunnik",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/tripel-kanunnik-8-2-4x33cl",
 
-    "beerTagline": "Klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever",
+    "beerTagline": "Klassieke finesse in stevige body.",
     "beerInfo": [
       "goudkleurige tripel",
       "hoge gisting - hergist in fles",
       "8.2% Vol.",
       "vat - fles"
     ],
-    "beerDescription": "In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd, wat deze Tripel een typisch karakter geeft. Het eerder klassieke Tripelglas staat voor vertrouwen en verbergt een geheime afbeelding.",
+    "beerDescription": "Een klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever. In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd. Edele hopsoorten geven deze rijke Tripel een typisch en herkenbaar karakter. Fluweelzacht, zoet & fruitig. Heerlijk bij een pot mosselen of gekruide gerechten. Het klassieke Tripel Kanunnikglas staat voor vertrouwen en verbergt een geheime afbeelding.",
     "beerImg": "WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png",
     "themeColor": "#F97700",
     "beerLogo": "",
@@ -71,15 +71,14 @@
     "buyname": "Cuvée Clarisse",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-9-2-4x33cl",
 
-
-    "beerTagline": "(H)eerlijk hartverwarmend",
+    "beerTagline": "(H)eerlijk hartverwarmend donker bier.",
     "beerInfo": [
       "robijnrood donker zwaar bier ",
       "hoge gisting - hergist op fles",
       "9.2% Vol.",
       "vat - fles"
     ],
-    "beerDescription": "Een verleidelijk aroma, met toetsen van zoethout en een vleugje karamel. Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid. Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid.",
+    "beerDescription": "Dit is een bijzonder robijnrood brouwsel met een verleidelijk aroma. Heerlijk bij pittige en belegen kazen of vleesgerechten. Herkenbare toets van zoethout en een vleugje karamel Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid.",
     "beerImg": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png",
     "themeColor": "#460610",
     "beerLogo": "",
@@ -95,16 +94,15 @@
     "beerName": "Cuvée Clarisse Whisky Infused 10,2%",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-whisky-infused-10-2-75cl",
 
-
-    "beerTagline": "De beste smaken verweven in één bier",
+    "beerTagline": "Intens en uitdagend.",
     "beerInfo": [
       "donker zwaar bier",
-      "hoge gisting - hergist op fles",
       "infused met Wild Weasel Whisky",
+      "hoge gisting - hergist op fles",
       "10,2% Vol. ",
       "vat - fles"
     ],
-    "beerDescription": "Subtiele aroma's van bourbon, fruitige toetsen van vanille en zoethout. Cuvée Clarisse Whisky Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Wild Weasel Whisky. Officiëel uitgeroepen als de Beste Whisky Infused van België! ",
+    "beerDescription": "De beste smaken verweven in één bier. Geweldige balans tussen bier & whisky. Subtiele aroma’s van bourbon, fruitige toetsen van vanille en zoethout. Cuvée Clarisse Whisky Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Wild Weasel Whisky. Bij het haardvuur in goed gezelschap. Officiëel uitgeroepen als de Beste Whisky Infused van België!",
     "beerImg": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/CC whisky inf met glas no backgr.png",
     "themeColor": "#521B6D",
     "beerLogo": "",
@@ -120,16 +118,15 @@
     "beerName": "Cuvée Clarisse Rum Infused 11,2%",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-omerta-rum-liquor-infused-4x33cl",
 
-
-    "beerTagline": "Verleiding en geheimzinnigheid",
+    "beerTagline": "Verleiding en geheimzinnigheid.",
     "beerInfo": [
       "donker zwaar bier",
-      "hoge gisting – hergist op fles",
       "infused met Omerta Rum Liquor",
+      "hoge gisting – hergist op fles",
       "11,2% Vol.",
       "Vat - fles"
     ],
-    "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. ene en onze Omerta Rum liquor.",
+    "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. Krachtig degustatiebier voor de levensgenieter. Heerlijk bij pittige en belegen kazen. Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Omerta Rum liquor.",
     "beerImg": "WEBSITE/teamfotos/CC Rum inf new bottle 2023-B.png",
     "themeColor": "#FBA953",
     "beerLogo": "",
@@ -141,7 +138,6 @@
     "beerName": "Wilderen Kriek 3,5%",
     "buyname": "Wilderen Kriek",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/wilderen-kriek-3-5-4x25cl",
-
 
     "beerTagline": "Fris en fruitig.",
     "beerInfo": [
@@ -163,10 +159,9 @@
     "buyname": "Clarisse Rouge",
     "buyLink": "",
 
-
-    "beerTagline": "Het fruitige zusje van Cuvée Clarisse.",
-    "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles"],
-    "beerDescription": "Schitterend aperitiefbier. Een smaakprofiel van kers, amandel en een toets van marsepein.",
+    "beerTagline": "Schitterend aperitiefbier.",
+    "beerInfo": ["donkerrood fruitbier", "hoge gisting", "8%", "Vat - fles*"],
+    "beerDescription": "Een smaakprofiel van kers, amandel en een toets van marsepein. <br> <br> *Momenteel enkel verkrijgbaar van het vat.",
     "beerImg": "WEBSITE/Afbeeldingen voor website/Clarisse Rouge pint visueel.png",
     "themeColor": "#cc1223",
     "beerLogo": "WEBSITE/Clarisse Rouge/Rouge.png",

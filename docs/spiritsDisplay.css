@@ -95,7 +95,8 @@ body {
   list-style: none;
   flex-direction: column;
   flex-wrap: wrap;
-justify-content: center;
+  align-items: center;
+/* justify-content: center; */
   /* mix-blend-mode: multiply; */
 
   /* background-color: red; */
@@ -296,6 +297,10 @@ form {
 } */
 
 input[type="radio"] {
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -314,3 +319,50 @@ input[type="radio"]:checked {
   filter: drop-shadow(0px 0px 5px var(--themeColor));
   transition: all 0.3s ease-in-out;
 }
+
+input[type="radio"]:nth-child(1):hover {
+  border-color: #D8D9DD;
+  filter: drop-shadow(0px 0px 5px #D8D9DD);
+}
+
+input[type="radio"]:nth-child(2):hover {
+  border-color: #D3B378;
+  filter: drop-shadow(0px 0px 5px #D3B378);
+}
+
+input[type="radio"]:nth-child(3):hover {
+  border-color: #86acdd;
+  filter: drop-shadow(0px 0px 5px #86acdd);
+}
+
+input[type="radio"]:nth-child(4):hover {
+  border-color: #D03F00;
+  filter: drop-shadow(0px 0px 5px #D03F00);
+}
+input[type="radio"]:nth-child(5):hover {
+  border-color: #680009;
+  filter: drop-shadow(0px 0px 5px #680009);
+}
+input[type="radio"]:nth-child(6):hover {
+  border-color: #CE7701;
+  filter: drop-shadow(0px 0px 5px #CE7701);
+}
+input[type="radio"]:nth-child(7):hover {
+  border-color: #FE026E;
+  filter: drop-shadow(0px 0px 5px #FE026E);
+}
+input[type="radio"]:nth-child(8):hover {
+  border-color: #00335E;
+  filter: drop-shadow(0px 0px 5px #00335E);
+}
+
+input[type="radio"]:nth-child(8):hover {
+  border-color: #E6A941;
+  filter: drop-shadow(0px 0px 5px #E6A941);
+}
+
+/* input[type="radio"]:nth-child(8):checked {
+  border-color: red;
+  background-color: red;
+  filter: drop-shadow(0px 0px 5px red);
+} */

@@ -2,15 +2,15 @@
   {
     "id": "1",
     "spiritName": "Double You Gin 43,7%",
-    "spiritTagLine": "Gedistilleerd, gebotteld, gelabeld én verzegeld in Brouwerij & Distilleerderij Wilderen",
-    "spiritDescription": "And the winner is: Dit prijsbeest wint zowat alle Awards! Double You is een meer dan gekend merk van Wilderen. Geproduceerd met 21 plantaardige en regionale botanicals. Een uniek distillatieproces zorgen voor een gin van ongeëvenaarde kwaliteit en smaak. <br> Een karaktervolle smaakperceptie, zo complex als een Engel en een Duivel op je schouder… De Engel staat voor welbewust en is altijd vergezeld van een Duivel welke staat voor verleiding… Zo ook het karakter van deze Double You Gin: je kan niet aan deze verleiding weerstaan! Een uitgesproken karakter, de duivel en de engel samen in een glas.",
+    "spiritTagLine": "The winner takes it all.",
+    "spiritDescription": "And the winner is: Dit prijsbeest wint zowat alle Awards! Double You is een meer dan gekend merk van Wilderen. Geproduceerd met 21 plantaardige en regionale botanicals. Een uniek distillatieproces zorgen voor een gin van ongeëvenaarde kwaliteit en smaak. Een karaktervolle smaakperceptie, zo complex als een Engel en een Duivel op je schouder… De Engel staat voor welbewust en is altijd vergezeld van een Duivel welke staat voor verleiding… Zo ook het karakter van deze Double You Gin: je kan niet aan deze verleiding weerstaan! Een uitgesproken karakter, de duivel en de engel samen in een glas.",
     "buyname": "Double You Gin",
     "spiritImg": "WEBSITE/Double You Gin/WORLD GIN AWARDS AFB.jpg",
     "buyLink": "",
     "themeColor": "#D8D9DD",
     "neonColor": "#D8D9DD",
 
-    "spiritBG": "WEBSITE/Double You Gin/New-shot-GIN-2019-BG.jpg",
+    "spiritBG": "WEBSITE/newBGs/GIN-black-manchon.jpg",
     "awards": [
       "WEBSITE/Double You Gin/Awards/WGinA19-Belgian-Flavoured.png",
       "WEBSITE/Double You Gin/Awards/ITI_LABEL_2019_3STAR_RGB_50dpi.png",
@@ -38,7 +38,7 @@
   {
     "id": "3",
     "spiritName": "Ocus Organic Gin 50cl",
-    "spiritTagLine": "By Lost Frequencies",
+    "spiritTagLine": "Lost frequencies in de picture.",
     "spiritDescription": "Ocus Gin is een biologische premium gin, gecreëerd en gebotteld in België. Gedistilleerd op natuurlijke basis zonder toevoegingen, dus 0% suiker. Ocus Gin heeft een opmerkelijke zachtheid en een fantastische kruiden- en bloemenfrisheid.  <br> Elke fles is afgewerkt met een festivalbandje. Verzamel de 11 bandjes en maak kans op een meet & greet met Lost Frequencies! <br> Neem altijd de Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
     "buyname": "Ocus Organic",
     "spiritImg": "",
@@ -50,20 +50,20 @@
   {
     "id": "4",
     "spiritName": "Omerta Rum Liquor 35%",
-    "spiritTagLine": "What happens in Wilderen, stays in Wilderen",
+    "spiritTagLine": "What happens in Wilderen, stays in Wilderen.",
     "spiritDescription": "Wanneer we aan rum denken beelden we ons de rookkringen van een dikke sigaar in, zachte muziek op de achtergrond. De nacht lijkt eindeloos te duren, gesprekken tot in de vroege uurtjes, de fles Omerta Rum Liquor en de vriendschap wordt gedeeld. Tijd voor rust en reflectie, waarin de wereld buiten even lijkt te verdwijnen, alleen het moment dat telt. Deze donkere Rum-Likeur is een unieke blend van een geïmporteerde Jamaicaanse Rum,eigen Wilderen-distillaat…en het geheim van Omerta. <br> Verrassende creatie. De mooie diepbruine kleur verraadt uitmuntende smaken van vanille, verborgen bourbon vaten en karamel. Puur, uiteraard in een mix met Cola of de perfecte basis voor cocktails!",
     "buyname": "Omerta Rum",
     "spiritImg": "",
     "buyLink": "",
     "themeColor": "#D03F00",
     "neonColor": "#D03F00",
-    "spiritBG": "WEBSITE/Omerta Rum/Omerta-studio-BG.jpg",
+    "spiritBG": "WEBSITE/newBGs/Omerta-studio.jpg",
     "awards": ["WEBSITE/Awards/Omerta/WRUMA19-StyleWinner.png"]
   },
   {
     "id": "5",
     "spiritName": "Omerta Black Magnum Edition 40%",
-    "spiritTagLine": "Exclusieve premium editie ",
+    "spiritTagLine": "Exclusieve premium editie.",
     "spiritDescription": "De Omerta Black Edition in unieke magnum fles van 1.5L <br> met 40% alcoholpercentage is een streling op de tong voor elke rum liefhebberDe prachtige donkerbruine -bijna zwarte- kleur heeft hij te danken aan de melasse & karamel <br> Omerta Black heeft een volle krachtige smaak en wordt puur gedronken. <br> Smaakprofiel: Karamel - Kruidig - Zoet - Warm - Zacht  <br> De Omerta Black Edition is te koop in onze brouwerijshop ter plaatse of via onze webshop!",
     "buyname": "Omerta Black Magnum",
     "spiritImg": "",
@@ -87,7 +87,7 @@
   {
     "id": "7",
     "spiritName": "Wiggle Red Fruits Apéro 18%",
-    "spiritTagLine": "Hip, cool maar bovenal ontzettend lekker <br> Wiggle Red Fruits : Forget Rules….Just have fun!",
+    "spiritTagLine": "Have fun.",
     "spiritDescription": "Wiggle is een heerlijke apéro die geserveerd wordt met ijsblokjes aangelengd met cava, prosecco of bubbles, Werk af met wat bevroren rode vrucheten zoals aardbei, bes of framboos. <br> Ook lekker in de mix of in cocktails! O.a met met Fever Tree Elderflower, Soda, Almdudler, Red Bull e.a. …kleur je zomercocktail of geef deze zomer je Apéro een extra touch!  <br> Mix, proef & geniet!",
     "buyname": "Wiggle Red Fruits",
     "spiritImg": "",
@@ -104,9 +104,9 @@
     "buyname": "Wilderen Graanjenever",
     "spiritImg": "",
     "buyLink": "",
-    "themeColor": "#FFD989",
-    "neonColor": "#FFD989",
-    "spiritBG": "WEBSITE/Wilderen graanjenever/Wilderen-Graanjenever-BG.jpg"
+    "themeColor": "#00335E",
+    "neonColor": "#00335E",
+    "spiritBG": "WEBSITE/newBGs/Jenever-opname-blauw.jpg"
   },
   {
     "id": "9",
@@ -118,6 +118,6 @@
     "buyLink": "",
     "themeColor": "#E6A941",
     "neonColor": "#E6A941",
-    "spiritBG": "WEBSITE/Eau de BiŠre/Eau-de-Biere-fles-+-backgr-expanded.jpg"
+    "spiritBG": "WEBSITE/newBGs/Eau-de-Biere-Oak-aged.jpg"
   }
 ]

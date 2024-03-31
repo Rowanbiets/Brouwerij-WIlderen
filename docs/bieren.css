@@ -39,7 +39,7 @@ background-color: rgb(7, 7, 7);
   max-width: 100%; /* Afbeeldingen schalen binnen de beschikbare ruimte */
   height: auto; /* Behoud de aspectverhouding van de afbeeldingen */
   height: 200px; /* Stel de hoogte van alle afbeeldingen in op 200px */
-  transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
+  transition: all 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
 }
 
 
@@ -56,32 +56,42 @@ background-color: rgb(7, 7, 7);
   margin-top: 20px;
 }
 
+
 #wilderen-goud:hover {
-  filter: drop-shadow(0px 0px 50px gold);
+  filter: drop-shadow(0px 0px 50px rgba(255, 217, 0, 0.144));
+  
 }
 
 #kriek:hover {
-  filter: drop-shadow(0px 0px 50px red);
+  filter: drop-shadow(0px 0px 50px rgba(255, 0, 0, 0.158));
+  
 }
 
 #betty-ford:hover {
-  filter: drop-shadow(0px 0px 50px #20ff32);
+  filter: drop-shadow(0px 0px 50px #5cc8654f);
+  
 }
-#curvee-clarisse:hover {
+#cuvee-clarisse:hover {
   filter: drop-shadow(0px 0px 50px #460610);
+  
 }
 #whiskey-infused:hover {
-  filter: drop-shadow(0px 0px 50px #852fb1);
+  filter: drop-shadow(0px 0px 50px #862fb14c);
+  
 }
 
 #rum-infused:hover {
-  filter: drop-shadow(0px 0px 50px #fba953);
+  filter: drop-shadow(0px 0px 50px #fbaa5344);
+  
 }
 #tripel-kanunnik:hover {
-  filter: drop-shadow(0px 0px 50px #f97700);
+  filter: drop-shadow(0px 0px 50px #f9780047);
+  
 }
 #clarrise-rouge:hover {
-  filter: drop-shadow(0px 0px 50px #750001);
+  filter: drop-shadow(0px 0px 50px #7500025d);
+  
+  
 }
 
 h3 {
@@ -146,3 +156,4 @@ transform: translate(0, -20px) scale(1.1);
 .container .lowered-image:hover h3, .container .col-md-3:hover h3 {
 transform: translate(0, -20px);
 }
+

@@ -14,7 +14,7 @@ const spiritNames = [
   "eau-de-biere",
 ];
 
- const blackTextNeeded =['6','8'];
+ const blackTextNeeded =['6'];
 
 const spiritName = document.getElementById("spiritName");
 const spiritTagline = document.getElementById("spiritTagLine");
@@ -111,7 +111,7 @@ if (data[spirit].awards) {
   }
 
   console.log(data[spirit].id);
-  if (data[spirit].id == 6 || data[spirit].id == 8) {
+  if (data[spirit].id == 6) {
     spiritDescription.style.color = "black";
     buyButton.style.color = "black";
     buyButton.style.backgroundcolor = "red";
