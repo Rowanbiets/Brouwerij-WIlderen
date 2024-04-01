@@ -57,7 +57,7 @@
         
     </header>
 
-    <section class="brouwerij-section">
+    <section class="brouwerij-section" id="section1">
         <div class="background-container">
             <img src="WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud050.jpg" alt="Oude foto 1">
         </div>
@@ -88,7 +88,71 @@
         </div>
     </section>
 
-<script src="vroeger.bundle.js"></script>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var section1 = document.getElementById("section1");
+        var section1TextOverlay = section1.querySelector(".text-overlay");
+        var section1Title;
+        var section1PTag;
+    
+        var section1TitleText = "Stokerij toen: Erfgoed.";
+        var section1PTagText = "In de volksmond de oude stokerij van Wilderen. Een historisch juweeltje dat teruggaat tot in de 17e eeuw. Binnenin vind je een schat aan oude distilleerapparatuur. Het is een bijzondere plek waar elke hoek en elk detail een verhaal vertelt, een verhaal van toewijding. De oude stokerij van Wilderen is niet alleen een monumentaal pand, maar ook een levendige herinnering aan een eerder tijdperk. Het is een eerbetoon aan “rijk” erfgoed en een belofte om deze erfenis voort te zetten voor de komende generaties. De hoge schoorsteen is een écht herkenbaar 'landmark' in Wilderen.";
+    
+        var isSection1Visible = false;
+    
+        function checkVisibility() {
+            var rect = section1.getBoundingClientRect();
+            var viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+            isSection1Visible = (rect.top <= viewportHeight);
+        }
+    
+        function typeSection1Text() {
+            section1TextOverlay.innerHTML = ''; // Clear existing content
+            section1Title = document.createElement('h2');
+            section1Title.classList.add('title', 'typemachine-text');
+            section1TextOverlay.appendChild(section1Title);
+            section1PTag = document.createElement('p');
+            section1PTag.classList.add('typemachine-text-p');
+            section1TextOverlay.appendChild(section1PTag);
+    
+            var indexTitle = 0;
+            var indexP = 0;
+    
+            var titleInterval = setInterval(function() {
+                if (indexTitle < section1TitleText.length) {
+                    section1Title.textContent += section1TitleText[indexTitle];
+                    indexTitle++;
+                } else {
+                    clearInterval(titleInterval); // Stop de interval wanneer alle tekst van de titel is getypt
+                }
+            }, 100); // Interval van 100 milliseconden voor de titel
+    
+            var pInterval = setInterval(function() {
+                if (indexP < section1PTagText.length) {
+                    section1PTag.textContent += section1PTagText[indexP];
+                    indexP++;
+                } else {
+                    clearInterval(pInterval); // Stop de interval wanneer alle tekst van de paragraaf is getypt
+                }
+            }, 50); // Interval van 50 milliseconden voor de paragraaf (snellere snelheid)
+        }
+    
+        function handleScroll() {
+            checkVisibility();
+            if (isSection1Visible) {
+                typeSection1Text();
+                window.removeEventListener("scroll", handleScroll);
+            }
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    });
+</script>
+
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var section2 = document.getElementById("section2");
