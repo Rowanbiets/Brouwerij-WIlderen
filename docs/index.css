@@ -52,7 +52,8 @@ body {
   z-index: 0; /* Stel een z-index in */
   margin: 0; /* Verwijder standaard marges */
   padding: 0; /* Verwijder standaard padding */
-  max-height: 420px; /* Maximale hoogte van de afbeelding */
+  height: 100vh;
+  max-height: 100vh; /* Maximale hoogte van de afbeelding */
   object-fit: cover; /* Behoud verhoudingen en bedek container */
 }
 .image-container {
@@ -60,10 +61,46 @@ body {
   width: 100%;
 }
 
-.image-container img {
+.image-container {
+  /* Add this to hide overflow */
+  overflow: hidden;
+}
+
+.image-container img:not(.logo) {
   width: 100%;
-  height: auto;
+  -webkit-animation: zoomImage 20s ease-out infinite both;
+  animation: zoomImage 20s ease-out infinite both;
   display: block;
+}
+
+@-webkit-keyframes zoomImage {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+    transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(15px);
+    transform: scale(1.25) translateY(15px);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+  }
+}
+
+@keyframes zoomImage {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 84%;
+    transform-origin: 50% 84%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(15px);
+    transform: scale(1.25) translateY(15px);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+  }
 }
 
 .overlay {
@@ -75,30 +112,63 @@ body {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparante zwarte overlay */
 }
 
+.imageFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#beerHomeDisplay {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  color: white;
+  object-fit: cover;
+  object-position: left;
+}
+
 .overlay img {
-  max-width: 25%; /* Pas de grootte van het logo naar wens aan */
-  margin-left: 40px;
-  margin-top: 5%;
+  align-self: center;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  filter: drop-shadow(
+    2px 4px 6px black
+  ); /* Voeg een schaduw toe aan de afbeelding */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 23%; /* Pas de grootte van het logo naar wens aan */
+
+  /* margin-left: 40px; */
+  /* margin-top: 5%; */
 }
 
 .text-container {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%, -50%);
   text-align: left;
   color: #fff; /* Witte tekstkleur */
   padding: 20px;
-  max-width: 80%; /* Maximale breedte van de tekstcontainer */
+  max-width: 50%; /* Maximale breedte van de tekstcontainer */
 }
 
 .text-container h2 {
-  font-size: 23pt; /* Grootte van de koppen */
+  font-size: 43pt; /* Grootte van de koppen */
   margin-bottom: 10px; /* Ruimte onder de koppen */
 }
 
 .text-container p {
-  font-size: 12px; /* Grootte van de alinea */
+  font-size: 16px; /* Grootte van de alinea */
   line-height: 1.5; /* Regelhoogte van de alinea */
 }
 
@@ -175,29 +245,31 @@ body {
   color: #fff;
   padding: 15px 30px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  font-family: "Roboto-Slab";
+  font-family: "Roboto Slab", serif;
 }
 
 .webshop-link2 {
-  background-color: #c31212;
+  /* background-color: #c31212; */
+  border: 2px solid #fbb117;
+  font-family: "Roboto Slab", serif;
+  border-radius: 5px;
+
   color: #fff;
   padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
   margin-left: 20px;
-  font-family: "Roboto-Slab";
 }
 .webshop-link3 {
-  background-color: #c31212;
+  border: 2px solid #fbb117;
+  font-family: "Roboto Slab", serif;
+  border-radius: 5px;
+
   color: #fff;
   padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
   margin-left: 20px;
@@ -294,6 +366,85 @@ body {
   margin-top: 50px;
 }
 
+.bierenHome {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
 
+.bierenHome img {
+  all: unset;
+  width: 100px;
+  height: auto;
+  /* max-width: 100px; */
+  object-fit: cover;
+}
 
+html {
+  scroll-behavior: smooth;
+}
 
+.displayRow img {
+  width: 150px;
+  height: auto;
+  /* max-width: 100px; */
+  object-fit: cover;
+}
+
+#beerHomeDisplay {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #000000ef,
+    #000000c9,
+    #00000088, transparent
+  );
+  background-color: transparent;
+  /* opacity: 0.5; */
+  left: 0;
+
+  /* flex-direction: column; */
+}
+
+.displayRow {
+  /* width: 10px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  z-index: 10;
+  /* background-color: red; */
+}
+
+.row1,
+.row3 {
+  /* background-color: red; */
+  animation: updown alternate 20s infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(200px);
+  }
+}
+
+.row2,
+.row3 {
+  /* background-color: red; */
+  animation: downup alternate 20s infinite;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c31212 #282b2e;
+}

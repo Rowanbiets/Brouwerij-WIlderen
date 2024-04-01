@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="openingsuren.css" />
     <script src="openingsuren.bundle.js" defer></script>
     <script type="module" src="translations.bundle.js" defer></script>
+    
     <link rel="stylesheet" href="buttonAnimation.css" />
     <link
       rel="icon"
@@ -26,6 +27,9 @@
     />
     <link rel="stylesheet" href="footer.css" />
     <!-- <script src="../src/translations.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <!-- <script type="module" src="bundle.js" defer></script> -->
   </head>
   <body>
@@ -47,8 +51,14 @@
               /></a>
               <ul class="submenu1">
                 <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
-                <li><a data-i18n="subMenu.1" href="spirits.html">Spirits</a></li>
-                <li><a data-i18n="subMenu.2" href="vroeger&nu.html">Vroeger en nu</a></li>
+                <li>
+                  <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                    >Vroeger en nu</a
+                  >
+                </li>
               </ul>
             </li>
             <li>
@@ -57,10 +67,22 @@
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu2">
-                <li><a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a></li>
-                <li><a data-i18n="subMenu.4" href="rondleiding.html">Rondleidingen</a></li>
-                <li><a data-i18n="subMenu.5" href="picknick.html">Picknick</a></li>
-                <li><a data-i18n="subMenu.6" href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
+                <li>
+                  <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.4" href="rondleiding.html"
+                    >Rondleidingen</a
+                  >
+                </li>
+                <li>
+                  <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                    >Brouwerijwinkel</a
+                  >
+                </li>
               </ul>
             </li>
             <li><a id="horeca" href="horeca.html">Horeca</a></li>
@@ -72,7 +94,11 @@
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu3">
-                <li><a data-i18n="subMenu.7" href="info.html">Info & Wilderen Team</a></li>
+                <li>
+                  <a data-i18n="subMenu.7" href="info.html"
+                    >Info & Wilderen Team</a
+                  >
+                </li>
                 <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
               </ul>
             </li>
@@ -89,6 +115,7 @@
     </header>
     <section class="content">
       <div class="image-container">
+        <div class="imageFlex">
         <img
           loading="lazy"
           src="WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg"
@@ -96,6 +123,12 @@
           class="homeimg"
           id="slideshow-image"
         />
+
+<div id="beerHomeDisplay">
+
+  
+</div>
+</div>
         <div class="overlay">
           <img
             loading="lazy"
@@ -103,9 +136,13 @@
             alt="logo WIlderen"
             class="logo"
           />
+
         </div>
         <div class="text-container">
-          <h2 id="indexTitle" class="text-fade-in">Trendy creaties. Traditioneel gebrouwen.</h2>
+          <h2 id="indexTitle" class="text-fade-in">
+            Trendy creaties.
+            Traditioneel gebrouwen.
+          </h2>
 
           <p id="indexSubtitle" class="text-fade-in">
             “Brouwerij & Distilleerderij Wilderen staat ondertussen gekend voor
@@ -134,17 +171,23 @@
               data-translation-key="indexButtons.1"
               >Rondleiding boeken</a
             >
-            <a href="#openingsuren" class="webshop-link3 buttonAnimation"
-            data-translation-key="indexButtons.2" 
+            <a
+              href="#openingsuren"
+              class="webshop-link3 buttonAnimation"
+              data-translation-key="indexButtons.2"
               >Openingsuren</a
             >
-
-
-
-
           </div>
+          <!-- <div class="bierenHome">
+            <img src="WEBSITE/Betty Ford/Betty Ford glas no backgr.png" alt="">
+            <img src="WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png" alt="">
+            <img src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png" alt="">
+            <img src="WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png" alt="">
+          </div> -->
         </div>
+      
       </div>
+
     </section>
 
     <section class="carousel">
@@ -194,7 +237,9 @@
               src="WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud034.jpg"
               alt="Vroeger en Nu"
           /></a>
-          <div  data-translation-key="indexTitles.2" class="image-title">Vroeger en Nu</div>
+          <div data-translation-key="indexTitles.2" class="image-title">
+            Vroeger en Nu
+          </div>
         </div>
       </div>
       <div class="new-image-container">
@@ -205,7 +250,9 @@
               src="WEBSITE/Omerta Rum/Omerta 2.png"
               alt="Spirits"
           /></a>
-          <div  data-translation-key="indexTitles.3" class="image-title">Spirits</div>
+          <div data-translation-key="indexTitles.3" class="image-title">
+            Spirits
+          </div>
         </div>
       </div>
       <div class="new-image-container">
@@ -216,7 +263,9 @@
               src="WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg"
               alt="Bezoek Ons"
           /></a>
-          <div  data-translation-key="indexTitles.4" class="image-title">Bezoek Ons</div>
+          <div data-translation-key="indexTitles.4" class="image-title">
+            Bezoek Ons
+          </div>
         </div>
       </div>
     </section>
@@ -364,7 +413,6 @@
         var images = [
           "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
           "WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg ",
-          "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
         ]; // Voeg hier de paden toe van de afbeeldingen die je wilt laten zien
         var currentImageIndex = 0;
         var slideshowImage = document.getElementById("slideshow-image");
@@ -372,7 +420,7 @@
         setInterval(function () {
           currentImageIndex = (currentImageIndex + 1) % images.length;
           slideshowImage.src = images[currentImageIndex];
-        }, 2000); // Verander elke 2 seconden (2000 milliseconden)
+        }, 10000); // Verander elke 10 seconden (10000 milliseconden)
       });
     </script>
   </body>
