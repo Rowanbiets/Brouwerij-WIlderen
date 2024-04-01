@@ -54,35 +54,36 @@
    
     padding: 20px; /* Ruimte binnen de border */
     display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-    margin-top: 80px;
-    margin-left: 90px;
-    border-left: 2px solid #FBB117;
     
+    padding: 10px; /* Ruimte binnen de border */
+    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    margin-left: 30px;
+    box-shadow: 0px 4px 12px rgb(56, 47, 47);
+    margin-right: 30px;
+    border-radius: 10px;
     
 }
 .award{
-    margin-top: -35px;
-    margin-left: 420px;
-    
-    
+    margin-top: 55px; 
 }
-
-    
-
 
 .picknick img {
    
     flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
     margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
-    max-height: 300px;
+    max-height: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
 }
 .picknick p {
     flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
     text-align: left; /* Tekst links uitlijnen */
     font-family: "Roboto Slab"; /* Lettertype */
     font-size: 12pt; /* Lettergrootte */
-    width: 90%;
+    width: 95%;
     margin-top: 5px;
+    margin-left: 20px;
     
 }
 
@@ -93,6 +94,7 @@
     font-weight: bold;
     width: 90%;
     margin-top: 80px;
+    margin-left: 20px;
 }
 
 .book-now{
@@ -105,6 +107,7 @@
     cursor: pointer;
     text-decoration: none;
     font-family: "Roboto-Slab";
+    margin-left: 70%;
 }
 
 .book-now a{
@@ -128,8 +131,6 @@
 
 /* CAROUSEL */
 
-/* Stijlen voor de carousel-container */
-/* Stijlen voor de carousel-container */
 .carousel-container {
     text-align: center;
     margin-top: 50px;
@@ -179,6 +180,7 @@
 .carousel-item img {
     width: 70%;
     height: auto;
+    border-radius: 10px;
 }
 
 
