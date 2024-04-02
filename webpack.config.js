@@ -29,7 +29,30 @@ module.exports = {
           },
         },
       },
-      // Add rules for other file types if needed (e.g., JSON files)
+
+
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"], // Use style-loader and css-loader for CSS files
+      },
+
+      {
+        test: /\.html$/,
+        use: ["html-loader"], // Use html-loader for HTML files
+      },
+{
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+use: [
+  {
+    loader: 'file-loader',
+    options:{
+outputPath: 'images',
+    }
+  }
+],
+      }
+
+
     ],
   },
 };
