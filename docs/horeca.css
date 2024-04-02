@@ -93,17 +93,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Stijlen voor de carousel */
 .carousel-container {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
 
+.carousel-container h2 {
+    font-family: "Georgia", serif;
+    font-size: 28pt;
+    margin-bottom: 20px;
+}
 
 .carousel {
-    width: 100%; /* Verklein de breedte van de carousel */
+    width: 80%; /* Verklein de breedte van de carousel */
     margin: 0 auto; /* Centreer de carousel */
 }
 
@@ -111,44 +121,37 @@ h1, h2, h3, h4, h5, h6 {
     width: 5%; /* Stel de breedte van de pijltjes in */
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    width: 50px; /* Stel de breedte van de pijltjespictogrammen in */
-    height: 50px; /* Stel de hoogte van de pijltjespictogrammen in */
-    
-    
-    border: none; /* Verwijder de rand van de pijltjespictogrammen */
-    color: white; /* Stel de kleur van de pijltjespictogrammen in */
-    font-size: 24px; /* Stel de grootte van de pijltjespictogrammen in */
-    line-height: 50px; /* Centreer de pijltjespictogrammen verticaal */
-    text-align: center; /* Centreer de pijltjespictogrammen horizontaal */
-    cursor: pointer; /* Wijzig de cursor naar een wijzer */
-}
+
 
 /* Stijlen voor de carousel */
 .carousel {
-    width: 70%;
+    width: 95%;
     margin: 0 auto;
+    max-height: 800px;
 }
 
 .carousel-item img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 650px;
+    object-fit: cover;
+    
 }
 
 
 .carousel-control-prev {
-    margin-left: -15%; /* Verplaats de linker pijl naar links */
+    margin-left: 5%; /* Verplaats de linker pijl naar links */
+    
 }
 
 .carousel-control-next {
-    margin-right: -15%; /* Verplaats de rechter pijl naar rechts */
+    margin-right: 5%; /* Verplaats de rechter pijl naar rechts */
     
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); /* Verander de kleur van de pijltjes */
+    
+    z-index: 3;
 }
 
 

@@ -72,4 +72,51 @@ body {
     font-size: 14pt;
 }
 
-/* Typemachine effect */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Zorgt ervoor dat de afbeeldingen vanaf de bovenkant beginnen */
+    height: 100%;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    opacity: 1;
+    
+}
+
+.overlay p {
+    font-size: 24px;
+    font-family: "Roboto Slab";
+    text-decoration: none;
+}
+.overlay a{
+    text-decoration: none;
+    color: white;
+}
+
+.container:hover .background-container-stokerij img {
+    filter: brightness(0.7); /* Donkere tint bij hover */
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.background-container-stokerij img {
+    position: absolute;
+    top: 190px;
+    left: 30%;
+    width: 40%;
+    height: auto; 
+    object-fit: cover;
+    transition: filter 0.5s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 2);
+    background-color: rgba(0, 0, 0, 0.3); /* Donkere tint met 50% opaciteit */ 
+}
