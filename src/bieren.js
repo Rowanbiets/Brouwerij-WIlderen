@@ -155,17 +155,24 @@ function renderBeer(data, beer) {
   }
 }
 
+const beerNameTitle = document.getElementById("beerName");
+
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
     if (getParamBeer() > 0) {
+      // beerNameTitle.style.transform = "scaleX(0)";
+
       beer--;
       updateParams(getParamBeer() - 1);
       renderBeer(allBeer, getParamBeer());
       handleRadio();
+
     }
   });
   rightArrow.addEventListener("click", function () {
     if (getParamBeer() < allBeer.length - 1) {
+      // beerNameTitle.style.transform = "scaleX(0)";
+
       beer++;
       updateParams(getParamBeer() + 1);
       renderBeer(allBeer, getParamBeer());
