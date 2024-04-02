@@ -1,116 +1,88 @@
-// Import i18next and its plugins
-// import i18next from "./node_modules/i18next/dist/esm/i18next.bundled.js";
-// import i18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
-console.log("i18next initialized");
-
 import i18next from "i18next";
 import i18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
-// import fs from "fs";
-// import path from "path";
 
+// Import translations
 import enTranslations from "../docs/locales/en.json";
 import nlTranslations from "../docs/locales/nl.json";
 import frTranslations from "../docs/locales/fr.json";
-// Import other translations as needed
 
+import Swup from "swup";
+import SwupHeadPlugin from "@swup/head-plugin";
+
+const swup = new Swup({
+  plugins: [new SwupHeadPlugin()],
+});
+new SwupHeadPlugin({
+  awaitAssets: true,
+});
+
+// Define resources
 const resources = {
   en: { translation: enTranslations },
   nl: { translation: nlTranslations },
   fr: { translation: frTranslations },
-  // Add other languages here
 };
 
-// i18next configuration
-i18next
-  .use(i18nextBrowserLanguageDetector) // Automatically detect user's language
-  .init({
-    // Path to translation files (not used without backend extension)
-    // backend: {
-    //   loadPath: '/locales/{{lng}}/{{ns}}.json'
-    // },
-    // Default language
-    resources,
-    fallbackLng: "en",
-    // Debug mode
-    debug: true,
-  });
+// Initialize i18next with language detection
+i18next.use(i18nextBrowserLanguageDetector).init({
+  resources,
+  fallbackLng: "en",
+  debug: true,
+});
 
-function changeLanguage(lang, callback) {
-  i18next.changeLanguage(lang, callback);
-}
-
-// Function to update the DOM with translations
+// Function to update translations
 function updateTranslations() {
-  console.log(document.getElementById("production"));
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.getAttribute("data-i18n");
+    element.innerHTML = i18next.t(key);
+    
+  });
 
-// Nav
-  document.getElementById("production").innerHTML = i18next.t("nav.0");
-  document.getElementById("visit").innerHTML = i18next.t("nav.1");
-  document.getElementById("horeca").innerHTML = i18next.t("nav.2");
-  document.getElementById("fanpage").innerHTML = i18next.t("nav.3");
-  document.getElementById("contact").innerHTML = i18next.t("nav.4");
+  if(i18next.language === "nl") {
+    document.getElementById("toggle-lang-nl").classList.add("enabled")
+    document.getElementById("toggle-lang-en").classList.remove("enabled")
+    document.getElementById("toggle-lang-fr").classList.remove("enabled")
+  } else if(i18next.language === "en") {
+    document.getElementById("toggle-lang-nl").classList.remove("enabled")
+    document.getElementById("toggle-lang-en").classList.add("enabled")
+    document.getElementById("toggle-lang-fr").classList.remove("enabled")
+  } else if(i18next.language === "fr") {
+    document.getElementById("toggle-lang-nl").classList.remove("enabled")
+    document.getElementById("toggle-lang-en").classList.remove("enabled")
+    document.getElementById("toggle-lang-fr").classList.add("enabled")
+  }
 
-// Index
-document.getElementById("indexTitle").innerHTML = i18next.t("indexTitles.0");
-document.getElementById("indexSubtitle").innerHTML = i18next.t("indexSubtitle");
-document.querySelectorAll(".butt a").forEach((button) => {
-  const key = button.dataset.translationKey; // Get the translation key from data attribute
-  console.log(key);
-  console.log(document.querySelectorAll(".butt a"))
-  button.innerHTML = i18next.t(key);
-
-});
-console.log(resources)
-// setTimeout(() => {
-// console.log(document.querySelectorAll('[data-i18n]'));
-  
-// }, 1000);
-
-// document.addEventListener("DOMContentLoaded", function() {
-  setTimeout(() => {
-document.querySelectorAll('[data-i18n]').forEach(element => {
-  const key = element.getAttribute('data-i18n');
-  console.log(key);
-  // console.log(element);
-  element.textContent = i18next.t(key);
-});
-  }, 1000);
-
-document.getElementById("IndexBierenTitle").textContent = i18next.t("indexTitles.1");
-document.querySelectorAll(".image-title").forEach((title) => {
-  const key = title.dataset.translationKey; // Get the translation key from data attribute
-  title.textContent = i18next.t(key);
-});
-
-document.getElementById("openingsurenTitle").textContent = i18next.t("indexTitles.5");
-
-
-
+  // document.querySelector("enabled").style.backgroundColor = "red";
 }
-// en.translation[0].nav[0]
-// Wait for i18next initialization to complete
-i18next.init().then(() => {
-  // Update translations initially
-  updateTranslations();
 
-  // Add event listeners to language toggle buttons
-  document.getElementById("toggle-lang-nl").addEventListener("click", () => {
-    console.log("test");
+// Update translations initially
+updateTranslations();
 
-    changeLanguage("nl", () => {
-      updateTranslations(); // Update translations after language change
-    });
-  });
+// Add event listeners to language toggle buttons
+document.getElementById("toggle-lang-nl").addEventListener("click", () => {
+  i18next.changeLanguage("nl", updateTranslations);
+});
 
-  document.getElementById("toggle-lang-en").addEventListener("click", () => {
-    changeLanguage("en", () => {
-      updateTranslations(); // Update translations after language change
-    });
-  });
+document.getElementById("toggle-lang-en").addEventListener("click", () => {
+  i18next.changeLanguage("en", updateTranslations);
+});
 
-  document.getElementById("toggle-lang-fr").addEventListener("click", () => {
-    changeLanguage("fr", () => {
-      updateTranslations(); // Update translations after language change
-    });
-  });
+document.getElementById("toggle-lang-fr").addEventListener("click", () => {
+  i18next.changeLanguage("fr", updateTranslations);
+});
+
+// When the page loads or content is replaced by swup,
+// check if there's a language saved in local storage
+// If so, set i18next to use that language and update translations
+const applySavedLanguage = () => {
+  const savedLanguage = localStorage.getItem("i18nextLng");
+  if (savedLanguage) {
+    i18next.changeLanguage(savedLanguage, updateTranslations);
+
+  }
+};
+
+swup.hooks.on("page:view", () => {
+  console.warn("New page loaded:");
+  applySavedLanguage();
 });

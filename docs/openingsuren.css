@@ -11,13 +11,21 @@ table *,
 table {
   /* width: 80%; Verklein de breedte van de tabel naar 80% van de container */
   width: 100%; /* Maak de tabel 100% breed (zorg dat de bordeaux lijn over de volledige breedte spant) */
-  border-right: white solid 5px;
   color: black;
+}
+
+table:nth-child(1),
+table:nth-child(2) {
+  border-right: white solid 5px;
 }
 
 td,
 th {
   padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
+}
+
+th{
+  font-family: "Roboto Slab", serif;
 }
 
 .text-overlay {
@@ -51,7 +59,8 @@ th {
   border-bottom: 5px solid #af0000; /* Voeg een border toe aan de cellen */
   padding: 8px;
   text-align: center;
-  font-family: "Georgia", serif;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
   /* width: 100%; */
 }
 
@@ -79,7 +88,7 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd):not(:first-child) {
-  background-color: rgba(253, 195, 195, 0.678)
+  background-color: rgba(253, 195, 195, 0.678);
 }
 
 table#table3 {
@@ -90,8 +99,6 @@ td {
   width: 20%;
   font-weight: bolder;
 }
-
-
 
 #openingsuren {
   margin-top: 20px;
@@ -117,18 +124,14 @@ td {
     border-top: #8b0000 solid 5px;
   width: 100%;
   } */
-#table1 td:first-child,
-#table3 td:last-child {
-  width: 10%;
-  background-color: white;
-}
+
 #table3 td {
   font-size: smaller;
 }
 
 #table2 {
   /* text-align: right; */
-  width: 80%;
+  /* width: 80%; */
 }
 
 #klok {
@@ -139,3 +142,7 @@ td {
   transform: translate(-50%, -50%);
   margin-top: 20px;
 }
+#table1 > tbody > tr:nth-child(2), #table2 > tbody > tr:nth-child(2), #table3 > tbody > tr:nth-child(2) {
+background-image: linear-gradient(to bottom, #00000060, #9F2C2C, #9F2C2C);
+}
+

@@ -1,0 +1,1 @@
+document.addEventListener("swup:contentReplaced",(function(){console.error("swup:contentReplaced"),console.error("swup:contentReplaced")})),console.error("swup:contentReplaced");

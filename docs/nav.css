@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: "Oswald";
+  src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap');
+}
+
+
 :root {
   /* standaard kleuren voor nav, word aangestuurd via js indien nodig (--textcolor -> zwart bv)
   => voorkommen dat dit voor elk element appart moet aangepast worden
@@ -260,4 +267,15 @@ nav ul button:hover {
 #langButtons p {
   all: unset !important;
   color: var(--textColor) !important;
+}
+.enabled{
+  color: #ad9a64 !important;
+  border-bottom: #ad9a64 1px solid !important;
+}
+
+
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c31212 #282b2e;
 }

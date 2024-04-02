@@ -7,6 +7,7 @@ module.exports = {
     spirits: "./src/spirits.js",
     vroeger: "./src/vroeger.js",
     openingsuren: "./src/openingsuren.js",
+    swup: "./src/swup.js",
 
     // Add entries for other scripts as needed
   },

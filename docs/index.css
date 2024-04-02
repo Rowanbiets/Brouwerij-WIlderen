@@ -15,6 +15,10 @@ ul {
   padding: 0;
 }
 
+#IndexBierenTitle{
+  font-family: "oswald";
+}
+
 h1,
 h2,
 h3,
@@ -40,9 +44,11 @@ body {
 }
 
 .signature {
-  font-family: "Helvetica Neue", Raleway, sans-serif;
-  font-size: 24px;
+  /* font-family: "Helvetica Neue", Raleway, sans-serif; */
+font-family: "Caveat", cursive;
+  font-size: 32px;
   display: block;
+  color: #fbb117;
   margin-top: 10px;
 }
 
@@ -444,7 +450,4 @@ html {
   animation: downup alternate 20s infinite;
 }
 
-html {
-  scrollbar-width: thin;
-  scrollbar-color: #c31212 #282b2e;
-}
+

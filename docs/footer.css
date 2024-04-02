@@ -1,3 +1,12 @@
+footer a img{
+  margin-bottom: 0;
+}
+
+footer h4{
+  font-family: "Helvetica Neue", Raleway, sans-serif;
+  font-size: 16px;
+}
+
 footer {
   color: RGBA(255, 255, 255, 0.5);
   background-color: #282b2e;
@@ -5,7 +14,11 @@ footer {
   height: 300px;
   display: flex;
   justify-content: center;
-  /* margin-top: 300px; */
+  margin-top: 100px;
+}
+
+footer * {
+  box-sizing: unset !important;
 }
 
 .footerWrapper {

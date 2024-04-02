@@ -15,12 +15,17 @@
       href="WEBSITE/Logo/favicon_io (1)/favicon.ico"
       type="image/x-icon"
     />
+    <script type="module" src="translations.bundle.js"></script>
+    <script type="module" src="./swup.bundle.js"></script>
+    <link rel="stylesheet" href="swup.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
   <body>
     <header>
-      <div class="header-container blackNav">
+      <div class="header-container">
         <a href="index.html" class="logo-link"
           ><img
+            loading="lazy"
             src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png"
             alt="logo WIlderen"
             class="logo"
@@ -28,147 +33,230 @@
         <nav>
           <ul>
             <li>
-              <a href="#">Productie</a>
+              <a href="#" id="production"
+                >Productie
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
               <ul class="submenu1">
-                <li><a href="bieren.html">Bieren</a></li>
-                <li><a href="spirits.html">Spirits</a></li>
+                <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                <li>
+                  <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                    >Vroeger en nu</a
+                  >
+                </li>
               </ul>
             </li>
             <li>
-              <a href="#">Bezoek</a>
+              <a href="#" id="visit"
+                >Bezoek
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
               <ul class="submenu2">
-                <li><a href="cafe.html">Brouwerijcafé</a></li>
-                <li><a href="rondleiding.html">Rondleidingen</a></li>
-                <li><a href="picknick.html">Picknick</a></li>
-                <li><a href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
+                <li>
+                  <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.4" href="rondleiding.html"
+                    >Rondleidingen</a
+                  >
+                </li>
+                <li>
+                  <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                    >Brouwerijwinkel</a
+                  >
+                </li>
               </ul>
             </li>
-            <li><a href="horeca.html">Horeca</a></li>
-            <li><a href="fanpage.html">Fan-page</a></li>
+            <li><a id="horeca" href="horeca.html">Horeca</a></li>
+            <li><a id="fanpage" href="fanpage.html">Fan-page</a></li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#" id="contact"
+                >Contact
+
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+              /></a>
               <ul class="submenu3">
-                <li><a href="info.html">Info & Wilderen Team</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li>
+                  <a data-i18n="subMenu.7" href="info.html"
+                    >Info & Wilderen Team</a
+                  >
+                </li>
+                <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
               </ul>
+            </li>
+            <li id="langButtons">
+              <button id="toggle-lang-nl">NL</button>
+              <p>/</p>
+              <button id="toggle-lang-fr">FR</button>
+              <p>/</p>
+              <button id="toggle-lang-en">EN</button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <div class="container">
-      <h1 class="fade-in-title">SPIRITS</h1>
-      <div class="row">
-        <div class="col-md-4"
-        id="spirit1"
-        
-        >
-          <h3>Double You Gin</h3>
-          <a href="spiritsDisplay.html?spirit=double-you-gin">
-            <img
-              src="WEBSITE/Afbeeldingen voor website/Double You GIN Fles los.png"
-              alt="Bier 1"
-            />
-          </a>
-        </div>
-        <div class="col-md-4"
-        id="spirit2"
-        
-        >
-          <div class="lowered-image">
-            <h3>Double You Gin Vanille</h3>
-            <a href="spiritsDisplay.html?spirit=double-you-gin-vanille">
+    <main id="swup" class="transition-fade">
+      <div class="container">
+        <h1 class="fade-in-title">SPIRITS</h1>
+        <div class="row">
+          <div class="col-md-4" id="spirit1">
+            <div class="hideText">
+            <h3>Double You Gin</h3>
+          </div>
+            <a href="spiritsDisplay.html?spirit=double-you-gin">
               <img
-                src="WEBSITE/Double You Vintage Vanilla/Vintage-Vanilla-fles-transparant.png"
-                alt="Bier 2"
+                src="WEBSITE/Afbeeldingen voor website/Double You GIN Fles los.png"
+                alt="Bier 1"
+              />
+            </a>
+          </div>
+          <div class="col-md-4" id="spirit2">
+            <div class="lowered-image">
+              <div class="hideText">
+                <h3>Double You Gin <br> <small> Vintage Vanilla</small></h3>
+              </div>
+              <a href="spiritsDisplay.html?spirit=double-you-gin-vanille">
+                <img
+                  src="WEBSITE/Double You Vintage Vanilla/Vintage-Vanilla-fles-transparant.png"
+                  alt="Bier 2"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4" id="spirit3">
+            <div class="hideText">
+              <h3>Ocus Organic Gin</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=ocus-organic-gin"
+              ><img src="WEBSITE/ocusgin/image002.png" alt="spirit3"
+            /></a>
+          </div>
+        </div>
+        <div class="shelf">
+          <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
+        </div>
+        <div class="row">
+          <div class="col-md-4" id="spirit4">
+            <div class="hideText">
+              <h3>Omerta Rum Liquor </h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=omerta-rum-liquor"
+              ><img src="WEBSITE/Omerta Rum/Omerta on White.png" alt="Bier 4"
+            /></a>
+          </div>
+          <div class="col-md-4" id="spirit5">
+            <div class="hideText">
+              <h3>Omerta Black Magnum Edition</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=omerta-black-magnum"
+              ><img src="WEBSITE/Omerta Rum/Omerta Black voor.png" alt="Bier 5"
+            /></a>
+          </div>
+
+          <div id="spirit6" class="col-md-4">
+            <div class="hideText">
+              <h3>Wild Weasel Whisky</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=wild-weasle-whiskey">
+              <img
+                src="WEBSITE/Wild Weasel/Wild Weasel products.png"
+                alt="Bier 6"
               />
             </a>
           </div>
         </div>
-        <div class="col-md-4"
-        id="spirit3"
-        >
-          <h3>Ocus Gin</h3>
-          <a href="spiritsDisplay.html?spirit=ocus-organic-gin"
-            ><img src="WEBSITE/ocusgin/image002.png" alt="spirit3"
-          /></a>
+        <div class="shelf">
+          <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
+        </div>
+        <div class="row">
+          <div class="col-md-4" id="spirit7">
+            <div class="hideText">
+              <h3>Wiggle Red Fruits Apéro</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=wiggle-red-fruits-apero">
+              <img src="WEBSITE/Wiggle/Red fruits fles vlak.png" alt="Bier 7" />
+            </a>
+          </div>
+          <div class="col-md-4" id="spirit8">
+            <div class="hideText">
+              <h3>Wilderen Graanjenever</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=wilderen-graanjenever">
+              <img
+                src="WEBSITE/Wilderen graanjenever/Graanjenever.png"
+                alt="Bier 8"
+              />
+            </a>
+          </div>
+          <div class="col-md-4" id="spirit9">
+            <div class="hideText">
+              <h3>Eau de Bière</h3>
+            </div>
+            <a href="spiritsDisplay.html?spirit=eau-de-biere">
+              <img
+                src="WEBSITE/Eau de BiŠre/Eau-de-biere-500x710.png"
+                alt="Bier 9"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="shelf">
+          <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
         </div>
       </div>
-      <div class="shelf">
-        <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
-      </div>
-      <div class="row">
-        <div class="col-md-4"
-        id="spirit4"
-        
-        >
-          <h3>Omerta Rum</h3>
-          <a href="spiritsDisplay.html?spirit=omerta-rum-liquor"
-            ><img
-              src="WEBSITE/Omerta Rum/Omerta on White.png"
-              alt="Bier 4"
-          /></a>
-        </div>
-        <div class="col-md-4" id="spirit5">
-          <h3>Omerta Black Magnum</h3>
-          <a href="spiritsDisplay.html?spirit=omerta-black-magnum"
-            ><img src="WEBSITE/Omerta Rum/Omerta Black voor.png" alt="Bier 5"
-          /></a>
-        </div>
+      <img
+        id="backgroundShelf"
+        src="WEBSITE/extra afbeeldingen/Brouwerij-Wilderen-Rondleiding-Maart-2024-WEB-031.jpg"
+        alt=""
+      />
+    </main>
 
-        <div id="spirit6" class="col-md-4">
-          <h3>Wild Weasel Whiskey</h3>
-          <a href="spiritsDisplay.html?spirit=wild-weasle-whiskey">
-            <img
-              src="WEBSITE/Wild Weasel/Wild Weasel products.png"
-              alt="Bier 6"
-            />
-          </a>
+    <footer>
+      <div class="footerWrapper">
+        <div class="topFooter">
+          <div class="logoContainer">
+            <a href="index.html">
+              <img
+                loading="lazy"
+                src="WEBSITE/Logo/Wilderen Logo 2020.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="socialeMedia">
+            <h4>Ontdek meer over ons</h4>
+            <a href="https://www.facebook.com/BrouwerijW/">
+              <img
+                loading="lazy"
+                src="WEBSITE/svg/facebook.svg"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+              <img
+                loading="lazy"
+                src="WEBSITE/svg/instagram.svg"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="bottomFooter">
+          <div class="leftBottom">
+            <p>Brouwerij Wilderen - extra info</p>
+          </div>
+          <div class="rightBottom">
+            <a href="">Sitemap</a>
+            <a href="">Privacy</a>
+          </div>
         </div>
       </div>
-      <div class="shelf">
-        <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
-      </div>
-      <div class="row">
-        <div class="col-md-4" id="spirit7">
-          <h3>Wiggle Red Fruits Apero</h3>
-          <a href="spiritsDisplay.html?spirit=wiggle-red-fruits-apero">
-            <img src="WEBSITE/Wiggle/Red fruits fles vlak.png" alt="Bier 7" />
-          </a>
-        </div>
-        <div class="col-md-4"
-        id="spirit8"
-        
-        >
-          <h3>Wilderen Graanjenever</h3>
-          <a href="spiritsDisplay.html?spirit=wilderen-graanjenever">
-            <img
-              src="WEBSITE/Wilderen graanjenever/Graanjenever.png"
-              alt="Bier 8"
-            />
-          </a>
-        </div>
-        <div class="col-md-4"
-        id="spirit9"
-        
-        >
-          <h3>Eau de Bière</h3>
-          <a href="spiritsDisplay.html?spirit=eau-de-biere">
-            <img
-              src="WEBSITE/Eau de BiŠre/Eau-de-biere-500x710.png"
-              alt="Bier 9"
-            />
-          </a>
-        </div>
-      </div>
-      <div class="shelf">
-        <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
-      </div>
-    </div>
-    <!-- <img
-      id="backgroundShelf"
-      src="WEBSITE/extra afbeeldingen/Brouwerij-Wilderen-Rondleiding-Maart-2024-WEB-031.jpg"
-      alt=""
-    /> -->
+    </footer>
   </body>
 </html>

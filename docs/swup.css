@@ -1,0 +1,11 @@
+/* Define a transition duration during page visits */
+html.is-changing .transition-fade {
+    transition: all 0.5s;
+    opacity: 1;
+
+  }
+  /* Define the styles for the unloaded pages */
+  html.is-animating .transition-fade {
+    transform: translateY(-50px);
+    opacity: 0;
+  }

@@ -15,6 +15,10 @@
       href="WEBSITE/Logo/favicon_io (1)/favicon.ico"
       type="image/x-icon"
     />
+    <script src="translations.bundle.js"></script>
+    <script type="module" src="./swup.bundle.js"></script>
+    <link rel="stylesheet" href="swup.css">
+    <link rel="stylesheet" href="footer.css">
   </head>
   <body>
     <header>
@@ -63,14 +67,19 @@
         </nav>
       </div>
     </header>
-
+<main id="swup" class="transition-fade">
     <div class="container">
       <div class="titleBieren">
         <h2>Bieren</h2>
       </div>
       <div class="row mb-4">
         <div class="col-md-3" id="tripel-kanunnik">
-          <!-- <h3>Tripel Kanunnik</h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>Tripel Kanunnik</h3>
+          <div   class="hider right rightReveal"></div>
+
+        </div>
           <a href="bierenDisplay.html?beer=tripel-kanunnik"
             ><img
               src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik/Tripel Kanunnik fleske en glas no backgr.png"
@@ -79,19 +88,35 @@
         </div>
 
         <div class="col-md-3" id="wilderen-goud">
-          <div class="lowered-image">
             <!-- <h3>Wilderen Goud</h3> -->
+
+
+            <div class="hideText">
+              <div class="hider left leftReveal"></div>
+            <h3>Wilderen Goud</h3>
+            <div   class="hider right rightReveal"></div>
+  
+          </div>
+
             <a href="bierenDisplay.html?beer=wilderen-goud"
               ><img
                 src="WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png"
                 alt="Bier 2"
             /></a>
-          </div>
         </div>
 
         <div class="col-md-3" id="kriek">
           <!-- <h3>Wilderen Kriek</h3> -->
 
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>Wilderen Kriek</h3>
+          <div   class="hider right rightReveal"></div>
+
+        </div>
+
+
+          
           <a href="bierenDisplay.html?beer=kriek">
             <img
               src="WEBSITE/Wilderen Kriek/Kriek/Kriek fleske en glas no backgr.png"
@@ -100,7 +125,12 @@
         </div>
         <div class="col-md-3" id="betty-ford">
           <!-- <h3>Betty Ford</h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>Betty Ford</h3>
+          <div   class="hider right rightReveal"></div>
 
+        </div>
           <a href="bierenDisplay.html?beer=betty-ford">
             <img
               src="WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png"
@@ -115,7 +145,12 @@
       <div class="row mt-5">
         <div class="col-md-3" id="cuvee-clarisse">
           <!-- <h3>Cuvee Clarisse</h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>Cuvée Clarisse</h3>
+          <div   class="hider right rightReveal"></div>
 
+        </div>
           <a href="bierenDisplay.html?beer=cuvee-clarisse"
             ><img
               src="WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse/Cuvee Clarisse fleske en glas no backgr.png"
@@ -128,10 +163,15 @@
             <br />
             whiskey-infused -->
           <!-- </h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>Cuvée Clarisse <br> <small>whiskey-infused</small></h3>
+          <div   class="hider right rightReveal"></div>
 
+        </div>
           <a href="bierenDisplay.html?beer=whiskey-infused">
             <img
-              style="margin-top: -10px"
+              style="margin-top: -30px"
               src="WEBSITE/Afbeeldingen voor website/CC Whisky inf flesje.png"
               alt="Bier 5"
           /></a>
@@ -143,16 +183,27 @@
             <br />
             rum-infused -->
           <!-- </h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+            <h3>Cuvée Clarisse <br> <small>rum-infused</small> </h3>
+            <div   class="hider right rightReveal"></div>
 
+        </div>
           <a href="bierenDisplay.html?beer=rum-infused">
-            <img
+            <img 
+            style="margin-top: -30px"
+
               src="WEBSITE/teamfotos/CC Rum inf new bottle 2023-B.png"
               alt="Bier 6"
           /></a>
         </div>
         <div class="col-md-3" id="clarrise-rouge">
-          <!-- <h3>Clarisse Rouge</h3> -->
+          <div class="hideText">
+            <div class="hider left leftReveal"></div>
+          <h3>clarrise Rouge</h3>
+          <div   class="hider right rightReveal"></div>
 
+        </div>
           <a href="bierenDisplay.html?beer=clarrise-rouge">
             <img
               src="WEBSITE/Afbeeldingen voor website/Clarisse Rouge pint visueel.png"
@@ -160,9 +211,7 @@
           /></a>
         </div>
       </div>
-      <div class="shelf bottom">
-        <!-- <img src="WEBSITE/shelf-display.jpg" alt="" /> -->
-      </div>
+
     </div>
 
     <!-- <img
@@ -170,5 +219,58 @@
       src="WEBSITE/extra afbeeldingen/Brouwerij-Wilderen-Rondleiding-Maart-2024-WEB-031.jpg"
       alt=""
     /> -->
+  </main>
+  
+
+
+
+
+
+  <!-- ---HTML voor de footer--- -->
+
+
+  <footer>
+        <div class="footerWrapper">
+          <div class="topFooter">
+            <div class="logoContainer">
+              <a href="index.html">
+                <img
+                  loading="lazy"
+                  src="WEBSITE/Logo/Wilderen Logo 2020.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="socialeMedia">
+              <h4>Ontdek meer over ons</h4>
+              <a href="https://www.facebook.com/BrouwerijW/">
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/facebook.svg"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/instagram.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="bottomFooter">
+            <div class="leftBottom">
+              <p>Brouwerij Wilderen - extra info</p>
+            </div>
+            <div class="rightBottom">
+              <a href="">Sitemap</a>
+              <a href="">Privacy</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+  
   </body>
 </html>
