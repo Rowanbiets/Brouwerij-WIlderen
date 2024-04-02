@@ -8,10 +8,16 @@ table *,
   margin: 0;
 }
 
+th{
+  color: #8b0000;
+  text-shadow: none;
+}
+
 table {
   /* width: 80%; Verklein de breedte van de tabel naar 80% van de container */
   width: 100%; /* Maak de tabel 100% breed (zorg dat de bordeaux lijn over de volledige breedte spant) */
-  color: black;
+  color: white;
+  text-shadow: rgb(40, 40, 40) 1px 1px 2px;
 }
 
 table:nth-child(1),
@@ -72,19 +78,25 @@ th:last-child {
 
 #extraInfo {
   /* position: absolute; */
-  margin-top: 200px;
-  margin-left: 250px;
+  /* margin-top: 200px;
+  margin-left: 250px; */
   background-color: #8b0000;
   padding: 20px;
   font-family: "Roboto Slab";
   color: white;
   width: fit-content;
+  line-height: 1.5;
   margin-bottom: 200px;
+  font-size: 18px;
   border-radius: 10px;
+/* margin-left: 300px; */
+margin-left: 15%;
+
+filter: drop-shadow(0px 0px 5px #000000);
 }
 
 tr:nth-child(even) {
-  background-color: rgba(139, 0, 0, 0.829);
+  background-color: #8B0000
 }
 
 tr:nth-child(odd):not(:first-child) {
@@ -140,9 +152,22 @@ td {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 20px;
+margin-top: -10px;
 }
 #table1 > tbody > tr:nth-child(2), #table2 > tbody > tr:nth-child(2), #table3 > tbody > tr:nth-child(2) {
 background-image: linear-gradient(to bottom, #00000060, #9F2C2C, #9F2C2C);
 }
 
+.tableExtraInfoContainer{
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  gap: 73px;
+  /* margin-top: 20px; */
+  flex-direction: column;
+}
+
+.openingHoursContainer{
+  margin-top: 100px;
+}

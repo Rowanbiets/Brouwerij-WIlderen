@@ -8,49 +8,90 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="nav.css">
-
+<script type="module" src="email.bundle.js"></script>
     <link rel="icon" href="WEBSITE/Logo/favicon_io (1)/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <a href="index.html" class="logo-link"><img src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png" alt="logo WIlderen" class="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="#">Productie</a>
-                        <ul class="submenu1">
-                            <li><a href="bieren.html">Bieren</a>
-                               
-                            </li>
-                            <li><a href="spirits.html">Spirits</a>
-                            </li>
-                            <li><a href="vroeger&nu.html">Vroeger en nu</a>
-                            
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Bezoek</a>
-                        <ul class="submenu2">
-                            <li><a href="cafe.html">Brouwerijcafé</a> </li>
-                            <li><a href="rondleiding.html">Rondleidingen</a> </li>
-                            <li><a href="picknick.html">Picknick</a></li>
-                            <li><a href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
-                           
-                        </ul>
-                    </li>
-                    <li><a href="horeca.html">Horeca</a></li>
-                    <li><a href="fanpage.html">Fan-page</a></li>
-                    <li><a href="#">Contact</a>
-                        <ul class="submenu3">
-                            <li><a href="info.html">Info & Wilderen Team</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </li>
+          <a href="index.html" class="logo-link"
+            ><img
+              loading="lazy"
+              src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png"
+              alt="logo WIlderen"
+              class="logo"
+          /></a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" id="production"
+                  >Productie
+                  <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+                /></a>
+                <ul class="submenu1">
+                  <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                  <li>
+                    <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                  </li>
+                  <li>
+                    <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                      >Vroeger en nu</a
+                    >
+                  </li>
                 </ul>
-            </nav>
+              </li>
+              <li>
+                <a href="#" id="visit"
+                  >Bezoek
+                  <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+                /></a>
+                <ul class="submenu2">
+                  <li>
+                    <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                  </li>
+                  <li>
+                    <a data-i18n="subMenu.4" href="rondleiding.html"
+                      >Rondleidingen</a
+                    >
+                  </li>
+                  <li>
+                    <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                  </li>
+                  <li>
+                    <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                      >Brouwerijwinkel</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a id="horeca" href="horeca.html">Horeca</a></li>
+              <li><a id="fanpage" href="fanpage.html">Fan-page</a></li>
+              <li>
+                <a href="#" id="contact"
+                  >Contact
+  
+                  <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
+                /></a>
+                <ul class="submenu3">
+                  <li>
+                    <a data-i18n="subMenu.7" href="info.html"
+                      >Info & Wilderen Team</a
+                    >
+                  </li>
+                  <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
+                </ul>
+              </li>
+              <li id="langButtons">
+                <button id="toggle-lang-nl">NL</button>
+                <p>/</p>
+                <button id="toggle-lang-fr">FR</button>
+                <p>/</p>
+                <button id="toggle-lang-en">EN</button>
+              </li>
+            </ul>
+          </nav>
         </div>
-        
-    </header>
+      </header>
     
 
     <section class="brouwerij-section">
@@ -125,25 +166,27 @@
         
         <div class="contact-form">
             <h3>Interesse? Vul het contactformulier in:</h3>
-            <form action="#" method="POST">
+            <form >
                 <div class="form-group">
                     <label for="interest">Ik heb interesse in:</label>
                     <input type="text" id="interest" name="interest" placeholder="Type hier...">
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                     <label for="name">Naam:</label>
                     <input type="text" id="name" name="name" placeholder="Jouw naam...">
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail:</label>
                     <input type="email" id="email" name="email" placeholder="Jouw e-mailadres...">
-                </div>
+                </div> -->
                 <div class="form-group">
                     <label for="message">Bericht:</label>
                     <textarea id="message" name="message" placeholder="Jouw bericht..."></textarea>
                 </div>
-               <a href="olivier@brouwerijwilderen.be"><button type="submit">Verstuur</button></a>
+<button id="sendEmail" type="submit"> Verstuur </button>
             </form>
+            <!-- <p><inp id="sendEmail">Verstuur</inp></p> -->
+
         </div>
         
     </section>

@@ -2,13 +2,12 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    translations: "./src/translations.js",
+    index: "./src/index.js",
     bieren: "./src/bieren.js",
     spirits: "./src/spirits.js",
     vroeger: "./src/vroeger.js",
     openingsuren: "./src/openingsuren.js",
-    swup: "./src/swup.js",
-
+    email: "./src/email.js",
     // Add entries for other scripts as needed
   },
   output: {
@@ -29,30 +28,6 @@ module.exports = {
           },
         },
       },
-
-
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"], // Use style-loader and css-loader for CSS files
-      },
-
-      {
-        test: /\.html$/,
-        use: ["html-loader"], // Use html-loader for HTML files
-      },
-{
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
-use: [
-  {
-    loader: 'file-loader',
-    options:{
-outputPath: 'images',
-    }
-  }
-],
-      }
-
-
     ],
   },
 };

@@ -1,0 +1,1 @@
+document.querySelector("form").addEventListener("submit",(function(e){e.preventDefault(),console.log("Form submitted");var o=document.getElementById("interest").value,t=document.getElementById("message").value,n="mailto:olivier@brouwerijwilderen.be?subject="+encodeURI(o)+"&body="+encodeURIComponent(t);window.location.href=n,console.log("Email sent")}));

@@ -1,0 +1,9 @@
+<!-- ---Wrap this around the part of the html that needs to be transition --- -->
+                             <!-- --- e.g. not the nav and footer --- -->
+<!-- --- Add class for specific page in case of new script (see hooks in src/index.js) --- -->
+
+
+    <main id="swup" class="transition-fade">
+
+                <!-- --- main content --- -->
+</main>
