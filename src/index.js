@@ -7,17 +7,15 @@
 // #               _| |_| | | | (_| |  __/>  < | |__| |____) |              #
 // #              |_____|_| |_|\__,_|\___/_/\_(_)____/|_____/               #
 // #                                                                        #
-// #       Global script that handles translations and SWUP transitions     #
+// #       Global script that handles translations, SWUP transitions        #
+// #                   and code for responsiveness (nav)                    #
+// #                                                                        #
 // #                   I18Next: https://www.i18next.com/                    #
 // #                   SWUP: https://v3.swup.js.org/                        #
 // #                                                                        #
 // #                         [-> npm install ]                              #
 // #                                                                        #
 //  ________________________________________________________________________
-
-
-
-
 
 // SWUP -> page:view event trigger every time a new page is loaded
 
@@ -134,20 +132,55 @@ swup.hooks.on("page:view", () => {
   applySavedLanguage();
 });
 
-function indexSlideShow(){
-    document.querySelector(".overlay").classList.add("show");
+function indexSlideShow() {
+  document.querySelector(".overlay").classList.add("show");
 
+  var images = [
+    "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
+    "WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg ",
+  ]; // Voeg hier de paden toe van de afbeeldingen die je wilt laten zien
+  var currentImageIndex = 0;
+  var slideshowImage = document.getElementById("slideshow-image");
 
-
-    var images = [
-      "WEBSITE/Wilderen/Wilderen Sfeerbeeld.jpg",
-      "WEBSITE/Brouwerijcaf‚/Geestrijk-4138-0811.jpg ",
-    ]; // Voeg hier de paden toe van de afbeeldingen die je wilt laten zien
-    var currentImageIndex = 0;
-    var slideshowImage = document.getElementById("slideshow-image");
-
-    setInterval(function () {
-      currentImageIndex = (currentImageIndex + 1) % images.length;
-      slideshowImage.src = images[currentImageIndex];
-    }, 10000); // Verander elke 10 seconden (10000 milliseconden)
+  setInterval(function () {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    slideshowImage.src = images[currentImageIndex];
+  }, 10000); // Verander elke 10 seconden (10000 milliseconden)
 }
+
+function hamburgerToggle() {
+  document
+    .querySelector("#toggleHamburgerMenu")
+    .addEventListener("click", () => {
+      document.querySelector(".hamburger").classList.toggle("showHamburger");
+      const hamburgerLines = document.querySelectorAll(
+        "#toggleHamburgerMenu > span"
+      );
+      hamburgerLines.forEach((line) => {
+        line.classList.toggle("activeLine");
+      });
+
+      hamburgerLines[0].classList.toggle("activeLine1");
+      hamburgerLines[1].classList.toggle("activeLine2");
+      hamburgerLines[2].classList.toggle("activeLine3");
+
+      console.log("hamburgerToggle");
+    });
+
+  const hamButtons = document.querySelectorAll(".hamButton");
+
+  hamButtons[0].addEventListener("click", () => {
+    document.querySelector(".hamul1").classList.toggle("active");
+    hamButtons[0].classList.toggle("active");
+  });
+  hamButtons[1].addEventListener("click", () => {
+    document.querySelector(".hamul2").classList.toggle("active");
+    hamButtons[1].classList.toggle("active");
+  });
+
+  hamButtons[2].addEventListener("click", () => {
+    document.querySelector(".hamul3").classList.toggle("active");
+    hamButtons[2].classList.toggle("active");
+  });
+}
+hamburgerToggle();

@@ -1,9 +1,7 @@
-
 @font-face {
   font-family: "Oswald";
-  src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap");
 }
-
 
 :root {
   /* standaard kleuren voor nav, word aangestuurd via js indien nodig (--textcolor -> zwart bv)
@@ -45,8 +43,8 @@ ul {
 }
 
 .logo {
-  width: 120px; /* Adjust logo size */
-  height: auto;
+  width: 150px; /* Adjust logo size */
+  /* height: auto; */
   /* object-fit: fill; */
 }
 
@@ -204,7 +202,7 @@ nav ul ul li a:hover {
 
 li a {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: row;
 }
@@ -225,7 +223,8 @@ ul li img {
   transform: rotate(-90deg);
 }
 
-ul li:hover img {
+ul li:hover img,
+.hamburgerNavContent > a:hover img {
   transform: rotate(0deg);
   /* transform: translateY(5px); */
 }
@@ -268,14 +267,293 @@ nav ul button:hover {
   all: unset !important;
   color: var(--textColor) !important;
 }
-.enabled{
+.enabled {
   color: #ad9a64 !important;
   border-bottom: #ad9a64 1px solid !important;
 }
 
-
-
 html {
   scrollbar-width: thin;
   scrollbar-color: #c31212 #282b2e;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none !important;
+  }
+}
+
+#toggleHamburgerMenu {
+  all: unset;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#toggleHamburgerMenu:focus {
+  outline: none;
+}
+
+.hamburger {
+  position: fixed;
+  width: 100vw;
+  /* transform: scaleX(0); */
+  transform: translateX(100%);
+  transform-origin: right;
+  z-index: 10;
+  /* transform-origin: bottom; */
+  /* width: 50px;
+  height: 50px; */
+  display: flex;
+  /* margin-top: 20px; */
+  top: 0;
+  /* justify-content: flex-end; */
+  flex-direction: column;
+  align-items: flex-end;
+  transition: all 0.3s;
+}
+
+#toggleHamburgerMenu img {
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburgerNav {
+  z-index: 10;
+  height: 100vh;
+  width: 50vw;
+  background-color: white;
+  transition: all 1s;
+  overflow-y: scroll;
+}
+
+@media (max-width: 500px) {
+  .hamburgerNav {
+    width: 100vw;
+  }
+}
+
+.topHamburgerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+}
+
+.topHamburgerContainer img {
+  width: 150px;
+  /* height: 100px; */
+  margin-right: 20px;
+  /* object-fit: cover; */
+}
+
+.hamburgerLogoContainer {
+  /* background-color: red; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.showHamburger {
+  /* width: 100vw; */
+  /* transform: scaleX(1); */
+  transform: translateX(0%);
+}
+
+#toggleHamburgerMenu span {
+  /* stroke: #fff ;
+  stroke-width: 2px; */
+  background-color: rgb(255, 255, 255);
+  width: 50px !important;
+  height: 5px !important;
+  margin-top: 10px;
+  display: block;
+}
+
+.activeLine1 {
+  /* transform: rotate(45deg) translate(7px, 7px); */
+  transform: rotate(45deg) translate(-2px, -1px);
+}
+
+/* .activeLine2 {
+  transform: scaleX(0);
+} */
+
+.activeLine3 {
+  /* transform: rotate(-45deg) translate(7px, -7px); */
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+span {
+  transition: all 0.3s;
+}
+
+#toggleHamburgerMenu > span:nth-child(1) {
+  transform-origin: 0% 0%;
+  /* background-color: red !important; */
+}
+#toggleHamburgerMenu > span:nth-child(3) {
+  transform-origin: 0% 100%;
+}
+
+.activeLine2 {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+.hamburgerNavContent {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: 100%;
+  /* background-color: red; */
+  /* z-index: 100; */
+}
+
+.submenuSet {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  /* height: 500px; */
+  /* max-height: 50px; */
+  /* height: 50px; */
+  overflow-y: hidden;
+  /* background-color: red; */
+  transition: all 0.5s !important;
+}
+
+ul {
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+
+  height: 0;
+  width: 80%;
+  transition: all 0.5s !important;
+  border-bottom: #282b2e57 0.5px solid;
+}
+
+/* ul a{
+  display: none;
+} */
+
+a.open {
+  display: flex;
+}
+
+.submenuSet.open {
+  max-height: 100px;
+  /* transform: scaleY(100px); */
+}
+
+.submenuSet.open > ul > a {
+  display: flex;
+}
+
+ul.active {
+  /* display: block; */
+  height: 100px;
+}
+
+.hamburgerNavContent > a,
+.submenuSet > button {
+  all: unset;
+  color: black !important;
+  font-size: 28px;
+  /* text-align: center; */
+  width: 80%;
+  /* padding: 20px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Oswald";
+}
+
+.hamburgerNavContent > a {
+  border-bottom: #282b2e57 0.5px solid;
+}
+
+li {
+  list-style: none;
+}
+
+.submenuSet > button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburgerNavContent h3 {
+  margin-top: 50px;
+  color: #282b2e;
+}
+
+li a {
+  color: #282b2e !important;
+  align-items: left;
+  text-align: left;
+  font-family: "oswald";
+}
+
+.hamButton.active {
+  color: #ad9a64 !important;
+}
+
+.socialeMedia img {
+  width: 40px;
+  height: 40px;
+  /* background-color: #3e4043; */
+  padding: 8px;
+  /* margin: 20px; */
+  /* border-radius: 50px; */
+}
+
+.socialeMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+  /* gap: 50px; */
+  /* flex-wrap: wrap; */
+  width: 100%;
+  flex-direction: column;
+  /* flex-direction: column; */
+}
+
+.socialeMedia a {
+  transition: all 0.3s;
+}
+
+.socialeMedia a:hover {
+  background-color: #ddae71;
+}
+
+.socialeMedia a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  border-radius: 100%;
+  background-color: #3e4043;
+}
+
+.socialeMediaLinks {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
 }
