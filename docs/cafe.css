@@ -123,11 +123,6 @@
 
 
 
-/* TABEL OPENING */
-
-
-/* TABEL OPENING EINDE*/
-
 /* CAROUSEL */
 
 .carousel-container {
@@ -201,3 +196,51 @@
     z-index: 3;
 }
 
+@media only screen and (max-width: 768px) {
+    /* Pas de stijlen aan voor schermen kleiner dan 768px breed */
+    .text-overlay {
+        top: 70%; /* Pas de positie van de overlay aan */
+        left: 10px;
+     
+    }
+
+    .text-overlay p{
+       width:max-content;
+    }
+    .picknick img {
+        width: 100%; /* Maak de afbeelding volledige breedte */
+        margin-bottom: 10px; /* Verklein de ruimte onder de afbeelding */
+    }
+
+    .picknick h2 {
+        max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
+        margin-left: 10; /* Verwijder de linkermarge */
+        text-align: left;
+    }
+    
+    .picknick p {
+        max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
+        margin-left: 10; /* Verwijder de linkermarge */
+        text-align: left;
+    }
+
+    .picknick {
+        flex-direction: column;
+    }
+    
+    .picknick img {
+        margin-top: 20px; /* Voeg wat ruimte toe boven de afbeelding */
+    }
+    .book-now{
+    
+        background-color:#c31212;
+        color: #fff;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: "Roboto-Slab";
+        margin-left: 50%;
+    }
+}

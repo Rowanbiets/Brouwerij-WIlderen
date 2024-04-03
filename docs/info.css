@@ -118,8 +118,36 @@ body {
   max-height: 50%;
 }
 
+
+/* Mediaquery voor mobiele apparaten */
+@media (max-width: 767px) {
+  .info {
+    margin-left: 0; /* Voorkom extra marge aan de linkerkant */
+    margin-right: 0; /* Voorkom extra marge aan de rechterkant */
+  }
+
+  .info-details h3,
+  .info-details p {
+    margin-left: 0; /* Voorkom extra marge aan de linkerkant */
+  }
+
+  .titleW h1 {
+    margin-left: 0; /* Voorkom extra marge aan de linkerkant */
+    width: 100%; /* Neemt volledige breedte in beslag */
+  }
+
+  .column {
+    width: 50%; /* Neemt volledige breedte in beslag */
+    margin-left: 0; /* Voorkom extra marge aan de linkerkant */
+  }
+
+  .card img {
+    max-height: 100%; /* Afbeelding neemt volledige hoogte in beslag */
+  }
+}
+
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
   .column {
     width: 100%;
     display: block;
