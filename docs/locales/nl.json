@@ -3,7 +3,7 @@
   "subMenu": [
     "Bieren",
     "Spirits",
-    "Vroeger en nu",
+    "Vroeger & nu",
     "Brouwerijcafé",
     "Rondleidingen",
     "Picknick",
@@ -61,5 +61,7 @@
     }
   ],
   "tableExtraInfo": [],
-  "footer": []
+  "footer": [
+    "ontdek meer over ons"
+  ]
 }

@@ -8,7 +8,7 @@
 
 
 
-<header>
+    <header>
       <div class="header-container">
         <a href="index.html" class="logo-link"
           ><img
@@ -21,7 +21,7 @@
           <ul>
             <li>
               <a href="#" id="production"
-                >Productie
+              data-i18n="nav.0"   >Productie
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu1">
@@ -38,7 +38,7 @@
             </li>
             <li>
               <a href="#" id="visit"
-                >Bezoek
+               data-i18n="nav.1" >Bezoek
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu2">
@@ -60,29 +60,29 @@
                 </li>
               </ul>
             </li>
-            <li><a id="horeca" href="horeca.html">Horeca</a></li>
-            <li><a id="fanpage" href="fanpage.html">Fan-page</a></li>
+            <li><a data-i18n="nav.2" id="horeca" href="horeca.html">Horeca</a></li>
+            <li><a data-i18n="nav.3" id="fanpage" href="fanpage.html">Fan-page</a></li>
             <li>
               <a href="#" id="contact"
-                >Contact
+              data-i18n="nav.4"  >Contact
 
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu3">
                 <li>
                   <a data-i18n="subMenu.7" href="info.html"
-                    >Info & Wilderen Team</a
+                    >Info &amp Wilderen Team</a
                   >
                 </li>
                 <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
               </ul>
             </li>
-            <li id="langButtons">
-              <button id="toggle-lang-nl">NL</button>
+            <li class="langButtons">
+              <button class="toggle-lang-nl">NL</button>
               <p>/</p>
-              <button id="toggle-lang-fr">FR</button>
+              <button class="toggle-lang-fr">FR</button>
               <p>/</p>
-              <button id="toggle-lang-en">EN</button>
+              <button class="toggle-lang-en">EN</button>
             </li>
           </ul>
         </nav>

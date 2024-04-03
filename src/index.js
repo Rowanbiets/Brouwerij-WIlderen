@@ -84,19 +84,61 @@ function updateTranslations() {
     element.innerHTML = i18next.t(key);
   });
 
-  if (i18next.language === "nl") {
-    document.getElementById("toggle-lang-nl").classList.add("enabled");
-    document.getElementById("toggle-lang-en").classList.remove("enabled");
-    document.getElementById("toggle-lang-fr").classList.remove("enabled");
-  } else if (i18next.language === "en") {
-    document.getElementById("toggle-lang-nl").classList.remove("enabled");
-    document.getElementById("toggle-lang-en").classList.add("enabled");
-    document.getElementById("toggle-lang-fr").classList.remove("enabled");
-  } else if (i18next.language === "fr") {
-    document.getElementById("toggle-lang-nl").classList.remove("enabled");
-    document.getElementById("toggle-lang-en").classList.remove("enabled");
-    document.getElementById("toggle-lang-fr").classList.add("enabled");
+
+
+  const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
+  const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
+  const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
+
+  if(i18next.language === "nl") {
+    toggleLangEn.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+    toggleLangFr.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+
+    toggleLangNl.forEach((element) => {
+      element.classList.add("enabled");
+    });
+  } else if(i18next.language === "en") {
+    toggleLangNl.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+    toggleLangFr.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+
+    toggleLangEn.forEach((element) => {
+      element.classList.add("enabled");
+    });
   }
+  else if(i18next.language === "fr") {
+    toggleLangNl.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+    toggleLangEn.forEach((element) => {
+      element.classList.remove("enabled");
+    });
+
+    toggleLangFr.forEach((element) => {
+      element.classList.add("enabled");
+    });
+  }
+
+  // if (i18next.language === "nl") {
+  //   document.querySelector(".toggle-lang-nl").classList.add("enabled");
+  //   document.querySelector(".toggle-lang-en").classList.remove("enabled");
+  //   document.querySelector(".toggle-lang-fr").classList.remove("enabled");
+  // } else if (i18next.language === "en") {
+  //   document.querySelector(".toggle-lang-nl").classList.remove("enabled");
+  //   document.querySelector(".toggle-lang-en").classList.add("enabled");
+  //   document.querySelector(".toggle-lang-fr").classList.remove("enabled");
+  // } else if (i18next.language === "fr") {
+  //   document.querySelector(".toggle-lang-nl").classList.remove("enabled");
+  //   document.querySelector(".toggle-lang-en").classList.remove("enabled");
+  //   document.querySelector(".toggle-lang-fr").classList.add("enabled");
+  // }
 
   // document.querySelector("enabled").style.backgroundColor = "red";
 }
@@ -104,18 +146,39 @@ function updateTranslations() {
 // Update translations initially
 updateTranslations();
 
-// Add event listeners to language toggle buttons
-document.getElementById("toggle-lang-nl").addEventListener("click", () => {
-  i18next.changeLanguage("nl", updateTranslations);
+  const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
+  const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
+  const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
+
+toggleLangNl.forEach((element) => {
+  element.addEventListener("click", () => {
+    i18next.changeLanguage("nl", updateTranslations);
+  });
+});
+toggleLangFr.forEach((element) => {
+  element.addEventListener("click", () => {
+    i18next.changeLanguage("fr", updateTranslations);
+  });
+});toggleLangEn.forEach((element) => {
+  element.addEventListener("click", () => {
+    i18next.changeLanguage("en", updateTranslations);
+  });
 });
 
-document.getElementById("toggle-lang-en").addEventListener("click", () => {
-  i18next.changeLanguage("en", updateTranslations);
-});
 
-document.getElementById("toggle-lang-fr").addEventListener("click", () => {
-  i18next.changeLanguage("fr", updateTranslations);
-});
+
+// // Add event listeners to language toggle buttons
+// document.querySelector(".toggle-lang-nl").addEventListener("click", () => {
+//   i18next.changeLanguage("nl", updateTranslations);
+// });
+
+// document.querySelector(".toggle-lang-en").addEventListener("click", () => {
+//   i18next.changeLanguage("en", updateTranslations);
+// });
+// // document.querySelector
+// document.querySelector(".toggle-lang-fr").addEventListener("click", () => {
+//   i18next.changeLanguage("fr", updateTranslations);
+// });
 
 // When the page loads or content is replaced by swup,
 // check if there's a language saved in local storage
@@ -130,6 +193,7 @@ const applySavedLanguage = () => {
 swup.hooks.on("page:view", () => {
   console.warn("New page loaded:");
   applySavedLanguage();
+  hamburgerToggle();
 });
 
 function indexSlideShow() {
@@ -149,38 +213,57 @@ function indexSlideShow() {
 }
 
 function hamburgerToggle() {
-  document
-    .querySelector("#toggleHamburgerMenu")
-    .addEventListener("click", () => {
-      document.querySelector(".hamburger").classList.toggle("showHamburger");
-      const hamburgerLines = document.querySelectorAll(
-        "#toggleHamburgerMenu > span"
-      );
-      hamburgerLines.forEach((line) => {
-        line.classList.toggle("activeLine");
-      });
+  const toggleHamburgerMenu = document.querySelector("#toggleHamburgerMenu");
 
-      hamburgerLines[0].classList.toggle("activeLine1");
-      hamburgerLines[1].classList.toggle("activeLine2");
-      hamburgerLines[2].classList.toggle("activeLine3");
-
-      console.log("hamburgerToggle");
+  toggleHamburgerMenu.addEventListener("click", () => {
+    document.querySelector(".hamburger").classList.toggle("showHamburger");
+    toggleHamburgerMenu.classList.toggle("absolute");
+    const hamburgerLines = document.querySelectorAll(
+      "#toggleHamburgerMenu > span"
+    );
+    hamburgerLines.forEach((line) => {
+      line.classList.toggle("activeLine");
     });
 
+    hamburgerLines[0].classList.toggle("activeLine1");
+    hamburgerLines[1].classList.toggle("activeLine2");
+    hamburgerLines[2].classList.toggle("activeLine3");
+
+    console.log("hamburgerToggle");
+  });
+
   const hamButtons = document.querySelectorAll(".hamButton");
+  const hamlus = document.querySelectorAll(".hamul");
 
   hamButtons[0].addEventListener("click", () => {
-    document.querySelector(".hamul1").classList.toggle("active");
+    hamlus[0].classList.toggle("active");
+    hamlus[1].classList.remove("active");
+    hamlus[2].classList.remove("active");
+    // ----------------
     hamButtons[0].classList.toggle("active");
+    hamButtons[1].classList.remove("active");
+    hamButtons[2].classList.remove("active");
   });
   hamButtons[1].addEventListener("click", () => {
-    document.querySelector(".hamul2").classList.toggle("active");
+    hamlus[1].classList.toggle("active");
+    hamlus[0].classList.remove("active");
+    hamlus[2].classList.remove("active");
+    // ----------------
+
     hamButtons[1].classList.toggle("active");
+    hamButtons[0].classList.remove("active");
+    hamButtons[2].classList.remove("active");
   });
 
   hamButtons[2].addEventListener("click", () => {
-    document.querySelector(".hamul3").classList.toggle("active");
+    hamlus[2].classList.toggle("active");
+    hamlus[0].classList.remove("active");
+    hamlus[1].classList.remove("active");
+    // ----------------
+
     hamButtons[2].classList.toggle("active");
+    hamButtons[0].classList.remove("active");
+    hamButtons[1].classList.remove("active");
   });
 }
 hamburgerToggle();

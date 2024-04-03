@@ -244,13 +244,21 @@ nav > ul > li > a {
 nav {
   justify-content: center;
 }
-
+/* #toggle-lang-nl-ham */
 nav ul button {
   all: unset;
-  /* background-color: #de1420; */
   cursor: pointer;
   font-family: "Roboto-Slab";
   color: var(--textColor);
+  transition: all 0.2s ease-in-out;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
+}
+
+.hamburgerNavContent .langButtons button {
+  all: unset;
+  cursor: pointer;
+  font-family: "Roboto-Slab";
+  color: black;
   transition: all 0.2s ease-in-out;
   font-family: "Helvetica Neue", Raleway, sans-serif;
 }
@@ -263,7 +271,12 @@ nav ul button:hover {
   color: white;
 }
 
-#langButtons p {
+.hamburgerNavContent .langButtons p {
+  all: unset !important;
+  color: black !important;
+}
+
+.langButtons p {
   all: unset !important;
   color: var(--textColor) !important;
 }
@@ -277,15 +290,20 @@ html {
   scrollbar-color: #c31212 #282b2e;
 }
 
+/* ------------------------------------------HAMBURGER------------------------------------------ */
+
 @media (max-width: 768px) {
   nav {
     display: none !important;
+  }
+  body > header > div > a > img {
+    width: 100px !important;
   }
 }
 
 #toggleHamburgerMenu {
   all: unset;
-  position: fixed;
+  position: fixed !important;
   z-index: 1000;
   right: 0;
   top: 0;
@@ -293,8 +311,8 @@ html {
   margin-right: 20px;
 }
 
-#toggleHamburgerMenu:focus {
-  outline: none;
+button:focus {
+  outline: none !important;
 }
 
 .hamburger {
@@ -321,7 +339,8 @@ html {
   height: 50px;
 }
 @media (min-width: 768px) {
-  .hamburger {
+  .hamburger,
+  #toggleHamburgerMenu {
     display: none;
   }
 }
@@ -332,7 +351,7 @@ html {
   width: 50vw;
   background-color: white;
   transition: all 1s;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 @media (max-width: 500px) {
@@ -375,8 +394,8 @@ html {
   /* stroke: #fff ;
   stroke-width: 2px; */
   background-color: rgb(255, 255, 255);
-  width: 50px !important;
-  height: 5px !important;
+  width: 40px !important;
+  height: 2px !important;
   margin-top: 10px;
   display: block;
 }
@@ -436,7 +455,9 @@ span {
   transition: all 0.5s !important;
 }
 
-ul {
+/*hamburgerNavContent > ul */
+
+.hamburgerNavContent ul {
   /* display: none; */
   display: flex;
   flex-direction: column;
@@ -473,13 +494,18 @@ ul.active {
 .submenuSet > button {
   all: unset;
   color: black !important;
-  font-size: 28px;
+  font-size: 18px;
   /* text-align: center; */
   width: 80%;
   /* padding: 20px; */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: "Oswald";
+}
+
+.submenuSet p {
+  font-family: "Oswald";
+  color: black !important;
 }
 
 .hamburgerNavContent > a {
@@ -500,7 +526,7 @@ li {
   color: #282b2e;
 }
 
-li a {
+.hamburgerNavContent li a {
   color: #282b2e !important;
   align-items: left;
   text-align: left;
@@ -557,3 +583,7 @@ li a {
   gap: 20px;
   flex-direction: row;
 }
+
+/* .absolute{
+  position: absolute !important;
+} */

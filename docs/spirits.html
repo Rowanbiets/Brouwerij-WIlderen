@@ -16,7 +16,7 @@
       type="image/x-icon"
     />
     <script type="module" src="translations.bundle.js"></script>
-    <script type="module" src="./swup.bundle.js"></script>
+    <script type="module" src="./index.bundle.js"></script>
     <link rel="stylesheet" href="swup.css" />
     <link rel="stylesheet" href="footer.css" />
   </head>
@@ -34,7 +34,7 @@
           <ul>
             <li>
               <a href="#" id="production"
-                >Productie
+              data-i18n="nav.0"   >Productie
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu1">
@@ -51,7 +51,7 @@
             </li>
             <li>
               <a href="#" id="visit"
-                >Bezoek
+               data-i18n="nav.1" >Bezoek
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu2">
@@ -73,35 +73,150 @@
                 </li>
               </ul>
             </li>
-            <li><a id="horeca" href="horeca.html">Horeca</a></li>
-            <li><a id="fanpage" href="fanpage.html">Fan-page</a></li>
+            <li><a data-i18n="nav.2" id="horeca" href="horeca.html">Horeca</a></li>
+            <li><a data-i18n="nav.3" id="fanpage" href="fanpage.html">Fan-page</a></li>
             <li>
               <a href="#" id="contact"
-                >Contact
+              data-i18n="nav.4"  >Contact
 
                 <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt=""
               /></a>
               <ul class="submenu3">
                 <li>
                   <a data-i18n="subMenu.7" href="info.html"
-                    >Info & Wilderen Team</a
+                    >Info &amp Wilderen Team</a
                   >
                 </li>
                 <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
               </ul>
             </li>
-            <li id="langButtons">
-              <button id="toggle-lang-nl">NL</button>
+            <li class="langButtons">
+              <button class="toggle-lang-nl">NL</button>
               <p>/</p>
-              <button id="toggle-lang-fr">FR</button>
+              <button class="toggle-lang-fr">FR</button>
               <p>/</p>
-              <button id="toggle-lang-en">EN</button>
+              <button class="toggle-lang-en">EN</button>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+    
     <main id="swup" class="transition-fade">
+      <button id="toggleHamburgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="hamburger">
+        <div class="hamburgerNav">
+          <div class="topHamburgerContainer">
+            <div class="hamburgerLogoContainer">
+              <img src="WEBSITE/Logo/Wilderen Logo 2020.png" alt="" />
+            </div>
+          </div>
+          <div class="hamburgerNavContent">
+            <!-- <nav> -->
+            <a href="">Home</a>
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.0">Productie</p>
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+                <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                <li>
+                  <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                    >Vroeger &amp nu</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.1">Bezoek</p>
+
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+                <li>
+                  <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.4" href="rondleiding.html"
+                    >Rondleidingen</a
+                  >
+                </li>
+                <li>
+                  <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                    >Brouwerijwinkel</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a data-i18n="nav.2" href="horeca.html">Horeca</a>
+            <a data-i18n="nav.3" href="fanpage.html">Fan-page</a>
+
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.4" >Contact</p>
+
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+
+                <li><a data-i18n="subMenu.7" href="info.html" >Info &amp Wilderen Team</a></li>
+                <li><a data-i18n="subMenu.8" href="faq.html" >FAQ</a></li>
+              </ul>
+            </div>
+            <li class="langButtons">
+              <button class="toggle-lang-nl">NL</button>
+              <p>/</p>
+              <button class="toggle-lang-fr">FR</button>
+              <p>/</p>
+              <button class="toggle-lang-en">EN</button>
+            </li>
+            <div class="socialeMedia">
+              <h3 data-i18n="footer.0">Ontdek meer over ons</h3>
+              <div class="socialeMediaLinks">
+                <a href="https://www.facebook.com/BrouwerijW/">
+                  <img
+                    loading="lazy"
+                    src="WEBSITE/svg/facebook.svg"
+                    alt="Facebook"
+                  />
+                </a>
+                <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+                  <img
+                    loading="lazy"
+                    src="WEBSITE/svg/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <h1 class="fade-in-title">SPIRITS</h1>
         <div class="row">
