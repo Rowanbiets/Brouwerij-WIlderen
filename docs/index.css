@@ -503,9 +503,6 @@ iframe {
     font-size: 20pt;
   }
 
-
-
-  
   .text-container {
     margin-top: 0px;
     /* margin: 10px 10px 10px 10px; */
@@ -528,6 +525,12 @@ iframe {
     /* padding: 0px; */
     /* height: 10px; */
   }
+
+  .signature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .flexContainerIndexTop {
@@ -540,4 +543,17 @@ iframe {
 .signatureButtContainer {
   display: flex;
   flex-direction: column;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+}
+
+#signatureUnderline {
+  margin-top: -20px !important;
+  margin-left: -40px !important;
+  position: absolute;
+  all: unset;
+  width: 200px;
 }
