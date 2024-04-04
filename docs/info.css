@@ -29,13 +29,15 @@ body {
   left: 0;
   width: 100%;
   height: 58%;
-  
 }
 
 .image-container img {
   width: 100%; /* Afbeelding neemt volledige breedte in beslag */
   height: auto; /* Behoudt de aspectverhouding van de afbeelding */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); /* Donkere tint met 50% opaciteit */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ); /* Donkere tint met 50% opaciteit */
 }
 .text-overlay {
   padding: 10px;
@@ -53,38 +55,34 @@ body {
 }
 
 .info {
-    padding: 30px; /* Ruimte binnen de border */    
-    display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-    margin-top: 80px;
-    margin-left: 30px;
-    box-shadow: 0px 4px 12px rgb(56, 47, 47);
-    margin-right: 150px;
-    border-radius: 10px;
+  padding: 30px; /* Ruimte binnen de border */
+  display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+  margin-top: 80px;
+  width: 60%;
+  /* margin-left: 30px; */
+  box-shadow: 0px 4px 12px rgba(56, 47, 47, 0.175);
+  /* margin-right: 150px; */
+  gap: 30px;
+  border-radius: 10px;
 }
 
-.info-details h3{
-  font-family: "Georgia", serif;
-    font-size: 18pt;
-    font-weight: bold;
-    width: 90%;
-   
-    margin-left: 40px;
+.info-details h3 {
+  font-family: "helvetica neue", sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+  /* width: 90%; */
+
+  /* margin-left: 40px; */
 }
-.info-details p{
-    flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
-    text-align: left; /* Tekst links uitlijnen */
-    font-family: "Roboto Slab"; /* Lettertype */
-    font-size: 12pt; /* Lettergrootte */
-    width: 100%;
-    margin-left: 40px;
-}
-.map {
-  flex: 1;
-  margin-right: 10px; /* Optionele marge tussen de kaart en de andere informatie */
- 
+.info-details p {
+  font-family: "roboto", sans-serif;
+  font-size: 12pt; /* Lettergrootte */
+  width: 100%;
+  text-align: left;
+  /* margin-left: 40px; */
 }
 
-.adres{
+.adres {
   margin-top: 70px;
 }
 
@@ -99,18 +97,16 @@ body {
 .info {
   text-align: left;
   margin-top: 20px;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 .titleW h1 {
   color: #9c121f;
-  margin-left: 30%;
   padding: 18px;
   text-align: center;
-  font-family: "Georgia", serif;
+  font-family: "helvetica neue", sans-serif;
   font-size: 50pt;
   margin-top: 40px;
 
-  width: 40%;
 }
 
 .card img {
@@ -118,46 +114,8 @@ body {
   max-height: 50%;
 }
 
-
 /* Mediaquery voor mobiele apparaten */
 @media only screen and (max-width: 768px) {
-  .text-overlay {
-      padding: 10px;
-      text-align: left;
-      color: white;
-      position: absolute;
-      top: 80px; /* Plaats de tekst-overlay meer naar boven */
-      left: 20px;
-      width: 70%;
-  }
-
-  .info {
-    padding: 30px; /* Ruimte binnen de border */    
-    display:block; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-    margin-top: 80px;
-    margin-left: 30px;
-    margin-right: 150px;
-    border-radius: 10px;
-}
-
-  .text-overlay h2 {
-      font-family: "Georgia", serif;
-      font-size: 45pt;
-  }
-
-  .info {
-      padding: 20px; /* Verminder de padding voor mobiele apparaten */
-  }
-
-  .info-details {
-      flex: 50%; /* Laat de sectie de volledige breedte innemen */
-      margin-top: 20px; /* Voeg wat ruimte toe aan de bovenkant */
-  }
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 768px) {
-
   .text-overlay {
     padding: 10px;
     text-align: left;
@@ -167,7 +125,43 @@ body {
     left: 20px;
     width: 70%;
   }
-  
+
+  .info {
+    padding: 30px; /* Ruimte binnen de border */
+    display: block; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+    margin-top: 80px;
+    /* margin-left: 30px; */
+    /* margin-right: 150px; */
+    border-radius: 10px;
+  }
+
+  .text-overlay h2 {
+    font-family: "Georgia", serif;
+    font-size: 45pt;
+  }
+
+  .info {
+    padding: 20px; /* Verminder de padding voor mobiele apparaten */
+  }
+
+  .info-details {
+    flex: 50%; /* Laat de sectie de volledige breedte innemen */
+    margin-top: 20px; /* Voeg wat ruimte toe aan de bovenkant */
+  }
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 768px) {
+  .text-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 80px; /* Plaats de tekst-overlay meer naar boven */
+    left: 20px;
+    width: 70%;
+  }
+
   .text-overlay h2 {
     font-family: "Georgia", serif;
     font-size: 45pt;
@@ -189,13 +183,7 @@ body {
   padding: 0 16px;
 }
 
-/* Clear floats */
-.container::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
 
 .title {
   color: rgb(114, 100, 100);
@@ -217,8 +205,68 @@ body {
   background-color: #fbb117;
 }
 
-.row{
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.flexInfo {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.map-container {
+  width: 50%;
+}
+
+/* Stijl voor de kaartcontainer */
+
+/* Stijl voor de info-details */
+.info-details {
+  width: 50%; /* Breedte van de info-details */
+}
+
+/* Stijl voor de tabel binnen info-details */
+.info-details table {
+  width: 80%; /* Breedte van de tabel */
+}
+
+@media screen and (max-width: 768px) {
+  .info-details {
+    width: 100%; /* Breedte van de info-details */
+  }
+
+  .info-details table {
+    width: 100%; /* Breedte van de tabel */
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  .info {
+    width: 100%;
+  }
+}
+
+.flexCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100% !important;
+  gap: 50px;
+  justify-content: center;
+}
+
+.column {
+  margin: 0;
+  margin: 20px 0 20px 0;
+}
+
+

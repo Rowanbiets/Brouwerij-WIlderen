@@ -1,6 +1,8 @@
-<!-- ---Wrap this around the part of the html that needs to be transition --- -->
+<!-- ---Wrap this around the part of the html that needs to be transitioned/removed --- -->
                              <!-- --- e.g. not the nav and footer --- -->
 <!-- --- Add class for specific page in case of new script (see hooks in src/index.js) --- -->
+<!-- --- Example if(somePageElement exist) => trigger script for that page --- -->
+
 
 
     <main id="swup" class="transition-fade">

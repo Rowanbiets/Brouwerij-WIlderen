@@ -254,6 +254,9 @@ function hamburgerToggle() {
   const hamButtons = document.querySelectorAll(".hamButton");
   const hamlus = document.querySelectorAll(".hamul");
 
+
+// TODO: refactor this to be more DRY 
+
   hamButtons[0].addEventListener("click", () => {
     hamlus[0].classList.toggle("active");
     hamlus[1].classList.remove("active");

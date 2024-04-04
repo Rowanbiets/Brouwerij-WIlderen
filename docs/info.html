@@ -1,207 +1,400 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team</title>
-  <link rel="stylesheet" href="nav.css">
-  <link rel="stylesheet" href="footer.css">
-  <link rel="stylesheet" href="info.css">
-  <link rel="icon" href="WEBSITE/Logo/favicon_io (1)/favicon.ico" type="image/x-icon">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="info.css" />
+    <script type="module" src="index.bundle.js"></script>
+    <link
+      rel="icon"
+      href="WEBSITE/Logo/favicon_io (1)/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<style>
-  /* Stijl voor de kaartcontainer */
-  .map-container {
-    width: 50%; /* Breedte van de kaartcontainer */
-    float: left; /* Links uitlijnen */
-  }
+  <style></style>
 
-  /* Stijl voor de info-details */
-  .info-details {
-    width: 50%; /* Breedte van de info-details */
-    float: left; /* Links uitlijnen */
-  }
-
-  /* Stijl voor de tabel binnen info-details */
-  .info-details table {
-    width: 80%; /* Breedte van de tabel */
-  }
-</style>
-
-<body>
-
-
+  <body>
     <header>
-        <div class="header-container">
-            <a href="index.html" class="logo-link"><img src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png" alt="logo WIlderen" class="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="#">Productie</a>
-                        <ul class="submenu1">
-                            <li><a href="bieren.html">Bieren</a>
-                               
-                            </li>
-                            <li><a href="spirits.html">Spirits</a>
-                             
-                            </li>
-                            <li><a href="vroeger&nu.html">Vroeger en nu</a>
-                            
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Bezoek</a>
-                        <ul class="submenu2">
-                            <li><a href="cafe.html">Brouwerijcafé</a> </li>
-                            <li><a href="rondleiding.html">Rondleidingen</a> </li>
-                            <li><a href="picknick.html">Picknick</a></li>
-                            <li><a href="brouwerijwinkel.html">Brouwerijwinkel</a></li>
-                          
-                        </ul>
-                    </li>
-                    <li><a href="horeca.html">Horeca</a></li>
-                    <li><a href="fanpage.html">Fan-page</a></li>
-                    <li><a href="#">Contact</a>
-                        <ul class="submenu3">
-                            <li><a href="info.html">Info & Wilderen Team</a></li>
-                            <li><a href="faq.html">FAQ</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
+      <div class="header-container">
+        <a href="index.html" class="logo-link"
+          ><img
+            loading="lazy"
+            src="WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png"
+            alt="logo WIlderen"
+            class="logo"
+        /></a>
+        <nav>
+          <ul>
+            <li>
+              <div class="dropDownContainer">
+                <a href="#" id="production" data-i18n="nav.0">Productie </a>
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt="" />
+              </div>
+              <ul class="submenu1">
+                <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                <li>
+                  <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                    >Vroeger en nu</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <div class="dropDownContainer">
+                <a href="#" id="visit" data-i18n="nav.1">Bezoek </a>
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt="" />
+              </div>
+              <ul class="submenu2">
+                <li>
+                  <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.4" href="rondleiding.html"
+                    >Rondleidingen</a
+                  >
+                </li>
+                <li>
+                  <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                    >Brouwerijwinkel</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a data-i18n="nav.2" id="horeca" href="horeca.html">Horeca</a>
+            </li>
+            <li>
+              <a data-i18n="nav.3" id="fanpage" href="fanpage.html">Fan-page</a>
+            </li>
+            <li>
+              <div class="dropDownContainer">
+                <a href="#" id="contact" data-i18n="nav.4">Contact </a>
+                <img loading="lazy" src="WEBSITE/svg/navDropdown.svg" alt="" />
+              </div>
+              <ul class="submenu3">
+                <li>
+                  <a data-i18n="subMenu.7" href="info.html"
+                    >Info &amp Wilderen Team</a
+                  >
+                </li>
+                <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="langButtons">
+              <button class="toggle-lang-nl">NL</button>
+              <p>/</p>
+              <button class="toggle-lang-fr">FR</button>
+              <p>/</p>
+              <button class="toggle-lang-en">EN</button>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
+    <main id="swup" class="transition-fade">
+      <button id="toggleHamburgerMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="hamburger">
+        <div class="hamburgerNav">
+          <div class="topHamburgerContainer">
+            <div class="hamburgerLogoContainer">
+              <a href="index.html"
+                ><img src="WEBSITE/Logo/Wilderen Logo 2020.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="hamburgerNavContent">
+            <!-- <nav> -->
+            <a href="index.html">Home</a>
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.0">Productie</p>
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+                <li><a data-i18n="subMenu.0" href="bieren.html">Bieren</a></li>
+                <li>
+                  <a data-i18n="subMenu.1" href="spirits.html">Spirits</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.2" href="vroeger&nu.html"
+                    >Vroeger &amp nu</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.1">Bezoek</p>
+
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+                <li>
+                  <a data-i18n="subMenu.3" href="cafe.html">Brouwerijcafé</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.4" href="rondleiding.html"
+                    >Rondleidingen</a
+                  >
+                </li>
+                <li>
+                  <a data-i18n="subMenu.5" href="picknick.html">Picknick</a>
+                </li>
+                <li>
+                  <a data-i18n="subMenu.6" href="brouwerijwinkel.html"
+                    >Brouwerijwinkel</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a data-i18n="nav.2" href="horeca.html">Horeca</a>
+            <a data-i18n="nav.3" href="fanpage.html">Fan-page</a>
+
+            <div class="submenuSet">
+              <button class="hamButton">
+                <p data-i18n="nav.4">Contact</p>
+
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/navDropdownGrey.svg"
+                  alt=""
+                />
+              </button>
+              <ul class="hamul">
+                <li>
+                  <a data-i18n="subMenu.7" href="info.html"
+                    >Info &amp Wilderen Team</a
+                  >
+                </li>
+                <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+            <li class="langButtons">
+              <button class="toggle-lang-nl">NL</button>
+              <p>/</p>
+              <button class="toggle-lang-fr">FR</button>
+              <p>/</p>
+              <button class="toggle-lang-en">EN</button>
+            </li>
+            <div class="socialeMedia">
+              <h3 data-i18n="footer.0">Ontdek meer over ons</h3>
+              <div class="socialeMediaLinks">
+                <a href="https://www.facebook.com/BrouwerijW/">
+                  <img
+                    loading="lazy"
+                    src="WEBSITE/svg/facebook.svg"
+                    alt="Facebook"
+                  />
+                </a>
+                <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+                  <img
+                    loading="lazy"
+                    src="WEBSITE/svg/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <div class="image-container">
-    <img src="WEBSITE/Wilderen/Banner Skyline Wilderen.jpg">
-  </div>
-  <div class="text-overlay">
-    <h2>Info</h2>
-    
-</div>
+      <img src="WEBSITE/Wilderen/Banner Skyline Wilderen.jpg" />
+    </div>
+    <div class="text-overlay">
+      <h2>Info</h2>
+    </div>
     <div class="titleW">
       <h1>Contact</h1>
     </div>
-    <div class="info">
-      <div class="map-container">
-        <!-- Kaartcontainer -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.650944764967!2d5.141605276645851!3d50.81910557166486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c116cc4d5a784d%3A0xd36d1e1b324098a0!2sWilderenlaan%208%2C%203803%20Sint-Truiden!5e0!3m2!1snl!2sbe!4v1711288184993!5m2!1snl!2sbe" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="flexInfo">
+      <div class="info">
+        <div class="map-container">
+          <!-- Kaartcontainer -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.650944764967!2d5.141605276645851!3d50.81910557166486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c116cc4d5a784d%3A0xd36d1e1b324098a0!2sWilderenlaan%208%2C%203803%20Sint-Truiden!5e0!3m2!1snl!2sbe!4v1711288184993!5m2!1snl!2sbe"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="info-details">
+          <h3>Openingsuren Kantoor:</h3>
+          <p>
+            Maandag: Gesloten <br />
+            Di-Woe-Do Vrij: 9u - 12u
+          </p>
 
+          <h3>Openingsuren Magazijn:</h3>
+          <p>
+            Maandag: Gesloten <br />
+            Di-Woe-Do: 9u - 16u <br />
+            Vrijdag: 9u - 12u
+          </p>
 
-
-      </div>
-      <div class="info-details">
-                       
-                    <h3>Openingsuren Kantoor:</h3>
-                    <p>Maandag: Gesloten <br>
-                    Di-Woe-Do Vrij: 9u - 12u</p>
-    
-                    <h3>Openingsuren Magazijn:</h3>
-                    <p>Maandag: Gesloten <br>
-                    Di-Woe-Do: 9u - 16u <br>
-                    Vrijdag: 9u - 12u</p>
-           
-                    <h3>Info en mail</h3>
-                    <p><strong>Boekhouding & facturatie:</strong> boekhouding@brouwerijwilderen.be <br>
-                    <strong>Bestellingen retail & groothandel:</strong> orders@brouwerijwilderen.be <br>
-                    <strong>Bestellingen retail & groothandel:</strong> orders@brouwerijwilderen.be <br>
-                    <strong>Brouwerijcafé & groepsbezoeken:</strong> roniek@brouwerijwilderen.be <br>
-                    <strong>Geschenkverpakkingen:</strong> roniek@brouwerijwilderen.be <br>
-                    <strong>Reservaties rondleidingen:</strong><a href=""> Online boeking</a></p>
-                <div class="adres">
-                    <p>Zoutleeuwsesteenweg 120 3803 Sint-Truiden <br>
-                      +32 11 580 680 Kantoor <br>
-                      +32 11 580 640 Productie </p>
-                    </div>
-      </div>
-    </div>
-  
-      
-  </div>
-  <div class="titleW">
-  <h1>Wilderen Team</h1>
-</div>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-22.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Mike Janssen</h2>
-          <p class="title">Uitbater</p>
-          
-         
+          <h3>Info en mail</h3>
+          <p>
+            <strong>Boekhouding &amp facturatie:</strong>
+            boekhouding@brouwerijwilderen.be <br />
+            <strong>Bestellingen retail &amp groothandel:</strong>
+            orders@brouwerijwilderen.be <br />
+            <strong>Bestellingen retail &amp groothandel:</strong>
+            orders@brouwerijwilderen.be <br />
+            <strong>Brouwerijcafé &amp groepsbezoeken:</strong>
+            roniek@brouwerijwilderen.be <br />
+            <strong>Geschenkverpakkingen:</strong> roniek@brouwerijwilderen.be
+            <br />
+            <strong>Reservaties rondleidingen:</strong
+            ><a href=""> Online boeking</a>
+          </p>
+          <div class="adres">
+            <p>
+              Zoutleeuwsesteenweg 120 3803 Sint-Truiden <br />
+              +32 11 580 680 Kantoor <br />
+              +32 11 580 640 Productie
+            </p>
+          </div>
         </div>
       </div>
     </div>
+    <div class="titleW">
+      <h1>Wilderen Team</h1>
+    </div>
 
-
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-20.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Roniek Van Bree</h2>
-          <p class="title">Uitbater</p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-18.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Olivier Van Den Bogaert</h2>
-          <p class="title">Sales</p>
-        </div>
-      </div>
-    </div>
-  
-  
-  </div>
-  <div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-14.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Stijn</h2>
-        <p class="title">Magazijn</p>
-      </div>
-    </div>
-  </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-3.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Roland</h2>
-          <p class="title">Brouwmeester</p>
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-2.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Bert</h2>
-          <p class="title">Productie</p>
-         </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-5.jpg" alt="Jane" style="width:100%">
-        <div class="container">
-          <h2>Gert-Jan</h2>
-          <p class="title">Salesteam</p>
-        </div>
-      </div>
-    </div>
-    
+    <div class="flexCards">
+    <div class="row">
       <div class="column">
         <div class="card">
-          <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-10.jpg" alt="Jane" style="width:100%">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-22.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Mike Janssen</h2>
+            <p class="title">Uitbater</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-20.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Roniek Van Bree</h2>
+            <p class="title">Uitbater</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-18.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Olivier Van Den Bogaert</h2>
+            <p class="title">Sales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-14.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Stijn</h2>
+            <p class="title">Magazijn</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-3.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Roland</h2>
+            <p class="title">Brouwmeester</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-2.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Bert</h2>
+            <p class="title">Productie</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-5.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
+          <div class="container">
+            <h2>Gert-Jan</h2>
+            <p class="title">Salesteam</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-10.jpg"
+            alt="Jane"
+            style="width: 100%"
+          />
           <div class="container">
             <h2>Frans</h2>
             <p class="title">Salesteam</p>
@@ -211,8 +404,11 @@
 
       <div class="column">
         <div class="card">
-          <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-14.png" alt="Bert Housen" style="width: 100%;">
-
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-14.png"
+            alt="Bert Housen"
+            style="width: 100%"
+          />
 
           <div class="container">
             <h2>Bert Housen</h2>
@@ -220,10 +416,14 @@
           </div>
         </div>
       </div>
-    
+
       <div class="column">
         <div class="card">
-          <img src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-15.png" alt="Bert Housen" style="width: 100%;">
+          <img
+            src="WEBSITE/teamfotos/BROUWERIJ-WILDEREN-PERSONEEL-ZW-15.png"
+            alt="Bert Housen"
+            style="width: 100%"
+          />
 
           <div class="container">
             <h2>Bert Housen</h2>
@@ -231,10 +431,8 @@
           </div>
         </div>
       </div>
-    
-      
     </div>
-
+  </div>
     <footer>
       <div class="footerWrapper">
         <div class="topFooter">
@@ -249,20 +447,22 @@
           </div>
           <div class="socialeMedia">
             <h4>Ontdek meer over ons</h4>
-            <a href="https://www.facebook.com/BrouwerijW/">
-              <img
-                loading="lazy"
-                src="WEBSITE/svg/facebook.svg"
-                alt="Facebook"
-              />
-            </a>
-            <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
-              <img
-                loading="lazy"
-                src="WEBSITE/svg/instagram.svg"
-                alt="Instagram"
-              />
-            </a>
+            <div class="socialeMediaLinksFooter">
+              <a href="https://www.facebook.com/BrouwerijW/">
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/facebook.svg"
+                  alt="Facebook"
+                />
+              </a>
+              <a href="https://www.instagram.com/brouwerijwilderen/?hl=en">
+                <img
+                  loading="lazy"
+                  src="WEBSITE/svg/instagram.svg"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div class="bottomFooter">
@@ -276,5 +476,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
