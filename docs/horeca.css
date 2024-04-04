@@ -79,8 +79,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left; /* Tekst links uitlijnen */
     font-family: "Roboto Slab"; /* Lettertype */
     font-size: 12pt; /* Lettergrootte */
-    width: 80%;
+    width: 90%;
     margin-left: 40px;
+    margin-top: 10px;
 }
 
 .picknick h2{
@@ -88,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18pt;
     font-weight: bold;
     width: 90%;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 
@@ -234,7 +235,7 @@ button:hover a {
 @media only screen and (max-width: 768px) {
     /* Pas de stijlen aan voor schermen kleiner dan 768px breed */
     .text-overlay {
-        top: 60%; /* Pas de positie van de overlay aan */
+        top: 50%; /* Pas de positie van de overlay aan */
         left: 10px;
         width: calc(80% - 20px); /* Pas de breedte van de overlay aan */
     }
@@ -246,12 +247,23 @@ button:hover a {
 
     .picknick h2 {
         max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
-        margin-left: 5; /* Verwijder de linkermarge */
+       
         text-align: left;
+    }
+    .picknick {
+    
+    
+        padding: 10px; /* Ruimte binnen de border */
+        display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+        margin-top: 80px;
+        margin-left: 20px;
+        box-shadow: 0px 4px 12px rgb(56, 47, 47);
+        margin-right: 10px;
+        border-radius: 10px;
     }
     
     .picknick p {
-        max-width: 80%; /* Maak de maximale breedte van de tekst 100% */
+        max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
         margin-left: 10; /* Verwijder de linkermarge */
         text-align: left;
     }

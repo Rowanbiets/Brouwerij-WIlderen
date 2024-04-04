@@ -6,6 +6,44 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.image-container {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  max-height: 550px; /* Maximale hoogte van de afbeelding container */
+  overflow: hidden; /* Verberg eventuele overloop van de afbeelding */
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 58%;
+  
+}
+
+.image-container img {
+  width: 100%; /* Afbeelding neemt volledige breedte in beslag */
+  height: auto; /* Behoudt de aspectverhouding van de afbeelding */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); /* Donkere tint met 50% opaciteit */
+}
+.text-overlay {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 290px; /* Plaats de tekst-overlay meer naar boven */
+  left: 20px;
+  width: 70%;
+}
+
+.text-overlay h2 {
+  font-family: "Georgia", serif;
+  font-size: 52pt;
+  
+}
+
 .title{
   background-color:#AD9A64;
   color: white;
@@ -27,6 +65,15 @@ body {
   margin-left: 20%;
   margin-top: 30px;
   width: 43%;
+}
+
+.title {
+  width: 100%; /* Pas de breedte aan */
+ 
+}
+
+.container, .faq {
+  width: 100%; /* Pas de breedte aan */
 }
 
 details {
@@ -55,3 +102,34 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
+@media only screen and (max-width: 768px)  {
+  /* Media query voor apparaten met een minimale breedte van 768px (tablets en desktops) */
+  .text-overlay h2 {
+    font-family: "Georgia", serif;
+    font-size: 31pt;
+  }
+  .text-overlay {
+    padding: 10px;
+    text-align: left;
+    color: white;
+    position: absolute;
+    top: 60px; /* Plaats de tekst-overlay meer naar boven */
+    margin-left: 5%;
+    width: 100%;
+  }
+
+  .text-overlay {
+   bottom: 40px;
+    left: 10px;
+ 
+}
+
+  .title {
+      width: 60%; /* Pas de breedte aan */
+     
+  }
+
+  .container, .faq {
+      width: 60%; /* Pas de breedte aan */
+  }
+}

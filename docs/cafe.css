@@ -207,6 +207,20 @@
     .text-overlay p{
        width:max-content;
     }
+
+    .picknick {
+   
+        padding: 10px; /* Ruimte binnen de border */
+        display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+        
+        display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
+        margin-top: 70px;
+        margin-left: 30px;
+        box-shadow: 0px 4px 12px rgb(56, 47, 47);
+        
+        border-radius: 10px;
+        
+    }
     .picknick img {
         width: 100%; /* Maak de afbeelding volledige breedte */
         margin-bottom: 10px; /* Verklein de ruimte onder de afbeelding */
@@ -214,13 +228,13 @@
 
     .picknick h2 {
         max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
-        margin-left: 10; /* Verwijder de linkermarge */
+       
         text-align: left;
     }
     
     .picknick p {
         max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
-        margin-left: 10; /* Verwijder de linkermarge */
+      
         text-align: left;
     }
 
@@ -241,6 +255,11 @@
         cursor: pointer;
         text-decoration: none;
         font-family: "Roboto-Slab";
-        margin-left: 50%;
+        margin-left: 30%;
+    }
+
+    .award{
+        margin-top: 55px; 
+       margin-left: 4Opx;
     }
 }

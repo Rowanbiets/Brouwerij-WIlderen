@@ -178,12 +178,13 @@
     <section class="new-image-section">
       <div class="new-image-container">
         <div class="image-wrapper">
-          <a href="vroeger&nu.html">
+          <a id="page-link" href="vroeger&nu.html">
             <img
               loading="lazy"
               src="WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud034.jpg"
               alt="Vroeger en Nu"
-          /></a>
+            />
+          </a>
           <div class="image-title">Vroeger en Nu</div>
         </div>
       </div>
@@ -365,5 +366,30 @@
         }, 2000); // Verander elke 2 seconden (2000 milliseconden)
       });
     </script>
+
+<script>
+  // Functie om de link aan te passen op basis van het schermformaat
+  function adjustLink() {
+    // Controleer de schermgrootte
+    if (window.innerWidth <= 768) {
+      // Verander de href naar een andere pagina voor mobiel
+      document.getElementById("page-link").href = "horeca.html";
+      // Verander de afbeeldingsbron voor mobiel
+      document.querySelector(".image-wrapper img").src = "WEBSITE/mobiel_afbeelding.jpg";
+    } else {
+      // Verander de href naar de oorspronkelijke pagina voor desktop
+      document.getElementById("page-link").href = "vroeger&nu.html";
+      // Verander de afbeeldingsbron naar de desktopversie
+      document.querySelector(".image-wrapper img").src = "WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud034.jpg";
+    }
+  }
+
+  // Roept de functie aan wanneer de pagina wordt geladen
+  window.onload = adjustLink;
+
+  // Roept de functie aan wanneer het schermformaat wordt gewijzigd
+  window.onresize = adjustLink;
+</script>
+
   </body>
 </html>
