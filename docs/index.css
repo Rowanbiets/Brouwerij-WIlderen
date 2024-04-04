@@ -499,8 +499,13 @@ iframe {
   }
 
   .text-container h2 {
+    width: 80%;
     font-size: 20pt;
   }
+
+
+
+  
   .text-container {
     margin-top: 0px;
     /* margin: 10px 10px 10px 10px; */

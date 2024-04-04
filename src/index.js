@@ -17,7 +17,7 @@
 // #                                                                        #
 //  ________________________________________________________________________
 
-// SWUP -> page:view event trigger every time a new page is loaded
+// SWUP -> page:view event triggers every time a new page is loaded
 
 import Swup from "swup";
 import SwupHeadPlugin from "@swup/head-plugin";
@@ -84,13 +84,11 @@ function updateTranslations() {
     element.innerHTML = i18next.t(key);
   });
 
-
-
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
 
-  if(i18next.language === "nl") {
+  if (i18next.language === "nl") {
     toggleLangEn.forEach((element) => {
       element.classList.remove("enabled");
     });
@@ -101,7 +99,7 @@ function updateTranslations() {
     toggleLangNl.forEach((element) => {
       element.classList.add("enabled");
     });
-  } else if(i18next.language === "en") {
+  } else if (i18next.language === "en") {
     toggleLangNl.forEach((element) => {
       element.classList.remove("enabled");
     });
@@ -112,8 +110,7 @@ function updateTranslations() {
     toggleLangEn.forEach((element) => {
       element.classList.add("enabled");
     });
-  }
-  else if(i18next.language === "fr") {
+  } else if (i18next.language === "fr") {
     toggleLangNl.forEach((element) => {
       element.classList.remove("enabled");
     });
@@ -143,12 +140,33 @@ function updateTranslations() {
   // document.querySelector("enabled").style.backgroundColor = "red";
 }
 
-// Update translations initially
-updateTranslations();
-
+// add event listeners back to the hamburger menu lang buttons
+// (they are removed by swup transitions => base nav doesn not get reloaded, hamburger does, hence the need to readd event listeners)
+function reAddEventListeners() {
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
+  toggleLangNl[1].addEventListener("click", () => {
+    i18next.changeLanguage("nl", updateTranslations);
+  });
+
+  toggleLangFr[1].addEventListener("click", () => {
+    i18next.changeLanguage("fr", updateTranslations);
+  });
+
+  toggleLangEn[1].addEventListener("click", () => {
+    i18next.changeLanguage("en", updateTranslations);
+  });
+
+  // console.log(toggleLangNl[1]);
+}
+
+// Update translations initially
+updateTranslations();
+
+const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
+const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
+const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
 
 toggleLangNl.forEach((element) => {
   element.addEventListener("click", () => {
@@ -159,14 +177,13 @@ toggleLangFr.forEach((element) => {
   element.addEventListener("click", () => {
     i18next.changeLanguage("fr", updateTranslations);
   });
-});toggleLangEn.forEach((element) => {
+});
+toggleLangEn.forEach((element) => {
   element.addEventListener("click", () => {
     i18next.changeLanguage("en", updateTranslations);
   });
 });
-
-
-
+// reAddEventListeners();
 // // Add event listeners to language toggle buttons
 // document.querySelector(".toggle-lang-nl").addEventListener("click", () => {
 //   i18next.changeLanguage("nl", updateTranslations);
@@ -194,6 +211,8 @@ swup.hooks.on("page:view", () => {
   console.warn("New page loaded:");
   applySavedLanguage();
   hamburgerToggle();
+  updateTranslations();
+  reAddEventListeners();
 });
 
 function indexSlideShow() {
