@@ -397,6 +397,8 @@ button:focus {
   width: 40px !important;
   height: 2px !important;
   margin-top: 10px;
+  box-shadow: #000000 1px 1px 1px;
+border: #0000002e 0.1px solid;
   display: block;
 }
 
@@ -587,3 +589,7 @@ li {
 /* .absolute{
   position: absolute !important;
 } */
+
+a{
+  text-decoration: none;
+}

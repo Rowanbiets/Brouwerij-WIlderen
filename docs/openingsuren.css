@@ -8,7 +8,7 @@ table *,
   margin: 0;
 }
 
-th{
+th {
   color: #8b0000;
   text-shadow: none;
 }
@@ -30,7 +30,7 @@ th {
   padding: 6px; /* Verminder de padding om de tekst dichter bij de rand van de cel te plaatsen */
 }
 
-th{
+th {
   font-family: "Roboto Slab", serif;
 }
 
@@ -89,14 +89,14 @@ th:last-child {
   margin-bottom: 200px;
   font-size: 18px;
   border-radius: 10px;
-/* margin-left: 300px; */
-margin-left: 15%;
+  /* margin-left: 300px; */
+  margin-left: 15%;
 
-filter: drop-shadow(0px 0px 5px #000000);
+  filter: drop-shadow(0px 0px 5px #000000);
 }
 
 tr:nth-child(even) {
-  background-color: #8B0000
+  background-color: #8b0000;
 }
 
 tr:nth-child(odd):not(:first-child) {
@@ -152,14 +152,17 @@ td {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-margin-top: -10px;
+  margin-top: -10px;
 }
-#table1 > tbody > tr:nth-child(2), #table2 > tbody > tr:nth-child(2), #table3 > tbody > tr:nth-child(2) {
-background-image: linear-gradient(to bottom, #00000060, #9F2C2C, #9F2C2C);
+#table1 > tbody > tr:nth-child(2),
+#table2 > tbody > tr:nth-child(2),
+#table3 > tbody > tr:nth-child(2) {
+  background-image: linear-gradient(to bottom, #00000060, #9f2c2c, #9f2c2c);
 }
 
-.tableExtraInfoContainer{
+.tableExtraInfoContainer {
   display: flex;
+  height: fit-content;
   /* justify-content: center; */
   /* justify-content: space-between; */
   /* justify-content: space-around; */
@@ -168,6 +171,23 @@ background-image: linear-gradient(to bottom, #00000060, #9F2C2C, #9F2C2C);
   flex-direction: column;
 }
 
-.openingHoursContainer{
+.openingHoursContainer {
   margin-top: 100px;
 }
+
+@media (max-width: 768px) {
+  #openingsuren {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+height: fit-content;
+gap: 20px;
+
+  }
+
+  #extraInfo {
+    margin: 0;
+    margin: 15px;
+  }
+}
+
