@@ -17,12 +17,12 @@ table {
   /* width: 80%; Verklein de breedte van de tabel naar 80% van de container */
   width: 100%; /* Maak de tabel 100% breed (zorg dat de bordeaux lijn over de volledige breedte spant) */
   color: white;
-  text-shadow: rgb(40, 40, 40) 1px 1px 2px;
+  text-shadow: rgb(128, 128, 128) 1px 1px 2px;
 }
 
 table:nth-child(1),
 table:nth-child(2) {
-  border-right: white solid 5px;
+  border-right: white solid 6px;
 }
 
 td,
@@ -96,11 +96,11 @@ th:last-child {
 }
 
 tr:nth-child(even) {
-  background-color: #8b0000;
+  background-color: #a6a6a6;
 }
 
 tr:nth-child(odd):not(:first-child) {
-  background-color: rgba(253, 195, 195, 0.678);
+  background-color: rgba(194, 194, 194, 0.678);
 }
 
 table#table3 {
@@ -157,7 +157,7 @@ td {
 #table1 > tbody > tr:nth-child(2),
 #table2 > tbody > tr:nth-child(2),
 #table3 > tbody > tr:nth-child(2) {
-  background-image: linear-gradient(to bottom, #00000060, #9f2c2c, #9f2c2c);
+  background-image: linear-gradient(to bottom, #00000060, #a6a6a6, #a6a6a6);
 }
 
 .tableExtraInfoContainer {
@@ -187,6 +187,7 @@ gap: 20px;
 
   table{
   width: 80% !important;
+  border-right: none !important;
   }
 
   #extraInfo {

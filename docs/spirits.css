@@ -40,7 +40,6 @@ body {
 
 .row {
   padding: 20px;
-  margin-left: 40px;
 }
 
 .fade-in-title {
@@ -297,4 +296,21 @@ h3 {
     #e6a941,
     transparent
   );
+}
+
+@media screen and (max-width: 768px){
+
+
+  .col-md-4 h3 {
+  
+    transform: scaleX(1);
+  }
+
+  .col-md-4{
+    margin-bottom: 50px;
+  }
+
+  h3{
+    max-width: 80%;
+  }
 }
