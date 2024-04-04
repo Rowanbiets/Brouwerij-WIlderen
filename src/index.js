@@ -254,8 +254,7 @@ function hamburgerToggle() {
   const hamButtons = document.querySelectorAll(".hamButton");
   const hamlus = document.querySelectorAll(".hamul");
 
-
-// TODO: refactor this to be more DRY 
+  // TODO: refactor this to be more DRY
 
   hamButtons[0].addEventListener("click", () => {
     hamlus[0].classList.toggle("active");
@@ -288,4 +287,33 @@ function hamburgerToggle() {
     hamButtons[1].classList.remove("active");
   });
 }
+
+// // Functie om de link en tekst aan te passen op basis van het schermformaat
+// function adjustLinkAndText() {
+//   // Controleer de schermgrootte
+//   if (window.innerWidth <= 768) {
+//     // Verander de href naar een andere pagina voor mobiel
+//     document.getElementById("page-link").href = "horeca.html";
+//     // Verander de afbeeldingsbron voor mobiel
+//     document.querySelector(".image-wrapper img").src =
+//       "WEBSITE/Brouwerij Vroeger en Nu/DSC_3988.JPG";
+//     // Verander de tekst naar "Horeca" voor mobiel
+//     document.querySelector(".image-title").innerText = "Horeca";
+//   } else {
+//     // Verander de href naar de oorspronkelijke pagina voor desktop
+//     document.getElementById("page-link").href = "vroeger&nu.html";
+//     // Verander de afbeeldingsbron naar de desktopversie
+//     document.querySelector(".image-wrapper img").src =
+//       "WEBSITE/wetransfer_UNIEKE OUDE FOTOS Wilderen_2022-03-15_1008/wilderen oud034.jpg";
+//     // Verander de tekst naar "Vroeger en Nu" voor desktop
+//     document.querySelector(".image-title").innerText = "Vroeger en Nu";
+//   }
+// }
+
+// // Roept de functie aan wanneer de pagina wordt geladen
+// window.onload = adjustLinkAndText;
+
+// // Roept de functie aan wanneer het schermformaat wordt gewijzigd
+// window.onresize = adjustLinkAndText;
+
 hamburgerToggle();
