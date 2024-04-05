@@ -58,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 .picknick {
     
     
-    padding: 10px; /* Ruimte binnen de border */
     display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
     margin-top: 80px;
     margin-left: 30px;
@@ -69,9 +68,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .picknick img {
     flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
-    margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
     max-height: 300px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 }
 .picknick p {
@@ -135,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 650px;
     object-fit: cover;
+    border-radius: 10px;
     
 }
 
@@ -235,7 +235,7 @@ button:hover a {
 @media only screen and (max-width: 768px) {
     /* Pas de stijlen aan voor schermen kleiner dan 768px breed */
     .text-overlay {
-        top: 50%; /* Pas de positie van de overlay aan */
+        top: 60%; /* Pas de positie van de overlay aan */
         left: 10px;
         width: calc(80% - 20px); /* Pas de breedte van de overlay aan */
     }
@@ -253,10 +253,10 @@ button:hover a {
     .picknick {
     
     
-        padding: 10px; /* Ruimte binnen de border */
-        display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-        margin-top: 80px;
-        margin-left: 20px;
+        
+       
+        margin-top: 50px;
+        margin-left: 10px;
         box-shadow: 0px 4px 12px rgb(56, 47, 47);
         margin-right: 10px;
         border-radius: 10px;
@@ -273,7 +273,12 @@ button:hover a {
     }
     
     .picknick img {
+        margin-bottom: -20px;
         margin-top: 20px; /* Voeg wat ruimte toe boven de afbeelding */
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+       
+        
     }
 
 }
