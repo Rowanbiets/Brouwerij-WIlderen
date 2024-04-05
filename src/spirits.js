@@ -8,13 +8,17 @@ const spiritNames = [
   "ocus-organic-gin",
   "omerta-rum-liquor",
   "omerta-black-magnum",
-  "wild-weasle-whiskey",
+  "wild-weasel-cask-strength",
+  "wild-weasel-finest-blend",
+  "wild-weasel-single-malt-single-cask",
   "wiggle-red-fruits-apero",
   "wilderen-graanjenever",
   "eau-de-biere",
 ];
 
- const blackTextNeeded =['6'];
+// "wild-weasel-finest-blend"
+
+const blackTextNeeded = [];
 
 const spiritName = document.getElementById("spiritName");
 const spiritTagline = document.getElementById("spiritTagLine");
@@ -61,23 +65,23 @@ function fetchSpirits() {
 }
 
 function renderSpirits(data, spirit) {
-//   setTimeout(function() {
-//     spiritBackground.style.transition = '';
-// }, 500); // Adjust delay as needed
+  //   setTimeout(function() {
+  //     spiritBackground.style.transition = '';
+  // }, 500); // Adjust delay as needed
 
-// // Fade in the image after a short delay
-// setTimeout(function() {
-//     spiritBackground.style.opacity = 1;
-// }, 500); // Adjust delay as needed
-if (data[spirit].awards) {
-  awards.innerHTML = "";
-  // awards.innerHTML = `<h2>-Awards-</h2>`;
-  data[spirit].awards.forEach((award) => {
-    awards.innerHTML += `<li> <img src="${award}" alt="award"></li>`;
-  });
-} else {
-  awards.innerHTML = "";
-}
+  // // Fade in the image after a short delay
+  // setTimeout(function() {
+  //     spiritBackground.style.opacity = 1;
+  // }, 500); // Adjust delay as needed
+  if (data[spirit].awards) {
+    awards.innerHTML = "";
+    // awards.innerHTML = `<h2>-Awards-</h2>`;
+    data[spirit].awards.forEach((award) => {
+      awards.innerHTML += `<li> <img src="${award}" alt="award"></li>`;
+    });
+  } else {
+    awards.innerHTML = "";
+  }
 
   // spiritLogo.src = data[spirit].spiritLogo;
   root.style.setProperty("--themeColor", data[spirit].themeColor);
@@ -111,7 +115,7 @@ if (data[spirit].awards) {
   }
 
   console.log(data[spirit].id);
-  if (data[spirit].id == 6) {
+  if (data[spirit].id == "none") {
     spiritDescription.style.color = "black";
     buyButton.style.color = "black";
     buyButton.style.backgroundcolor = "red";
@@ -123,13 +127,16 @@ if (data[spirit].awards) {
     spiritTagline.style.color = "white";
   }
 
-console.log( "the spirit id is " + data[spirit].id, "and array has " + blackTextNeeded[0]);
-console.log(typeof(data[spirit].id));
-console.log(typeof(blackTextNeeded[0]));
+  console.log(
+    "the spirit id is " + data[spirit].id,
+    "and array has " + blackTextNeeded[0]
+  );
+  console.log(typeof data[spirit].id);
+  console.log(typeof blackTextNeeded[0]);
 
   console.log(data[spirit].id);
-console.log(blackTextNeeded.includes(data[spirit].id));
-console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
+  console.log(blackTextNeeded.includes(data[spirit].id));
+  console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
 
   if (blackTextNeeded.includes(data[spirit].id)) {
     console.log("black");
@@ -137,11 +144,10 @@ console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
     spiritTagline.style.color = "black";
     spiritDescription.style.color = "black";
 
-
     navLogo.src = "WEBSITE/Logo/LOGO W 2020BW.png";
     nav.forEach((navItem) => {
       navItem.style.color = "black";
-      navItem.style.textShadow ="none"
+      navItem.style.textShadow = "none";
     });
     // buyButton.style.color = "black";
   } else {
@@ -151,13 +157,26 @@ console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
     navLogo.src = "WEBSITE/Logo/DISTILLEERDERIJ BROUWERIJ LOGO.png";
     nav.forEach((navItem) => {
       navItem.style.color = "white";
-      navItem.style.textShadow ="#333333 1px 1px 1px"
-
+      navItem.style.textShadow = "#333333 1px 1px 1px";
     });
     // buyButton.style.color = "white";
   }
 
+  // Toon logo als deze bestaat anders niet
+  if (data[spirit].logo) {
+    spiritLogo.src = data[spirit].logo;
+    spiritLogo.style.display = "block";
+  } else {
+    spiritLogo.style.display = "none";
+  }
 
+  // wild whiskey logo
+  if (data[spirit].id == "6" || data[spirit].id == "7" || data[spirit].id == "8") {
+spiritLogo.style.filter = "drop-shadow(0px 0px 5px #fff)";
+console.warn("wild whiskey logo");
+  } else{
+    spiritLogo.style.filter = "none";
+  }
 }
 
 function buttonClick() {
@@ -175,7 +194,6 @@ function buttonClick() {
     // spiritBackground.style.transition = 'none';
     // spiritBackground.style.opacity = 0;
 
-
     if (getParamSpirit() < allSpirits.length - 1) {
       spirit++;
       updateParams(getParamSpirit() + 1);
@@ -190,25 +208,26 @@ function updateParams(param) {
   history.pushState(null, null, `?spirit=${spiritIndex}`);
 }
 
-function handleRadio(){
+function handleRadio() {
   console.log(getParamSpirit());
+  console.error("test");
   // getParamSpirit();
   const radios = document.querySelectorAll("input[type='radio']");
   console.log(radios);
   radios[getParamSpirit()].checked = true;
+  console.warn("🚀 ~ handleRadio ~ getParamSpirit():", getParamSpirit());
 }
 
 function radioClick() {
-
   const form = document.querySelector("form");
 
-form.addEventListener("change", function (event) {
-console.log(event.target.id)
-  const bierIndex = spiritNames.indexOf(event.target.id);
-  updateParams(bierIndex);
-  renderSpirits(allSpirits, getParamSpirit());
-  handleRadio();
-});
+  form.addEventListener("change", function (event) {
+    console.warn(event.target.id);
+    const bierIndex = spiritNames.indexOf(event.target.id);
+    updateParams(bierIndex);
+    renderSpirits(allSpirits, getParamSpirit());
+    handleRadio();
+  });
 }
 
 fetchSpirits();

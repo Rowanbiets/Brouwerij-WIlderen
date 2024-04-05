@@ -74,18 +74,46 @@
   },
   {
     "id": "6",
-    "spiritName": "Omerta Black Magnum Edition",
-    "spiritTagLine": "De wereld draait om de liefde. Whisky laat hem twee keer zo snel draaien. <br> <small>-Compton Mackenzie</small>",
-    "spiritDescription": "De diversiteit binnen de whiskywereld is verbazingwekkend. Of je nu een doorgewinterde whiskykenner bent of net begint te verkennen, de wereld van whisky heeft voor iedereen iets te bieden. Zo ook Onze Wild Weasel Whisky. <br> Echt ieder vat is uniek en heeft zijn eigenschappen. Ontdek de Wild Weasel Finest of Single Malt of Cask Strength. De Wilderen Whiskykelder bevindt zich onder de oude distilleerderij van 1900.Whisky moet je “leren” drinken en waarderen op de juiste manier in het juiste gezelschap. <br> Zoek ons op in de bekende Whisky Bible van Jim Murray!",
-    "buyname": "Wild Weasel Whisky",
+    "spiritName": "Wild Weasel Cask Strength 60%",
+    "spiritTagLine": "Pure Wildernis!",
+    "spiritDescription": "Deze Whisky heeft een alcoholpercentage van rond de 63%, afhankelijk van de eigenschappen van het vat. De Cask Strenght, wordt zoals het woord het zelf zegt afgevuld op vatsterkte, dus puur uit het vat. De mooie neus geeft vervolgens tabak, noten-amandel en karamel qua usual suspects Zachte , eiken finish met verwarmende afdronk.",
+    "buyname": "Wild Weasel Whisky Cash Strength",
     "spiritImg": "",
     "buyLink": "",
-    "themeColor": "#CE7701",
-    "neonColor": "#CE7701",
-    "spiritBG": "WEBSITE/Wild Weasel/Wild-Weasel-products-BG.jpg"
+    "themeColor": "#242A2C",
+    "neonColor": "#242A2C",
+    "spiritBG": "WEBSITE/Wild Weasel/Wild Weasel black-BG.jpg",
+    "logo": "WEBSITE/Wild Weasel/Weasel transparant.png"
   },
   {
     "id": "7",
+    "spiritName": "Wild Weasel Finest Blend 40%",
+    "spiritTagLine": "",
+    "spiritDescription": "De Wild Weasel Whisky wordt zorgvuldig geblend met een mooie Whisky van Distillerie Radermacher. Het is een speciale Belgische Blend gerijpt op geselecteerde eikenhouten vaten. Dit geeft deze Wild Weasel Finest Blend een uniek en robuust karakter.",
+    "buyname": "Wild Weasel Whisky Finest Blend",
+    "spiritImg": "",
+    "buyLink": "",
+    "themeColor": "#0C4135",
+    "neonColor": "#0C4135",
+    "spiritBG": "WEBSITE/Wild Weasel/Wild Weasel green-BG.jpg",
+    "logo": "WEBSITE/Wild Weasel/Weasel transparant.png"
+  },
+  {
+    "id": "8",
+    "spiritName": "Wild Weasel Single Malt Single Cask  46%",
+    "spiritTagLine": "",
+    "spiritDescription": "Deze Whisky komt uit één vat dat gedurende drie jaar in onze kelder heeft liggen rijpen. De Wild Weasel Single Malt heeft een uitzonderlijk mooie neus en gebalanceerde zachtheid. Fruitige aroma’s met noten, karamel, toetsen van eik geven deze Whisky een mooie afdronk. ",
+    "buyname": "Wild Weasel Whisky Single Malt Single Cask",
+    "spiritImg": "",
+    "buyLink": "",
+    "themeColor": "#711F1F",
+    "neonColor": "#711F1F",
+    "spiritBG": "WEBSITE/Wild Weasel/Wild Weasel red-BG.jpg",
+    "logo": "WEBSITE/Wild Weasel/Weasel transparant.png"
+  },
+
+  {
+    "id": "9",
     "spiritName": "Wiggle Red Fruits Apéro 18%",
     "spiritTagLine": "Have fun.",
     "spiritDescription": "Wiggle is een heerlijke apéro die geserveerd wordt met ijsblokjes aangelengd met cava, prosecco of bubbles, Werk af met wat bevroren rode vrucheten zoals aardbei, bes of framboos. <br> Ook lekker in de mix of in cocktails! O.a met met Fever Tree Elderflower, Soda, Almdudler, Red Bull e.a. …kleur je zomercocktail of geef deze zomer je Apéro een extra touch!  <br> Mix, proef & geniet!",
@@ -97,7 +125,7 @@
     "spiritBG": "WEBSITE/Wiggle/wiggle--red-BG.png"
   },
   {
-    "id": "8",
+    "id": "10",
     "spiritName": "Wilderen Graanjenever 32%",
     "spiritTagLine": "Een échte klassieker.",
     "spiritDescription": "De zachtheid van Wilderen Graanjenever bekoort menig jeneverliefhebber. De welgekende jeneverbes en geheim kruidenpakket zijn plezierig aanwezig in geur en smaak. Dit product is puur natuur, mooi helder. Een iets lager alcoholpercentage maakt van deze Wilderen graanjenever een toegankelijk en toch onvergetelijk distillaat.",
@@ -109,7 +137,7 @@
     "spiritBG": "WEBSITE/newBGs/Jenever-opname-blauw.jpg"
   },
   {
-    "id": "9",
+    "id": "11",
     "spiritName": "Eau de Bière 32%",
     "spiritTagLine": "Mooi huwelijk tussen brouwen en distilleren.",
     "spiritDescription": "Een Eau-de-Vie van superieure kwaliteit , uitzonderlijke neus en een zeer zachte afdronk Deze Wilderen Eau-de-Bière wordt met liefde voor het vak gedistilleerd uit ons 4- granen bier Tripel Kanunnik 8,2% <br> Onvergelijkbaar, dankbaar en edel product. Geliefd bij meerdere top-chefs.",
