@@ -1,7 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: "Oswald";
   src: url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap");
-}
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   /* standaard kleuren voor nav, word aangestuurd via js indien nodig (--textcolor -> zwart bv)
