@@ -534,6 +534,7 @@ li {
 .hamburgerNavContent h3 {
   margin-top: 50px;
   color: #282b2e;
+  font-family: "Helvetica Neue", Raleway, sans-serif;
 }
 
 .hamburgerNavContent li a {
@@ -613,3 +614,4 @@ a {
 .dropDownContainer:hover > a {
   color: #ad9a64;
 }
+
