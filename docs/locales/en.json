@@ -8,7 +8,7 @@
     "Tours",
     "Picnic",
     "Brewery Store",
-    "Info & Wildlife Team",
+    "Info & Wilderen team",
     "FAQ"
   ],
   "indexTitles": [
@@ -19,7 +19,7 @@
     "Visit us",
     "Opening hours 2024 <br> Brewery café"
   ],
-  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen is known for producing high-quality beers and distillates. Belgian craftsmanship in a contemporary and idiosyncratic context. With our Wilderen Team we aim for innovation and creativity, combining classic styles with modern influences to create unique and surprising beers. The brewery experiences a strong bond with its local community & heritage, which translates into the quality and pride we put in our products. In this way we would like to put Wilderen on the world map. For this we need you as an enthusiastic fan, customer or visitor.” ",
+  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen is known for producing high-quality beers and distillates. Belgian craftsmanship in a contemporary and exentric context. With our Wilderen Team we aim for innovation and creativity, combining classic styles with modern influences to create unique and surprising beers. The brewery experiences a strong bond with its local community & heritage, which translates into the quality and pride we put in our products. In this way we would like to put Wilderen on the world map. For this we need you as an enthusiastic fan, customer or visitor.” ",
   "indexButtons": ["Webshop", "Book a tour", "Opening hours"],
   "table": [
     {
@@ -41,18 +41,18 @@
         "row3": ["Sunday", "1 pm - 9 pm"]
       },
       "table3": {
-        "row1": ["31/03", "OPEN Easter", "12h - 9pm"],
-        "row2": ["1/04", "OPEN EASTER Monday", "12h - 19h"],
-        "row3": ["29/04 - 30/04", "BLOESEM exceptionally open", "12pm - 7pm"],
-        "row4": ["1/05", "OPEN MAY 1", "12pm - 7pm"],
-        "row5": ["9/05", "OPEN HEMSDAY", "12h - 19h"],
-        "row6": ["19/05", "OPEN PINKSTER SUNDAY", "12pm - 9pm"],
-        "row7": ["20/05", "OPEN PINKSTER MONDAY", "12pm - 7pm"],
-        "row8": ["21/07", "OPEN NATIONAL FEST DAY", "12pm - 9pm"],
-        "row9": ["15/08", "OPEN OLV HEMELVAART", "12pm - 7pm"],
-        "row10": ["1/11", "OPEN EVERYTHING", "1 p.m. - 00 p.m."],
-        "row11": ["2/11", "OPEN ALLER SEALS", "1 p.m. - 00 p.m."],
-        "row12": ["11/11", "OPEN ARM STILL", "1pm - 7pm"]
+        "row1": ["31/03", "OPEN EASTER", "12h - 9pm"],
+        "row2": ["1/04", "OPEN EASTER MONDAY", "12h - 19h"],
+        "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12pm - 7pm"],
+        "row4": ["1/05", "OPEN LABOR DAY", "12pm - 7pm"],
+        "row5": ["9/05", "OPEN ASCENSION", "12h - 19h"],
+        "row6": ["19/05", "OPEN PENTECOST ", "12pm - 9pm"],
+        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12pm - 7pm"],
+        "row8": ["21/07", "OPEN NATIONALE DAY", "12pm - 9pm"],
+        "row9": ["15/08", "OPEN ASSUMPTION", "12pm - 7pm"],
+        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 p.m. - 00 p.m."],
+        "row11": ["2/11", "ALL SOULS' DAY", "1 p.m. - 00 p.m."],
+        "row12": ["11/11", "ARMISTICE DAY", "1pm - 7pm"]
       }
     }
   ],
