@@ -52,9 +52,7 @@
 
 .picknick {
    
-    padding: 20px; /* Ruimte binnen de border */
     display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-    padding: 10px; /* Ruimte binnen de border */
     display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
     margin-top: 80px;
     margin-left: 30px;
@@ -63,17 +61,19 @@
     border-radius: 10px;
     
 }
-.award{
+/* .award{
     margin-top: 55px; 
-}
+} */
 
 .picknick img {
-   
     flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
-    margin-right: 120px; /* Ruimte tussen afbeelding en tekst */
+    /* margin-right: 120px; Ruimte tussen afbeelding en tekst */
     max-height: 400px;
-    margin-top: 40px;
-    border-radius: 10px;
+    max-width: 100%;
+    border-radius: 0 10px 10px 0;
+    height: 100% !important;
+    object-fit: cover;
+
 }
 .picknick p {
     flex: 2; /* Laat de tekst groeien om de beschikbare ruimte in te vullen */
@@ -92,7 +92,7 @@
     font-size: 21pt;
     font-weight: bold;
     width: 90%;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
@@ -196,7 +196,8 @@
     z-index: 3;
 }
 
-@media only screen and (max-width: 768px) {
+/* 1380px ipv 768 voor betere landscape tablet support */
+@media only screen and (max-width: 1380px) {
     /* Pas de stijlen aan voor schermen kleiner dan 768px breed */
     .text-overlay {
         top: 70%; /* Pas de positie van de overlay aan */
@@ -210,7 +211,6 @@
 
     .picknick {
    
-        padding: 10px; /* Ruimte binnen de border */
         display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
         
         display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
@@ -243,8 +243,11 @@
     }
     
     .picknick img {
-        margin-top: 20px; /* Voeg wat ruimte toe boven de afbeelding */
-    }
+        /* margin-bottom: -20px; */
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;    }
+
+    
     .book-now{
     
         background-color:#c31212;
@@ -260,6 +263,32 @@
 
     .award{
         margin-top: 55px; 
-       margin-left: 4Opx;
+        margin-bottom: 10px;
     }
+
+    .picknick-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .book-now{
+        margin: 0;
+    }
+    .award{
+        padding: 0px !important;
+    }
+
+}
+
+.award{
+    padding-left: 20px;
+}
+
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+
 }

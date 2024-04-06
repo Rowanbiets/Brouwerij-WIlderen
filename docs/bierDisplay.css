@@ -254,12 +254,13 @@ button:focus {
 }
 
 .awards img {
-  width: 8%;
-  min-width: 75px;
-  max-height: 1200px;
+  width: 20%;
+  /* min-width: 75px; */
+  max-height: 500px;
   /* height: fit-content !important; */
   margin: 10px;
-  margin-left: 20px;
+  margin-top: 40px;
+  /* margin-left: 20px; */
   /* border-radius: 10px !important; */
   /* opacity: 80%; */
   /* border: var(--themeColor) 5px solid; */
@@ -542,16 +543,30 @@ input[type="radio"]:nth-child(8):checked {
     justify-content: center;
   }
 
-/* overwrite js styling for desktop */
-  #beerInfo, #beerDescription {
+  /* overwrite js styling for desktop */
+  #beerInfo,
+  #beerDescription,
+  #beerTagLine {
     color: white !important;
   }
-}
 
-form {
-  width: 100vw !important;
-  display: flex;
-  justify-content: center;
+  form {
+    position: static !important;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+  }
+  .arrows button {
+    margin-top: 30%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .arrows button {
+      margin-top: 50% !important;
+    }
+  }
 }
 
 body {
