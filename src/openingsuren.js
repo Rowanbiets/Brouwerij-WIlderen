@@ -81,20 +81,20 @@ function renderTables(data) {
             <td data-i18n="table.0.table2.row3.0">${data.table2.row3[0]}</td>
             <td data-i18n="table.0.table2.row3.1">${data.table2.row3[1]}</td>
             <tr>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
           </tr>
 
 

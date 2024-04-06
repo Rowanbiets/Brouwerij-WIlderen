@@ -194,5 +194,11 @@ gap: 20px;
     margin: 0;
     margin: 15px;
   }
-}
 
+
+  /* hide empty table data for mobile */
+  table .empty {
+    display: none;
+  }
+
+}
