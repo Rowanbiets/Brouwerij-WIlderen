@@ -544,11 +544,13 @@ input[type="radio"]:nth-child(8):checked {
     justify-content: center;
   }
 
-  /* overwrite js styling for desktop */
+  /* overwrite js styling for desktop (e.g. Betty-Ford black text) */
   #beerInfo,
   #beerDescription,
   #beerTagLine {
     color: white !important;
+    font-size: small;
+
   }
 
   form {
@@ -587,8 +589,11 @@ input[type="radio"]:nth-child(8):checked {
   .beerBackground {
     position: static;
   }
+
+
 }
 
-body {
-  font-size: small;
+
+.arrows{
+  z-index: 10;
 }

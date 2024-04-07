@@ -96,7 +96,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-/* justify-content: center; */
+  /* justify-content: center; */
   /* mix-blend-mode: multiply; */
 
   /* background-color: red; */
@@ -321,13 +321,13 @@ input[type="radio"]:checked {
 }
 
 input[type="radio"]:nth-child(1):hover {
-  border-color: #D8D9DD;
-  filter: drop-shadow(0px 0px 5px #D8D9DD);
+  border-color: #d8d9dd;
+  filter: drop-shadow(0px 0px 5px #d8d9dd);
 }
 
 input[type="radio"]:nth-child(2):hover {
-  border-color: #D3B378;
-  filter: drop-shadow(0px 0px 5px #D3B378);
+  border-color: #d3b378;
+  filter: drop-shadow(0px 0px 5px #d3b378);
 }
 
 input[type="radio"]:nth-child(3):hover {
@@ -336,29 +336,29 @@ input[type="radio"]:nth-child(3):hover {
 }
 
 input[type="radio"]:nth-child(4):hover {
-  border-color: #D03F00;
-  filter: drop-shadow(0px 0px 5px #D03F00);
+  border-color: #d03f00;
+  filter: drop-shadow(0px 0px 5px #d03f00);
 }
 input[type="radio"]:nth-child(5):hover {
   border-color: #680009;
   filter: drop-shadow(0px 0px 5px #680009);
 }
 input[type="radio"]:nth-child(6):hover {
-  border-color: #CE7701;
-  filter: drop-shadow(0px 0px 5px #CE7701);
+  border-color: #ce7701;
+  filter: drop-shadow(0px 0px 5px #ce7701);
 }
 input[type="radio"]:nth-child(7):hover {
-  border-color: #FE026E;
-  filter: drop-shadow(0px 0px 5px #FE026E);
+  border-color: #fe026e;
+  filter: drop-shadow(0px 0px 5px #fe026e);
 }
 input[type="radio"]:nth-child(8):hover {
-  border-color: #00335E;
-  filter: drop-shadow(0px 0px 5px #00335E);
+  border-color: #00335e;
+  filter: drop-shadow(0px 0px 5px #00335e);
 }
 
 input[type="radio"]:nth-child(8):hover {
-  border-color: #E6A941;
-  filter: drop-shadow(0px 0px 5px #E6A941);
+  border-color: #e6a941;
+  filter: drop-shadow(0px 0px 5px #e6a941);
 }
 
 /* input[type="radio"]:nth-child(8):checked {
@@ -379,3 +379,147 @@ input[type="radio"]:nth-child(8):hover {
   left: 0;
   opacity: 60%;
 }
+
+@media screen and (max-width: 1000px) {
+  .position-relative {
+    flex-direction: column;
+    /* max-width: 100vw; */
+  }
+
+  .spiritBackground {
+    object-position: left;
+    height: 40vh;
+    width: 100vw;
+  }
+
+  .arrows {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    gap: unset;
+    max-width: 100vw;
+  }
+
+  .beerInfo {
+    flex-direction: column-reverse;
+  }
+
+  body > div.position-relative > div.overlay > div > div.beerInfo > div {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    border: none;
+    align-items: center;
+  }
+
+  #spiritInfo {
+    border-top: var(--themeColor) 2px solid;
+    width: 70%;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .spiritTitle {
+    width: 100vw;
+  }
+
+  .awards {
+    /* display: none; */
+    display: flex;
+    flex-direction: column;
+    right: 0 !important;
+    top: 0;
+    flex-direction: row !important;
+    left: unset !important;
+    margin-top: 0;
+    justify-content: flex-end !important;
+    width: 100px !important;
+    margin-top: 20px; /*prevent awards from overlapping with hamburger menu */
+  }
+
+  .awards img {
+    /* width: 100px; */
+    max-height: 70px;
+    /* width: fit-content; */
+    /* max-width: 100px; */
+    width: 50px;
+    /* object-fit: cover; */
+  }
+
+  .awards li {
+    width: fit-content;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  #spiritDescription {
+    width: 100vw;
+    padding: 10px;
+  }
+
+  .overlay {
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* overwrite js styling for desktop */
+  #spiritInfo,
+  #spiritDescription,
+  #spiritTagLine {
+    color: white !important;
+  }
+
+  form {
+    position: static !important;
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100vw !important;
+    display: flex;
+    justify-content: center;
+  }
+  .arrows button {
+    margin-top: 0;
+    /* top: 0; */
+  }
+
+  .arrows {
+    top: 0;
+    margin-top: 40%;
+    position: absolute;
+    /* width: 100vw; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .overlay {
+    display: unset;
+  }
+
+  /* @media screen and (max-width: 500px) {
+    .arrows button {
+      margin-top: 50% !important;
+    }
+  } */
+
+  .spiritBackground {
+    position: static;
+  }
+
+  .radios{
+    flex-wrap: wrap;
+justify-content: center;
+max-width: 50%;
+  }
+}
+
+.arrows{
+  z-index: 10;
+}
+
+
