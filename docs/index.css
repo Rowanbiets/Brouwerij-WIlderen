@@ -264,12 +264,11 @@ body {
   font-family: "Roboto Slab", serif;
   border-radius: 5px;
   height: 20px;
-
   color: #fff;
   padding: 15px 30px;
   cursor: pointer;
   text-decoration: none;
-  font-family: "Roboto-Slab";
+  
 }
 .butt {
   margin-top: 30px;
@@ -359,6 +358,13 @@ body {
   font-size: 24px; /* Grotere lettergrootte */
   text-transform: uppercase; /* Alle letters in hoofdletters voor extra nadruk */
 }
+
+
+.imageL img {
+  width: 100%;
+  height: auto; /* Behoud de aspectverhouding van de afbeelding */
+}
+
 
 /* TABEL OPENING */
 
@@ -464,6 +470,7 @@ video,
 iframe {
   max-width: 30%;
 }
+
 
 @media (max-width: 768px) {
   video,

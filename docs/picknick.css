@@ -165,12 +165,14 @@
     max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
     margin-left: 10; /* Verwijder de linkermarge */
     text-align: left;
+    padding: 20px;
   }
 
   .picknick p {
     max-width: 100%; /* Maak de maximale breedte van de tekst 100% */
     margin-left: 10; /* Verwijder de linkermarge */
     text-align: left;
+    padding: 20px;
   }
 
   .picknick {
