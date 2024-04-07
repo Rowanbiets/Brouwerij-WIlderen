@@ -518,10 +518,11 @@ input[type="radio"]:nth-child(8):checked {
 
   .awards img {
     /* width: 100px; */
-    height: 70px;
-    width: fit-content;
-    object-fit: cover;
-    min-width: unset;
+    max-height: 70px;
+    /* width: fit-content; */
+    /* max-width: 100px; */
+    width: 50px;
+    /* object-fit: cover; */
   }
 
   .awards li {
@@ -559,13 +560,32 @@ input[type="radio"]:nth-child(8):checked {
     justify-content: center;
   }
   .arrows button {
-    margin-top: 30%;
+    margin-top: 0;
+    /* top: 0; */
   }
 
-  @media screen and (max-width: 500px) {
+  .arrows {
+    top: 0;
+    margin-top: 40%;
+    position: absolute;
+    /* width: 100vw; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .overlay {
+    display: unset;
+  }
+
+  /* @media screen and (max-width: 500px) {
     .arrows button {
       margin-top: 50% !important;
     }
+  } */
+
+  .beerBackground {
+    position: static;
   }
 }
 
