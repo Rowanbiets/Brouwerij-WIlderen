@@ -43,11 +43,7 @@
       "table3": {
         "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
         "row2": ["1/04", "OPEN PAASMAANDAG", "12u - 19u"],
-        "row3": [
-          "29/04 - 30/04",
-          "BLOESEM uitzonderlijk open",
-          "12u - 19u"
-        ],
+        "row3": ["29/04 - 30/04", "BLOESEM uitzonderlijk open", "12u - 19u"],
         "row4": ["1/05", "OPEN 1 MEI", "12u - 19u"],
         "row5": ["9/05", "OPEN HEMELVAART", "12u - 19u"],
         "row6": ["19/05", "OPEN PINKSTERZONDAG", "12u - 21u"],
@@ -61,7 +57,11 @@
     }
   ],
   "tableExtraInfo": [],
-  "footer": [
-    "Ontdek meer over ons"
-  ]
+  "footer": ["Ontdek meer over ons"],
+
+  "ageCheck": [
+    "Heb je de mimnimumleeftijd bereikt om legaal alcohol te drinken?",
+    "Bier met liefde gebrouwen, drink je met verstand. Daarom moeten we even controleren dat je de minimumleeftijd hebt bereikt om alcohol te mogen consumeren."
+  ],
+  "yesNo": ["Ja", "Nee"]
 }

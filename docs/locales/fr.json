@@ -62,5 +62,10 @@
     }
   ],
   "tableExtraInfo": ["<li></li>"],
-  "footer": ["En savoir plus sur nous"]
+  "footer": ["En savoir plus sur nous"],
+  "ageCheck" : [
+    "Avez-vous atteint l'âge minimum pour consommer légalement de l'alcool ?",
+    "La bière brassée avec amour, vous la buvez avec intelligence. Par conséquent, nous devons prendre un moment pour vérifier que vous avez atteint l'âge minimum pour consommer de l'alcool."
+  ],
+  "yesNo" : ["Oui", "Non"]
 }

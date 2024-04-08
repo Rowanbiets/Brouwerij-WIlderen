@@ -316,4 +316,35 @@ function hamburgerToggle() {
 // // Roept de functie aan wanneer het schermformaat wordt gewijzigd
 // window.onresize = adjustLinkAndText;
 
+function checkAgeAndLang() {
+  const ageButton = document.querySelectorAll(".ageButton");
+  const ageCheck = document.querySelector(".ageCheck");
+  const imageAgeBG = document.querySelector(".imageAgeBG");
+
+
+  if (localStorage.getItem("age") !== "true") {
+    ageCheck.classList.remove("hide");
+    imageAgeBG.classList.remove("hide");
+    console.error("age not set");
+  }
+
+
+
+  ageButton.forEach((element) => {
+    element.addEventListener("click", () => {
+      localStorage.setItem("age", "true");
+      console.log("age set");
+      ageCheck.classList.add("lowerOpacity");
+      imageAgeBG.classList.add("lowerOpacity");
+
+      setTimeout(() => {
+        ageCheck.classList.add("hide");
+        imageAgeBG.classList.add("hide");
+      }, 500);
+    });
+  });
+  console.log(ageButton);
+}
+
 hamburgerToggle();
+checkAgeAndLang();
