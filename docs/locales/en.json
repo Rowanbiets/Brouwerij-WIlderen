@@ -57,7 +57,10 @@
     }
   ],
   "tableExtraInfo": [],
-  "footer": [
-    "Discover more about us"
-  ]
+  "footer": ["Discover more about us"],
+  "ageCheck": [
+    "Have you reached the mimnimum age to legally drink alcohol?",
+    "Beer brewed with love, you drink with intelligence. Therefore, we need to take a moment to check that you have reached the minimum age to legally consume alcohol."
+  ],
+  "yesNo": ["Yes", "No"]
 }
