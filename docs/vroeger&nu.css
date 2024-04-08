@@ -76,3 +76,36 @@ body {
 .container:hover .overlay {
     opacity: 1;
 }
+
+/* Mediaquery voor tablets */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Plaats de afbeeldingen onder elkaar */
+        align-items: center; /* Centreer de afbeeldingen horizontaal */
+        height: auto; /* Pas de hoogte van de container automatisch aan */
+    }
+    
+    .background-container {
+        width: 100%; /* Maak de afbeeldingen volledige breedte */
+        height: auto; /* Pas de hoogte automatisch aan */
+        margin-bottom: 20px; /* Voeg wat ruimte toe tussen de afbeeldingen */
+    }
+    
+    .background-container img {
+        height: auto; /* Behoud de aspectverhouding van de afbeeldingen */
+        padding: 40px;
+        padding-right: 40px;
+    }
+    
+    .overlay p {
+        font-size: 18px; /* Verklein de tekstgrootte voor betere leesbaarheid op kleinere schermen */
+    }
+}
+
+/* Mediaquery voor mobiele apparaten */
+@media only screen and (max-width: 480px) {
+    .overlay p {
+        font-size: 16px; /* Verklein de tekstgrootte nog meer voor mobiele apparaten */
+    }
+}
+

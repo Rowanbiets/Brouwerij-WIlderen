@@ -78,6 +78,33 @@
   margin-top: 20px;
 }
 
+
+.book-now{
+    
+  background-color:#c31212;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  margin-left: 45rem;
+}
+
+.book-now a{
+  font-family: "Roboto-Slab";
+}
+
+.book-now:hover {
+  transform: translateZ(20px); /* Beweeg de link een beetje naar voren */
+  background-color: #FBB117;
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+
 /* Stijlen voor de carousel-container */
 .carousel-container {
   text-align: center;
@@ -131,6 +158,7 @@
   width: 100%;
   height: 650px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .carousel-control-prev {
