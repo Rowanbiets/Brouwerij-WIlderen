@@ -268,7 +268,6 @@ body {
   padding: 15px 30px;
   cursor: pointer;
   text-decoration: none;
-  
 }
 .butt {
   margin-top: 30px;
@@ -359,12 +358,10 @@ body {
   text-transform: uppercase; /* Alle letters in hoofdletters voor extra nadruk */
 }
 
-
 .imageL img {
   width: 100%;
   height: auto; /* Behoud de aspectverhouding van de afbeelding */
 }
-
 
 /* TABEL OPENING */
 
@@ -458,19 +455,15 @@ html {
   gap: 20px; /* Ruimte tussen de video's */
 }
 
-.video-container iframe {
-  flex: 1;
-  max-width: calc(
-    33.33% - 20px
-  ); /* Breedte van elk video-item (33.33% van de containerbreedte met 20px ruimte tussen) */
-  height: 300px;
-}
+/*  */
 
 video,
 iframe {
-  max-width: 30%;
+  /* max-width: 30%; */
+  width: 400px;
+  height: 250px;
+  /* height: fit-content; */
 }
-
 
 @media (max-width: 768px) {
   video,

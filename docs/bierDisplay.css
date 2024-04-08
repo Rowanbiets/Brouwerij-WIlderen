@@ -232,8 +232,10 @@ button:focus {
 
 .logoAwards img {
   position: absolute;
-  width: 8%;
-  height: fit-content !important;
+  /* width: 8%; */
+  width: 100px;
+  height: 100px !important;
+  /* height: fit-content !important; */
   margin: 10px;
   border-radius: 10px !important;
   /* opacity: 80%; */
@@ -550,13 +552,15 @@ input[type="radio"]:nth-child(8):checked {
   #beerTagLine {
     color: white !important;
     font-size: small;
-
   }
 
   form {
-    position: static !important;
+    position: absolute !important;
+    top: 0;
+/* bottom: unset; */
     margin: 0;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin-top: 10px;
     width: 100vw !important;
     display: flex;
     justify-content: center;
@@ -589,11 +593,8 @@ input[type="radio"]:nth-child(8):checked {
   .beerBackground {
     position: static;
   }
-
-
 }
 
-
-.arrows{
-  z-index: 10;
+.arrows {
+  z-index: 6;
 }
