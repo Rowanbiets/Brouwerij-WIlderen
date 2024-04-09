@@ -57,7 +57,7 @@ h6 {
   display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
   margin-top: 80px;
   margin-left: 30px;
-  box-shadow: 0px 4px 12px rgb(56, 47, 47);
+  box-shadow: 0px 4px 12px rgba(56, 47, 47, 0.175);
   margin-right: 30px;
   border-radius: 10px;
 }
@@ -255,5 +255,16 @@ button:hover a {
     margin-top: 20px; /* Voeg wat ruimte toe boven de afbeelding */
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
+  }
+
+  .carousel{
+    width: 70%;
+    /* height: 500px; */
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: 400px;
+    border-radius: 0;
   }
 }

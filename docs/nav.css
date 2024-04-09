@@ -322,6 +322,7 @@ button:focus {
 }
 
 .hamburger {
+  /* display: none !important; */
   position: fixed;
   width: 100vw;
   /* transform: scaleX(0); */
@@ -708,16 +709,9 @@ img {
   color: white !important;
 }
 
-.ageCheck ul > li:nth-child(2) > button {
-  /* background-image: url(WEBSITE/Flag_of_the_United_Kingdom.svg.webp); */
-  /* background-size: cover; */
-}
 
-.ageCheck ul > li:nth-child(3) > button {
-  /* background-image: url(WEBSITE/Flag_of_France.svg.png); */
-  /* background-size: contain; */
-  background-size: cover;
-}
+
+
 .ageButton:hover {
   transform: translateZ(20px); /* Beweeg de link een beetje naar voren */
   background-color: #fbb117;
@@ -785,6 +779,15 @@ img {
 
 .hide {
   display: none;
+}
+
+.hamburger{
+  opacity: 0;
+}
+
+.display{
+  opacity: 1 !important;
+
 }
 
 @media screen and (max-width: 768px) {

@@ -465,7 +465,9 @@ iframe {
   /* height: fit-content; */
 }
 
-@media (max-width: 768px) {
+/* Buttons at the top of index become unstable around 1200px  */
+
+@media (max-width: 1200px) {
   video,
   iframe {
     max-width: 80% !important;
@@ -488,10 +490,14 @@ iframe {
   }
 
   .text-container {
-    max-width: 100%;
+    max-width: 90%;
     margin: 10px;
     flex-grow: 2 !important;
     padding-top: 0 !important;
+  }
+
+  .text-container h2{
+    font-size: 18pt !important;
   }
 
   .homeimg {
@@ -557,3 +563,4 @@ iframe {
   all: unset;
   width: 200px;
 }
+

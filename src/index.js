@@ -236,6 +236,7 @@ function hamburgerToggle() {
 
   toggleHamburgerMenu.addEventListener("click", () => {
     document.querySelector(".hamburger").classList.toggle("showHamburger");
+    document.querySelector(".hamburger").classList.toggle("display");
     toggleHamburgerMenu.classList.toggle("absolute");
     const hamburgerLines = document.querySelectorAll(
       "#toggleHamburgerMenu > span"

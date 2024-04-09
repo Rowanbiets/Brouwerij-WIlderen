@@ -57,7 +57,7 @@ body {
 .info {
   padding: 30px; /* Ruimte binnen de border */
   display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-  margin-top: 80px;
+  /* margin-top: 80px; */
   width: 70%;
   /* margin-left: 30px; */
   box-shadow: 0px 4px 12px rgba(56, 47, 47, 0.175);
@@ -122,7 +122,7 @@ body {
   padding: 18px;
   text-align: center;
   font-family: "helvetica neue", sans-serif;
-  font-size: 50pt;
+  font-size: 30pt;
   margin-top: 40px;
 }
 
@@ -143,14 +143,13 @@ body {
     width: 70%;
   }
 
-  table td{
+  table td {
     font-size: small;
   }
 
   .info {
     padding: 30px; /* Ruimte binnen de border */
     display: block; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-    margin-top: 80px;
     /* margin-left: 30px; */
     /* margin-right: 150px; */
     border-radius: 10px;
@@ -252,7 +251,6 @@ iframe {
   width: 50%; /* Breedte van de info-details */
 }
 
-
 /* 1200px => vermijd slecte weergaven van de email tabel op tablets/kleinere schermen  */
 @media screen and (max-width: 1200px) {
   .info-details {
@@ -276,7 +274,6 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   width: 100% !important;
-  gap: 50px;
   justify-content: center;
 }
 
@@ -351,7 +348,16 @@ table td:nth-child(even):hover a {
 table a {
   display: block;
   color: rgb(52, 59, 82);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 8px;
   /* width: 100%; */
+}
+
+td{
+  padding: 0;
 }
 
 .magazijn {
@@ -365,6 +371,16 @@ table a {
 } */
 
 /* zelfde padding als de tabel erboven */
-.adres p{
+.adres p {
   padding: 8px;
+}
+
+.column {
+  width: 400px;
+}
+
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 90%;
+  }
 }

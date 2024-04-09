@@ -89,7 +89,7 @@
   cursor: pointer;
   text-decoration: none;
   font-family: "Roboto Slab", serif;
-  margin-left: 45rem;
+  /* margin-left: 45rem; */
 }
 
 .book-now a{
