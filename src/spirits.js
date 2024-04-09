@@ -18,7 +18,7 @@ const spiritNames = [
 
 // "wild-weasel-finest-blend"
 
-const blackTextNeeded = [];
+const blackTextNeeded = [3];
 
 const spiritName = document.getElementById("spiritName");
 const spiritTagline = document.getElementById("spiritTagLine");
@@ -107,8 +107,10 @@ function renderSpirits(data, spirit) {
   }
   if (getParamSpirit() == 0) {
     leftArrow.style.display = "none";
+    rightArrow.style.display = "block";
   } else if (getParamSpirit() == allSpirits.length - 1) {
     rightArrow.style.display = "none";
+    leftArrow.style.display = "block";
   } else {
     leftArrow.style.display = "block";
     rightArrow.style.display = "block";
@@ -138,7 +140,7 @@ function renderSpirits(data, spirit) {
   console.log(blackTextNeeded.includes(data[spirit].id));
   console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
 
-  if (blackTextNeeded.includes(data[spirit].id)) {
+  if (blackTextNeeded[1] == data[spirit].id) {
     console.log("black");
     // beerName.style.color = "black";
     spiritTagline.style.color = "black";

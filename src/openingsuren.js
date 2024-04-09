@@ -4,6 +4,7 @@ export default function fetchOpeningsuren() {
     .then((data) => {
       console.log(data);
       renderTables(data);
+      console.error("OPENINGSUREN")
     });
 }
 

@@ -170,6 +170,7 @@ ul {
 
 .arrows button img {
   height: 60px !important;
+  filter: drop-shadow(0px 0px 1px black);
 }
 
 #beerTagLine {
@@ -359,6 +360,8 @@ form {
   z-index: 5;
   bottom: 0;
   margin-bottom: 50px;
+  z-index: 7;
+
 }
 
 .radios {
@@ -562,9 +565,13 @@ input[type="radio"]:nth-child(8):checked {
     /* margin-bottom: 30px; */
     margin-top: 10px;
     width: 100vw !important;
+    height: 100px;
     display: flex;
     justify-content: center;
+    z-index: 10;
   }
+
+
   .arrows button {
     margin-top: 0;
     /* top: 0; */
@@ -598,3 +605,5 @@ input[type="radio"]:nth-child(8):checked {
 .arrows {
   z-index: 6;
 }
+
+

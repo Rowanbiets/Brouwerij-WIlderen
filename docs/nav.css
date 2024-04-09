@@ -50,6 +50,7 @@ ul {
 
 .logo {
   width: 150px; /* Adjust logo size */
+  filter: drop-shadow(5px 5px 10px rgb(49, 49, 49));
   /* height: auto; */
   /* object-fit: fill; */
 }
@@ -328,7 +329,7 @@ button:focus {
   /* transform: scaleX(0); */
   transform: translateX(100%);
   transform-origin: right;
-  z-index: 10;
+  z-index: 15;
   /* transform-origin: bottom; */
   /* width: 50px;
   height: 50px; */
@@ -358,7 +359,7 @@ button:focus {
   width: 50vw;
   background-color: white;
   transition: all 1s;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 @media (max-width: 500px) {
@@ -800,7 +801,20 @@ img {
     width: 30px;
   }
 }
-/* 
-.imageAgeBG, .ageCheck {
-  display: none;
-} */
+
+/* adjustments for landscape mobile */
+@media screen and (max-height: 500px) {
+.hamburgerNav{
+  height: 500px;
+  overflow-y: scroll !important;
+  font-size: smaller;
+}
+
+.hamburgerNav button{
+  font-size: 15px;
+}
+
+.hamburgerNavContent, .hamburger{
+  overflow-y: scroll !important;
+}
+}

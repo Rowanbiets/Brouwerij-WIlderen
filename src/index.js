@@ -26,6 +26,8 @@ import SwupScriptsPlugin from "@swup/scripts-plugin";
 // import scripts (used for executing after page transition)
 
 import fetchOpeningsuren from "./openingsuren.js";
+// import fetchBeer from "./bieren.js";
+
 // import test from "../docs/testExport.bundle.js";
 
 // import test from "./testExport.js";
@@ -42,17 +44,31 @@ const swup = new Swup({
 
 swup.hooks.on("page:view", () => {
   init();
+  // fetchBeer();
 
   // console.warn("swup:view");
 });
 
 function init() {
+  console.warn("test init");
+
   //  if transitioning to index
   if (document.querySelector(".index")) {
-    fetchOpeningsuren();
+    // fetchOpeningsuren();
     console.log("index");
     indexSlideShow();
   }
+
+  if(document.querySelector(".bierDisplaySwup")) {
+    console.warn("bieren");
+    // setTimeout(() => {
+      // fetchBeer();
+      console.error("bieren");
+    // }, 5000);
+  }
+  console.log("🚀 ~ init ~ document.querySelector:", document.querySelector(".bierDisplaySwup"));
+  console.warn("test init");
+  
 }
 
 import i18next from "i18next";
@@ -349,3 +365,4 @@ function checkAgeAndLang() {
 
 hamburgerToggle();
 checkAgeAndLang();
+// fetchBeer();
