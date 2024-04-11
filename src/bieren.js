@@ -1,26 +1,45 @@
 "use strict";
 
-// select all needed elements
-const beerName = document.getElementById("beerName");
-const beerTagline = document.getElementById("beerTagLine");
-const beerDescription = document.getElementById("beerDescription");
-const beerInfo = document.getElementById("beerInfo");
-const beerImage = document.getElementById("bierImg");
-const beerLogo = document.getElementById("beerLogo");
-const colors = document.querySelectorAll(".themed");
-const buyButton = document.querySelector(".buy-button2");
-const neonborder = document.querySelector(".imgBorder");
-const root = document.querySelector(":root");
-const beerBackground = document.querySelector(".beerBackground");
-console.log("🚀 ~ beerBackground:", beerBackground);
-console.log("🚀 ~ beerBackground:", beerBackground);
-const navLogo = document.querySelector(".logo");
-const nav = document.querySelectorAll("nav > ul >  li  > a");
+// deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
+let beerName,
+  beerTagline,
+  beerDescription,
+  beerInfo,
+  beerImage,
+  beerLogo,
+  colors,
+  buyButton,
+  neonborder,
+  root,
+  beerBackground,
+  navLogo,
+  nav,
+  awards,
+  radios,
+  rightArrow,
+  leftArrow;
 
-console.log("🚀 ~ nav:", nav);
-const awards = document.querySelector(".awards");
-const radios = document.querySelectorAll("input[type='radio']");
-console.log(radios);
+function initDom() {
+  // select all needed elements
+  beerName = document.getElementById("beerName");
+  beerTagline = document.getElementById("beerTagLine");
+  beerDescription = document.getElementById("beerDescription");
+  beerInfo = document.getElementById("beerInfo");
+  beerImage = document.getElementById("bierImg");
+  beerLogo = document.getElementById("beerLogo");
+  colors = document.querySelectorAll(".themed");
+  buyButton = document.querySelector(".buy-button2");
+  neonborder = document.querySelector(".imgBorder");
+  root = document.querySelector(":root");
+  beerBackground = document.querySelector(".beerBackground");
+  navLogo = document.querySelector(".logo");
+  nav = document.querySelectorAll("nav > ul >  li  > a");
+
+  awards = document.querySelector(".awards");
+  radios = document.querySelectorAll("input[type='radio']");
+  rightArrow = document.getElementById("arrowRight");
+  leftArrow = document.getElementById("arrowLeft");
+}
 
 let beer = 0;
 let allBeer = [];
@@ -35,10 +54,26 @@ const bierNames = [
   "clarrise-rouge",
 ];
 
-const textShadowNeeded = [2]; //adjust if needed (was used for Betty Ford but turned down bg brightness instead)
+const textShadowNeeded = [2];
 
-const rightArrow = document.getElementById("arrowRight");
-const leftArrow = document.getElementById("arrowLeft");
+export default function fetchBeer() {
+  initDom();
+  console.log("fetching beer data");
+  console.log("elements exist?", beerName);
+  fetch("data/beerData.json")
+    .then((response) => response.json())
+    .then((data) => {
+      // showData(data);
+      allBeer = data;
+      renderBeer(data, getParamBeer());
+      buttonClick();
+      handleRadio();
+      radioClick();
+      //       buttonClick();
+      // handleRadio();
+      // radioClick();
+    });
+}
 
 function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
@@ -49,21 +84,7 @@ function getParamBeer() {
 
   return bierIndex;
 }
-export default function fetchBeer() {
-  
-  console.log("fetching beer data");
-  console.log("elements exist?", beerName)
-  fetch("data/beerData.json")
-    .then((response) => response.json())
-    .then((data) => {
-      // showData(data);
-      allBeer = data;
-      renderBeer(data, getParamBeer());
-//       buttonClick();
-// handleRadio();
-// radioClick();
-    });
-}
+
 // const questionLang = new URLSearchParams(window.location.search).get(
 //   "taal"
 // );
@@ -123,7 +144,7 @@ function renderBeer(data, beer) {
   beerInfo.innerHTML = "";
   beerBackground.src = data[beer].beerBG;
   console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
-console.error(data[beer] )
+  console.error(data[beer]);
   data[beer].beerInfo.forEach((beer) => {
     beerInfo.innerHTML += `<li>${beer}</li>`;
   });
@@ -157,7 +178,7 @@ console.error(data[beer] )
 
   if (getParamBeer() == 0) {
     console.warn("🚀 ~ renderBeer ~ getParamBeer():", getParamBeer());
-    
+
     leftArrow.style.display = "none";
     rightArrow.style.display = "block";
   } else if (getParamBeer() == allBeer.length - 1) {
@@ -180,7 +201,6 @@ function buttonClick() {
       updateParams(getParamBeer() - 1);
       renderBeer(allBeer, getParamBeer());
       handleRadio();
-
     }
   });
   rightArrow.addEventListener("click", function () {
@@ -210,6 +230,7 @@ function handleRadio() {
 }
 
 function radioClick() {
+  console.error(beerName);
   const form = document.querySelector("form");
 
   form.addEventListener("change", function (event) {
@@ -221,7 +242,18 @@ function radioClick() {
   });
 }
 
-fetchBeer();
-buttonClick();
-handleRadio();
-radioClick();
+// fetchBeer();
+// buttonClick();
+// handleRadio();
+// radioClick();
+
+// this is globally available
+// const selector = document.querySelector(".selector");
+
+// export default function example(){
+// this won't work for some reason with swup
+//   selector.src ="img/selector.png"
+
+// this will work with swup for some reason
+//   document.querySelector(".selector").src = "img/selector.png";
+// }

@@ -21,12 +21,12 @@
 
 import Swup from "swup";
 import SwupHeadPlugin from "@swup/head-plugin";
-import SwupScriptsPlugin from "@swup/scripts-plugin";
+// import SwupScriptsPlugin from "@swup/scripts-plugin";
 
 // import scripts (used for executing after page transition)
 
 import fetchOpeningsuren from "./openingsuren.js";
-// import fetchBeer from "./bieren.js";
+import fetchBeer from "./bieren.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -38,9 +38,15 @@ const swup = new Swup({
     new SwupHeadPlugin({
       awaitAssets: true,
     }),
-    new SwupScriptsPlugin(),
+    // new SwupScriptsPlugin(),
   ],
 });
+
+if (document.readyState === 'complete') {
+  init();
+} else {
+  document.addEventListener('DOMContentLoaded', () => init());
+}
 
 swup.hooks.on("page:view", () => {
   init();
@@ -50,8 +56,8 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
-  console.warn("test init");
-
+  console.warn("INIT");
+fetchOpeningsuren();
   //  if transitioning to index
   if (document.querySelector(".index")) {
     // fetchOpeningsuren();
@@ -61,10 +67,12 @@ function init() {
 
   if(document.querySelector(".bierDisplaySwup")) {
     console.warn("bieren");
-    // setTimeout(() => {
-      // fetchBeer();
+//  setTimeout(() => {
+  fetchBeer();
+  console.error("FETCHING BIEREN");
+//  }, 2000);
       console.error("bieren");
-    // }, 5000);
+
   }
   console.log("🚀 ~ init ~ document.querySelector:", document.querySelector(".bierDisplaySwup"));
   console.warn("test init");

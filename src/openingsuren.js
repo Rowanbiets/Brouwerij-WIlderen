@@ -186,4 +186,4 @@ function renderTables(data) {
                 </tr>`;
 }
 
-fetchOpeningsuren();
+// fetchOpeningsuren();
