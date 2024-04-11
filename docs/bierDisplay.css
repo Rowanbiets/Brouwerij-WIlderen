@@ -121,7 +121,7 @@ ul {
 .buy-button2 {
   color: white !important;
 
-  margin-left: 10px;
+  /* margin-left: 10px; */
   /* background: green; */
   width: fit-content;
   height: fit-content;
@@ -361,7 +361,7 @@ form {
   bottom: 0;
   margin-bottom: 50px;
   z-index: 7;
-
+  /* transform: translateX(-200%); */
 }
 
 .radios {
@@ -487,7 +487,7 @@ input[type="radio"]:nth-child(8):checked {
     flex-direction: column-reverse;
   }
 
-  body > div.position-relative > div.overlay > div > div.beerInfo > div {
+  .beerInfo > div {
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -556,21 +556,38 @@ input[type="radio"]:nth-child(8):checked {
     color: white !important;
     font-size: small;
   }
+.extraInfo{
+  display: unset;
+}
+
+#beerLogo{
+  display: none !important;
+}
+
+body > header > div > a > img{
+  width: 50px !important;
+}
+
 
   form {
-    position: absolute !important;
-    top: 0;
-/* bottom: unset; */
+    /* position: absolute !important; */
+    /* top: 0; */
+    /* bottom: unset; */
     margin: 0;
-    /* margin-bottom: 30px; */
-    margin-top: 10px;
-    width: 100vw !important;
     height: 100px;
+    position: static !important;
+    /* margin-bottom: 30px; */
+    margin-bottom: 10%;
+    width: 100vw !important;
+    /* height: 100px; */
     display: flex;
     justify-content: center;
     z-index: 10;
   }
 
+  .beerInfo{
+    margin-top: 0 !important;
+  }
 
   .arrows button {
     margin-top: 0;
@@ -589,6 +606,7 @@ input[type="radio"]:nth-child(8):checked {
 
   .overlay {
     display: unset;
+    /* justify-content: flex-start !important; */
   }
 
   /* @media screen and (max-width: 500px) {
@@ -605,5 +623,3 @@ input[type="radio"]:nth-child(8):checked {
 .arrows {
   z-index: 6;
 }
-
-

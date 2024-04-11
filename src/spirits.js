@@ -1,5 +1,43 @@
 "use strict";
 
+// deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
+let spiritName,
+  spiritTagline,
+  spiritDescription,
+  spiritInfo,
+  spiritImage,
+  spiritLogo,
+  colors,
+  buyButton,
+  neonborder,
+  root,
+  spiritBackground,
+  navLogo,
+  nav,
+  awards,
+  rightArrow,
+  leftArrow;
+
+
+  function initDom() {
+    spiritName = document.getElementById("spiritName");
+    spiritTagline = document.getElementById("spiritTagLine");
+    spiritDescription = document.getElementById("spiritDescription");
+    spiritInfo = document.getElementById("spiritInfo");
+    spiritImage = document.getElementById("spiritImage");
+    spiritLogo = document.getElementById("spiritLogo");
+    colors = document.querySelectorAll(".themed");
+    buyButton = document.querySelector(".buy-button2");
+    neonborder = document.querySelector(".imgBorder");
+    root = document.querySelector(":root");
+    spiritBackground = document.querySelector(".spiritBackground");
+    navLogo = document.querySelector(".logo");
+    nav = document.querySelectorAll("nav > ul >  li  > a");
+    awards = document.querySelector(".awards");
+    leftArrow = document.getElementById("arrowLeft");
+    rightArrow = document.getElementById("arrowRight");
+  }
+
 let spirit = 0;
 let allSpirits = [];
 const spiritNames = [
@@ -16,30 +54,9 @@ const spiritNames = [
   "eau-de-biere",
 ];
 
-// "wild-weasel-finest-blend"
-
 const blackTextNeeded = [3];
 
-const spiritName = document.getElementById("spiritName");
-const spiritTagline = document.getElementById("spiritTagLine");
-const spiritDescription = document.getElementById("spiritDescription");
-const spiritInfo = document.getElementById("spiritInfo");
-const spiritImage = document.getElementById("spiritImage");
-const spiritLogo = document.getElementById("spiritLogo");
-const colors = document.querySelectorAll(".themed");
-const buyButton = document.querySelector(".buy-button2");
-const neonborder = document.querySelector(".imgBorder");
-const root = document.querySelector(":root");
-const spiritBackground = document.querySelector(".spiritBackground");
-const navLogo = document.querySelector(".logo");
-const nav = document.querySelectorAll("nav > ul >  li  > a");
-const awards = document.querySelector(".awards");
 
-console.log("🚀 ~ nav:", nav);
-// const nav = document.querySelectorAll("nav ul li");
-
-const leftArrow = document.getElementById("arrowLeft");
-const rightArrow = document.getElementById("arrowRight");
 
 function getParamSpirit() {
   // zoek de spiritnaam op in de url -> ?spirit=""
@@ -53,7 +70,8 @@ function getParamSpirit() {
   return spiritIndex;
 }
 
-function fetchSpirits() {
+export default function fetchSpirits() {
+  initDom();
   fetch("data/spiritData.json")
     .then((response) => response.json())
     .then((data) => {
@@ -61,6 +79,9 @@ function fetchSpirits() {
       allSpirits = data;
       console.log(data);
       renderSpirits(data, getParamSpirit());
+      buttonClick();
+      handleRadio();
+      radioClick();
     });
 }
 
@@ -173,10 +194,14 @@ function renderSpirits(data, spirit) {
   }
 
   // wild whiskey logo
-  if (data[spirit].id == "6" || data[spirit].id == "7" || data[spirit].id == "8") {
-spiritLogo.style.filter = "drop-shadow(0px 0px 5px #fff)";
-console.warn("wild whiskey logo");
-  } else{
+  if (
+    data[spirit].id == "6" ||
+    data[spirit].id == "7" ||
+    data[spirit].id == "8"
+  ) {
+    spiritLogo.style.filter = "drop-shadow(0px 0px 5px #fff)";
+    console.warn("wild whiskey logo");
+  } else {
     spiritLogo.style.filter = "none";
   }
 }
@@ -232,7 +257,7 @@ function radioClick() {
   });
 }
 
-fetchSpirits();
-buttonClick();
-radioClick();
-handleRadio();
+// fetchSpirits();
+// buttonClick();
+// radioClick();
+// handleRadio();

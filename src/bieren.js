@@ -17,7 +17,8 @@ let beerName,
   awards,
   radios,
   rightArrow,
-  leftArrow;
+  leftArrow,
+  form;
 
 function initDom() {
   // select all needed elements
@@ -34,11 +35,11 @@ function initDom() {
   beerBackground = document.querySelector(".beerBackground");
   navLogo = document.querySelector(".logo");
   nav = document.querySelectorAll("nav > ul >  li  > a");
-
   awards = document.querySelector(".awards");
   radios = document.querySelectorAll("input[type='radio']");
   rightArrow = document.getElementById("arrowRight");
   leftArrow = document.getElementById("arrowLeft");
+  form = document.querySelector("form");
 }
 
 let beer = 0;
@@ -72,7 +73,7 @@ export default function fetchBeer() {
       //       buttonClick();
       // handleRadio();
       // radioClick();
-    });
+    }); 
 }
 
 function getParamBeer() {
@@ -89,7 +90,25 @@ function getParamBeer() {
 //   "taal"
 // );
 
+
+// function radioPlacement(){
+//   const body = document.querySelector("body");
+//   if(window.innerWidth <= 768){
+//   body.removeAttribute(form);
+//   console.warn("form removed");
+//     beerTagline.insertAdjacentHTML("afterend", form.outerHTML);
+//   } else{
+//   console.warn("form is already in place");
+//   }
+// }
+
+// window.addEventListener("resize", radioPlacement);
+
 function renderBeer(data, beer) {
+  // beerTagline.inserAdjecentHTML("afterend", form)
+  console.warn(form);
+
+
   console.warn("🚀 ~ renderBeer ~ beer", beer);
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
   root.style.setProperty("--themeColor", data[beer].themeColor);

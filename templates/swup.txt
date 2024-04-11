@@ -1,7 +1,7 @@
-<!-- ---Wrap this around the part of the html that needs to be transitioned/removed --- -->
-                             <!-- --- e.g. not the nav and footer --- -->
-<!-- --- Add class for specific page in case of new script (see hooks in src/index.js) --- -->
-<!-- --- Example if(somePageElement exist) => trigger script for that page --- -->
+<!-- ---Wrap this around the part of the html that needs to be transitioned/removed
+ e.g. not the nav (footer should be added to prevent a footer in the displays)
+ Add class for specific page in case of new script (see hooks in src/index.js)
+ Example if(somePageElement exist) => trigger script for that page --- -->
 
 
 

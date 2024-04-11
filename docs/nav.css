@@ -244,8 +244,18 @@ nav > ul > li:hover > a {
   color: #ad9a64 !important;
 }
 
+/* enable if shadow would be nessesary */
+ 
+/* #visit, */
+/* #production, */
+/* #contact, */
+/* nav > ul > li > a { */
+  /* color: red !important; */
+  /* text-shadow: rgb(51, 51, 51) 1px 1px 1px; */
+/* } */
+
 nav > ul > li > a {
-  text-shadow: #333333 1px 1px 1px;
+  text-shadow: none !important;
 }
 
 nav {
@@ -710,9 +720,6 @@ img {
   color: white !important;
 }
 
-
-
-
 .ageButton:hover {
   transform: translateZ(20px); /* Beweeg de link een beetje naar voren */
   background-color: #fbb117;
@@ -782,13 +789,12 @@ img {
   display: none;
 }
 
-.hamburger{
+.hamburger {
   opacity: 0;
 }
 
-.display{
+.display {
   opacity: 1 !important;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -804,17 +810,18 @@ img {
 
 /* adjustments for landscape mobile */
 @media screen and (max-height: 500px) {
-.hamburgerNav{
-  height: 500px;
-  overflow-y: scroll !important;
-  font-size: smaller;
-}
+  .hamburgerNav {
+    height: 500px;
+    overflow-y: scroll !important;
+    font-size: smaller;
+  }
 
-.hamburgerNav button{
-  font-size: 15px;
-}
+  .hamburgerNav button {
+    font-size: 15px;
+  }
 
-.hamburgerNavContent, .hamburger{
-  overflow-y: scroll !important;
-}
+  .hamburgerNavContent,
+  .hamburger {
+    overflow-y: scroll !important;
+  }
 }

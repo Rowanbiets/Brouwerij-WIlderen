@@ -27,6 +27,7 @@ import SwupHeadPlugin from "@swup/head-plugin";
 
 import fetchOpeningsuren from "./openingsuren.js";
 import fetchBeer from "./bieren.js";
+import fetchSpirit from "./spirits.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -42,22 +43,19 @@ const swup = new Swup({
   ],
 });
 
-if (document.readyState === 'complete') {
+if (document.readyState === "complete") {
   init();
 } else {
-  document.addEventListener('DOMContentLoaded', () => init());
+  document.addEventListener("DOMContentLoaded", () => init());
 }
 
 swup.hooks.on("page:view", () => {
   init();
-  // fetchBeer();
-
-  // console.warn("swup:view");
 });
 
 function init() {
   console.warn("INIT");
-fetchOpeningsuren();
+  fetchOpeningsuren();
   //  if transitioning to index
   if (document.querySelector(".index")) {
     // fetchOpeningsuren();
@@ -65,18 +63,16 @@ fetchOpeningsuren();
     indexSlideShow();
   }
 
-  if(document.querySelector(".bierDisplaySwup")) {
-    console.warn("bieren");
-//  setTimeout(() => {
-  fetchBeer();
-  console.error("FETCHING BIEREN");
-//  }, 2000);
-      console.error("bieren");
-
+  if (document.querySelector(".bierDisplaySwup")) {
+    console.warn("FETCHING BIEREN");
+    fetchBeer();
   }
-  console.log("🚀 ~ init ~ document.querySelector:", document.querySelector(".bierDisplaySwup"));
+
+  if (document.querySelector(".spiritDisplaySwup")) {
+    console.warn("FETCHING SPIRITS");
+    fetchSpirit();
+  }
   console.warn("test init");
-  
 }
 
 import i18next from "i18next";
@@ -346,14 +342,11 @@ function checkAgeAndLang() {
   const ageCheck = document.querySelector(".ageCheck");
   const imageAgeBG = document.querySelector(".imageAgeBG");
 
-
   if (localStorage.getItem("age") !== "true") {
     ageCheck.classList.remove("hide");
     imageAgeBG.classList.remove("hide");
     console.error("age not set");
   }
-
-
 
   ageButton.forEach((element) => {
     element.addEventListener("click", () => {
