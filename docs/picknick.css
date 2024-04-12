@@ -20,7 +20,7 @@
   text-align: left;
   color: white;
   position: absolute;
-  top: 380px; /* Plaats de tekst-overlay meer naar boven */
+  top: 400px; /* Plaats de tekst-overlay meer naar boven */
   left: 20px;
   width: 40%;
 }
@@ -56,9 +56,9 @@
 .picknick img {
   flex: 5; /* Laat de afbeelding groeien om de beschikbare ruimte in te vullen */
   margin-right: 90px; /* Ruimte tussen afbeelding en tekst */
-  /* border-radius: 10px; */
   border-radius: 10px 0px 0px 10px;
   object-fit: cover;
+  width: 300px;
 }
 
 .picknick p {
@@ -85,6 +85,7 @@
   color: #fff;
   padding: 15px 30px;
   border: none;
+  margin-left: 80%;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
