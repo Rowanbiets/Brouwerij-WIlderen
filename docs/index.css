@@ -355,8 +355,14 @@ body {
 }
 
 .imageL img {
-  width: 100%;
+  width: 60%;
   height: auto; /* Behoud de aspectverhouding van de afbeelding */
+}
+
+.imageL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* TABEL OPENING */
@@ -561,6 +567,10 @@ iframe {
 }
 
 @media (max-width: 768px) {
+
+  .imageL img {
+    width: 100%;
+  }
   #table {
     display: none;
   }
@@ -656,6 +666,7 @@ iframe {
   /* border-radius: 10px; */
   height: 400px;
 }
+
 
 
 /* main item */
@@ -828,4 +839,40 @@ iframe {
   /* object-position: bottom; */
   z-index: -5;
   position: absolute;
+}
+
+.carousel-item img{
+  transition: all 0.3s ease-in-out;
+}
+
+#tripelKanunnik:hover{
+  filter: drop-shadow(0px 0px 8px #F97700);
+}
+
+#kriek:hover{
+  filter: drop-shadow(0px 0px 8px #FF232D);
+}
+
+#bettyFord:hover{
+  filter: drop-shadow(0px 0px 8px #6D9170);
+}
+
+#cuveeClarisse:hover{
+  filter: drop-shadow(0px 0px 8px #460610);
+}
+
+#rum-infused:hover{
+  filter: drop-shadow(0px 0px 8px #FBA953);
+}
+
+#whiskey-infused:hover{
+  filter: drop-shadow(0px 0px 8px #521B6D);
+}
+
+#clarisse-rouge:hover{
+  filter: drop-shadow(0px 0px 8px #cc1223);
+}
+
+#wilderenGoud:hover{
+  filter: drop-shadow(0px 0px 8px gold);
 }

@@ -29,6 +29,7 @@ import fetchOpeningsuren from "./openingsuren.js";
 import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
+import getEmailData from "./email.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -44,6 +45,29 @@ const swup = new Swup({
   ],
 });
 
+// swup.hooks.on("page:afterRender", () => {
+//   init();
+// });
+
+function initCarousel() {
+  $(".carousel").carousel(); // Use Bootstrap's carousel method provided by jQuery
+}
+
+// Run the script tags when Swup replaces the content
+swup.hooks.on("content:replace", () => {
+  // Manually load jQuery and Bootstrap's JavaScript libraries
+  const jqueryScript = document.createElement("script");
+  jqueryScript.src = "https://code.jquery.com/jquery-3.5.1.slim.min.js";
+  jqueryScript.onload = function () {
+    const bootstrapScript = document.createElement("script");
+    bootstrapScript.src =
+      "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js";
+    bootstrapScript.onload = initCarousel; // Initialize the carousel after Bootstrap is loaded
+    document.head.appendChild(bootstrapScript);
+  };
+  document.head.appendChild(jqueryScript);
+});
+
 if (document.readyState === "complete") {
   init();
 } else {
@@ -55,22 +79,29 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
+  applySavedLanguage();
 
-
-
-
-
-
-  
   console.warn("INIT");
-  fetchOpeningsuren();
   // indexSlideShow();
 
   //  if transitioning to index
   if (document.querySelector(".index")) {
-    // fetchOpeningsuren();
     carousel();
     console.log("index");
+  }
+
+
+if(document.querySelector(".cafeSwup") ||document.querySelector(".winkelSwup") ||document.querySelector(".index")) {
+  fetchOpeningsuren();
+}
+
+
+  if (document.querySelector("#horecaSwup")) {
+    console.log("EMAIL SCRIPT PRESENT");
+    setTimeout(() => {
+      // initCarousel();
+    }, 5000);
+    getEmailData();
   }
 
   if (document.querySelector(".bierDisplaySwup")) {
@@ -109,6 +140,9 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
 // Function to update translations
 function updateTranslations() {
+
+console.warn("Translations updated")
+
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
     element.innerHTML = i18next.t(key);
