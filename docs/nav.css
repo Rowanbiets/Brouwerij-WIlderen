@@ -751,6 +751,10 @@ img {
   gap: 20px;
   height: 100%;
 }
+
+.ageCheck{
+  overflow-y: scroll !important;
+}
 /* .ageButton {
   display: flex !important;
   justify-content: center;
@@ -825,3 +829,6 @@ img {
     overflow-y: scroll !important;
   }
 }
+/* body {
+  overflow-y: hidden !important;
+} */

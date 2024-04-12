@@ -158,7 +158,6 @@ button:focus {
   text-align: center;
   margin-top: 10px;
   text-shadow: 0px 0px 5px black;
-  
 
   /* text-align: center; */
 }
@@ -171,7 +170,6 @@ button {
   padding: 10px;
   transition: all 0.3s ease-in-out;
 }
-
 
 .buy-button2 {
   /* color: white !important; */
@@ -256,8 +254,7 @@ gap: 100%; */
   flex-direction: column;
   /* vertical-align: middle; */
 }
-
-button img {
+button img:not(.hamburgerNavContent img) {
   height: 60px !important;
 }
 
@@ -431,7 +428,7 @@ input[type="radio"]:nth-child(8):hover {
     width: 100vw;
   }
 
-  body > header > div > a > img{
+  body > header > div > a > img {
     width: 50px !important;
   }
 
@@ -521,19 +518,17 @@ input[type="radio"]:nth-child(8):hover {
     position: static;
   }
 
-  .radios{
+  .radios {
     flex-wrap: wrap;
-justify-content: center;
-max-width: 50%;
+    justify-content: center;
+    max-width: 50%;
   }
 }
 
-.arrows{
+.arrows {
   z-index: 6;
 }
 
-.arrows button img{
+.arrows button img {
   filter: drop-shadow(0px 0px 1px black);
-
 }
-

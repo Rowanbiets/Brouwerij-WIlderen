@@ -28,6 +28,7 @@ import SwupHeadPlugin from "@swup/head-plugin";
 import fetchOpeningsuren from "./openingsuren.js";
 import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
+import carousel from "./carousel.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -54,13 +55,22 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
+
+
+
+
+
+
+  
   console.warn("INIT");
   fetchOpeningsuren();
+  // indexSlideShow();
+
   //  if transitioning to index
   if (document.querySelector(".index")) {
     // fetchOpeningsuren();
+    carousel();
     console.log("index");
-    indexSlideShow();
   }
 
   if (document.querySelector(".bierDisplaySwup")) {
@@ -341,11 +351,15 @@ function checkAgeAndLang() {
   const ageButton = document.querySelectorAll(".ageButton");
   const ageCheck = document.querySelector(".ageCheck");
   const imageAgeBG = document.querySelector(".imageAgeBG");
+  const body = document.querySelector("body");
 
   if (localStorage.getItem("age") !== "true") {
     ageCheck.classList.remove("hide");
     imageAgeBG.classList.remove("hide");
     console.error("age not set");
+    // body.classList.add("noScroll");
+    body.style.overflow = "hidden";
+    console.log(body);
   }
 
   ageButton.forEach((element) => {
@@ -354,7 +368,7 @@ function checkAgeAndLang() {
       console.log("age set");
       ageCheck.classList.add("lowerOpacity");
       imageAgeBG.classList.add("lowerOpacity");
-
+      body.style.overflow = "auto";
       setTimeout(() => {
         ageCheck.classList.add("hide");
         imageAgeBG.classList.add("hide");

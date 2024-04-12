@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.732" height="109.874" viewBox="0 0 74.732 109.874">
+  <defs>
+    <filter id="Icon_material-keyboard-arrow-left" x="0" y="0" width="74.732" height="109.874" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_material-keyboard-arrow-left)">
+    <path id="Icon_material-keyboard-arrow-left-2" data-name="Icon material-keyboard-arrow-left" d="M68.732,89.329,33.667,54.187,68.732,19.045l-10.8-10.8L12,54.187l45.937,45.937Z" transform="translate(-3 -2.25)" stroke-width="3px" stroke="#FFF593" fill="#de1420"/>
+  </g>
+</svg>
