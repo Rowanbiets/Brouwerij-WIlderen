@@ -79,8 +79,6 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
-  applySavedLanguage();
-
   console.warn("INIT");
   // indexSlideShow();
 
@@ -90,11 +88,15 @@ function init() {
     console.log("index");
   }
 
-
-if(document.querySelector(".cafeSwup") ||document.querySelector(".winkelSwup") ||document.querySelector(".index")) {
-  fetchOpeningsuren();
-}
-
+  if (
+    document.querySelector(".cafeSwup") ||
+    document.querySelector(".winkelSwup") ||
+    document.querySelector(".index")
+  ) {
+    fetchOpeningsuren().then(() => {
+      updateTranslations();
+    });
+  }
 
   if (document.querySelector("#horecaSwup")) {
     console.log("EMAIL SCRIPT PRESENT");
@@ -113,9 +115,7 @@ if(document.querySelector(".cafeSwup") ||document.querySelector(".winkelSwup") |
     console.warn("FETCHING SPIRITS");
     fetchSpirit();
   }
-  console.warn("test init");
 }
-
 import i18next from "i18next";
 import i18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
@@ -140,8 +140,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
 // Function to update translations
 function updateTranslations() {
-
-console.warn("Translations updated")
+  console.warn("Translations updated");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
