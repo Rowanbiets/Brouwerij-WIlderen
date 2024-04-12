@@ -459,7 +459,7 @@ html {
 
 /*  */
 
-video{
+video {
   background-color: black;
 }
 
@@ -571,7 +571,6 @@ iframe {
 }
 
 @media (max-width: 768px) {
-
   .imageL img {
     width: 100%;
   }
@@ -670,8 +669,6 @@ iframe {
   /* border-radius: 10px; */
   height: 400px;
 }
-
-
 
 /* main item */
 .item3 {
@@ -827,6 +824,7 @@ iframe {
   position: relative !important;
   bottom: 50%;
   z-index: -5;
+  filter: brightness(60%);
 }
 
 .flexTitle {
@@ -845,38 +843,38 @@ iframe {
   position: absolute;
 }
 
-.carousel-item img{
+.carousel-item img {
   transition: all 0.3s ease-in-out;
 }
 
-#tripelKanunnik:hover{
-  filter: drop-shadow(0px 0px 8px #F97700);
+#tripelKanunnik:hover {
+  filter: drop-shadow(0px 0px 8px #f97700);
 }
 
-#kriek:hover{
-  filter: drop-shadow(0px 0px 8px #FF232D);
+#kriek:hover {
+  filter: drop-shadow(0px 0px 8px #ff232d);
 }
 
-#bettyFord:hover{
-  filter: drop-shadow(0px 0px 8px #6D9170);
+#bettyFord:hover {
+  filter: drop-shadow(0px 0px 8px #6d9170);
 }
 
-#cuveeClarisse:hover{
+#cuveeClarisse:hover {
   filter: drop-shadow(0px 0px 8px #460610);
 }
 
-#rum-infused:hover{
-  filter: drop-shadow(0px 0px 8px #FBA953);
+#rum-infused:hover {
+  filter: drop-shadow(0px 0px 8px #fba953);
 }
 
-#whiskey-infused:hover{
-  filter: drop-shadow(0px 0px 8px #521B6D);
+#whiskey-infused:hover {
+  filter: drop-shadow(0px 0px 8px #521b6d);
 }
 
-#clarisse-rouge:hover{
+#clarisse-rouge:hover {
   filter: drop-shadow(0px 0px 8px #cc1223);
 }
 
-#wilderenGoud:hover{
+#wilderenGoud:hover {
   filter: drop-shadow(0px 0px 8px gold);
 }

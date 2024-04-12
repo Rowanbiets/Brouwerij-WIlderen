@@ -80,7 +80,7 @@ swup.hooks.on("page:view", () => {
 
 function init() {
   console.warn("INIT");
-  // indexSlideShow();
+  reAddEventListeners();
 
   //  if transitioning to index
   if (document.querySelector(".index")) {
@@ -206,18 +206,22 @@ function updateTranslations() {
 // add event listeners back to the hamburger menu lang buttons
 // (they are removed by swup transitions => base nav doesn not get reloaded, hamburger does, hence the need to readd event listeners)
 function reAddEventListeners() {
+  console.warn("Readding event listeners");
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
-  toggleLangNl[1].addEventListener("click", () => {
+  console.log("🚀 ~ reAddEventListeners ~ toggleLangFr:", toggleLangFr);
+  console.log(toggleLangFr[1]);
+  toggleLangFr.innerHTML = "WJW WJW";
+  toggleLangNl[2].addEventListener("click", () => {
     i18next.changeLanguage("nl", updateTranslations);
   });
 
-  toggleLangFr[1].addEventListener("click", () => {
+  toggleLangFr[2].addEventListener("click", () => {
     i18next.changeLanguage("fr", updateTranslations);
   });
 
-  toggleLangEn[1].addEventListener("click", () => {
+  toggleLangEn[2].addEventListener("click", () => {
     i18next.changeLanguage("en", updateTranslations);
   });
 
@@ -275,7 +279,6 @@ swup.hooks.on("page:view", () => {
   applySavedLanguage();
   hamburgerToggle();
   updateTranslations();
-  reAddEventListeners();
 });
 
 function indexSlideShow() {
