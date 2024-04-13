@@ -61,11 +61,6 @@
       }
     }
   ],
-  "tableExtraInfo": ["<li></li>"],
-  "footer": ["En savoir plus sur nous"],
-  "ageCheck" : [
-    "Avez-vous atteint l'âge minimum pour consommer légalement de l'alcool ?",
-    "La bière brassée avec amour, vous la buvez avec intelligence. Par conséquent, nous devons prendre un moment pour vérifier que vous avez atteint l'âge minimum pour consommer de l'alcool."
-  ],
-  "yesNo" : ["Oui", "Non"]
+  "tableExtraInfo": ["- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."],
+  "footer": ["En savoir plus sur nous"]
 }

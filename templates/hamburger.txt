@@ -20,7 +20,7 @@ Hollup... Let him cook
 
  --> insert after main (if present) and header but before any page content 
  
- <button id="toggleHamburgerMenu">
+<button id="toggleHamburgerMenu">
         <span></span>
         <span></span>
         <span></span>
@@ -29,7 +29,9 @@ Hollup... Let him cook
         <div class="hamburgerNav">
           <div class="topHamburgerContainer">
             <div class="hamburgerLogoContainer">
-              <a href="index.html"><img src="WEBSITE/Logo/Wilderen Logo 2020.png" alt="" /></a>
+              <a href="index.html"
+                ><img src="WEBSITE/Logo/Wilderen Logo 2020.png" alt=""
+              /></a>
             </div>
           </div>
           <div class="hamburgerNavContent">
@@ -90,7 +92,7 @@ Hollup... Let him cook
 
             <div class="submenuSet">
               <button class="hamButton">
-                <p data-i18n="nav.4" >Contact</p>
+                <p data-i18n="nav.4">Contact</p>
 
                 <img
                   loading="lazy"
@@ -99,9 +101,12 @@ Hollup... Let him cook
                 />
               </button>
               <ul class="hamul">
-
-                <li><a data-i18n="subMenu.7" href="info.html" >Info &amp Wilderen Team</a></li>
-                <li><a data-i18n="subMenu.8" href="faq.html" >FAQ</a></li>
+                <li>
+                  <a data-i18n="subMenu.7" href="info.html"
+                    >Info &amp Wilderen Team</a
+                  >
+                </li>
+                <li><a data-i18n="subMenu.8" href="faq.html">FAQ</a></li>
               </ul>
             </div>
             <li class="langButtons">

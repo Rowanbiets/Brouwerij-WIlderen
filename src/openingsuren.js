@@ -1,5 +1,7 @@
+
+
 export default function fetchOpeningsuren() {
-  fetch("data/openingHours.json")
+ return fetch("data/openingHours.json")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);

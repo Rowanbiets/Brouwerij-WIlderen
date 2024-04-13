@@ -56,11 +56,6 @@
       }
     }
   ],
-  "tableExtraInfo": [],
-  "footer": ["Discover more about us"],
-  "ageCheck": [
-    "Have you reached the mimnimum age to legally drink alcohol?",
-    "Beer brewed with love, you drink with intelligence. Therefore, we need to take a moment to check that you have reached the minimum age to legally consume alcohol."
-  ],
-  "yesNo": ["Yes", "No"]
+  "tableExtraInfo": ["- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"],
+  "footer": ["Discover more about us"]
 }

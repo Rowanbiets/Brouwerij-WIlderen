@@ -56,12 +56,8 @@
       }
     }
   ],
-  "tableExtraInfo": [],
-  "footer": ["Ontdek meer over ons"],
-
-  "ageCheck": [
-    "Heb je de mimnimumleeftijd bereikt om legaal alcohol te drinken?",
-    "Bier met liefde gebrouwen, drink je met verstand. Daarom moeten we even controleren dat je de minimumleeftijd hebt bereikt om alcohol te mogen consumeren."
+  "tableExtraInfo": [
+    "- Laatste tap: een 1/2u voor sluiting <br /> - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang <br /> - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer <br /> - Geen trouwlocatie of feestzalenverhuur <br /> - Honden toegelaten in het brouwerijcafé/terras <br /> - Honden niet toegelaten tijdens de rondleidingen/productieruimte <br /> - Picknick niet toegelaten"
   ],
-  "yesNo": ["Ja", "Nee"]
+  "footer": ["Ontdek meer over ons"]
 }

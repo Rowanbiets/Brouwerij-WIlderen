@@ -29,6 +29,7 @@ import fetchOpeningsuren from "./openingsuren.js";
 import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
+import getEmailData from "./email.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -44,6 +45,29 @@ const swup = new Swup({
   ],
 });
 
+// swup.hooks.on("page:afterRender", () => {
+//   init();
+// });
+
+function initCarousel() {
+  $(".carousel").carousel(); // Use Bootstrap's carousel method provided by jQuery
+}
+
+// Run the script tags when Swup replaces the content
+swup.hooks.on("content:replace", () => {
+  // Manually load jQuery and Bootstrap's JavaScript libraries
+  const jqueryScript = document.createElement("script");
+  jqueryScript.src = "https://code.jquery.com/jquery-3.5.1.slim.min.js";
+  jqueryScript.onload = function () {
+    const bootstrapScript = document.createElement("script");
+    bootstrapScript.src =
+      "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js";
+    bootstrapScript.onload = initCarousel; // Initialize the carousel after Bootstrap is loaded
+    document.head.appendChild(bootstrapScript);
+  };
+  document.head.appendChild(jqueryScript);
+});
+
 if (document.readyState === "complete") {
   init();
 } else {
@@ -55,22 +79,31 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
-
-
-
-
-
-
-  
   console.warn("INIT");
-  fetchOpeningsuren();
-  // indexSlideShow();
+  reAddEventListeners();
 
   //  if transitioning to index
   if (document.querySelector(".index")) {
-    // fetchOpeningsuren();
     carousel();
     console.log("index");
+  }
+
+  if (
+    document.querySelector(".cafeSwup") ||
+    document.querySelector(".winkelSwup") ||
+    document.querySelector(".index")
+  ) {
+    fetchOpeningsuren().then(() => {
+      updateTranslations();
+    });
+  }
+
+  if (document.querySelector("#horecaSwup")) {
+    console.log("EMAIL SCRIPT PRESENT");
+    setTimeout(() => {
+      // initCarousel();
+    }, 5000);
+    getEmailData();
   }
 
   if (document.querySelector(".bierDisplaySwup")) {
@@ -82,9 +115,7 @@ function init() {
     console.warn("FETCHING SPIRITS");
     fetchSpirit();
   }
-  console.warn("test init");
 }
-
 import i18next from "i18next";
 import i18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
@@ -109,6 +140,8 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 
 // Function to update translations
 function updateTranslations() {
+  console.warn("Translations updated");
+
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
     element.innerHTML = i18next.t(key);
@@ -173,18 +206,22 @@ function updateTranslations() {
 // add event listeners back to the hamburger menu lang buttons
 // (they are removed by swup transitions => base nav doesn not get reloaded, hamburger does, hence the need to readd event listeners)
 function reAddEventListeners() {
+  console.warn("Readding event listeners");
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
-  toggleLangNl[1].addEventListener("click", () => {
+  console.log("🚀 ~ reAddEventListeners ~ toggleLangFr:", toggleLangFr);
+  console.log(toggleLangFr[1]);
+  toggleLangFr.innerHTML = "WJW WJW";
+  toggleLangNl[2].addEventListener("click", () => {
     i18next.changeLanguage("nl", updateTranslations);
   });
 
-  toggleLangFr[1].addEventListener("click", () => {
+  toggleLangFr[2].addEventListener("click", () => {
     i18next.changeLanguage("fr", updateTranslations);
   });
 
-  toggleLangEn[1].addEventListener("click", () => {
+  toggleLangEn[2].addEventListener("click", () => {
     i18next.changeLanguage("en", updateTranslations);
   });
 
@@ -242,7 +279,6 @@ swup.hooks.on("page:view", () => {
   applySavedLanguage();
   hamburgerToggle();
   updateTranslations();
-  reAddEventListeners();
 });
 
 function indexSlideShow() {
