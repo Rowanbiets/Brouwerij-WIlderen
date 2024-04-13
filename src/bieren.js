@@ -1,5 +1,8 @@
 "use strict";
 
+import SwipeListener from "swipe-listener";
+
+
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
 let beerName,
   beerTagline,
@@ -70,6 +73,7 @@ export default function fetchBeer() {
       buttonClick();
       handleRadio();
       radioClick();
+      swipe();
       //       buttonClick();
       // handleRadio();
       // radioClick();
@@ -213,24 +217,10 @@ const beerNameTitle = document.getElementById("beerName");
 
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-    if (getParamBeer() > 0) {
-      // beerNameTitle.style.transform = "scaleX(0)";
-
-      beer--;
-      updateParams(getParamBeer() - 1);
-      renderBeer(allBeer, getParamBeer());
-      handleRadio();
-    }
+  moveLeft();
   });
   rightArrow.addEventListener("click", function () {
-    if (getParamBeer() < allBeer.length - 1) {
-      // beerNameTitle.style.transform = "scaleX(0)";
-
-      beer++;
-      updateParams(getParamBeer() + 1);
-      renderBeer(allBeer, getParamBeer());
-      handleRadio();
-    }
+moveRight();
   });
 }
 
@@ -258,6 +248,52 @@ function radioClick() {
     updateParams(bierIndex);
     renderBeer(allBeer, getParamBeer());
     handleRadio();
+  });
+}
+
+
+function moveLeft() {
+  if (getParamBeer() > 0) {
+    // beerNameTitle.style.transform = "scaleX(0)";
+
+    beer--;
+    updateParams(getParamBeer() - 1);
+    renderBeer(allBeer, getParamBeer());
+    handleRadio();
+  }
+}
+function moveRight() {
+  if (getParamBeer() < allBeer.length - 1) {
+    // beerNameTitle.style.transform = "scaleX(0)";
+
+    beer++;
+    updateParams(getParamBeer() + 1);
+    renderBeer(allBeer, getParamBeer());
+    handleRadio();
+  }
+}
+
+function swipe(){
+  const container = document.querySelector(".position-relative");
+  var listener = SwipeListener(container);
+  container.addEventListener("swipe", function (e) {
+    var directions = e.detail.directions;
+    var x = e.detail.x;
+    var y = e.detail.y;
+
+    if (directions.left) {
+      moveRight();
+
+      console.log("Swiped left.");
+    }
+
+    if (directions.right) {
+      console.log("Swiped right.");
+      moveLeft();
+    }
+
+    console.log("Started horizontally at", x[0], "and ended at", x[1]);
+    console.log("Started vertically at", y[0], "and ended at", y[1]);
   });
 }
 

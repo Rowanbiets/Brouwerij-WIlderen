@@ -21,6 +21,7 @@
 
 import Swup from "swup";
 import SwupHeadPlugin from "@swup/head-plugin";
+
 // import SwupScriptsPlugin from "@swup/scripts-plugin";
 
 // import scripts (used for executing after page transition)
