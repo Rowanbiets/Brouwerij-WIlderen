@@ -12,7 +12,7 @@
     "FAQ"
   ],
   "indexTitles": [
-    "Trendy creations. Traditionally brewed.",
+    "Trendy Beverages. Traditionally Brewed",
     "Beers",
     "Then and now",
     "Spirits",
@@ -28,34 +28,53 @@
       "table1": {
         "row1": ["Monday", "CLOSED"],
         "row2": ["Tuesday", "CLOSED"],
-        "row3": ["Wednesday", "12pm - 7pm"],
-        "row4": ["Thursday", "12pm - 7pm"],
-        "row5": ["Friday", "12h - 00h"],
-        "row6": ["Saturday", "12h - 00h"],
-        "row7": ["Sunday", "12h - 21h"]
+        "row3": ["Wednesday", "12 PM - 7 PM"],
+        "row4": ["Thursday", "12 PM - 7 PM"],
+        "row5": ["Friday", "12 PM - midnight"],
+        "row6": ["Saturday", "12 PM - midnight"],
+        "row7": ["Sunday", "12 PM - 9 PM"]
       },
 
       "table2": {
-        "row1": ["Friday", "12h - 00h"],
-        "row2": ["Saturday", "1 pm - 00 am"],
-        "row3": ["Sunday", "1 pm - 9 pm"]
+        "row1": ["Friday", "12 PM - midnight"],
+        "row2": ["Saturday", "1 PM - midnight"],
+        "row3": ["Sunday", "1 PM - 9  PM"]
       },
       "table3": {
-        "row1": ["31/03", "OPEN EASTER", "12h - 9pm"],
-        "row2": ["1/04", "OPEN EASTER MONDAY", "12h - 19h"],
-        "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12pm - 7pm"],
-        "row4": ["1/05", "OPEN LABOR DAY", "12pm - 7pm"],
-        "row5": ["9/05", "OPEN ASCENSION", "12h - 19h"],
-        "row6": ["19/05", "OPEN PENTECOST ", "12pm - 9pm"],
-        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12pm - 7pm"],
-        "row8": ["21/07", "OPEN NATIONALE DAY", "12pm - 9pm"],
-        "row9": ["15/08", "OPEN ASSUMPTION", "12pm - 7pm"],
-        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 p.m. - 00 p.m."],
-        "row11": ["2/11", "ALL SOULS' DAY", "1 p.m. - 00 p.m."],
-        "row12": ["11/11", "ARMISTICE DAY", "1pm - 7pm"]
+        "row1": ["31/03", "OPEN EASTER", "12h - 9 PM"],
+        "row2": ["1/04", "OPEN EASTER MONDAY", "12 PM - 7 PM"],
+        "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12 PM - 7 PM"],
+        "row4": ["1/05", "OPEN LABOR DAY", "12 PM - 7 PM"],
+        "row5": ["9/05", "OPEN ASCENSION", "12 PM - 7 PM"],
+        "row6": ["19/05", "OPEN PENTECOST ", "12 PM - 9 PM"],
+        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12 PM - 7 PM"],
+        "row8": ["21/07", "OPEN NATIONALE DAY", "12 PM - 9 PM"],
+        "row9": ["15/08", "OPEN ASSUMPTION", "12 PM - 7 PM"],
+        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 PM - 00 PM"],
+        "row11": ["2/11", "ALL SOULS' DAY", "1 PM - midnight"],
+        "row12": ["11/11", "ARMISTICE DAY", "1 PM - 7 PM"]
       }
     }
   ],
-  "tableExtraInfo": ["- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"],
-  "footer": ["Discover more about us"]
+  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS"],
+
+  "tableExtraInfo": [
+    "- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"
+  ],
+  "footer": ["Discover more about us"],
+
+  "cafe": [
+    "Warm hospitality and charming interior.",
+    "Cosiness trumps all.",
+    "The trendy brewery pub is the ideal destination for the bon vivant. It is warm and cosy: back to Belgian pub culture. In a restored half-timbered farmhouse, the brewery pub offers a more than unique setting. Enjoying in good company between pot &amp pint. In winter at the open fire, in spring you can enjoy yourself on the beautiful garden terrace.",
+    "Menu card"
+  ],
+
+  "rondleiding": [
+    "A more than captivating story",
+    "Storytelling at its finest...",
+    "Experience this fascinating tour as a real walk-in-the-time. Modern high-tech contrasted with the past. This tour amazes beer lovers and curious visitors alike. Punishing stories about people, about craftsmanship and the love of the trade. The stories of Brewery &amp distillery Wilderen come to life in this unique and compelling setting. Amidst the old alcohol distillery (1900), you imagine yourself in a beautiful film set!",
+    "Book online here",
+    "Watch and enjoy!"
+  ]
 }

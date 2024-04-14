@@ -56,8 +56,25 @@
       }
     }
   ],
+  "tableDateSpan": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+
   "tableExtraInfo": [
     "- Laatste tap: een 1/2u voor sluiting <br /> - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang <br /> - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer <br /> - Geen trouwlocatie of feestzalenverhuur <br /> - Honden toegelaten in het brouwerijcafé/terras <br /> - Honden niet toegelaten tijdens de rondleidingen/productieruimte <br /> - Picknick niet toegelaten"
   ],
-  "footer": ["Ontdek meer over ons"]
+  "footer": ["Ontdek meer over ons"],
+
+  "cafe": [
+    "warme gastvrijheid en charmant interieur.",
+    "Gezelligheid troef.",
+    "Het trendy brouwerijcafé is de ideale bestemming voor de levensgenieter. Het is er warm en gezellig: terug naar de Belgische cafécultuur. In een gerestaureerde vakwerkhoeve biedt het brouwerijcafé een meer dan unieke setting. In goed gezelschap genieten tussen pot &amp pint. In de winter aan het haardvuur, in de lente geniet je tussen op het prachtig tuinterras.",
+    "Menukaart"
+  ],
+
+  "rondleiding": [
+    "Een meer dan boeiend verhaal.",
+    "Storytelling ten top...",
+    "Ervaar deze boeiende rondleiding als een heuse wandeling-in de-tijd. Moderne high-tech in contrast met het verleden. Deze toer verwondert zowel bierliefhebbers als nieuwsgierige bezoekers. Straffe verhalen over mensen, over vakmanschap en de liefde voor het vak. De verhalen van Brouwerij &amp distilleerderij Wilderen komen tot leven in deze unieke en meeslepende setting. Te midden van de oude alcoholstokerij (1900) waan je jezelf in een prachtig filmdecor!",
+    "Boek hier online",
+    "Kijk en geniet!"
+  ]
 }

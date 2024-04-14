@@ -20,7 +20,7 @@
     "visitez-nous",
     "Horaires d'ouverture 2024 <br> Café-brasserie"
   ],
-  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est connue pour produire des bières et des distillats de haute qualité. L'artisanat belge dans un contexte contemporain et excentrique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
+  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est connue pour produire des bières et des distillats dehaute qualité. L'artisanat belge dans un contexte contemporain et excentrique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
   "indexButtons": ["Webshop", "Réservez une visite", "Heures d'ouverture"],
   "table": [
     {
@@ -29,7 +29,7 @@
       "table1": {
         "row1": [" Lundi ", " FERMÉ "],
         "row2": [" Mardi ", " FERMÉ "],
-        "row3": [" Mercredi ", " 12 h - 19 h "],
+        "row3": [" Mercredi ", " 12h - 19h "],
         "row4": ["Jeudi", "12h - 19h"],
         "row5": ["Vendredi", "12h - 00h"],
         "row6": ["Samedi", "12h - 00h"],
@@ -39,7 +39,7 @@
       "table2": {
         "row1": [" Friday ", " 12h - 00h "],
         "row2": [" Samedi ", " 13h - 00h "],
-        "row3": [" Dimanche ", " 13 h - 21 h "]
+        "row3": [" Dimanche ", " 13h - 21h "]
       },
       "table3": {
         "row1": ["31/03", " OUVERT PÂQUES ", "12h - 21h"],
@@ -50,17 +50,37 @@
           "12h - 19h"
         ],
         "row4": ["1/05", "OUVERT 1er MAI", "12h - 19h"],
-        "ligne5": ["9/05", "OUVERT L'ASCENSION", "12h - 19h"],
+        "row5": ["9/05", "OUVERT L'ASCENSION", "12h - 19h"],
         "row6": ["19/05", " OUVERT PENTECÔTE", "12h - 21h"],
         "row7": ["20/05", " OUVERT  LUNDI de PENTECÔTE", "12h - 19h"],
         "row8": ["21/07", " OUVERT FÊTE NATIONAL", "12h - 21h"],
         "row9": ["15/08", " OUVERT L'ASSOMPTION", "12h - 19h"],
         "row10": ["1/11", " OUVERT TOUSSAINT", " 13h - 00h "],
-        "rangée11": ["2/11", "OUVERT TOUSSAINT", "13h - 00h"],
+        "row11": ["2/11", "OUVERT TOUSSAINT", "13h - 00h"],
         "row12": ["11/11", " OUVERT 11 NOVEMBRE", "13h -19h"]
       }
     }
   ],
-  "tableExtraInfo": ["- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."],
-  "footer": ["En savoir plus sur nous"]
+
+  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES"],
+  "tableExtraInfo": [
+    "- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."
+  ],
+  "footer": ["En savoir plus sur nous"],
+  "cafe": [
+    "L'hospitalité chaleureuse et l'intérieur charmant",
+    "La convivialité l'emporte",
+    "Le pub branché de la brasserie est la destination idéale pour les épicuriens. Il est chaleureux et accueillant : retour à la culture des pubs belges. Dans une ferme à colombages restaurée, le pub de la brasserie offre un cadre plus qu'unique. On y savoure en bonne compagnie un pot et une pinte. En hiver, au coin du feu, au printemps, sur la belle terrasse du jardin.",
+    "Carte de menu"
+  ],
+
+  "rondleiding": [
+    "Une histoire plus que captivante",
+    "La narration à son meilleur...",
+    "Cette visite fascinante est une véritable promenade dans le temps. La haute technologie moderne contraste avec le passé. Cette visite surprend les amateurs de bière et les visiteurs curieux. Des histoires passionnantes sur les gens, l'artisanat et l'amour du métier. Les histoires de la brasserie & distillerie Wilderen prennent vie dans ce cadre unique et captivant. Au milieu de l'ancienne distillerie d'alcool (1900), vous vous imaginez dans un magnifique décor de cinéma",
+    "Réservez en ligne ici",
+    "Regardez et savourez!"
+  ],
+
+  "":[]
 }

@@ -22,7 +22,7 @@ function renderTables(data) {
   //---April/September---
 
   table1.innerHTML = `
-        <th data-i18n="subMenu.3" colspan="2">${data.headers[0]}</th>
+        <th data-i18n="tableDateSpan.0" colspan="2">${data.headers[0]}</th>
 
         <tr>
         
@@ -70,7 +70,7 @@ function renderTables(data) {
 
   table2.innerHTML = `
     
-            <th colspan="2">${data.headers[1]}</th>
+            <th data-i18n="tableDateSpan.1" colspan="2">${data.headers[1]}</th>
             <tr>
             <td data-i18n="table.0.table2.row1.0">${data.table2.row1[0]}</td>
             <td data-i18n="table.0.table2.row1.1">${data.table2.row1[1]}</td>
@@ -106,7 +106,7 @@ function renderTables(data) {
   //---Feestdagen---
   table3.innerHTML = `
             
-    <th colspan="3">${data.headers[2]}</th>
+    <th data-i18n="tableDateSpan.2" colspan="3">${data.headers[2]}</th>
 
                     <tr>
                     <td data-i18n="table.0.table3.row1.0">${data.table3.row1[0]}</td>
