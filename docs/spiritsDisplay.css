@@ -29,6 +29,10 @@ body {
   transform: translateX(15px);
 }
 
+.buy-button2:hover{
+  box-shadow: var(--themeColor) 0px 0px 10px;
+}
+
 #spiritDescription {
   display: flex;
   flex-direction: column;
