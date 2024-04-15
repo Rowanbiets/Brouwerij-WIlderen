@@ -78,6 +78,34 @@
     "Kijk en geniet!"
   ],
 
+  "brouwerijWinkel": [
+    "De Wilderen Winkel.",
+    "Bevindt zich vlak naast het brouwerijcafé!",
+    "De enige plaats waar mannen winkelen niet erg vinden… De brouwerijshop bevindt zich vlak naast het brouwerijcafé Ruime keuze aan Wilderen bieren &amp spirits, geschenkverpakkingen en collector items De goed gekende Wilderen Hopkaas 500 gr is hier exclusief verkrijgbaar De brouwerijwinkel heeft dezelfde openingsuren als het brouwerijcafé."
+  ],
+
+  "picknick": [
+    "Lachen onder de kersenboom.",
+    "Verhalen vertellen in openlucht.",
+    "Zelf je brood snijden in de prachtige Haspengouwse omgeving van Brouwerij Wilderen. Ontspan en geniet in onze picknickweide van een smakelijk assortiment met de karaktervolle bieren van de brouwerij. Laat je betoveren en geniet van goed gezelschap aan onze picknicktafels of bij regenweer onder het afdak. Dit allemaal op slechts een steenworp van de bruisende brouwactiviteiten. De bol Wilderen Hopkaas ontbreekt zeker niet in de mand! Reserveer je “Brewed to be Wild” Picknick-bon via onze webshop!! Picknicken kan van 1 April tot en met 30 September tijdens de openingsuren van het brouwerijcafé.",
+    "Genieten"
+  ],
+
+  "horeca": [
+    "Wilderen op de kaart.",
+    "Unieke & authentieke Wilderen bieren in jouw horecazaak?",
+    "Met een rijk smaakprofiel en historische achtergrond zal een Wilderen Bier niet alleen een gespreksonderwerp zijn, maar ook een favoriet onder je klanten. Door deze “storytelling op tap” in jouw kroeg aan te bieden, laat je zien dat je oog hebt voor kwaliteit. Je hebt je klanten iets bijzonders te bieden! Ontdek wat wij met Brouwerij & Distilleerderij Wilderen voor jouw horecabedrijf kunnen betekenen. Ons dynamisch salesteam neemt graag contact met je op!"
+  ],
+
+  "contact": [
+    "Interesse? Vul het contactformulier in:",
+    "Ik heb interesse in:",
+    "type hier...",
+    "Bericht:",
+    "Jouw bericht...",
+    "Verstuur"
+  ],
+
   "bieren": [
     {
       "id": 1,

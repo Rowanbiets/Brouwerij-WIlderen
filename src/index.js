@@ -179,6 +179,12 @@ export function updateTranslations() {
     element.innerHTML = i18next.t(key);
   });
 
+  if(document.querySelector("#horecaSwup")) {
+    document.querySelector("#interest").setAttribute("placeholder", i18next.t("contact.3"));
+    document.querySelector("#message").setAttribute("placeholder", i18next.t("contact.4"));
+
+  }
+
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");

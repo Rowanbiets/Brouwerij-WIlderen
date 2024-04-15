@@ -78,6 +78,34 @@
     "Watch and enjoy!"
   ],
 
+  "brouwerijWinkel": [
+    "The Wilderen Shop",
+    "Located right next to the brewery cafe!",
+    "The only place where men don't mind shopping... The brewery shop is located right next to the brewery café Wide selection of Wilderen beers &amp spirits, gift packs and collector items The well known Wilderen Hop Cheese 500 gr is exclusively available here The brewery shop has the same opening hours as the brewery café."
+  ],
+
+  "picknick": [
+    "Laugh under the cherry tree.",
+    "Outdoor storytelling.",
+    "Carve your own bread in the beautiful Haspengouw surroundings of Wilderen Brewery. Relax and enjoy a tasty assortment of the brewery's characterful beers in our picnic meadow. Be enchanted and enjoy good company at our picnic tables or under the shelter in rainy weather. All this just a stone's throw from the bustling brewing activities. The glob of Wilderen Hop cheese is certainly not missing from the basket! Reserve your “Brewed to be Wild” Picnic voucher via our webshop!!! Picnics are available from 1 April to 30 September during the brewery pub's opening hours.",
+    "Enjoy"
+  ],
+
+  "horeca": [
+    "Wilderen on the menu",
+    "Unique & authentic Wilder beers in your on-trade?",
+    "With a rich flavour profile and historical background, a Wilder Beer will not only be a talking point, but also a favourite among your customers. By offering this “storytelling on tap” in your pub, you show that you have an eye for quality. You have something special to offer your customers! Discover what we can do for your pub business with Brewery & Distillery Wilderen. Our dynamic sales team will be happy to get in touch with you!"
+  ],
+
+  "contact": [
+    "Interested? Fill in the contact form:",
+    "I am interested in:",
+    "type here...",
+    "Message:",
+    "Your message...",
+    "Send"
+  ],
+
   "bieren": [
     {
       "id": 1,

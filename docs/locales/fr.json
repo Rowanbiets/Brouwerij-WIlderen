@@ -82,6 +82,34 @@
     "Regardez et savourez!"
   ],
 
+  "brouwerijWinkel": [
+    "Le magasin Wilderen",
+    "Situé juste à côté du pub de la brasserie !",
+    "Le seul endroit où les hommes n'ont pas peur de faire du shopping... La boutique de la brasserie est située juste à côté du café de la brasserie Large sélection de bières Wilderen & de spiritueux, de paquets cadeaux et d'articles de collection Le célèbre fromage de houblon Wilderen de 500 gr est exclusivement disponible ici La boutique de la brasserie a les mêmes heures d'ouverture que le café de la brasserie."
+  ],
+
+  "picknick": [
+    "Rire sous le cerisier",
+    "Raconter des histoires en plein air",
+    "Découpez votre propre pain dans les magnifiques environs de Haspengouw de la brasserie Wilderen. Détendez-vous et dégustez un savoureux assortiment de bières de caractère de la brasserie dans notre prairie de pique-nique. Laissez-vous enchanter et profitez de la bonne compagnie à nos tables de pique-nique ou sous l'abri en cas de pluie. Tout cela à deux pas de l'activité de la brasserie. Le fromage de houblon Wilderen ne manque pas dans le panier! Réservez votre bon pour le pique-nique “Brewed to be Wild” dans notre boutique en ligne!!! Les pique-niques sont disponibles du 1er avril au 30 septembre pendant les heures d'ouverture du pub de la brasserie.",
+    "Profiter"
+  ],
+
+  "horeca": [
+    "Wilderen au menu",
+    "Des bières Wilder uniques et authentiques dans votre commerce de détail",
+    "Avec un profil gustatif riche et un contexte historique, une bière Wilder ne fera pas seulement parler d'elle, elle sera aussi la préférée de vos clients. En proposant ce “storytelling op tap” dans votre pub, vous montrez que vous avez le souci de la qualité. Vous avez quelque chose de spécial à offrir à vos clients ! Découvrez ce que nous pouvons faire pour votre établissement avec la Brasserie & Distillerie Wilderen. Notre équipe de vente dynamique se fera un plaisir de prendre contact avec vous !"
+  ],
+
+  "contact": [
+    "Intéressé(e) ? Remplissez le formulaire de contact :",
+    "Je suis intéressé par :",
+    "tapez ici...",
+    "Message :",
+    "Votre message...",
+    "Envoyer"
+  ],
+
   "bieren": [
     {
       "id": 1,
