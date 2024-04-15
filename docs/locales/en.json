@@ -135,5 +135,75 @@
       "beerInfo": "<li>dark red fruit beer</li> <li>high fermentation</li> <li>8% vol.</li> <li>Cask - bottle*</li>",
       "beerBuyButton": "Buy Clarisse Rouge"
     }
+  ],
+
+  "spirits": [
+    {
+      "id": 1,
+      "spiritTagLine": "The winner takes it all.",
+      "spiritDescription": "And the winner is: This prize beast pretty much wins all the Awards! Double You is a more than well-known brand from Wilderen. Produced with 21 botanicals and regional botanicals. A unique distillation process ensure a gin of unparalleled quality and flavour. A characterful flavour perception, as complex as an Angel and a Devil on your shoulder... The Angel stands for aware and is always accompanied by a Devil which stands for temptation... So does the character of this Double You Gin: you can't resist this temptation! A distinct character, the Devil and the Angel together in a glass.",
+      "spiritBuyButton": "Buy Double You Gin"
+    },
+    {
+      "id": 2,
+      "spiritTagLine": "",
+      "spiritDescription": "Following the prestigious Crystal Award won for Double You Gin, this “very” Special Edition was launched! <br> In addition to the 21 spices in the standard Double You Gin, we added natural vanilla to the distilling process. This results in a gin with delicious floral aromas, a pleasant and above all recognisable and distinct vanilla flavour. <br> Top off with fresh mint.",
+      "spiritBuyButton": "Buy Vintage Vanilla"
+    },
+    {
+      "id": "3",
+      "spiritTagLine": "Lost frequencies in the picture",
+      "spiritDescription": "Ocus Gin is an organic premium gin, created and bottled in Belgium. Distilled on a natural basis with no additives, so 0% sugar. Ocus Gin has a remarkable smoothness and a fantastic herbal and floral freshness.  <br> Each bottle is finished with a festival band. Collect the 11 bands and win a meet & greet with Lost Frequencies! <br> Always take the Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
+      "spiritBuyButton": "Buy Ocus Organic"
+    },
+    {
+      "id": "4",
+      "spiritTagLine": "What happens in Wilderen, stays in Wilderen.",
+      "spiritDescription": "When we think of rum, we imagine the smoke rings of a thick cigar, soft music in the background. The night seems endless, conversations into the early hours, the bottle of Omerta Rum Liquor and friendship shared. Time for rest and reflection, where the world outside seems to disappear for a moment, only the moment that counts. This dark Rum Liquor is a unique blend of an imported Jamaican Rum,proprietary Wilds distillate...and the secret of Omerta. < Surprising creation. The beautiful deep brown colour reveals outstanding flavours of vanilla, hidden bourbon barrels and caramel. Pure, of course in a mix with Cola or the perfect base for cocktails!",
+      "spiritBuyButton": "Buy Omerta Rum"
+    },
+    {
+      "id": "5",
+      "spiritTagLine": "Exclusive premium edition.",
+      "spiritDescription": "The Omerta Black Edition in unique magnum bottle of 1.5L <br> with 40% alcohol content is a treat on the tongue for any rum loverThe beautiful dark brown -almost black- colour it owes to the molasses & caramel <br> Omerta Black has a full powerful flavour and is drunk pure. <br> Flavour profile: Caramel - Spicy - Sweet - Warm - Soft <br> The Omerta Black Edition is available for sale in our on-site brewery shop or via our webshop!",
+      "spiritBuyButton": "Buy Omerta Black Magnum"
+    },
+    {
+      "id": "6",
+      "spiritTagLine": "Pure Wilderness!",
+      "spiritDescription": "This Whisky has an alcohol content of around 63%, depending on the properties of the cask. The Cask Strenght, as the word itself says, is bottled at cask strength, i.e. pure from the cask. The beautiful nose then gives tobacco, nut-almond and caramel qua usual suspects Soft , oak finish with warming finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Cash Strength"
+    },
+    {
+      "id": 7,
+      "spiritTagLine": "",
+      "spiritDescription": "The Wild Weasel Whisky is carefully blended with a fine Whisky from Distillerie Radermacher. It is a special Belgian Blend matured in selected oak barrels. This gives this Wild Weasel Finest Blend a unique and robust character.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Finest Blend"
+    },
+    {
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "This Whisky comes from a single cask matured in our cellar for three years. The Wild Weasel Single Malt has an exceptionally beautiful nose and balanced smoothness. Fruity aromas with nuts, caramel, hints of oak give this Whisky a nice finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Single Malt Single Cask"
+    },
+
+    {
+      "id": 9,
+      "spiritTagLine": "Have fun.",
+      "spiritDescription": "Wiggle is a delicious apéro served with ice cubes diluted with cava, prosecco or bubbles, Finish with some frozen red fruit cheeses like strawberry, berry or raspberry. <br> Also delicious in the mix or in cocktails! Among others with Fever Tree Elderflower, Soda, Almdudler, Red Bull et al. ...colour your summer cocktail or add an extra touch to your Apéro this summer!  <br> Mix, taste & enjoy!",
+      "spiritBuyButton": "Buy Wiggle Red Fruits"
+    },
+    {
+      "id": "10",
+      "spiritTagLine": "A true classic.",
+      "spiritDescription": "The smoothness of Wilderen Grain Gin charms many a gin lover. The well-known juniper berry and secret spice package are pleasantly present in aroma and taste. This product is pure nature, beautifully clear. A slightly lower alcohol content makes this Wilderen grain gin an accessible yet unforgettable distillate.",
+      "spiritBuyButton": "Buy Wilderen grain gin"
+    },
+    {
+      "id": "11",
+      "spiritTagLine": "Beautiful marriage between brewing and distilling.",
+      "spiritDescription": "An Eau-de-Vie of superior quality , exceptional nose and a very smooth finish This Wilderen Eau-de-Bière is distilled with love for the craft from our 4-grain beer Tripel Kanunnik 8.2% <br> Incomparable, rewarding and noble product. Loved by several top chefs.",
+      "spiritBuyButton": "Buy Eau de Bière"
+    }
   ]
 }

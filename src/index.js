@@ -32,6 +32,7 @@ import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
 import getEmailData from "./email.js";
 import { getParamBeer } from "./bieren.js";
+import { getParamSpirit } from "./spirits.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -143,8 +144,11 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 // Function to update translations
 export function updateTranslations() {
   const beerIndex = getParamBeer();
+  const spiritIndex = getParamSpirit();
   console.warn(beerIndex)
-  // const bierIndex = fetchBeer();
+
+
+// beer translations
   document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
     console.log("element", element);
     const key = element.getAttribute("data-i18n-beer");
@@ -154,6 +158,18 @@ export function updateTranslations() {
     const beerKey = key.replace("{index}", selectedBeer);
     console.log("beerKey", beerKey);
     element.innerHTML = i18next.t(beerKey);
+  });
+
+  // spirit translations
+  document.querySelectorAll("[data-i18n-spirit]").forEach((element) => {
+    console.log("element", element);
+    const key = element.getAttribute("data-i18n-spirit");
+    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+
+    const selectedSpirit = spiritIndex;
+    const spiritKey = key.replace("{index}", selectedSpirit);
+    console.log("spiritKey", spiritKey);
+    element.innerHTML = i18next.t(spiritKey);
   });
 
   console.warn("Translations updated");

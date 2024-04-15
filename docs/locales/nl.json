@@ -135,5 +135,75 @@
       "beerInfo": "<li>donkerrood fruitbier</li> <li>hoge gisting</li> <li>8% vol.</li> <li>Vat - fles*</li>",
       "beerBuyButton": "Koop Clarisse Rouge"
     }
+  ],
+
+  "spirits": [
+    {
+      "id": 1,
+      "spiritTagLine": "The winner takes it all.",
+      "spiritDescription": "And the winner is: Dit prijsbeest wint zowat alle Awards! Double You is een meer dan gekend merk van Wilderen. Geproduceerd met 21 plantaardige en regionale botanicals. Een uniek distillatieproces zorgen voor een gin van ongeëvenaarde kwaliteit en smaak. Een karaktervolle smaakperceptie, zo complex als een Engel en een Duivel op je schouder… De Engel staat voor welbewust en is altijd vergezeld van een Duivel welke staat voor verleiding… Zo ook het karakter van deze Double You Gin: je kan niet aan deze verleiding weerstaan! Een uitgesproken karakter, de duivel en de engel samen in een glas.",
+      "spiritBuyButton": "Koop Double You Gin"
+    },
+
+    {
+      "id": 2,
+      "spiritTagLine": "",
+      "spiritDescription": "Naar aanleiding van de gewonnen prestigieuze Crystal Award voor Double You Gin werd deze “very” Special Edition gelanceerd! <br> Naast de 21 kruiden in de standaard Double You Gin, voegden we natuurlijke vanille toe aan het distilleerproces. Dit resulteert in een gin met heerlijke florale aroma’s, een aangename en vooral herkenbare en uitgesproken vanillesmaak. <br> Top af met verse munt.",
+      "spiritBuyButton": "Koop Vintage Vanilla"
+    },
+    {
+      "id": 3,
+      "spiritTagLine": "Lost frequencies in de picture.",
+      "spiritDescription": "Ocus Gin is een biologische premium gin, gecreëerd en gebotteld in België. Gedistilleerd op natuurlijke basis zonder toevoegingen, dus 0% suiker. Ocus Gin heeft een opmerkelijke zachtheid en een fantastische kruiden- en bloemenfrisheid.  <br> Elke fles is afgewerkt met een festivalbandje. Verzamel de 11 bandjes en maak kans op een meet & greet met Lost Frequencies! <br> Neem altijd de Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
+      "spiritBuyButton": "Koop Ocus Organic"
+    },
+    {
+      "id": 4,
+      "spiritTagLine": "What happens in Wilderen, stays in Wilderen.",
+      "spiritDescription": "Wanneer we aan rum denken beelden we ons de rookkringen van een dikke sigaar in, zachte muziek op de achtergrond. De nacht lijkt eindeloos te duren, gesprekken tot in de vroege uurtjes, de fles Omerta Rum Liquor en de vriendschap wordt gedeeld. Tijd voor rust en reflectie, waarin de wereld buiten even lijkt te verdwijnen, alleen het moment dat telt. Deze donkere Rum-Likeur is een unieke blend van een geïmporteerde Jamaicaanse Rum,eigen Wilderen-distillaat…en het geheim van Omerta. <br> Verrassende creatie. De mooie diepbruine kleur verraadt uitmuntende smaken van vanille, verborgen bourbon vaten en karamel. Puur, uiteraard in een mix met Cola of de perfecte basis voor cocktails!",
+      "spiritBuyButton": "Koop Omerta Rum"
+    },
+    {
+      "id": 5,
+      "spiritTagLine": "Exclusieve premium editie.",
+      "spiritDescription": "De Omerta Black Edition in unieke magnum fles van 1.5L <br> met 40% alcoholpercentage is een streling op de tong voor elke rum liefhebberDe prachtige donkerbruine -bijna zwarte- kleur heeft hij te danken aan de melasse & karamel <br> Omerta Black heeft een volle krachtige smaak en wordt puur gedronken. <br> Smaakprofiel: Karamel - Kruidig - Zoet - Warm - Zacht  <br> De Omerta Black Edition is te koop in onze brouwerijshop ter plaatse of via onze webshop!",
+      "spiritBuyButton": "Koop Omerta Black Magnum"
+    },
+    {
+      "id": 6,
+      "spiritTagLine": "Pure Wildernis!",
+      "spiritDescription": "Deze Whisky heeft een alcoholpercentage van rond de 63%, afhankelijk van de eigenschappen van het vat. De Cask Strenght, wordt zoals het woord het zelf zegt afgevuld op vatsterkte, dus puur uit het vat. De mooie neus geeft vervolgens tabak, noten-amandel en karamel qua usual suspects Zachte , eiken finish met verwarmende afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Cash Strength"
+    },
+    {
+      "id": 7,
+      "spiritTagLine": "",
+      "spiritDescription": "De Wild Weasel Whisky wordt zorgvuldig geblend met een mooie Whisky van Distillerie Radermacher. Het is een speciale Belgische Blend gerijpt op geselecteerde eikenhouten vaten. Dit geeft deze Wild Weasel Finest Blend een uniek en robuust karakter.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Finest Blend"
+    },
+    {
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "Deze Whisky komt uit één vat dat gedurende drie jaar in onze kelder heeft liggen rijpen. De Wild Weasel Single Malt heeft een uitzonderlijk mooie neus en gebalanceerde zachtheid. Fruitige aroma’s met noten, karamel, toetsen van eik geven deze Whisky een mooie afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Single Malt Single Cask"
+    },
+    {
+      "id": 9,
+      "spiritTagLine": "Have fun.",
+      "spiritDescription": "Wiggle is een heerlijke apéro die geserveerd wordt met ijsblokjes aangelengd met cava, prosecco of bubbles, Werk af met wat bevroren rode vrucheten zoals aardbei, bes of framboos. <br> Ook lekker in de mix of in cocktails! O.a met met Fever Tree Elderflower, Soda, Almdudler, Red Bull e.a. …kleur je zomercocktail of geef deze zomer je Apéro een extra touch!  <br> Mix, proef & geniet!",
+      "spiritBuyButton": "Koop Wiggle Red Fruits"
+    },
+    {
+      "id": 10,
+      "spiritTagLine": "Een échte klassieker.",
+      "spiritDescription": "De zachtheid van Wilderen Graanjenever bekoort menig jeneverliefhebber. De welgekende jeneverbes en geheim kruidenpakket zijn plezierig aanwezig in geur en smaak. Dit product is puur natuur, mooi helder. Een iets lager alcoholpercentage maakt van deze Wilderen graanjenever een toegankelijk en toch onvergetelijk distillaat.",
+      "spiritBuyButton": "Koop Wilderen Graanjenever"
+    },
+    {
+      "id": 11,
+      "spiritTagLine": "Mooi huwelijk tussen brouwen en distilleren.",
+      "spiritDescription": "Een Eau-de-Vie van superieure kwaliteit , uitzonderlijke neus en een zeer zachte afdronk Deze Wilderen Eau-de-Bière wordt met liefde voor het vak gedistilleerd uit ons 4- granen bier Tripel Kanunnik 8,2% <br> Onvergelijkbaar, dankbaar en edel product. Geliefd bij meerdere top-chefs.",
+      "spiritBuyButton": "Koop Eau de Bière"
+    }
   ]
 }

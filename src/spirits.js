@@ -1,5 +1,6 @@
 "use strict";
 import SwipeListener from "swipe-listener";
+import { updateTranslations } from "./index.js";
 
 
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
@@ -60,7 +61,7 @@ const blackTextNeeded = [3];
 
 
 
-function getParamSpirit() {
+export function getParamSpirit() {
   // zoek de spiritnaam op in de url -> ?spirit=""
   // selecteer de array index op basis van de naam
   const spiritParams = new URLSearchParams(window.location.search).get(
@@ -207,6 +208,8 @@ function renderSpirits(data, spirit) {
   } else {
     spiritLogo.style.filter = "none";
   }
+
+  updateTranslations();
 }
 
 function buttonClick() {
@@ -254,6 +257,7 @@ function moveLeft(){
         updateParams(getParamSpirit() - 1);
         renderSpirits(allSpirits, getParamSpirit());
         handleRadio();
+        updateTranslations();
       }
 }
 function moveRight(){
@@ -265,6 +269,7 @@ function moveRight(){
       updateParams(getParamSpirit() + 1);
       renderSpirits(allSpirits, getParamSpirit());
       handleRadio();
+      updateTranslations();
     }
 }
 
