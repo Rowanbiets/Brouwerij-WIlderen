@@ -76,5 +76,41 @@
     "Ervaar deze boeiende rondleiding als een heuse wandeling-in de-tijd. Moderne high-tech in contrast met het verleden. Deze toer verwondert zowel bierliefhebbers als nieuwsgierige bezoekers. Straffe verhalen over mensen, over vakmanschap en de liefde voor het vak. De verhalen van Brouwerij &amp distilleerderij Wilderen komen tot leven in deze unieke en meeslepende setting. Te midden van de oude alcoholstokerij (1900) waan je jezelf in een prachtig filmdecor!",
     "Boek hier online",
     "Kijk en geniet!"
+  ],
+
+  "bieren": [
+    {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }, {
+      "tagLine": "TEST",
+      "beerDescription": "TEST",
+      "beerInfo": "TEST"
+    }
   ]
 }
