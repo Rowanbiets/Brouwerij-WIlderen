@@ -82,5 +82,62 @@
     "Regardez et savourez!"
   ],
 
-  "goud":["TEST2"]
+  "bieren": [
+    {
+      "id": 1,
+      "tagLine": "Dure et irrésistible.",
+      "beerDescription": "Alternative parfaite à une lager désaltérante ou à une bière d'abbaye légère. Une bière délicieusement rafraîchissante pour accompagner des côtes ou un barbecue en bonne compagnie. Le verre excentrique est un design propre et a été qualifié d'icône parmi les verres à bière",
+      "beerInfo": "<li>Bière spéciale de couleur or</li><li>Haute fermentation - refermentée en bouteille</li><li>6,2% Vol.</li><li>Tonneau - bottle</li>",
+      "beerBuyButton": "Acheter Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Une vieille école rafraîchissante.",
+      "beerDescription": "La couleur ambrée intense est due à un malt foncé spécialement sélectionné. La bière Betty Ford porte le nom de Betty Ford, l'ancienne première dame des États-Unis, et une référence historique et culturelle à la clinique Betty Ford. La bière elle-même est un hommage, mais se réfère surtout comme un gimmick à la faible teneur en alcool du portefeuille Wilderen.",
+      "beerInfo": "<li>Bière claire de couleur ambrée</li> <li>Rétro “Speciale Belge”</li> <li>Haute fermentation</li> <li>5,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Finesse classique dans un corps solide.",
+      "beerDescription": "Une Tripel classique à 4 grains pour les connaisseurs modernes. Le seigle a été exceptionnellement ajouté dans cette Tripel épicée aux côtés de l'orge, du blé et de l'avoine. Des houblons nobles confèrent à cette riche Tripel un caractère typique et reconnaissable. Veloutée, douce et fruitée. Délicieuse avec une marmite de moules ou des plats épicés. Le verre Canon de la Tripel classique représente la confiance et cache une image secrète",
+      "beerInfo": "<li>Triple de couleur or</li> <li>haute fermentation - refermentée en bouteille</li> <li>8,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "Honnête bière brune.",
+      "beerDescription": "Il s'agit d'une bière exceptionnelle de couleur rouge rubis avec un arôme séduisant. Délicieuse avec des fromages épicés et affinés ou des plats de viande. Une touche distincte de réglisse et un soupçon de caramel. Des accents de malt succulents et des touches de fruits, un piquant houblonné.",
+      "beerInfo": "<li>robin red dark heavy beer </li> <li>haute fermentation - refermentée en bouteille</li> <li>9,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Cuvée Clarisse"
+    },
+    {
+      "id": 5,
+      "tagLine": "Intense et stimulante.",
+      "beerDescription": " Les meilleures saveurs entrelacées dans une seule bière. Excellent équilibre entre la bière et le whisky. Arômes subtils de bourbon, notes fruitées de vanille et de réglisse. La Cuvée Clarisse Infusée au Whisky est une fusion de notre Cuvée Clarisse 9,2% Vol. et de notre Whisky Wild Weasel. Au coin du feu, en bonne compagnie. Officiellement élue meilleure Whisky Infusé de Belgique !",
+      "beerInfo": "<li>bière brune et lourde</li> <li>infusée avec du Whisky Wild Weasel</li> <li>haute fermentation - re-fermentée en bouteille</li> <li>10,2% Vol. </li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Commande en ligne"
+    },
+    {
+      "id": 6,
+      "tagLine": "Séduction et mystère",
+      "beerDescription": "Arômes subtils de rhum Omerta, corsé et un soupçon de caramel. Bière puissante pour les bons vivants. Délicieuse avec les fromages épicés et affinés. La Cuvée Clarisse Infusée au Rhum est une fusion de notre Cuvée Clarisse 9,2% Vol. et de notre liqueur de Rhum Omerta",
+      "beerInfo": "<li>bière brune et lourde</li><li>infusée avec la liqueur de rhum Omerta</li><li>haute fermentation - re-fermentée en bouteille</li><li>11,2% Vol.</li><li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Commande en ligne"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fraîche et fruitée.",
+      "beerDescription": "La Wilderen Kriek est brassée avec du Lambic à fermentation spontanée. Vieillie lentement dans de grands tonneaux de chêne",
+      "beerInfo": "<li>bière sèche aux fruits rouges </li><li>fermentation spontanée - bière de fermentation</li><li>3,5% Vol.</li><li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Superbe bière d'apéritif",
+      "beerDescription": "Un profil de saveur de cerise, d'amande et une touche de massepain. <br> <br> *Pour l'instant uniquement disponible en tonneau",
+      "beerInfo": "<li>bière brune aux fruits rouges</li> <li>haute fermentation</li> <li>8% vol.</li> <li>Tonneau - bouteille*</li>",
+      "beerBuyButton": "Acheter Clarisse Rouge"
+    }
+  ]
 }

@@ -80,37 +80,60 @@
 
   "bieren": [
     {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
-    }, {
-      "tagLine": "TEST",
-      "beerDescription": "TEST",
-      "beerInfo": "TEST"
+      "id": 1,
+      "tagLine": "Stoer en onweerstaanbaar.",
+      "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
+      "beerInfo": "<li>Goudkleurig speciaal bier</li><li>Hoge gisting - hergist in fles</li><li>6,2% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Koop Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Verfrissend oldskool.",
+      "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio.",
+      "beerInfo": "<li>Helder amberkleurig bier</li> <li>Retro “Speciale Belge”</li> <li>Hoge gisting</li> <li>5,2% Vol.</li> <li>Vat - fles</li>",
+      "beerBuyButton": "Koop Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Klassieke finesse in stevige body.",
+      "beerDescription": "Een klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever. In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd. Edele hopsoorten geven deze rijke Tripel een typisch en herkenbaar karakter. Fluweelzacht, zoet & fruitig. Heerlijk bij een pot mosselen of gekruide gerechten. Het klassieke Tripel Kanunnikglas staat voor vertrouwen en verbergt een geheime afbeelding.",
+      "beerInfo": "<li>goudkleurige tripel</li> <li>hoge gisting - hergist in fles</li> <li>8,2% Vol.</li> <li>vat - fles</li>",
+      "beerBuyButton": "Koop Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "(H)eerlijk hartverwarmend donker bier.",
+      "beerDescription": "Dit is een bijzonder robijnrood brouwsel met een verleidelijk aroma. Heerlijk bij pittige en belegen kazen of vleesgerechten. Herkenbare toets van zoethout en een vleugje karamel Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid.",
+      "beerInfo": "<li>robijnrood donker zwaar bier </li> <li>hoge gisting - hergist op fles</li> <li>9,2% Vol.</li> <li>vat - fles</li>",
+      "beerBuyButton": "Koop Cuvée Clarisse"
+    },
+    {
+      "id": 5,
+      "tagLine": "Intens en uitdagend.",
+      "beerDescription": "De beste smaken verweven in één bier. Geweldige balans tussen bier & whisky. Subtiele aroma’s van bourbon, fruitige toetsen van vanille en zoethout. Cuvée Clarisse Whisky Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Wild Weasel Whisky. Bij het haardvuur in goed gezelschap. Officiëel uitgeroepen als de Beste Whisky Infused van België!",
+      "beerInfo": "<li>donker zwaar bier</li> <li>infused met Wild Weasel Whisky</li> <li>hoge gisting - hergist op fles</li> <li>10,2% Vol. </li> <li>vat - fles</li>",
+      "beerBuyButton": "Online bestellen"
+    },
+    {
+      "id": 6,
+      "tagLine": "Verleiding en geheimzinnigheid.",
+      "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. Krachtig degustatiebier voor de levensgenieter. Heerlijk bij pittige en belegen kazen. Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Omerta Rum liquor.",
+      "beerInfo": " <li>donker zwaar bier</li><li>infused met Omerta Rum Liquor</li><li>hoge gisting – hergist op fles</li><li>11,2% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Online bestellen"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fris en fruitig.",
+      "beerDescription": "Wilderen Kriek is gebrouwen met spontaan gegiste Lambic. Langzaam gerijpt op grote eikenhouten foedervaten.",
+      "beerInfo": "<li>dieprood fruitbier </li><li>spontane gisting - foederbier</li><li>3,5% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Koop Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Schitterend aperitiefbier.",
+      "beerDescription": "Een smaakprofiel van kers, amandel en een toets van marsepein. <br> <br> *Momenteel enkel verkrijgbaar van het vat.",
+      "beerInfo": "<li>donkerrood fruitbier</li> <li>hoge gisting</li> <li>8% vol.</li> <li>Vat - fles*</li>",
+      "beerBuyButton": "Koop Clarisse Rouge"
     }
   ]
 }

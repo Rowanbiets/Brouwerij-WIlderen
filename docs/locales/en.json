@@ -78,5 +78,62 @@
     "Watch and enjoy!"
   ],
 
-  "goud": ["TEST3"]
+  "bieren": [
+    {
+      "id": 1,
+      "tagLine": "Tough and irresistible.",
+      "beerDescription": "Perfect alternative to a thirst-quenching lager or a light abbey beer. Deliciously refreshing beer to accompany ribs or barbecue in good company. The eccentric glass is its own design and has been called an icon among beer glasses.",
+      "beerInfo": "<li>Gold-coloured special beer</li><li>High fermentation - refermented in bottle</li><li>6.2% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Refreshing oldskool.",
+      "beerDescription": "The intense amber colour is due to a specially selected dark malt. Betty Ford beer is named after Betty Ford, the former First Lady of the United States, carrying a historical and cultural reference to the Betty Ford Clinic. The beer itself is a tribute but refers mostly as a gimmick to the low alcohol content in the Wilderen portfolio.",
+      "beerInfo": "<li>Clear amber coloured beer</li> <li>Retro “Speciale Belge”</li> <li>High fermentation</li> <li>5.2% Vol.</li> <li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Classic finesse in solid body.",
+      "beerDescription": "A classically brewed 4-grain Tripel for the modern connoisseur. Rye was exceptionally added in this spicy Tripel alongside barley, wheat and oats. Noble hops give this rich Tripel a typical and recognisable character. Velvety smooth, sweet & fruity. Delicious with a pot of mussels or spicy dishes. The classic Tripel Canon glass represents confidence and hides a secret image.",
+      "beerInfo": "<li>gold-coloured triple</li> <li>high fermentation - refermented in bottle</li> <li>8.2% Vol.</li> <li>keg - bottle</li>",
+      "beerBuyButton": "Buy Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "Honest hearty dark beer.",
+      "beerDescription": "This is an exceptional ruby red brew with a seductive aroma. Delicious with spicy and mature cheeses or meat dishes. Distinct touch of liquorice and a hint of caramel Luscious malt accents and hints of fruit, hoppy spiciness.",
+      "beerInfo": "<li>robin red dark heavy beer </li> <li>high fermentation - refermented in bottle</li> <li>9.2% Vol.</li> <li>keg - bottle</li>",
+      "beerBuyButton": "Buy Cuvée Clarisse"
+    },
+    {
+      "id": "5",
+      "tagLine": "Intense and challenging.",
+      "beerDescription": "The best flavours intertwined in one beer. Great balance between beer & whisky. Subtle aromas of bourbon, fruity notes of vanilla and liquorice. Cuvée Clarisse Whisky Infused is a fusion of our Cuvée Clarisse 9.2% Vol. and our Wild Weasel Whisky. By the fireplace in good company. Officially voted the Best Whisky Infused in Belgium!",
+      "beerInfo": "<li>dark heavy beer</li> <li>infused with Wild Weasel Whisky</li> <li>high fermentation - re-fermented in the bottle</li> <li>10.2% Vol. </li> <li>cask - bottle</li>",
+      "beerBuyButton": "Online order"
+    },
+    {
+      "id": "6",
+      "tagLine": "Seduction and mystery.",
+      "beerDescription": "Subtle aromas of Omerta rum, full-bodied and a hint of caramel. Powerful tasting beer for the bon vivant. Delicious with spicy and mature cheeses. Cuvée Clarisse Rum Infused is a fusion of our Cuvée Clarisse 9.2% Vol. and our Omerta Rum liquor.",
+      "beerInfo": "<li>dark heavy beer</li><li>infused with Omerta Rum Liquor</li><li>high fermentation - re-fermented in bottle</li><li>11.2% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Online order"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fresh and fruity.",
+      "beerDescription": "Wilderen Kriek is brewed with spontaneously fermented Lambic. Slow-aged on large oak casks.",
+      "beerInfo": "<li>thatred fruit beer </li><li>spontaneous fermentation - foederbier</li><li>3.5% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Superb aperitif beer.",
+      "beerDescription": "A flavour profile of cherry, almond and a touch of marzipan. <br> <br> *Currently only available from the cask.",
+      "beerInfo": "<li>dark red fruit beer</li> <li>high fermentation</li> <li>8% vol.</li> <li>Cask - bottle*</li>",
+      "beerBuyButton": "Buy Clarisse Rouge"
+    }
+  ]
 }

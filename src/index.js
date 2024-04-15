@@ -31,6 +31,7 @@ import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
 import getEmailData from "./email.js";
+import { getParamBeer } from "./bieren.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -110,23 +111,6 @@ function init() {
   if (document.querySelector(".bierDisplaySwup")) {
     console.warn("FETCHING BIEREN");
     fetchBeer();
-    window.addEventListener("popstate", () => {
-      console.error("popstate");
-      fetchBeer();
-    });
-    // const bierIndex = fetchBeer();
-
-    // document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
-    //   console.log("element", element);
-    //   const key = element.getAttribute("data-i18n-beer");
-    //   console.log("🚀 ~ document.querySelectorAll ~ key:", key);
-
-    //   const selectedBeer = bierIndex;
-    //   const beerKey = key.replace("{index}", selectedBeer);
-    //   console.log("beerKey", beerKey);
-    //   element.innerHTML = i18next.t(beerKey);
-    // });
-    console.warn("testing response");
   }
 
   if (document.querySelector(".spiritDisplaySwup")) {
@@ -157,11 +141,21 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 });
 
 // Function to update translations
-function updateTranslations() {
-  window.addEventListener("popstate", () => {
-    console.error("popstate");
-    fetchBeer();
+export function updateTranslations() {
+  const beerIndex = getParamBeer();
+  console.warn(beerIndex)
+  // const bierIndex = fetchBeer();
+  document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
+    console.log("element", element);
+    const key = element.getAttribute("data-i18n-beer");
+    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+
+    const selectedBeer = beerIndex;
+    const beerKey = key.replace("{index}", selectedBeer);
+    console.log("beerKey", beerKey);
+    element.innerHTML = i18next.t(beerKey);
   });
+
   console.warn("Translations updated");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {

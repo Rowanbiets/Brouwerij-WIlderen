@@ -1,7 +1,7 @@
 "use strict";
 
 import SwipeListener from "swipe-listener";
-
+import { updateTranslations } from "./index.js";
 
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
 let beerName,
@@ -79,10 +79,9 @@ export default function fetchBeer() {
       // radioClick();
     }); 
 
-    return getParamBeer();
 }
 
-function getParamBeer() {
+export function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
   // selecteer de array index op basis van de naam
   const bierParams = new URLSearchParams(window.location.search).get("beer");
@@ -216,6 +215,7 @@ function renderBeer(data, beer) {
 
   // console.warn("🚀 ~ renderBeer ~ getParamBeer():", getParamBeer());
   // return arrary index for transitions
+  updateTranslations();
   return getParamBeer();
 }
 
@@ -226,7 +226,7 @@ function buttonClick() {
   moveLeft();
   });
   rightArrow.addEventListener("click", function () {
-moveRight();
+    moveRight();
   });
 }
 
@@ -266,6 +266,8 @@ function moveLeft() {
     updateParams(getParamBeer() - 1);
     renderBeer(allBeer, getParamBeer());
     handleRadio();
+    updateTranslations();
+
   }
 }
 function moveRight() {
@@ -276,6 +278,8 @@ function moveRight() {
     updateParams(getParamBeer() + 1);
     renderBeer(allBeer, getParamBeer());
     handleRadio();
+    updateTranslations();
+
   }
 }
 
