@@ -185,7 +185,7 @@ export function updateTranslations() {
   if (document.querySelector("#horecaSwup")) {
     document
       .querySelector("#interest")
-      .setAttribute("placeholder", i18next.t("contact.3"));
+      .setAttribute("placeholder", i18next.t("contact.2"));
     document
       .querySelector("#message")
       .setAttribute("placeholder", i18next.t("contact.4"));

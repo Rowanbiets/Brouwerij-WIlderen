@@ -106,6 +106,36 @@
     "Verstuur"
   ],
 
+  "infoContact": [
+    "Openingsuren",
+    "Kantoor",
+    "Maandag Gesloten <br> Di-Woe-Vrij: 9u - 12u",
+    "Magazijn",
+    "Maandag: Gesloten <br> Di-Woe-Do: 9u - 16u <br> Vrijdag: 9u - 12u",
+    "Info en mail",
+    "Boekhouding &amp facuturatie",
+    "Bestellingen groothandel:",
+    "Sales &amp Export:",
+    "Brouwerijcafé &amp groepsbezoeken:",
+    "Geschenkverpakkingen:",
+    "Reservaties rondleidingen:",
+    "Online boeking",
+    "Ingang/parking Brouwerijcafé",
+    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> +32 11 580 680 Kantoor <br /> +32 11 580 640 Productie"
+  ],
+
+  "wilderenTeam":[
+    "Founders",
+    "Sales Director &amp Export Manager",
+    "Productieverantwoordelijke Brouwer - Distillateur",
+    "Productie",
+    "Magazijn",
+    "Sales België &amp Facturatie",
+    "Sales België &amp Nederland",
+    "Sales Nederland",
+    "Sales supermarkten &amp degustaties"
+  ],
+
   "bieren": [
     {
       "id": 1,
