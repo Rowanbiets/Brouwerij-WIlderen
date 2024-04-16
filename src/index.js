@@ -27,6 +27,7 @@ import SwupHeadPlugin from "@swup/head-plugin";
 // import scripts (used for executing after page transition)
 
 import fetchOpeningsuren from "./openingsuren.js";
+import addFooter from "./footer.js";
 import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
@@ -85,6 +86,9 @@ function init() {
   console.warn("INIT");
   reAddEventListeners();
 
+  if (document.querySelector("footer")) {
+    addFooter();
+  }
   //  if transitioning to index
   if (document.querySelector(".index")) {
     carousel();
@@ -145,10 +149,9 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 export function updateTranslations() {
   const beerIndex = getParamBeer();
   const spiritIndex = getParamSpirit();
-  console.warn(beerIndex)
+  console.warn(beerIndex);
 
-
-// beer translations
+  // beer translations
   document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
     console.log("element", element);
     const key = element.getAttribute("data-i18n-beer");
@@ -179,10 +182,13 @@ export function updateTranslations() {
     element.innerHTML = i18next.t(key);
   });
 
-  if(document.querySelector("#horecaSwup")) {
-    document.querySelector("#interest").setAttribute("placeholder", i18next.t("contact.3"));
-    document.querySelector("#message").setAttribute("placeholder", i18next.t("contact.4"));
-
+  if (document.querySelector("#horecaSwup")) {
+    document
+      .querySelector("#interest")
+      .setAttribute("placeholder", i18next.t("contact.3"));
+    document
+      .querySelector("#message")
+      .setAttribute("placeholder", i18next.t("contact.4"));
   }
 
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
