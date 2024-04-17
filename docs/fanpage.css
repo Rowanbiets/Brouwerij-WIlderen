@@ -203,13 +203,10 @@ body {
   transition: all 0.35s;
 }
 
-#wildLogo {
-  max-width: 25%;
-  margin-left: 5%;
-  margin-top: 100px;
-  position: absolute;
-  filter: drop-shadow(0 0.5rem #000);
-  z-index: 1;
+.wildLogo {
+  /* max-width: 25%; */
+  /* width: 300px; */
+  filter: drop-shadow(0 5px #000);
   -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
   animation: pulsate-fwd 1s ease-in-out infinite both;
 }
@@ -243,7 +240,7 @@ body {
   }
 }
 
-.text-overlay ul{
+.text-overlay ul {
   margin: 20px;
 }
 
@@ -251,7 +248,184 @@ body {
   list-style: none;
 }
 
-.text-overlay li:before {
+.introText li:before {
   content: "✓";
-  color: #bdffbd;
+  color: #2daa2d;
+}
+
+#fanpageBG {
+  position: fixed;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.hallOfFameContainer {
+  display: flex;
+  justify-content: center;
+  /* height: 100%; */
+  margin-top: 10%;
+  /* height: 1000px; */
+  align-items: center;
+}
+.hallOfFame {
+  /* background-color: rgb(83, 30, 30); */
+  background-image: linear-gradient(#fdfdf5, #fbf9e0, #fbf9d3);
+  z-index: 3;
+  width: 80%;
+  /* height: 1000px; */
+  /* height: 500px; */
+  display: flex;
+  border-radius: 10px;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.hallOfFame img {
+  width: 400px;
+
+  /* height: 200px; */
+  /* border-radius: 50%;
+  margin: 0 auto; */
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+#banner {
+  transform: translateY(-130px);
+}
+
+#hallLogo {
+  width: 300px;
+  transform: translateY(-120px) !important;
+}
+
+.poloroids {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: -100px;
+  /* width: 800px; */
+  /* width: 80%; */
+}
+
+.poloroid-flipper {
+  margin: 20px;
+  /* background-color: rgb(252, 250, 250); */
+  /* padding: 15px 15px 20px 15px; */
+  display: flex;
+  flex-direction: column-reverse;
+  color: black !important;
+  font-size: 15px;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+h2 {
+  margin-top: 20px !important;
+  color: black;
+  font-size: 20px;
+}
+
+.poloroid-flipper img {
+  width: 250px;
+}
+
+.poloroid-flipper {
+  background-color: transparent;
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.poloroid-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.poloroid-flipper:hover .poloroid-inner {
+  transform: rotateY(180deg);
+}
+
+.poloroid-front,
+.poloroid-back {
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+  background-color: rgb(252, 250, 250) !important;
+  position: absolute;
+  /* width: 300px; */
+  padding: 15px 15px 20px 15px;
+  height: 410px;
+  /* height: 300px; */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.poloroid-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.poloroid-back {
+  background-color: rgb(252, 250, 250);
+  color: black;
+  transform: rotateY(180deg);
+}
+
+.poloroid-back p {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.introText {
+  margin-top: -100px;
+  margin-bottom: 100px;
+  border-bottom: #961515 2px solid;
+  width: 90%;
+}
+
+.mobileText {
+  /* padding: 10px; */
+  display: none;
+  width: 90%;
+  border-bottom: #961515 2px solid;
+  padding: 15px;
+}
+
+
+@media (max-width:768px) {
+  .mobileText {
+    display: block;
+  }
+
+  .hallOfFameContainer{
+    margin-top: 20%;
+  }
+
+  .wildLogo {
+    width: 150px !important;
+  }
+
+  #hallLogo{
+transform: translateY(-50px) !important;
+filter: drop-shadow(0 1px #000);
+}
+
+  #banner{
+    transform: translateY(-50px);
+  }
+
+  .introText {
+    margin-top: -50px;
+  }
 }
