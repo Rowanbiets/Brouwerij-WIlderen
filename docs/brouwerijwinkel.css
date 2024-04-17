@@ -1,16 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Georgia", serif;
-}
+
 
 .brouwerij-section {
   position: relative;
   text-align: left;
 }
+
 
 .image-container {
   width: 100%; /* Afbeelding neemt volledige breedte in beslag */
@@ -37,9 +31,8 @@ h6 {
   text-align: left;
   color: white;
   position: absolute;
-  top: 520px; /* Plaats de tekst-overlay meer naar boven */
+  top: 520px;
   left: 20px;
-  width: 100%;
   z-index: 2;
 }
 
@@ -52,7 +45,10 @@ h6 {
   font-family: "Roboto Slab";
   font-size: 18pt;
  margin-left: 3px;
+ text-align: left;
 }
+
+
 
 .picknick {
   display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
@@ -87,6 +83,9 @@ h6 {
   margin-left: 40px;
 }
 
+
+/* CAROUSEL */
+
 .carousel-container {
   text-align: center;
   margin-top: 50px;
@@ -116,7 +115,6 @@ h6 {
   width: 5%; /* Stel de breedte van de pijltjes in */
 }
 
-/* Stijlen voor de carousel */
 .carousel {
   width: 95%;
   margin: 0 auto;
@@ -141,74 +139,6 @@ h6 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   z-index: 3;
-}
-
-.contact-form {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 100px;
-  margin-top: 80px;
-  text-decoration: none;
-}
-
-.contact-form h3 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
-}
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #666;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.form-group textarea {
-  height: 120px;
-}
-
-button[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #c31212;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-}
-
-button[type="submit"]:hover {
-  background-color: #fbb117;
-  text-decoration: none;
-}
-
-button:hover a {
-  text-decoration: none;
 }
 
 /* Media queries voor responsief ontwerp */
@@ -254,18 +184,20 @@ button:hover a {
   .picknick img {
     margin-bottom: -20px;
     margin-top: 20px; /* Voeg wat ruimte toe boven de afbeelding */
+    max-height: 300px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 0px;
   }
 
   .carousel{
-    width: 70%;
-    /* height: 500px; */
+    width: 90%;
+     height: 500px; 
+
   }
 
   .carousel-item img {
     width: 100%;
     height: 400px;
-    border-radius: 0;
+    border-radius: 10px;
   }
 }
