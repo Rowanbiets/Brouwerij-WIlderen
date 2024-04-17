@@ -20,7 +20,7 @@
     "visitez-nous",
     "Horaires d'ouverture 2024 <br> Café-brasserie"
   ],
-  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est connue pour produire des bières et des distillats de haute qualité. L'artisanat belge dans un contexte contemporain et excentrique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
+  "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen est connue pour produire des bières et des distillats dehaute qualité. L'artisanat belge dans un contexte contemporain et excentrique. Avec notre équipe Wilderen, nous visons l'innovation et la créativité, combinant des styles classiques avec des influences modernes pour créer des bières uniques et surprenantes. La brasserie entretient un lien fort avec sa communauté et son patrimoine locaux, ce qui se traduit par la qualité et la fierté que nous accordons à nos produits. Nous aimerions ainsi placer Wilderen sur la carte du monde. Pour cela, nous avons besoin de vous en tant que fan, client ou visiteur enthousiaste.“",
   "indexButtons": ["Webshop", "Réservez une visite", "Heures d'ouverture"],
   "table": [
     {
@@ -29,7 +29,7 @@
       "table1": {
         "row1": [" Lundi ", " FERMÉ "],
         "row2": [" Mardi ", " FERMÉ "],
-        "row3": [" Mercredi ", " 12 h - 19 h "],
+        "row3": [" Mercredi ", " 12h - 19h "],
         "row4": ["Jeudi", "12h - 19h"],
         "row5": ["Vendredi", "12h - 00h"],
         "row6": ["Samedi", "12h - 00h"],
@@ -39,7 +39,7 @@
       "table2": {
         "row1": [" Friday ", " 12h - 00h "],
         "row2": [" Samedi ", " 13h - 00h "],
-        "row3": [" Dimanche ", " 13 h - 21 h "]
+        "row3": [" Dimanche ", " 13h - 21h "]
       },
       "table3": {
         "row1": ["31/03", " OUVERT PÂQUES ", "12h - 21h"],
@@ -50,17 +50,192 @@
           "12h - 19h"
         ],
         "row4": ["1/05", "OUVERT 1er MAI", "12h - 19h"],
-        "ligne5": ["9/05", "OUVERT L'ASCENSION", "12h - 19h"],
+        "row5": ["9/05", "OUVERT L'ASCENSION", "12h - 19h"],
         "row6": ["19/05", " OUVERT PENTECÔTE", "12h - 21h"],
         "row7": ["20/05", " OUVERT  LUNDI de PENTECÔTE", "12h - 19h"],
         "row8": ["21/07", " OUVERT FÊTE NATIONAL", "12h - 21h"],
         "row9": ["15/08", " OUVERT L'ASSOMPTION", "12h - 19h"],
         "row10": ["1/11", " OUVERT TOUSSAINT", " 13h - 00h "],
-        "rangée11": ["2/11", "OUVERT TOUSSAINT", "13h - 00h"],
+        "row11": ["2/11", "OUVERT TOUSSAINT", "13h - 00h"],
         "row12": ["11/11", " OUVERT 11 NOVEMBRE", "13h -19h"]
       }
     }
   ],
-  "tableExtraInfo": ["- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."],
-  "footer": ["En savoir plus sur nous"]
+
+  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES"],
+  "tableExtraInfo": [
+    "- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."
+  ],
+  "footer": ["En savoir plus sur nous"],
+  "cafe": [
+    "L'hospitalité chaleureuse et l'intérieur charmant",
+    "La convivialité l'emporte",
+    "Le pub branché de la brasserie est la destination idéale pour les épicuriens. Il est chaleureux et accueillant : retour à la culture des pubs belges. Dans une ferme à colombages restaurée, le pub de la brasserie offre un cadre plus qu'unique. On y savoure en bonne compagnie un pot et une pinte. En hiver, au coin du feu, au printemps, sur la belle terrasse du jardin.",
+    "Carte de menu"
+  ],
+
+  "rondleiding": [
+    "Une histoire plus que captivante",
+    "La narration à son meilleur...",
+    "Cette visite fascinante est une véritable promenade dans le temps. La haute technologie moderne contraste avec le passé. Cette visite surprend les amateurs de bière et les visiteurs curieux. Des histoires passionnantes sur les gens, l'artisanat et l'amour du métier. Les histoires de la brasserie & distillerie Wilderen prennent vie dans ce cadre unique et captivant. Au milieu de l'ancienne distillerie d'alcool (1900), vous vous imaginez dans un magnifique décor de cinéma",
+    "Réservez en ligne ici",
+    "Regardez et savourez!"
+  ],
+
+  "brouwerijWinkel": [
+    "Le magasin Wilderen",
+    "Situé juste à côté du pub de la brasserie !",
+    "Le seul endroit où les hommes n'ont pas peur de faire du shopping... La boutique de la brasserie est située juste à côté du café de la brasserie Large sélection de bières Wilderen & de spiritueux, de paquets cadeaux et d'articles de collection Le célèbre fromage de houblon Wilderen de 500 gr est exclusivement disponible ici La boutique de la brasserie a les mêmes heures d'ouverture que le café de la brasserie."
+  ],
+
+  "picknick": [
+    "Rire sous le cerisier",
+    "Raconter des histoires en plein air",
+    "Découpez votre propre pain dans les magnifiques environs de Haspengouw de la brasserie Wilderen. Détendez-vous et dégustez un savoureux assortiment de bières de caractère de la brasserie dans notre prairie de pique-nique. Laissez-vous enchanter et profitez de la bonne compagnie à nos tables de pique-nique ou sous l'abri en cas de pluie. Tout cela à deux pas de l'activité de la brasserie. Le fromage de houblon Wilderen ne manque pas dans le panier! Réservez votre bon pour le pique-nique “Brewed to be Wild” dans notre boutique en ligne!!! Les pique-niques sont disponibles du 1er avril au 30 septembre pendant les heures d'ouverture du pub de la brasserie.",
+    "Profiter"
+  ],
+
+  "horeca": [
+    "Wilderen au menu",
+    "Des bières Wilder uniques et authentiques dans votre commerce de détail",
+    "Avec un profil gustatif riche et un contexte historique, une bière Wilder ne fera pas seulement parler d'elle, elle sera aussi la préférée de vos clients. En proposant ce “storytelling op tap” dans votre pub, vous montrez que vous avez le souci de la qualité. Vous avez quelque chose de spécial à offrir à vos clients ! Découvrez ce que nous pouvons faire pour votre établissement avec la Brasserie & Distillerie Wilderen. Notre équipe de vente dynamique se fera un plaisir de prendre contact avec vous !"
+  ],
+
+  "contact": [
+    "Intéressé(e) ? Remplissez le formulaire de contact :",
+    "Je suis intéressé par :",
+    "tapez ici...",
+    "Message :",
+    "Votre message...",
+    "Envoyer"
+  ],
+
+  "bieren": [
+    {
+      "id": 1,
+      "tagLine": "Dure et irrésistible.",
+      "beerDescription": "Alternative parfaite à une lager désaltérante ou à une bière d'abbaye légère. Une bière délicieusement rafraîchissante pour accompagner des côtes ou un barbecue en bonne compagnie. Le verre excentrique est un design propre et a été qualifié d'icône parmi les verres à bière",
+      "beerInfo": "<li>Bière spéciale de couleur or</li><li>Haute fermentation - refermentée en bouteille</li><li>6,2% Vol.</li><li>Tonneau - bottle</li>",
+      "beerBuyButton": "Acheter Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Une vieille école rafraîchissante.",
+      "beerDescription": "La couleur ambrée intense est due à un malt foncé spécialement sélectionné. La bière Betty Ford porte le nom de Betty Ford, l'ancienne première dame des États-Unis, et une référence historique et culturelle à la clinique Betty Ford. La bière elle-même est un hommage, mais se réfère surtout comme un gimmick à la faible teneur en alcool du portefeuille Wilderen.",
+      "beerInfo": "<li>Bière claire de couleur ambrée</li> <li>Rétro “Speciale Belge”</li> <li>Haute fermentation</li> <li>5,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Finesse classique dans un corps solide.",
+      "beerDescription": "Une Tripel classique à 4 grains pour les connaisseurs modernes. Le seigle a été exceptionnellement ajouté dans cette Tripel épicée aux côtés de l'orge, du blé et de l'avoine. Des houblons nobles confèrent à cette riche Tripel un caractère typique et reconnaissable. Veloutée, douce et fruitée. Délicieuse avec une marmite de moules ou des plats épicés. Le verre Canon de la Tripel classique représente la confiance et cache une image secrète",
+      "beerInfo": "<li>Triple de couleur or</li> <li>haute fermentation - refermentée en bouteille</li> <li>8,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "Honnête bière brune.",
+      "beerDescription": "Il s'agit d'une bière exceptionnelle de couleur rouge rubis avec un arôme séduisant. Délicieuse avec des fromages épicés et affinés ou des plats de viande. Une touche distincte de réglisse et un soupçon de caramel. Des accents de malt succulents et des touches de fruits, un piquant houblonné.",
+      "beerInfo": "<li>robin red dark heavy beer </li> <li>haute fermentation - refermentée en bouteille</li> <li>9,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Cuvée Clarisse"
+    },
+    {
+      "id": 5,
+      "tagLine": "Intense et stimulante.",
+      "beerDescription": " Les meilleures saveurs entrelacées dans une seule bière. Excellent équilibre entre la bière et le whisky. Arômes subtils de bourbon, notes fruitées de vanille et de réglisse. La Cuvée Clarisse Infusée au Whisky est une fusion de notre Cuvée Clarisse 9,2% Vol. et de notre Whisky Wild Weasel. Au coin du feu, en bonne compagnie. Officiellement élue meilleure Whisky Infusé de Belgique !",
+      "beerInfo": "<li>bière brune et lourde</li> <li>infusée avec du Whisky Wild Weasel</li> <li>haute fermentation - re-fermentée en bouteille</li> <li>10,2% Vol. </li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Commande en ligne"
+    },
+    {
+      "id": 6,
+      "tagLine": "Séduction et mystère",
+      "beerDescription": "Arômes subtils de rhum Omerta, corsé et un soupçon de caramel. Bière puissante pour les bons vivants. Délicieuse avec les fromages épicés et affinés. La Cuvée Clarisse Infusée au Rhum est une fusion de notre Cuvée Clarisse 9,2% Vol. et de notre liqueur de Rhum Omerta",
+      "beerInfo": "<li>bière brune et lourde</li><li>infusée avec la liqueur de rhum Omerta</li><li>haute fermentation - re-fermentée en bouteille</li><li>11,2% Vol.</li><li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Commande en ligne"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fraîche et fruitée.",
+      "beerDescription": "La Wilderen Kriek est brassée avec du Lambic à fermentation spontanée. Vieillie lentement dans de grands tonneaux de chêne",
+      "beerInfo": "<li>bière sèche aux fruits rouges </li><li>fermentation spontanée - bière de fermentation</li><li>3,5% Vol.</li><li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Superbe bière d'apéritif",
+      "beerDescription": "Un profil de saveur de cerise, d'amande et une touche de massepain. <br> <br> *Pour l'instant uniquement disponible en tonneau",
+      "beerInfo": "<li>bière brune aux fruits rouges</li> <li>haute fermentation</li> <li>8% vol.</li> <li>Tonneau - bouteille*</li>",
+      "beerBuyButton": "Acheter Clarisse Rouge"
+    }
+  ],
+
+  "spirits": [
+    {
+      "id": 1,
+      "spiritTagLine": "Le gagnant remporte tout",
+      "spiritDescription": "Et le gagnant est : Cette bête de prix remporte pratiquement tous les prix ! Double You est une marque plus que connue de Wilderen. Elle est produite à partir de 21 plantes médicinales et de plantes médicinales régionales. Un processus de distillation unique garantit un gin d'une qualité et d'une saveur inégalées. Une perception du goût pleine de caractère, aussi complexe qu'un ange et un diable sur votre épaule... L'ange représente la conscience et est toujours accompagné d'un diable qui représente la tentation... Il en va de même pour le caractère de ce Double You Gin : vous ne pouvez pas résister à cette tentation ! Un caractère distinct, le Diable et l'Ange réunis dans un verre",
+      "spiritBuyButton": "Acheter Double You Gin"
+    },
+    {
+      "id": 2,
+      "spiritTagLine": "",
+      "spiritDescription": "Suite au prestigieux Crystal Award remporté par Double You Gin, cette édition très spéciale a été lancée! <br> plus des 21 épices contenues dans le Double You Gin standard, nous avons ajouté de la vanille naturelle au processus de distillation. Il en résulte un gin aux délicieux arômes floraux, à la saveur agréable et surtout reconnaissable et distincte de vanille. <br> Complétez avec de la menthe fraîche.",
+      "spiritBuyButton": "Acheter Vanille Vintage"
+    },
+    {
+      "id": 3,
+      "spiritTagLine": "Fréquences perdues dans l'image",
+      "spiritDescription": "Ocus Gin est un gin biologique de première qualité, créé et mis en bouteille en Belgique. Distillé sur une base naturelle sans aucun additif, donc 0% de sucre. Le gin Ocus est d'une douceur remarquable et d'une fantastique fraîcheur herbacée et florale.  <br> Chaque bouteille est ornée d'une bande de festival. Collectionnez les 11 groupes et gagnez une rencontre avec Lost Frequencies ! <br>Prenez toujours les vibrations ensoleillées et sentez-vous bien ! <Lost Frequencies",
+      "spiritBuyButton": "Acheter Ocus Organic"
+    },
+    {
+      "id": 4,
+      "spiritTagLine": "Ce qui se passe à Wilderen, reste à Wilderen",
+      "spiritDescription": "Lorsque nous pensons au rhum, nous imaginons les anneaux de fumée d'un cigare épais, une musique douce en arrière-plan. La nuit semble interminable, les conversations se poursuivent jusqu'au petit matin, la bouteille de rhum Omerta et l'amitié sont partagées. Le temps du repos et de la réflexion, où le monde extérieur semble disparaître pour un instant, seul l'instant qui compte. Cette liqueur de rhum sombre est un mélange unique de rhum jamaïcain importé, de distillat Wilds exclusif... et du secret d'Omerta. < Une création surprenante. La belle couleur brun foncé révèle des arômes exceptionnels de vanille, de barils de bourbon cachés et de caramel. Pur, bien sûr dans un mélange avec du Cola ou la base parfaite pour des cocktails !",
+      "spiritBuyButton": "Acheter le rhum Omerta"
+    },
+    {
+      "id": 5,
+      "spiritTagLine": "Edition premium exclusive",
+      "spiritDescription": "L'édition Omerta Black en bouteille magnum unique de 1,5L <br>avec une teneur en alcool de 40% est un régal sur la langue pour tout amateur de rhumLa belle couleur brun foncé -presque noire- qu'il doit à la mélasse et au caramel <br>Omerta Black a une saveur pleine et puissante et se boit pur. <br>Profil de goût : Caramel - Épicé - Sucré - Chaud - Doux <br>L'Omerta Black Edition est disponible à la vente dans notre magasin de brasserie sur place ou via notre boutique en ligne !",
+      "spiritBuyButton": "Acheter Omerta Black Magnum"
+    },
+    {
+      "id": 6,
+      "spiritTagLine": "Pure Wilderness !",
+      "spiritDescription": "Ce whisky a une teneur en alcool d'environ 63%, en fonction des propriétés du fût. Le Cask Strenght, comme son nom l'indique, est mis en bouteille à la force du fût, c'est-à-dire à l'état pur. Le beau nez donne ensuite du tabac, de la noix-amande et du caramel, comme les suspects habituels",
+      "spiritBuyButton": "Acheter Wild Weasel Whisky Cash Strength"
+    },
+    {
+      "id": 7,
+      "spiritTagLine": "",
+      "spiritDescription": "Le whisky Wild Weasel est soigneusement mélangé à un excellent whisky de la Distillerie Radermacher. Il s'agit d'un mélange belge spécial mûri dans des fûts de chêne sélectionnés. Cela confère à ce Wild Weasel Finest Blend un caractère unique et robuste",
+      "spiritBuyButton": "Acheter Wild Weasel Whisky Finest Blend"
+    },
+    {
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "Ce whisky provient d'un single cask mûri dans notre cave pendant trois ans. Le Wild Weasel Single Malt a un nez exceptionnellement beau et une douceur équilibrée. Des arômes fruités avec des noix, du caramel, des notes de chêne donnent à ce whisky une belle finale",
+      "spiritBuyButton": "Acheter le whisky Wild Weasel Single Malt Single Cask"
+    },
+
+    {
+      "id": 9,
+      "spiritTagLine": "Amusez-vous",
+      "spiritDescription": "Wiggle est un délicieux apéro servi avec des glaçons dilués avec du cava, du prosecco ou des bulles, terminé par des fromages de fruits rouges congelés comme des fraises, des baies ou des framboises. <br> Il est également délicieux dans les mélanges ou les cocktails ! Entre autres avec Fever Tree Elderflower, Soda, Almdudler, Red Bull et al. ...colorez votre cocktail estival ou ajoutez une touche supplémentaire à votre apéro cet été !  <br> Mélangez, goûtez et appréciez !",
+      "spiritBuyButton": "Acheter Wiggle Red Fruits"
+    },
+    {
+      "id": 10,
+      "spiritTagLine": "Un vrai classique",
+      "spiritDescription": "La douceur du Wilderen Grain Gin séduit de nombreux amateurs de gin. Les baies de genièvre bien connues et les épices secrètes sont agréablement présentes dans l'arôme et le goût. Ce produit est une pure nature, magnifiquement claire. Une teneur en alcool légèrement inférieure fait de ce gin de grain Wilderen un distillat accessible mais inoubliable",
+      "spiritBuyButton": "Acheter le gin de grain Wilderen"
+    },
+    {
+      "id": 11,
+      "spiritTagLine": "Magnifique mariage entre le brassage et la distillation",
+      "spiritDescription": "Une Eau-de-Vie de qualité supérieure, un nez exceptionnel et une finale très douce Cette Eau-de-Bière Wilderen est distillée avec l'amour du métier à partir de notre bière à 4 grains Tripel Kanunnik 8.2% Produit incomparable, gratifiant et noble. Apprécié par plusieurs grands chefs",
+      "spiritBuyButton": "Acheter l'Eau de Bière"
+    }
+  ]
 }

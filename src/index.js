@@ -21,15 +21,19 @@
 
 import Swup from "swup";
 import SwupHeadPlugin from "@swup/head-plugin";
+
 // import SwupScriptsPlugin from "@swup/scripts-plugin";
 
 // import scripts (used for executing after page transition)
 
 import fetchOpeningsuren from "./openingsuren.js";
+import addFooter from "./footer.js";
 import fetchBeer from "./bieren.js";
 import fetchSpirit from "./spirits.js";
 import carousel from "./carousel.js";
 import getEmailData from "./email.js";
+import { getParamBeer } from "./bieren.js";
+import { getParamSpirit } from "./spirits.js";
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -82,6 +86,9 @@ function init() {
   console.warn("INIT");
   reAddEventListeners();
 
+  if (document.querySelector("footer")) {
+    addFooter();
+  }
   //  if transitioning to index
   if (document.querySelector(".index")) {
     carousel();
@@ -139,13 +146,50 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 });
 
 // Function to update translations
-function updateTranslations() {
+export function updateTranslations() {
+  const beerIndex = getParamBeer();
+  const spiritIndex = getParamSpirit();
+  console.warn(beerIndex);
+
+  // beer translations
+  document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
+    console.log("element", element);
+    const key = element.getAttribute("data-i18n-beer");
+    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+
+    const selectedBeer = beerIndex;
+    const beerKey = key.replace("{index}", selectedBeer);
+    console.log("beerKey", beerKey);
+    element.innerHTML = i18next.t(beerKey);
+  });
+
+  // spirit translations
+  document.querySelectorAll("[data-i18n-spirit]").forEach((element) => {
+    console.log("element", element);
+    const key = element.getAttribute("data-i18n-spirit");
+    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+
+    const selectedSpirit = spiritIndex;
+    const spiritKey = key.replace("{index}", selectedSpirit);
+    console.log("spiritKey", spiritKey);
+    element.innerHTML = i18next.t(spiritKey);
+  });
+
   console.warn("Translations updated");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
     element.innerHTML = i18next.t(key);
   });
+
+  if (document.querySelector("#horecaSwup")) {
+    document
+      .querySelector("#interest")
+      .setAttribute("placeholder", i18next.t("contact.2"));
+    document
+      .querySelector("#message")
+      .setAttribute("placeholder", i18next.t("contact.4"));
+  }
 
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
@@ -417,3 +461,7 @@ function checkAgeAndLang() {
 hamburgerToggle();
 checkAgeAndLang();
 // fetchBeer();
+window.addEventListener("popstate", () => {
+  console.error("popstate");
+  fetchBeer();
+});

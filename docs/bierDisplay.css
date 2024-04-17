@@ -158,6 +158,10 @@ ul {
   }
 }
 
+.buy-button2:hover{
+  box-shadow: var(--themeColor) 0px 0px 10px;
+}
+
 .arrows button {
   all: unset;
   width: fit-content;

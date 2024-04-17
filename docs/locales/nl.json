@@ -7,7 +7,7 @@
     "Brouwerijcafé",
     "Rondleidingen",
     "Picknick",
-    "brouwerijwinkel",
+    "Brouwerijwinkel",
     "Info & Wilderen Team",
     "FAQ"
   ],
@@ -56,8 +56,212 @@
       }
     }
   ],
+  "tableDateSpan": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+
   "tableExtraInfo": [
     "- Laatste tap: een 1/2u voor sluiting <br /> - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang <br /> - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer <br /> - Geen trouwlocatie of feestzalenverhuur <br /> - Honden toegelaten in het brouwerijcafé/terras <br /> - Honden niet toegelaten tijdens de rondleidingen/productieruimte <br /> - Picknick niet toegelaten"
   ],
-  "footer": ["Ontdek meer over ons"]
+  "footer": ["Ontdek meer over ons"],
+
+  "cafe": [
+    "warme gastvrijheid en charmant interieur.",
+    "Gezelligheid troef.",
+    "Het trendy brouwerijcafé is de ideale bestemming voor de levensgenieter. Het is er warm en gezellig: terug naar de Belgische cafécultuur. In een gerestaureerde vakwerkhoeve biedt het brouwerijcafé een meer dan unieke setting. In goed gezelschap genieten tussen pot &amp pint. In de winter aan het haardvuur, in de lente geniet je tussen op het prachtig tuinterras.",
+    "Menukaart"
+  ],
+
+  "rondleiding": [
+    "Een meer dan boeiend verhaal.",
+    "Storytelling ten top...",
+    "Ervaar deze boeiende rondleiding als een heuse wandeling-in de-tijd. Moderne high-tech in contrast met het verleden. Deze toer verwondert zowel bierliefhebbers als nieuwsgierige bezoekers. Straffe verhalen over mensen, over vakmanschap en de liefde voor het vak. De verhalen van Brouwerij &amp distilleerderij Wilderen komen tot leven in deze unieke en meeslepende setting. Te midden van de oude alcoholstokerij (1900) waan je jezelf in een prachtig filmdecor!",
+    "Boek hier online",
+    "Kijk en geniet!"
+  ],
+
+  "brouwerijWinkel": [
+    "De Wilderen Winkel.",
+    "Bevindt zich vlak naast het brouwerijcafé!",
+    "De enige plaats waar mannen winkelen niet erg vinden… De brouwerijshop bevindt zich vlak naast het brouwerijcafé Ruime keuze aan Wilderen bieren &amp spirits, geschenkverpakkingen en collector items De goed gekende Wilderen Hopkaas 500 gr is hier exclusief verkrijgbaar De brouwerijwinkel heeft dezelfde openingsuren als het brouwerijcafé."
+  ],
+
+  "picknick": [
+    "Lachen onder de kersenboom.",
+    "Verhalen vertellen in openlucht.",
+    "Zelf je brood snijden in de prachtige Haspengouwse omgeving van Brouwerij Wilderen. Ontspan en geniet in onze picknickweide van een smakelijk assortiment met de karaktervolle bieren van de brouwerij. Laat je betoveren en geniet van goed gezelschap aan onze picknicktafels of bij regenweer onder het afdak. Dit allemaal op slechts een steenworp van de bruisende brouwactiviteiten. De bol Wilderen Hopkaas ontbreekt zeker niet in de mand! Reserveer je “Brewed to be Wild” Picknick-bon via onze webshop!! Picknicken kan van 1 April tot en met 30 September tijdens de openingsuren van het brouwerijcafé.",
+    "Genieten"
+  ],
+
+  "horeca": [
+    "Wilderen op de kaart.",
+    "Unieke & authentieke Wilderen bieren in jouw horecazaak?",
+    "Met een rijk smaakprofiel en historische achtergrond zal een Wilderen Bier niet alleen een gespreksonderwerp zijn, maar ook een favoriet onder je klanten. Door deze “storytelling op tap” in jouw kroeg aan te bieden, laat je zien dat je oog hebt voor kwaliteit. Je hebt je klanten iets bijzonders te bieden! Ontdek wat wij met Brouwerij & Distilleerderij Wilderen voor jouw horecabedrijf kunnen betekenen. Ons dynamisch salesteam neemt graag contact met je op!"
+  ],
+
+  "contact": [
+    "Interesse? Vul het contactformulier in:",
+    "Ik heb interesse in:",
+    "type hier...",
+    "Bericht:",
+    "Jouw bericht...",
+    "Verstuur"
+  ],
+
+  "infoContact": [
+    "Openingsuren",
+    "Kantoor",
+    "Maandag Gesloten <br> Di-Woe-Vrij: 9u - 12u",
+    "Magazijn",
+    "Maandag: Gesloten <br> Di-Woe-Do: 9u - 16u <br> Vrijdag: 9u - 12u",
+    "Info en mail",
+    "Boekhouding &amp facuturatie",
+    "Bestellingen groothandel:",
+    "Sales &amp Export:",
+    "Brouwerijcafé &amp groepsbezoeken:",
+    "Geschenkverpakkingen:",
+    "Reservaties rondleidingen:",
+    "Online boeking",
+    "Ingang/parking Brouwerijcafé",
+    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> +32 11 580 680 Kantoor <br /> +32 11 580 640 Productie"
+  ],
+
+  "wilderenTeam":[
+    "Founders",
+    "Sales Director &amp Export Manager",
+    "Productieverantwoordelijke Brouwer - Distillateur",
+    "Productie",
+    "Magazijn",
+    "Sales België &amp Facturatie",
+    "Sales België &amp Nederland",
+    "Sales Nederland",
+    "Sales supermarkten &amp degustaties"
+  ],
+
+  "bieren": [
+    {
+      "id": 1,
+      "tagLine": "Stoer en onweerstaanbaar.",
+      "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
+      "beerInfo": "<li>Goudkleurig speciaal bier</li><li>Hoge gisting - hergist in fles</li><li>6,2% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Koop Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Verfrissend oldskool.",
+      "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio.",
+      "beerInfo": "<li>Helder amberkleurig bier</li> <li>Retro “Speciale Belge”</li> <li>Hoge gisting</li> <li>5,2% Vol.</li> <li>Vat - fles</li>",
+      "beerBuyButton": "Koop Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Klassieke finesse in stevige body.",
+      "beerDescription": "Een klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever. In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd. Edele hopsoorten geven deze rijke Tripel een typisch en herkenbaar karakter. Fluweelzacht, zoet & fruitig. Heerlijk bij een pot mosselen of gekruide gerechten. Het klassieke Tripel Kanunnikglas staat voor vertrouwen en verbergt een geheime afbeelding.",
+      "beerInfo": "<li>goudkleurige tripel</li> <li>hoge gisting - hergist in fles</li> <li>8,2% Vol.</li> <li>vat - fles</li>",
+      "beerBuyButton": "Koop Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "(H)eerlijk hartverwarmend donker bier.",
+      "beerDescription": "Dit is een bijzonder robijnrood brouwsel met een verleidelijk aroma. Heerlijk bij pittige en belegen kazen of vleesgerechten. Herkenbare toets van zoethout en een vleugje karamel Weelderige moutaccenten en zweempjes fruit, hoppige kruidigheid.",
+      "beerInfo": "<li>robijnrood donker zwaar bier </li> <li>hoge gisting - hergist op fles</li> <li>9,2% Vol.</li> <li>vat - fles</li>",
+      "beerBuyButton": "Koop Cuvée Clarisse"
+    },
+    {
+      "id": 5,
+      "tagLine": "Intens en uitdagend.",
+      "beerDescription": "De beste smaken verweven in één bier. Geweldige balans tussen bier & whisky. Subtiele aroma’s van bourbon, fruitige toetsen van vanille en zoethout. Cuvée Clarisse Whisky Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Wild Weasel Whisky. Bij het haardvuur in goed gezelschap. Officiëel uitgeroepen als de Beste Whisky Infused van België!",
+      "beerInfo": "<li>donker zwaar bier</li> <li>infused met Wild Weasel Whisky</li> <li>hoge gisting - hergist op fles</li> <li>10,2% Vol. </li> <li>vat - fles</li>",
+      "beerBuyButton": "Online bestellen"
+    },
+    {
+      "id": 6,
+      "tagLine": "Verleiding en geheimzinnigheid.",
+      "beerDescription": "Subtiele aroma's van Omerta rum, volmondigheid en een vleugje caramel. Krachtig degustatiebier voor de levensgenieter. Heerlijk bij pittige en belegen kazen. Cuvée Clarisse Rum Infused is een versmelting van onze Cuvée Clarisse 9,2% Vol. en onze Omerta Rum liquor.",
+      "beerInfo": " <li>donker zwaar bier</li><li>infused met Omerta Rum Liquor</li><li>hoge gisting – hergist op fles</li><li>11,2% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Online bestellen"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fris en fruitig.",
+      "beerDescription": "Wilderen Kriek is gebrouwen met spontaan gegiste Lambic. Langzaam gerijpt op grote eikenhouten foedervaten.",
+      "beerInfo": "<li>dieprood fruitbier </li><li>spontane gisting - foederbier</li><li>3,5% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Koop Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Schitterend aperitiefbier.",
+      "beerDescription": "Een smaakprofiel van kers, amandel en een toets van marsepein. <br> <br> *Momenteel enkel verkrijgbaar van het vat.",
+      "beerInfo": "<li>donkerrood fruitbier</li> <li>hoge gisting</li> <li>8% vol.</li> <li>Vat - fles*</li>",
+      "beerBuyButton": "Koop Clarisse Rouge"
+    }
+  ],
+
+  "spirits": [
+    {
+      "id": 1,
+      "spiritTagLine": "The winner takes it all.",
+      "spiritDescription": "And the winner is: Dit prijsbeest wint zowat alle Awards! Double You is een meer dan gekend merk van Wilderen. Geproduceerd met 21 plantaardige en regionale botanicals. Een uniek distillatieproces zorgen voor een gin van ongeëvenaarde kwaliteit en smaak. Een karaktervolle smaakperceptie, zo complex als een Engel en een Duivel op je schouder… De Engel staat voor welbewust en is altijd vergezeld van een Duivel welke staat voor verleiding… Zo ook het karakter van deze Double You Gin: je kan niet aan deze verleiding weerstaan! Een uitgesproken karakter, de duivel en de engel samen in een glas.",
+      "spiritBuyButton": "Koop Double You Gin"
+    },
+
+    {
+      "id": 2,
+      "spiritTagLine": "",
+      "spiritDescription": "Naar aanleiding van de gewonnen prestigieuze Crystal Award voor Double You Gin werd deze “very” Special Edition gelanceerd! <br> Naast de 21 kruiden in de standaard Double You Gin, voegden we natuurlijke vanille toe aan het distilleerproces. Dit resulteert in een gin met heerlijke florale aroma’s, een aangename en vooral herkenbare en uitgesproken vanillesmaak. <br> Top af met verse munt.",
+      "spiritBuyButton": "Koop Vintage Vanilla"
+    },
+    {
+      "id": 3,
+      "spiritTagLine": "Lost frequencies in de picture.",
+      "spiritDescription": "Ocus Gin is een biologische premium gin, gecreëerd en gebotteld in België. Gedistilleerd op natuurlijke basis zonder toevoegingen, dus 0% suiker. Ocus Gin heeft een opmerkelijke zachtheid en een fantastische kruiden- en bloemenfrisheid.  <br> Elke fles is afgewerkt met een festivalbandje. Verzamel de 11 bandjes en maak kans op een meet & greet met Lost Frequencies! <br> Neem altijd de Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
+      "spiritBuyButton": "Koop Ocus Organic"
+    },
+    {
+      "id": 4,
+      "spiritTagLine": "What happens in Wilderen, stays in Wilderen.",
+      "spiritDescription": "Wanneer we aan rum denken beelden we ons de rookkringen van een dikke sigaar in, zachte muziek op de achtergrond. De nacht lijkt eindeloos te duren, gesprekken tot in de vroege uurtjes, de fles Omerta Rum Liquor en de vriendschap wordt gedeeld. Tijd voor rust en reflectie, waarin de wereld buiten even lijkt te verdwijnen, alleen het moment dat telt. Deze donkere Rum-Likeur is een unieke blend van een geïmporteerde Jamaicaanse Rum,eigen Wilderen-distillaat…en het geheim van Omerta. <br> Verrassende creatie. De mooie diepbruine kleur verraadt uitmuntende smaken van vanille, verborgen bourbon vaten en karamel. Puur, uiteraard in een mix met Cola of de perfecte basis voor cocktails!",
+      "spiritBuyButton": "Koop Omerta Rum"
+    },
+    {
+      "id": 5,
+      "spiritTagLine": "Exclusieve premium editie.",
+      "spiritDescription": "De Omerta Black Edition in unieke magnum fles van 1.5L <br> met 40% alcoholpercentage is een streling op de tong voor elke rum liefhebberDe prachtige donkerbruine -bijna zwarte- kleur heeft hij te danken aan de melasse & karamel <br> Omerta Black heeft een volle krachtige smaak en wordt puur gedronken. <br> Smaakprofiel: Karamel - Kruidig - Zoet - Warm - Zacht  <br> De Omerta Black Edition is te koop in onze brouwerijshop ter plaatse of via onze webshop!",
+      "spiritBuyButton": "Koop Omerta Black Magnum"
+    },
+    {
+      "id": 6,
+      "spiritTagLine": "Pure Wildernis!",
+      "spiritDescription": "Deze Whisky heeft een alcoholpercentage van rond de 63%, afhankelijk van de eigenschappen van het vat. De Cask Strenght, wordt zoals het woord het zelf zegt afgevuld op vatsterkte, dus puur uit het vat. De mooie neus geeft vervolgens tabak, noten-amandel en karamel qua usual suspects Zachte , eiken finish met verwarmende afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Cash Strength"
+    },
+    {
+      "id": 7,
+      "spiritTagLine": "",
+      "spiritDescription": "De Wild Weasel Whisky wordt zorgvuldig geblend met een mooie Whisky van Distillerie Radermacher. Het is een speciale Belgische Blend gerijpt op geselecteerde eikenhouten vaten. Dit geeft deze Wild Weasel Finest Blend een uniek en robuust karakter.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Finest Blend"
+    },
+    {
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "Deze Whisky komt uit één vat dat gedurende drie jaar in onze kelder heeft liggen rijpen. De Wild Weasel Single Malt heeft een uitzonderlijk mooie neus en gebalanceerde zachtheid. Fruitige aroma’s met noten, karamel, toetsen van eik geven deze Whisky een mooie afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Single Malt Single Cask"
+    },
+    {
+      "id": 9,
+      "spiritTagLine": "Have fun.",
+      "spiritDescription": "Wiggle is een heerlijke apéro die geserveerd wordt met ijsblokjes aangelengd met cava, prosecco of bubbles, Werk af met wat bevroren rode vrucheten zoals aardbei, bes of framboos. <br> Ook lekker in de mix of in cocktails! O.a met met Fever Tree Elderflower, Soda, Almdudler, Red Bull e.a. …kleur je zomercocktail of geef deze zomer je Apéro een extra touch!  <br> Mix, proef & geniet!",
+      "spiritBuyButton": "Koop Wiggle Red Fruits"
+    },
+    {
+      "id": 10,
+      "spiritTagLine": "Een échte klassieker.",
+      "spiritDescription": "De zachtheid van Wilderen Graanjenever bekoort menig jeneverliefhebber. De welgekende jeneverbes en geheim kruidenpakket zijn plezierig aanwezig in geur en smaak. Dit product is puur natuur, mooi helder. Een iets lager alcoholpercentage maakt van deze Wilderen graanjenever een toegankelijk en toch onvergetelijk distillaat.",
+      "spiritBuyButton": "Koop Wilderen Graanjenever"
+    },
+    {
+      "id": 11,
+      "spiritTagLine": "Mooi huwelijk tussen brouwen en distilleren.",
+      "spiritDescription": "Een Eau-de-Vie van superieure kwaliteit , uitzonderlijke neus en een zeer zachte afdronk Deze Wilderen Eau-de-Bière wordt met liefde voor het vak gedistilleerd uit ons 4- granen bier Tripel Kanunnik 8,2% <br> Onvergelijkbaar, dankbaar en edel product. Geliefd bij meerdere top-chefs.",
+      "spiritBuyButton": "Koop Eau de Bière"
+    }
+  ]
 }

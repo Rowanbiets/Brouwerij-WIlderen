@@ -34,11 +34,14 @@
   top: 520px;
   left: 20px;
   z-index: 2;
+  width: 100% !important;
 }
 
 .text-overlay h2 {
   font-family: "Georgia", serif;
   font-size: 52pt;
+
+  /* width: 500px; */
 }
 
 .text-overlay p {

@@ -156,7 +156,7 @@ body {
 }
 
 .text-container p {
-  font-size: 12px; /* Grootte van de alinea */
+  font-size: 14px; /* Grootte van de alinea */
   line-height: 1.5; /* Regelhoogte van de alinea */
 }
 
@@ -471,9 +471,9 @@ iframe {
   /* height: fit-content; */
 }
 
-/* Buttons at the top of index become unstable around 1200px  */
+/* Buttons at the top of index become unstable around 1450px  */
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
   video,
   iframe {
     max-width: 80% !important;
@@ -877,4 +877,11 @@ iframe {
 
 #wilderenGoud:hover {
   filter: drop-shadow(0px 0px 8px gold);
+}
+
+@media (max-width:400px) {
+  .text-container p {
+    font-size: 12px; /* Grootte van de alinea */
+    line-height: 1.5; /* Regelhoogte van de alinea */
+  }
 }

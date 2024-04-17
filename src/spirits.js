@@ -1,4 +1,7 @@
 "use strict";
+import SwipeListener from "swipe-listener";
+import { updateTranslations } from "./index.js";
+
 
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
 let spiritName,
@@ -58,7 +61,7 @@ const blackTextNeeded = [3];
 
 
 
-function getParamSpirit() {
+export function getParamSpirit() {
   // zoek de spiritnaam op in de url -> ?spirit=""
   // selecteer de array index op basis van de naam
   const spiritParams = new URLSearchParams(window.location.search).get(
@@ -82,6 +85,7 @@ export default function fetchSpirits() {
       buttonClick();
       handleRadio();
       radioClick();
+      swipe();
     });
 }
 
@@ -204,29 +208,16 @@ function renderSpirits(data, spirit) {
   } else {
     spiritLogo.style.filter = "none";
   }
+
+  updateTranslations();
 }
 
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-    // spiritBackground.style.opacity = 0;
-
-    if (getParamSpirit() > 0) {
-      spirit--;
-      updateParams(getParamSpirit() - 1);
-      renderSpirits(allSpirits, getParamSpirit());
-      handleRadio();
-    }
+moveLeft();
   });
   rightArrow.addEventListener("click", function () {
-    // spiritBackground.style.transition = 'none';
-    // spiritBackground.style.opacity = 0;
-
-    if (getParamSpirit() < allSpirits.length - 1) {
-      spirit++;
-      updateParams(getParamSpirit() + 1);
-      renderSpirits(allSpirits, getParamSpirit());
-      handleRadio();
-    }
+moveRight();
   });
 }
 
@@ -254,6 +245,56 @@ function radioClick() {
     updateParams(bierIndex);
     renderSpirits(allSpirits, getParamSpirit());
     handleRadio();
+  });
+}
+
+
+function moveLeft(){
+      // spiritBackground.style.opacity = 0;
+
+      if (getParamSpirit() > 0) {
+        spirit--;
+        updateParams(getParamSpirit() - 1);
+        renderSpirits(allSpirits, getParamSpirit());
+        handleRadio();
+        updateTranslations();
+      }
+}
+function moveRight(){
+      // spiritBackground.style.transition = 'none';
+    // spiritBackground.style.opacity = 0;
+
+    if (getParamSpirit() < allSpirits.length - 1) {
+      spirit++;
+      updateParams(getParamSpirit() + 1);
+      renderSpirits(allSpirits, getParamSpirit());
+      handleRadio();
+      updateTranslations();
+    }
+}
+
+
+function swipe(){
+  const container = document.querySelector(".position-relative");
+  var listener = SwipeListener(container);
+  container.addEventListener("swipe", function (e) {
+    var directions = e.detail.directions;
+    var x = e.detail.x;
+    var y = e.detail.y;
+
+    if (directions.left) {
+      moveRight();
+
+      console.log("Swiped left.");
+    }
+
+    if (directions.right) {
+      console.log("Swiped right.");
+      moveLeft();
+    }
+
+    console.log("Started horizontally at", x[0], "and ended at", x[1]);
+    console.log("Started vertically at", y[0], "and ended at", y[1]);
   });
 }
 

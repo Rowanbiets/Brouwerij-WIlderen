@@ -129,6 +129,7 @@ td {
   border-top: #ad9a64 solid 2px;
   /* border-bottom: #ad9a64 solid 2px; */
   text-align: center;
+  font-family: "Roboto Slab";
   /* background-color: red; */
 }
 
@@ -141,10 +142,7 @@ td {
   font-size: smaller;
 }
 
-#table2 {
-  /* text-align: right; */
-  /* width: 80%; */
-}
+
 
 #klok {
   background-color: white;

@@ -12,7 +12,7 @@
     "FAQ"
   ],
   "indexTitles": [
-    "Trendy creations. Traditionally brewed.",
+    "Trendy Beverages. Traditionally Brewed",
     "Beers",
     "Then and now",
     "Spirits",
@@ -28,34 +28,210 @@
       "table1": {
         "row1": ["Monday", "CLOSED"],
         "row2": ["Tuesday", "CLOSED"],
-        "row3": ["Wednesday", "12pm - 7pm"],
-        "row4": ["Thursday", "12pm - 7pm"],
-        "row5": ["Friday", "12h - 00h"],
-        "row6": ["Saturday", "12h - 00h"],
-        "row7": ["Sunday", "12h - 21h"]
+        "row3": ["Wednesday", "12 PM - 7 PM"],
+        "row4": ["Thursday", "12 PM - 7 PM"],
+        "row5": ["Friday", "12 PM - midnight"],
+        "row6": ["Saturday", "12 PM - midnight"],
+        "row7": ["Sunday", "12 PM - 9 PM"]
       },
 
       "table2": {
-        "row1": ["Friday", "12h - 00h"],
-        "row2": ["Saturday", "1 pm - 00 am"],
-        "row3": ["Sunday", "1 pm - 9 pm"]
+        "row1": ["Friday", "12 PM - midnight"],
+        "row2": ["Saturday", "1 PM - midnight"],
+        "row3": ["Sunday", "1 PM - 9  PM"]
       },
       "table3": {
-        "row1": ["31/03", "OPEN EASTER", "12h - 9pm"],
-        "row2": ["1/04", "OPEN EASTER MONDAY", "12h - 19h"],
-        "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12pm - 7pm"],
-        "row4": ["1/05", "OPEN LABOR DAY", "12pm - 7pm"],
-        "row5": ["9/05", "OPEN ASCENSION", "12h - 19h"],
-        "row6": ["19/05", "OPEN PENTECOST ", "12pm - 9pm"],
-        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12pm - 7pm"],
-        "row8": ["21/07", "OPEN NATIONALE DAY", "12pm - 9pm"],
-        "row9": ["15/08", "OPEN ASSUMPTION", "12pm - 7pm"],
-        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 p.m. - 00 p.m."],
-        "row11": ["2/11", "ALL SOULS' DAY", "1 p.m. - 00 p.m."],
-        "row12": ["11/11", "ARMISTICE DAY", "1pm - 7pm"]
+        "row1": ["31/03", "OPEN EASTER", "12h - 9 PM"],
+        "row2": ["1/04", "OPEN EASTER MONDAY", "12 PM - 7 PM"],
+        "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12 PM - 7 PM"],
+        "row4": ["1/05", "OPEN LABOR DAY", "12 PM - 7 PM"],
+        "row5": ["9/05", "OPEN ASCENSION", "12 PM - 7 PM"],
+        "row6": ["19/05", "OPEN PENTECOST ", "12 PM - 9 PM"],
+        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12 PM - 7 PM"],
+        "row8": ["21/07", "OPEN NATIONALE DAY", "12 PM - 9 PM"],
+        "row9": ["15/08", "OPEN ASSUMPTION", "12 PM - 7 PM"],
+        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 PM - 00 PM"],
+        "row11": ["2/11", "ALL SOULS' DAY", "1 PM - midnight"],
+        "row12": ["11/11", "ARMISTICE DAY", "1 PM - 7 PM"]
       }
     }
   ],
-  "tableExtraInfo": ["- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"],
-  "footer": ["Discover more about us"]
+  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS"],
+
+  "tableExtraInfo": [
+    "- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"
+  ],
+  "footer": ["Discover more about us"],
+
+  "cafe": [
+    "Warm hospitality and charming interior.",
+    "Cosiness trumps all.",
+    "The trendy brewery pub is the ideal destination for the bon vivant. It is warm and cosy: back to Belgian pub culture. In a restored half-timbered farmhouse, the brewery pub offers a more than unique setting. Enjoying in good company between pot &amp pint. In winter at the open fire, in spring you can enjoy yourself on the beautiful garden terrace.",
+    "Menu card"
+  ],
+
+  "rondleiding": [
+    "A more than captivating story",
+    "Storytelling at its finest...",
+    "Experience this fascinating tour as a real walk-in-the-time. Modern high-tech contrasted with the past. This tour amazes beer lovers and curious visitors alike. Punishing stories about people, about craftsmanship and the love of the trade. The stories of Brewery &amp distillery Wilderen come to life in this unique and compelling setting. Amidst the old alcohol distillery (1900), you imagine yourself in a beautiful film set!",
+    "Book online here",
+    "Watch and enjoy!"
+  ],
+
+  "brouwerijWinkel": [
+    "The Wilderen Shop",
+    "Located right next to the brewery cafe!",
+    "The only place where men don't mind shopping... The brewery shop is located right next to the brewery café Wide selection of Wilderen beers &amp spirits, gift packs and collector items The well known Wilderen Hop Cheese 500 gr is exclusively available here The brewery shop has the same opening hours as the brewery café."
+  ],
+
+  "picknick": [
+    "Laugh under the cherry tree.",
+    "Outdoor storytelling.",
+    "Carve your own bread in the beautiful Haspengouw surroundings of Wilderen Brewery. Relax and enjoy a tasty assortment of the brewery's characterful beers in our picnic meadow. Be enchanted and enjoy good company at our picnic tables or under the shelter in rainy weather. All this just a stone's throw from the bustling brewing activities. The glob of Wilderen Hop cheese is certainly not missing from the basket! Reserve your “Brewed to be Wild” Picnic voucher via our webshop!!! Picnics are available from 1 April to 30 September during the brewery pub's opening hours.",
+    "Enjoy"
+  ],
+
+  "horeca": [
+    "Wilderen on the menu",
+    "Unique & authentic Wilder beers in your on-trade?",
+    "With a rich flavour profile and historical background, a Wilder Beer will not only be a talking point, but also a favourite among your customers. By offering this “storytelling on tap” in your pub, you show that you have an eye for quality. You have something special to offer your customers! Discover what we can do for your pub business with Brewery & Distillery Wilderen. Our dynamic sales team will be happy to get in touch with you!"
+  ],
+
+  "contact": [
+    "Interested? Fill in the contact form:",
+    "I am interested in:",
+    "type here...",
+    "Message:",
+    "Your message...",
+    "Send"
+  ],
+
+  "bieren": [
+    {
+      "id": 1,
+      "tagLine": "Tough and irresistible.",
+      "beerDescription": "Perfect alternative to a thirst-quenching lager or a light abbey beer. Deliciously refreshing beer to accompany ribs or barbecue in good company. The eccentric glass is its own design and has been called an icon among beer glasses.",
+      "beerInfo": "<li>Gold-coloured special beer</li><li>High fermentation - refermented in bottle</li><li>6.2% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Wilderen Goud"
+    },
+    {
+      "id": 2,
+      "tagLine": "Refreshing oldskool.",
+      "beerDescription": "The intense amber colour is due to a specially selected dark malt. Betty Ford beer is named after Betty Ford, the former First Lady of the United States, carrying a historical and cultural reference to the Betty Ford Clinic. The beer itself is a tribute but refers mostly as a gimmick to the low alcohol content in the Wilderen portfolio.",
+      "beerInfo": "<li>Clear amber coloured beer</li> <li>Retro “Speciale Belge”</li> <li>High fermentation</li> <li>5.2% Vol.</li> <li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Betty Ford"
+    },
+    {
+      "id": 3,
+      "tagLine": "Classic finesse in solid body.",
+      "beerDescription": "A classically brewed 4-grain Tripel for the modern connoisseur. Rye was exceptionally added in this spicy Tripel alongside barley, wheat and oats. Noble hops give this rich Tripel a typical and recognisable character. Velvety smooth, sweet & fruity. Delicious with a pot of mussels or spicy dishes. The classic Tripel Canon glass represents confidence and hides a secret image.",
+      "beerInfo": "<li>gold-coloured triple</li> <li>high fermentation - refermented in bottle</li> <li>8.2% Vol.</li> <li>keg - bottle</li>",
+      "beerBuyButton": "Buy Tripel Kanunnik"
+    },
+    {
+      "id": 4,
+      "tagLine": "Honest hearty dark beer.",
+      "beerDescription": "This is an exceptional ruby red brew with a seductive aroma. Delicious with spicy and mature cheeses or meat dishes. Distinct touch of liquorice and a hint of caramel Luscious malt accents and hints of fruit, hoppy spiciness.",
+      "beerInfo": "<li>robin red dark heavy beer </li> <li>high fermentation - refermented in bottle</li> <li>9.2% Vol.</li> <li>keg - bottle</li>",
+      "beerBuyButton": "Buy Cuvée Clarisse"
+    },
+    {
+      "id": "5",
+      "tagLine": "Intense and challenging.",
+      "beerDescription": "The best flavours intertwined in one beer. Great balance between beer & whisky. Subtle aromas of bourbon, fruity notes of vanilla and liquorice. Cuvée Clarisse Whisky Infused is a fusion of our Cuvée Clarisse 9.2% Vol. and our Wild Weasel Whisky. By the fireplace in good company. Officially voted the Best Whisky Infused in Belgium!",
+      "beerInfo": "<li>dark heavy beer</li> <li>infused with Wild Weasel Whisky</li> <li>high fermentation - re-fermented in the bottle</li> <li>10.2% Vol. </li> <li>cask - bottle</li>",
+      "beerBuyButton": "Online order"
+    },
+    {
+      "id": "6",
+      "tagLine": "Seduction and mystery.",
+      "beerDescription": "Subtle aromas of Omerta rum, full-bodied and a hint of caramel. Powerful tasting beer for the bon vivant. Delicious with spicy and mature cheeses. Cuvée Clarisse Rum Infused is a fusion of our Cuvée Clarisse 9.2% Vol. and our Omerta Rum liquor.",
+      "beerInfo": "<li>dark heavy beer</li><li>infused with Omerta Rum Liquor</li><li>high fermentation - re-fermented in bottle</li><li>11.2% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Online order"
+    },
+    {
+      "id": 7,
+      "tagLine": "Fresh and fruity.",
+      "beerDescription": "Wilderen Kriek is brewed with spontaneously fermented Lambic. Slow-aged on large oak casks.",
+      "beerInfo": "<li>thatred fruit beer </li><li>spontaneous fermentation - foederbier</li><li>3.5% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Wilderen Kriek"
+    },
+    {
+      "id": 8,
+      "tagLine": "Superb aperitif beer.",
+      "beerDescription": "A flavour profile of cherry, almond and a touch of marzipan. <br> <br> *Currently only available from the cask.",
+      "beerInfo": "<li>dark red fruit beer</li> <li>high fermentation</li> <li>8% vol.</li> <li>Cask - bottle*</li>",
+      "beerBuyButton": "Buy Clarisse Rouge"
+    }
+  ],
+
+  "spirits": [
+    {
+      "id": 1,
+      "spiritTagLine": "The winner takes it all.",
+      "spiritDescription": "And the winner is: This prize beast pretty much wins all the Awards! Double You is a more than well-known brand from Wilderen. Produced with 21 botanicals and regional botanicals. A unique distillation process ensure a gin of unparalleled quality and flavour. A characterful flavour perception, as complex as an Angel and a Devil on your shoulder... The Angel stands for aware and is always accompanied by a Devil which stands for temptation... So does the character of this Double You Gin: you can't resist this temptation! A distinct character, the Devil and the Angel together in a glass.",
+      "spiritBuyButton": "Buy Double You Gin"
+    },
+    {
+      "id": 2,
+      "spiritTagLine": "",
+      "spiritDescription": "Following the prestigious Crystal Award won for Double You Gin, this “very” Special Edition was launched! <br> In addition to the 21 spices in the standard Double You Gin, we added natural vanilla to the distilling process. This results in a gin with delicious floral aromas, a pleasant and above all recognisable and distinct vanilla flavour. <br> Top off with fresh mint.",
+      "spiritBuyButton": "Buy Vintage Vanilla"
+    },
+    {
+      "id": "3",
+      "spiritTagLine": "Lost frequencies in the picture",
+      "spiritDescription": "Ocus Gin is an organic premium gin, created and bottled in Belgium. Distilled on a natural basis with no additives, so 0% sugar. Ocus Gin has a remarkable smoothness and a fantastic herbal and floral freshness.  <br> Each bottle is finished with a festival band. Collect the 11 bands and win a meet & greet with Lost Frequencies! <br> Always take the Sunshine-Drenched Vibes & Feel Fine! <br> Lost Frequencies",
+      "spiritBuyButton": "Buy Ocus Organic"
+    },
+    {
+      "id": "4",
+      "spiritTagLine": "What happens in Wilderen, stays in Wilderen.",
+      "spiritDescription": "When we think of rum, we imagine the smoke rings of a thick cigar, soft music in the background. The night seems endless, conversations into the early hours, the bottle of Omerta Rum Liquor and friendship shared. Time for rest and reflection, where the world outside seems to disappear for a moment, only the moment that counts. This dark Rum Liquor is a unique blend of an imported Jamaican Rum,proprietary Wilds distillate...and the secret of Omerta. < Surprising creation. The beautiful deep brown colour reveals outstanding flavours of vanilla, hidden bourbon barrels and caramel. Pure, of course in a mix with Cola or the perfect base for cocktails!",
+      "spiritBuyButton": "Buy Omerta Rum"
+    },
+    {
+      "id": "5",
+      "spiritTagLine": "Exclusive premium edition.",
+      "spiritDescription": "The Omerta Black Edition in unique magnum bottle of 1.5L <br> with 40% alcohol content is a treat on the tongue for any rum loverThe beautiful dark brown -almost black- colour it owes to the molasses & caramel <br> Omerta Black has a full powerful flavour and is drunk pure. <br> Flavour profile: Caramel - Spicy - Sweet - Warm - Soft <br> The Omerta Black Edition is available for sale in our on-site brewery shop or via our webshop!",
+      "spiritBuyButton": "Buy Omerta Black Magnum"
+    },
+    {
+      "id": "6",
+      "spiritTagLine": "Pure Wilderness!",
+      "spiritDescription": "This Whisky has an alcohol content of around 63%, depending on the properties of the cask. The Cask Strenght, as the word itself says, is bottled at cask strength, i.e. pure from the cask. The beautiful nose then gives tobacco, nut-almond and caramel qua usual suspects Soft , oak finish with warming finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Cash Strength"
+    },
+    {
+      "id": 7,
+      "spiritTagLine": "",
+      "spiritDescription": "The Wild Weasel Whisky is carefully blended with a fine Whisky from Distillerie Radermacher. It is a special Belgian Blend matured in selected oak barrels. This gives this Wild Weasel Finest Blend a unique and robust character.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Finest Blend"
+    },
+    {
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "This Whisky comes from a single cask matured in our cellar for three years. The Wild Weasel Single Malt has an exceptionally beautiful nose and balanced smoothness. Fruity aromas with nuts, caramel, hints of oak give this Whisky a nice finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Single Malt Single Cask"
+    },
+
+    {
+      "id": 9,
+      "spiritTagLine": "Have fun.",
+      "spiritDescription": "Wiggle is a delicious apéro served with ice cubes diluted with cava, prosecco or bubbles, Finish with some frozen red fruit cheeses like strawberry, berry or raspberry. <br> Also delicious in the mix or in cocktails! Among others with Fever Tree Elderflower, Soda, Almdudler, Red Bull et al. ...colour your summer cocktail or add an extra touch to your Apéro this summer!  <br> Mix, taste & enjoy!",
+      "spiritBuyButton": "Buy Wiggle Red Fruits"
+    },
+    {
+      "id": "10",
+      "spiritTagLine": "A true classic.",
+      "spiritDescription": "The smoothness of Wilderen Grain Gin charms many a gin lover. The well-known juniper berry and secret spice package are pleasantly present in aroma and taste. This product is pure nature, beautifully clear. A slightly lower alcohol content makes this Wilderen grain gin an accessible yet unforgettable distillate.",
+      "spiritBuyButton": "Buy Wilderen grain gin"
+    },
+    {
+      "id": "11",
+      "spiritTagLine": "Beautiful marriage between brewing and distilling.",
+      "spiritDescription": "An Eau-de-Vie of superior quality , exceptional nose and a very smooth finish This Wilderen Eau-de-Bière is distilled with love for the craft from our 4-grain beer Tripel Kanunnik 8.2% <br> Incomparable, rewarding and noble product. Loved by several top chefs.",
+      "spiritBuyButton": "Buy Eau de Bière"
+    }
+  ]
 }

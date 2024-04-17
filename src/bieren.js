@@ -1,5 +1,8 @@
 "use strict";
 
+import SwipeListener from "swipe-listener";
+import { updateTranslations } from "./index.js";
+
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
 let beerName,
   beerTagline,
@@ -59,8 +62,8 @@ const textShadowNeeded = [2];
 
 export default function fetchBeer() {
   initDom();
-  console.log("fetching beer data");
-  console.log("elements exist?", beerName);
+  // console.log("fetching beer data");
+  // console.log("elements exist?", beerName);
   fetch("data/beerData.json")
     .then((response) => response.json())
     .then((data) => {
@@ -70,13 +73,15 @@ export default function fetchBeer() {
       buttonClick();
       handleRadio();
       radioClick();
+      swipe();
       //       buttonClick();
       // handleRadio();
       // radioClick();
     }); 
+
 }
 
-function getParamBeer() {
+export function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
   // selecteer de array index op basis van de naam
   const bierParams = new URLSearchParams(window.location.search).get("beer");
@@ -95,10 +100,10 @@ function getParamBeer() {
 //   const body = document.querySelector("body");
 //   if(window.innerWidth <= 768){
 //   body.removeAttribute(form);
-//   console.warn("form removed");
+  console.warn("form removed");
 //     beerTagline.insertAdjacentHTML("afterend", form.outerHTML);
 //   } else{
-//   console.warn("form is already in place");
+  console.warn("form is already in place");
 //   }
 // }
 
@@ -106,10 +111,10 @@ function getParamBeer() {
 
 function renderBeer(data, beer) {
   // beerTagline.inserAdjecentHTML("afterend", form)
-  console.warn(form);
+  // console.warn(form);
 
 
-  console.warn("🚀 ~ renderBeer ~ beer", beer);
+  // console.warn("🚀 ~ renderBeer ~ beer", beer);
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
   root.style.setProperty("--themeColor", data[beer].themeColor);
   // neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[beer].neonColor})`;
@@ -162,8 +167,8 @@ function renderBeer(data, beer) {
   beerDescription.innerHTML = data[beer].beerDescription;
   beerInfo.innerHTML = "";
   beerBackground.src = data[beer].beerBG;
-  console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
-  console.error(data[beer]);
+  // console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
+  // console.error(data[beer]);
   data[beer].beerInfo.forEach((beer) => {
     beerInfo.innerHTML += `<li>${beer}</li>`;
   });
@@ -196,7 +201,7 @@ function renderBeer(data, beer) {
   }
 
   if (getParamBeer() == 0) {
-    console.warn("🚀 ~ renderBeer ~ getParamBeer():", getParamBeer());
+    // console.warn("🚀 ~ renderBeer ~ getParamBeer():", getParamBeer());
 
     leftArrow.style.display = "none";
     rightArrow.style.display = "block";
@@ -207,30 +212,21 @@ function renderBeer(data, beer) {
     leftArrow.style.display = "block";
     rightArrow.style.display = "block";
   }
+
+  // console.warn("🚀 ~ renderBeer ~ getParamBeer():", getParamBeer());
+  // return arrary index for transitions
+  updateTranslations();
+  return getParamBeer();
 }
 
 const beerNameTitle = document.getElementById("beerName");
 
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-    if (getParamBeer() > 0) {
-      // beerNameTitle.style.transform = "scaleX(0)";
-
-      beer--;
-      updateParams(getParamBeer() - 1);
-      renderBeer(allBeer, getParamBeer());
-      handleRadio();
-    }
+  moveLeft();
   });
   rightArrow.addEventListener("click", function () {
-    if (getParamBeer() < allBeer.length - 1) {
-      // beerNameTitle.style.transform = "scaleX(0)";
-
-      beer++;
-      updateParams(getParamBeer() + 1);
-      renderBeer(allBeer, getParamBeer());
-      handleRadio();
-    }
+    moveRight();
   });
 }
 
@@ -240,24 +236,74 @@ function updateParams(param) {
 }
 
 function handleRadio() {
-  console.log("TEESTING");
-  console.log(getParamBeer());
+  // console.log("TEESTING");
+  // console.log(getParamBeer());
   // getParamBeer();
   const radios = document.querySelectorAll("input[type='radio']");
-  console.log(radios);
+  // console.log(radios);
   radios[getParamBeer()].checked = true;
 }
 
 function radioClick() {
-  console.error(beerName);
+  // console.error(beerName);
   const form = document.querySelector("form");
 
   form.addEventListener("change", function (event) {
-    console.log(event.target.id);
+    // console.log(event.target.id);
     const bierIndex = bierNames.indexOf(event.target.id);
     updateParams(bierIndex);
     renderBeer(allBeer, getParamBeer());
     handleRadio();
+  });
+}
+
+
+function moveLeft() {
+  if (getParamBeer() > 0) {
+    // beerNameTitle.style.transform = "scaleX(0)";
+
+    beer--;
+    updateParams(getParamBeer() - 1);
+    renderBeer(allBeer, getParamBeer());
+    handleRadio();
+    updateTranslations();
+
+  }
+}
+function moveRight() {
+  if (getParamBeer() < allBeer.length - 1) {
+    // beerNameTitle.style.transform = "scaleX(0)";
+
+    beer++;
+    updateParams(getParamBeer() + 1);
+    renderBeer(allBeer, getParamBeer());
+    handleRadio();
+    updateTranslations();
+
+  }
+}
+
+function swipe(){
+  const container = document.querySelector(".position-relative");
+  var listener = SwipeListener(container);
+  container.addEventListener("swipe", function (e) {
+    var directions = e.detail.directions;
+    var x = e.detail.x;
+    var y = e.detail.y;
+
+    if (directions.left) {
+      moveRight();
+
+      // console.log("Swiped left.");
+    }
+
+    if (directions.right) {
+      // console.log("Swiped right.");
+      moveLeft();
+    }
+
+    // console.log("Started horizontally at", x[0], "and ended at", x[1]);
+    // console.log("Started vertically at", y[0], "and ended at", y[1]);
   });
 }
 
