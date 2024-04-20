@@ -233,7 +233,13 @@ body {
   /* color: gold; */
 }
 
-.introText li:before {
+.text-overlay > p,
+.text-overlay li,
+.text-overlay a {
+  text-shadow: #000 0px 2px 3px !important;
+}
+
+.text-overlay li:before {
   content: "✓";
   color: #00da00;
 }
@@ -662,9 +668,9 @@ footer {
   /* animation: none;
   transform: translateX(320px) translateY(-280px) rotate(-10deg) rotateY(180deg); */
   position: absolute;
-transform: translate(320px, -180px) rotate(-10deg) rotateY(180deg);
+  transform: translate(320px, -180px) rotate(-10deg) rotateY(180deg);
   z-index: 5;
-  
+
   /* animation: floatFaster 4s infinite; */
 }
 
@@ -787,13 +793,12 @@ h2 {
   padding: 15px;
 }
 
-
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .mobileText {
     display: block;
   }
 
-  .hallOfFameContainer{
+  .hallOfFameContainer {
     margin-top: 20%;
   }
 
@@ -801,12 +806,12 @@ h2 {
     width: 150px !important;
   }
 
-  #hallLogo{
-transform: translateY(-50px) !important;
-filter: drop-shadow(0 1px #000);
-}
+  #hallLogo {
+    transform: translateY(-50px) !important;
+    filter: drop-shadow(0 1px #000);
+  }
 
-  #banner{
+  #banner {
     transform: translateY(-50px);
   }
 
