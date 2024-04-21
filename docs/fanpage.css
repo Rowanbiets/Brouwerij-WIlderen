@@ -76,7 +76,7 @@ footer {
   box-sizing: border-box;
 }
 
-body {
+body, p {
   font-family: "Poor Story", cursive;
   /* background: #bdffbd; */
 }
@@ -607,6 +607,13 @@ justify-content: center;
     justify-content: center;
     align-items: center;
   }
+
+  .topBorderContainer {
+    background-position: center;
+  }
+  .topBorderContainer ul {
+    margin-left: 0;
+  }
 }
 /* .polroidContainer{
 flex-wrap: wrap;
@@ -652,8 +659,8 @@ footer {
   }
 
   /* remove animation for mobile devices (could be fixed?) */
-  .borderAnimation {
-    display: none;
+  .borderAnimationTop {
+    display: none !important;
   }
 
   .flexPoloroids {

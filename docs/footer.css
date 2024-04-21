@@ -3,7 +3,7 @@ footer a img{
 }
 
 footer h4{
-  font-family: "Helvetica Neue", Raleway, sans-serif;
+  font-family: "Helvetica Neue", Raleway, sans-serif !important;
   font-size: 16px;
 }
 
@@ -15,6 +15,10 @@ footer {
   display: flex !important;
   justify-content: center;
   margin-top: 100px;
+}
+
+footer p, footer a {
+  font-family: "Helvetica Neue", Raleway, sans-serif !important;
 }
 
 footer * {
