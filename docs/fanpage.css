@@ -646,11 +646,22 @@ footer {
   margin: 0 !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1500px) {
   .mainContainer {
     margin: 0 !important;
   }
 
+  /* remove animation for mobile devices (could be fixed?) */
+  .borderAnimation {
+    display: none;
+  }
+
+  .flexPoloroids {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .IconBottomLeft {
     display: none;
   }
