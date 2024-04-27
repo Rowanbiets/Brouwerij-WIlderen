@@ -4,9 +4,9 @@ export default function fetchOpeningsuren() {
  return fetch("data/openingHours.json")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+    //   console.log(data);
       renderTables(data);
-      console.error("OPENINGSUREN")
+    //   console.error("OPENINGSUREN")
     });
 }
 

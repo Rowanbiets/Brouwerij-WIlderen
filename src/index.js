@@ -83,7 +83,7 @@ swup.hooks.on("page:view", () => {
 });
 
 function init() {
-  console.warn("INIT");
+  // console.warn("INIT");
   reAddEventListeners();
 
   if (document.querySelector("footer")) {
@@ -92,7 +92,7 @@ function init() {
   //  if transitioning to index
   if (document.querySelector(".index")) {
     carousel();
-    console.log("index");
+    // console.log("index");
   }
 
   if (
@@ -106,7 +106,7 @@ function init() {
   }
 
   if (document.querySelector("#horecaSwup")) {
-    console.log("EMAIL SCRIPT PRESENT");
+    // console.log("EMAIL SCRIPT PRESENT");
     setTimeout(() => {
       // initCarousel();
     }, 5000);
@@ -114,12 +114,12 @@ function init() {
   }
 
   if (document.querySelector(".bierDisplaySwup")) {
-    console.warn("FETCHING BIEREN");
+    // console.warn("FETCHING BIEREN");
     fetchBeer();
   }
 
   if (document.querySelector(".spiritDisplaySwup")) {
-    console.warn("FETCHING SPIRITS");
+    // console.warn("FETCHING SPIRITS");
     fetchSpirit();
   }
 }
@@ -149,33 +149,33 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 export function updateTranslations() {
   const beerIndex = getParamBeer();
   const spiritIndex = getParamSpirit();
-  console.warn(beerIndex);
+  // console.warn(beerIndex);
 
   // beer translations
   document.querySelectorAll("[data-i18n-beer]").forEach((element) => {
-    console.log("element", element);
+    // console.log("element", element);
     const key = element.getAttribute("data-i18n-beer");
-    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+    // console.log("🚀 ~ document.querySelectorAll ~ key:", key);
 
     const selectedBeer = beerIndex;
     const beerKey = key.replace("{index}", selectedBeer);
-    console.log("beerKey", beerKey);
+    // console.log("beerKey", beerKey);
     element.innerHTML = i18next.t(beerKey);
   });
 
   // spirit translations
   document.querySelectorAll("[data-i18n-spirit]").forEach((element) => {
-    console.log("element", element);
+    // console.log("element", element);
     const key = element.getAttribute("data-i18n-spirit");
-    console.log("🚀 ~ document.querySelectorAll ~ key:", key);
+    // console.log("🚀 ~ document.querySelectorAll ~ key:", key);
 
     const selectedSpirit = spiritIndex;
     const spiritKey = key.replace("{index}", selectedSpirit);
-    console.log("spiritKey", spiritKey);
+    // console.log("spiritKey", spiritKey);
     element.innerHTML = i18next.t(spiritKey);
   });
 
-  console.warn("Translations updated");
+  // console.warn("Translations updated");
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.getAttribute("data-i18n");
@@ -250,12 +250,12 @@ export function updateTranslations() {
 // add event listeners back to the hamburger menu lang buttons
 // (they are removed by swup transitions => base nav doesn not get reloaded, hamburger does, hence the need to readd event listeners)
 function reAddEventListeners() {
-  console.warn("Readding event listeners");
+  // console.warn("Readding event listeners");
   const toggleLangNl = document.querySelectorAll(".toggle-lang-nl");
   const toggleLangEn = document.querySelectorAll(".toggle-lang-en");
   const toggleLangFr = document.querySelectorAll(".toggle-lang-fr");
-  console.log("🚀 ~ reAddEventListeners ~ toggleLangFr:", toggleLangFr);
-  console.log(toggleLangFr[1]);
+  // console.log("🚀 ~ reAddEventListeners ~ toggleLangFr:", toggleLangFr);
+  // console.log(toggleLangFr[1]);
   toggleLangFr.innerHTML = "WJW WJW";
   toggleLangNl[2].addEventListener("click", () => {
     i18next.changeLanguage("nl", updateTranslations);
@@ -319,7 +319,7 @@ const applySavedLanguage = () => {
 };
 
 swup.hooks.on("page:view", () => {
-  console.warn("New page loaded:");
+  // console.warn("New page loaded:");
   applySavedLanguage();
   hamburgerToggle();
   updateTranslations();
@@ -359,7 +359,7 @@ function hamburgerToggle() {
     hamburgerLines[1].classList.toggle("activeLine2");
     hamburgerLines[2].classList.toggle("activeLine3");
 
-    console.log("hamburgerToggle");
+    // console.log("hamburgerToggle");
   });
 
   const hamButtons = document.querySelectorAll(".hamButton");
@@ -436,16 +436,16 @@ function checkAgeAndLang() {
   if (localStorage.getItem("age") !== "true") {
     ageCheck.classList.remove("hide");
     imageAgeBG.classList.remove("hide");
-    console.error("age not set");
+    // console.error("age not set");
     // body.classList.add("noScroll");
     body.style.overflow = "hidden";
-    console.log(body);
+    // console.log(body);
   }
 
   ageButton.forEach((element) => {
     element.addEventListener("click", () => {
       localStorage.setItem("age", "true");
-      console.log("age set");
+      // console.log("age set");
       ageCheck.classList.add("lowerOpacity");
       imageAgeBG.classList.add("lowerOpacity");
       body.style.overflow = "auto";
@@ -455,13 +455,13 @@ function checkAgeAndLang() {
       }, 500);
     });
   });
-  console.log(ageButton);
+  // console.log(ageButton);
 }
 
 hamburgerToggle();
 checkAgeAndLang();
 // fetchBeer();
 window.addEventListener("popstate", () => {
-  console.error("popstate");
+  // console.error("popstate");
   fetchBeer();
 });

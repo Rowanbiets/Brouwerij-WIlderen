@@ -1,7 +1,7 @@
 "use strict";
 
 export default function addFooter() {
-  console.log("footer.js is geladen");
+  // console.log("footer.js is geladen");
 
   document.querySelector("footer").innerHTML = `
 <div class="footerWrapper">
