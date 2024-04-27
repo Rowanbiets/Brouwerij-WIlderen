@@ -1,10 +1,8 @@
-
-
 /* Algemene stijl voor de hele pagina */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .image-container {
@@ -20,13 +18,15 @@ body {
   left: 0;
   width: 100%;
   height: 58%;
-  
 }
 
 .image-container img {
   width: 100%; /* Afbeelding neemt volledige breedte in beslag */
   height: auto; /* Behoudt de aspectverhouding van de afbeelding */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)); /* Donkere tint met 50% opaciteit */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ); /* Donkere tint met 50% opaciteit */
 }
 .text-overlay {
   padding: 10px;
@@ -41,11 +41,10 @@ body {
 .text-overlay h2 {
   font-family: "Georgia", serif;
   font-size: 52pt;
-  
 }
 
-.title{
-  background-color:#AD9A64;
+.title {
+  background-color: #ad9a64;
   color: white;
   padding: 20px;
   width: 40%;
@@ -54,14 +53,13 @@ body {
   margin-top: 50px;
 }
 .container {
-    max-width: 100px;
-    margin: 80px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-  
+  max-width: 100px;
+  margin: 80px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-.faq{
+.faq {
   margin-left: 20%;
   margin-top: 30px;
   width: 43%;
@@ -69,10 +67,10 @@ body {
 
 .title {
   width: 100%; /* Pas de breedte aan */
- 
 }
 
-.container, .faq {
+.container,
+.faq {
   width: 100%; /* Pas de breedte aan */
 }
 
@@ -84,8 +82,6 @@ details {
   padding: 0.5em 0.5em 0;
   margin-bottom: 1em;
 }
-
-
 
 summary {
   font-weight: bold;
@@ -102,7 +98,12 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
-@media only screen and (max-width: 768px)  {
+ul,
+p {
+  padding: 10px !important;
+}
+
+@media only screen and (max-width: 768px) {
   /* Media query voor apparaten met een minimale breedte van 768px (tablets en desktops) */
   .text-overlay h2 {
     font-family: "Georgia", serif;
@@ -119,17 +120,16 @@ details[open] summary {
   }
 
   .text-overlay {
-   bottom: 40px;
+    bottom: 40px;
     left: 10px;
- 
-}
-
-  .title {
-      width: 60%; /* Pas de breedte aan */
-     
   }
 
-  .container, .faq {
-      width: 60%; /* Pas de breedte aan */
+  .title {
+    width: 60%; /* Pas de breedte aan */
+  }
+
+  .container,
+  .faq {
+    width: 60%; /* Pas de breedte aan */
   }
 }

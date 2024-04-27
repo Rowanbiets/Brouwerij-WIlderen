@@ -1,0 +1,50 @@
+ <div style="margin-top: 300px" class="mainContainer">
+          <div class="polroidContainer">
+            <!-- <div class="wrapper"></div> -->
+            <div class="item item1 testPoloroid">
+              <div class="polaroid">
+                <img src="WEBSITE/Unknown_person.jpg" alt="Gigi" />
+                <div class="caption">Naam</div>
+              </div>
+            </div>
+            <!-- <div class="IconBottomLeft">
+              <img
+                src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik fles.png"
+                alt=""
+              />
+            </div> -->
+            <!-- <div class="IconTopRight">
+              <img
+                src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik fles.png"
+                alt=""
+              />
+            </div> -->
+
+            <div>
+              <div class="fanText text4">
+                <!-- <h2>Tourwé Kristof Alias Gigi Kanunnik</h2> -->
+                <p>
+                  Eiusmod ipsum aute anim aliquip incididunt occaecat sint
+                  mollit minim elit commodo. Reprehenderit irure nisi et ut
+                  nulla non. Qui qui duis exercitation irure do officia qui
+                  deserunt est. Deserunt ea nisi veniam excepteur minim fugiat
+                  voluptate est. Dolor in velit consectetur et tempor. Id amet
+                  amet duis in exercitation labore labore sunt occaecat. In
+                  fugiat sint elit dolore consectetur occaecat ad duis labore
+                  nisi. Mollit veniam proident cupidatat laborum sunt sit. Est
+                  ea aliquip eu sunt amet. Dolor commodo commodo excepteur
+                </p>
+                <!-- <div class="IconBottomLeft">
+                  <img src="WEBSITE/placeholderIcon.svg" alt="" />
+                </div> -->
+              </div>
+              <!-- <div class="borderAnimation"></div> -->
+            </div>
+          </div>
+          <!-- <div class="IconBottomRight">
+            <img
+              src="WEBSITE/Tripel Kanunnik/Tripel Kanunnik fles.png"
+              alt=""
+            />
+          </div> -->
+        </div>

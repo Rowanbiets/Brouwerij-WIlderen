@@ -9,6 +9,6 @@
     </filter>
   </defs>
   <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_material-keyboard-arrow-left)">
-    <path id="Icon_material-keyboard-arrow-left-2" data-name="Icon material-keyboard-arrow-left" d="M12,89.329,47.065,54.187,12,19.045,22.8,8.25,68.732,54.187,22.8,100.124Z" transform="translate(-3 -2.25)" stroke-width="3px" stroke="#FFF593" fill="#de1420"/>
+    <path id="Icon_material-keyboard-arrow-left-2" data-name="Icon material-keyboard-arrow-left" d="M12,89.329,47.065,54.187,12,19.045,22.8,8.25,68.732,54.187,22.8,100.124Z" transform="translate(-3 -2.25)" stroke-width="3px" fill="#fff"/>
   </g>
 </svg>

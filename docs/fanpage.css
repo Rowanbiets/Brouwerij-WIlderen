@@ -76,7 +76,8 @@ footer {
   box-sizing: border-box;
 }
 
-body, p {
+body,
+p {
   font-family: "Poor Story", cursive;
   /* background: #bdffbd; */
 }
@@ -230,13 +231,14 @@ body, p {
 
 .text-overlay li {
   list-style: none;
+  font-size: 20px;
   /* color: gold; */
 }
 
 .text-overlay > p,
 .text-overlay li,
 .text-overlay a {
-  text-shadow: #000 0px 2px 3px !important;
+  text-shadow: #000000 0px 2px 3px !important;
 }
 
 .text-overlay li:before {
@@ -458,6 +460,7 @@ body, p {
   /* background-color: rgba(167, 167, 167, 0.986); */
   background-image: url(WEBSITE/Brouwerijcaf‚/KVDS-20150807-191106-5523-NIKON\ D800.jpg);
   object-fit: cover;
+  width: 100%;
   background-size: cover;
   /* backdrop-filter: blur(10px); */
 }
@@ -566,23 +569,6 @@ body, p {
   width: 750px;
 }
 
-#metal {
-  position: relative;
-  top: 200px;
-  right: 800px;
-  width: 30px;
-  height: 300px;
-  /* z-index: -1; */
-}
-
-#metal2 {
-  position: relative;
-  top: 200px;
-  right: 200px;
-  width: 30px;
-  height: 300px;
-  /* z-index: -1; */
-}
 
 .mainContainer {
   max-width: 100%;
@@ -836,4 +822,12 @@ h2 {
   .introText {
     margin-top: -50px;
   }
+}
+
+#mailto {
+  transition: all 0.3s;
+}
+
+#mailto:hover {
+  color: #de1420;
 }

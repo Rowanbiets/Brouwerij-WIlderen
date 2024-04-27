@@ -124,7 +124,7 @@
     "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> +32 11 580 680 Kantoor <br /> +32 11 580 640 Productie"
   ],
 
-  "wilderenTeam":[
+  "wilderenTeam": [
     "Founders",
     "Sales Director &amp Export Manager",
     "Productieverantwoordelijke Brouwer - Distillateur",
@@ -133,7 +133,70 @@
     "Sales België &amp Facturatie",
     "Sales België &amp Nederland",
     "Sales Nederland",
-    "Sales supermarkten &amp degustaties"
+    "Sales supermarkten &amp degustaties",
+    "Wilderen Team"
+  ],
+
+  "faq": [
+    "Brouwerijcafé",
+    "Wat zijn de openingsuren van het café?",
+    "openingsuren",
+    "Wat zijn de betaalmethoden?",
+    "Je kan met kaart of contant betalen. Met kaart is veiliger.",
+    "Zijn al de gebouwen toegankelijk?",
+    "Het brouwerijcafé en toiletten zijn rolstoeltoegankelijk.",
+    "De rondleidingen zijn niet rolstoeltoegankelijk omwille van de vele trappen in het oude monument en productieruimtes.",
+    "Waar moet ik parkeren?",
+    "Parking ingang = via de Zoutleeuwsesteenweg, dit achter tenniscenter Wimbledon. Daar is ook de hoofdingang: via een zijdelingse poort kom je op het tuinterras van het brouwerijcafé.",
+    "Gratis Wi-fi?",
+    "Gratis Guest Wi-Fi beschikbaar",
+    "rondleidingen",
+    "Wanneer is er een vaste rondleiding waarop ik me kan inschrijven?",
+    "Elke zaterdag, zon- en feestdag is er een vaste rondleiding om 15u",
+    "Hoe annuleer ik mijn rondleiding?",
+    "Annulatie: zie online reservatiebevestiging",
+    "Hoe lang duurt de rondleiding met gids?",
+    "Duur rondleiding 1u",
+    "Bezoek begint stipt op het uur",
+    "Hoe bestel ik mijn tickets?",
+    "Online reservatie is noodzakelijk",
+    "Zijn Kinderen toegelaten tijdens de rondleiding?",
+    "We raden de rondleiding aan vanaf 16 jaar",
+    "Er kunnen geen kinderwagens mee aangezien de zeer vele trappen tijdens de toer",
+    "Er is wel een leuke zandbak en speeltuintje in openlucht voor de allerkleinsten terwijl de ouders genieten van een gezellig terras",
+    "In welke taal wordt de vaste rondleiding gegeven?",
+    "Nederlands",
+    "Zijn honden toegelaten?",
+    "Honden zijn aan de leiband toegelaten op het terras en in het Brouwerijcafé.",
+    "Honden zijn niet toegelaten tijdens de rondleidingen in de productie",
+    "Voorzie steeds de nodige zakjes en gerief voor je huisdier",
+    "Hoe boek ik een Private-Rondleiding met een grote groep?",
+    "Deze kan je online boeken en voor meer dan 40 pers. mail je naar roniek@brouwerijwilderen.be. Dan maken we een voorstel op maat op.",
+    "Reserveer ik met een grote groep in het brouwerijcafé?",
+    "Indien meer dan 12 pers graag even laten weten dat jullie komen en wat jullie eventueel willen aan hapjes/maaltijd zodat we dit kunnen voorbereiden en vlot kunnen doorgeven.",
+    "Groepsbezoeken vanaf 30 pers. of meer:",
+    "Online reservatie noodzakelijk",
+    "Duur rondleiding 1u",
+    "Groepen groter dan 40 pers. mailen naar roniek@brouwerijwilderen.be",
+    "Beschikbare talen op aanvraag voor private groepsbezoeken",
+    "Maaltijden worden via mail afgesproken",
+    "Wanneer is de brouwerijwinkel open?",
+    "De brouwerijwinkel heeft dezelfde openingsuren als het brouwerijcafé! Beiden zijn altijd samen open!"
+  ],
+
+  "fanpage": [
+    "Helemaal Wild van Wilderen! Sluit je aan bij de Wilderen Community! <br /> Deel je wild enthousiasme met andere Wilderen friends &amp fans!",
+    "Check: Ben jij een échte wilde Wilderen-fan?",
+    "&nbsp;&nbsp;&nbsp;Ja, ik ben méér dan foks-wild van Wilderen!",
+    "&nbsp;&nbsp;&nbsp;Ja, Wilderen is voor mij Rock ’n Roll!",
+    "&nbsp;&nbsp;&nbsp;Ja, ik heb dorst naar avontuur!",
+    "&nbsp;&nbsp;&nbsp;Ja, ik proef graag de vrije geest van Wilderen!",
+    "&nbsp;&nbsp;&nbsp;Wild! Wilder! Wilderen!",
+    "BEN JIJ EEN WILD-ENTHOUSIASTE WILDEREN-FAN? DAN WILLEN WIJ JOU INTERVIEWEN! <br /> Proost op het leven, proost op avontuur, proost op Brouwerij Wilderen!",
+    "Neem contact op en vertel ons (heel kort) je eigenzinnige Wilderen-verhaal! <br /> <br /> Mail ons je verhaal en leukste foto:",
+    " “Liefde op ‘t eerste gezicht. Van dag één verliefd geworden op de Brouwerij, het uitzicht , de sfeer, de service die top is , maar vooral de Tripel Kanunnik🥰. Tot vandaag is er weinig veranderd, enkel ben ik ondertussen getrouwd met de liefde van mijn leven. ( Deze keer uitzonderlijk niet de kanunnik). Ik heb zonder twijfel mijn trouwreceptie gegeven in het brouwerijcafé. Mijn vrouw heeft zelfs de diamant van de Double You Diamant Edition ginfles in haar trouwring verwerkt. Ik heb de brouwerij altijd kortbij.<br> Kortweg: Life is easy. Geniet van de kleine dingen in het leven: dat is een Tripel Kanunnik delen met de mensen die je graag ziet.”",
+    "“Wij zijn absolute Wilderen Fans van dag 1! Onze klanten genieten van een heel assortiment Wilderen bieren op ons terras of bij een van onze heerlijke gerechten in de brasserie. We zijn dan ook Gold Member van deze Limburgse Brouwerij! De Limburgse gastvrijheid dragen we alvast samen hoog in het vaandel!” <br /> <br /> Santé! Kurt &amp Gijs",
+    "“ Ik vond het design van Betty Ford helemaal geweldig vanaf het eerste moment! Vandaar deze prachtige tattoo op mijn been. Ik ben een grote fan van jullie brouwerij en ben ook een keer bij jullie geweest met het café van een vriend van mij uit Bergen op Zoom. Samen met mijn vriendin run ik nu Café Jacob Cats in Rotterdam waar wij ook meerdere Wilderen bieren serveren: Betty ford op tap, Wilderen Goud, Tripel Kanunnik, Cuvée Clarisse, Cuvee Clarisse Rum Infused én de Omerta verkopen. Hier zijn wij zeer blij mee want we hebben iets “anders” te bieden dan de meeste cafés. “ <br /> <br /> - Rein van der Walle"
   ],
 
   "bieren": [
