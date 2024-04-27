@@ -120,6 +120,8 @@ function renderSpirits(data, spirit) {
   spiritName.innerHTML = data[spirit].spiritName;
   spiritTagline.innerHTML = data[spirit].spiritTagLine;
   spiritDescription.innerHTML = data[spirit].spiritDescription;
+  buyButton.href = data[spirit].buyLink;
+
   console.log(spirit);
   spiritBackground.src = data[spirit].spiritBG;
   console.log(data[spirit].spiritBG);
