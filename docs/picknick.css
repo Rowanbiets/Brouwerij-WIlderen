@@ -179,7 +179,7 @@
 @media only screen and (max-width: 768px) {
   /* Pas de stijlen aan voor schermen kleiner dan 768px breed */
   .text-overlay {
-    top: 60%; /* Pas de positie van de overlay aan */
+    top: 50%; /* Pas de positie van de overlay aan */
     left: 10px;
   }
 

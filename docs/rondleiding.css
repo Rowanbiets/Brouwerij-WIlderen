@@ -201,6 +201,16 @@ z-index: 2;
       left: 10px;
       width: calc(80% - 20px); /* Pas de breedte van de overlay aan */
     }
+
+    .text-overlay h2{
+        font-family: "Georgia", serif;
+        font-size: 35pt;
+    }
+    
+    .text-overlay p{
+        font-family: "Roboto Slab";
+        font-size: 14pt;
+    }
   
     .picknick img {
       width: 100%; /* Maak de afbeelding volledige breedte */
