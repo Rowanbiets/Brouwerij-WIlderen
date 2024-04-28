@@ -16,8 +16,8 @@ th {
 table {
   /* width: 80%; Verklein de breedte van de tabel naar 80% van de container */
   width: 100%; /* Maak de tabel 100% breed (zorg dat de bordeaux lijn over de volledige breedte spant) */
-  color: white;
-  text-shadow: rgb(128, 128, 128) 1px 1px 2px;
+  color: black;
+ 
 }
 
 table:nth-child(1),
@@ -62,8 +62,8 @@ td {
 }
 
 th {
-  border-bottom: 5px solid #af0000; /* Voeg een border toe aan de cellen */
-  padding: 8px;
+  border-bottom: 3px solid #af0000; /* Voeg een border toe aan de cellen */
+  padding: 6px;
   text-align: center;
   font-family: "Roboto Slab", serif;
   font-size: 18px;

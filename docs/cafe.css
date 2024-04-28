@@ -97,7 +97,7 @@
 }
 
 .book-now{
-    
+   
     background-color:#c31212;
     color: #fff;
     padding: 15px 30px;
@@ -106,7 +106,7 @@
     cursor: pointer;
     text-decoration: none;
     font-family: "Roboto Slab", serif;
-    margin-left: 70%;
+   margin-left: 10%;
 }
 
 .book-now a{
@@ -213,7 +213,6 @@
     .picknick {
    
         display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
-        
         display: flex; /* Flex container om tekst en afbeelding naast elkaar te plaatsen */
         margin-top: 70px;
         margin-left: 30px;
@@ -250,16 +249,17 @@
 
     
     .book-now{
-    
+       
         background-color:#c31212;
         color: #fff;
         padding: 15px 30px;
+        margin-top: 10px;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         text-decoration: none;
-        font-family: "Roboto-Slab";
-        margin-left: 30%;
+        font-family: "Roboto Slab", serif;
+      
     }
 
     .award{
@@ -274,9 +274,7 @@
         flex-direction: column;
     }
 
-    .book-now{
-        margin: 0;
-    }
+  
     .award{
         padding: 0px !important;
     }
