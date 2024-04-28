@@ -98,10 +98,10 @@ details[open] summary {
   margin-bottom: 0.5em;
 }
 
-ul,
+/* ul,
 p {
   padding: 10px !important;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   /* Media query voor apparaten met een minimale breedte van 768px (tablets en desktops) */
