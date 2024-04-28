@@ -78,9 +78,9 @@ export default function fetchSpirits() {
   fetch("data/spiritData.json")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      // console.log(data);
       allSpirits = data;
-      console.log(data);
+      // console.log(data);
       renderSpirits(data, getParamSpirit());
       buttonClick();
       handleRadio();
@@ -111,7 +111,7 @@ function renderSpirits(data, spirit) {
   // spiritLogo.src = data[spirit].spiritLogo;
   root.style.setProperty("--themeColor", data[spirit].themeColor);
   // neonborder.style.filter = `drop-shadow(0 0 0.75rem ${data[spirit].neonColor})`;
-  console.log(data[spirit]);
+  // console.log(data[spirit]);
   buyButton.innerHTML = `Koop ${data[spirit].buyname}`;
   colors.forEach((color) => {
     color.style.borderColor = data[spirit].themeColor;
@@ -120,9 +120,11 @@ function renderSpirits(data, spirit) {
   spiritName.innerHTML = data[spirit].spiritName;
   spiritTagline.innerHTML = data[spirit].spiritTagLine;
   spiritDescription.innerHTML = data[spirit].spiritDescription;
-  console.log(spirit);
+  buyButton.href = data[spirit].buyLink;
+
+  // console.log(spirit);
   spiritBackground.src = data[spirit].spiritBG;
-  console.log(data[spirit].spiritBG);
+  // console.log(data[spirit].spiritBG);
   // spiritImage.src = data[spirit].spiritImg;
 
   if (data[spirit].id == null) {
@@ -141,7 +143,7 @@ function renderSpirits(data, spirit) {
     rightArrow.style.display = "block";
   }
 
-  console.log(data[spirit].id);
+  // console.log(data[spirit].id);
   if (data[spirit].id == "none") {
     spiritDescription.style.color = "black";
     buyButton.style.color = "black";
@@ -154,19 +156,19 @@ function renderSpirits(data, spirit) {
     spiritTagline.style.color = "white";
   }
 
-  console.log(
-    "the spirit id is " + data[spirit].id,
-    "and array has " + blackTextNeeded[0]
-  );
-  console.log(typeof data[spirit].id);
-  console.log(typeof blackTextNeeded[0]);
+  // console.log(
+  //   "the spirit id is " + data[spirit].id,
+  //   "and array has " + blackTextNeeded[0]
+  // );
+  // console.log(typeof data[spirit].id);
+  // console.log(typeof blackTextNeeded[0]);
 
-  console.log(data[spirit].id);
-  console.log(blackTextNeeded.includes(data[spirit].id));
-  console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
+  // console.log(data[spirit].id);
+  // console.log(blackTextNeeded.includes(data[spirit].id));
+  // console.log("🚀 ~ renderSpirits ~ blackTextNeeded:", blackTextNeeded);
 
   if (blackTextNeeded[1] == data[spirit].id) {
-    console.log("black");
+    // console.log("black");
     // beerName.style.color = "black";
     spiritTagline.style.color = "black";
     spiritDescription.style.color = "black";
@@ -204,7 +206,7 @@ function renderSpirits(data, spirit) {
     data[spirit].id == "8"
   ) {
     spiritLogo.style.filter = "drop-shadow(0px 0px 5px #fff)";
-    console.warn("wild whiskey logo");
+    // console.warn("wild whiskey logo");
   } else {
     spiritLogo.style.filter = "none";
   }
@@ -227,20 +229,20 @@ function updateParams(param) {
 }
 
 function handleRadio() {
-  console.log(getParamSpirit());
-  console.error("test");
+  // console.log(getParamSpirit());
+  // console.error("test");
   // getParamSpirit();
   const radios = document.querySelectorAll("input[type='radio']");
-  console.log(radios);
+  // console.log(radios);
   radios[getParamSpirit()].checked = true;
-  console.warn("🚀 ~ handleRadio ~ getParamSpirit():", getParamSpirit());
+  // console.warn("🚀 ~ handleRadio ~ getParamSpirit():", getParamSpirit());
 }
 
 function radioClick() {
   const form = document.querySelector("form");
 
   form.addEventListener("change", function (event) {
-    console.warn(event.target.id);
+    // console.warn(event.target.id);
     const bierIndex = spiritNames.indexOf(event.target.id);
     updateParams(bierIndex);
     renderSpirits(allSpirits, getParamSpirit());
@@ -285,16 +287,16 @@ function swipe(){
     if (directions.left) {
       moveRight();
 
-      console.log("Swiped left.");
+      // console.log("Swiped left.");
     }
 
     if (directions.right) {
-      console.log("Swiped right.");
+      // console.log("Swiped right.");
       moveLeft();
     }
 
-    console.log("Started horizontally at", x[0], "and ended at", x[1]);
-    console.log("Started vertically at", y[0], "and ended at", y[1]);
+    // console.log("Started horizontally at", x[0], "and ended at", x[1]);
+    // console.log("Started vertically at", y[0], "and ended at", y[1]);
   });
 }
 

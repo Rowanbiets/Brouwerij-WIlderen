@@ -100,10 +100,10 @@ export function getParamBeer() {
 //   const body = document.querySelector("body");
 //   if(window.innerWidth <= 768){
 //   body.removeAttribute(form);
-  console.warn("form removed");
+  // console.warn("form removed");
 //     beerTagline.insertAdjacentHTML("afterend", form.outerHTML);
 //   } else{
-  console.warn("form is already in place");
+  // console.warn("form is already in place");
 //   }
 // }
 

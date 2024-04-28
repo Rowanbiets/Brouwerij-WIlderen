@@ -185,16 +185,19 @@ body {
 }
 
 .carousel h2 {
+  display: flex;
+  font-family: "Oswald";
+  justify-content: center;
   color: #de1420;
   border-bottom: 2px solid #fbb117;
   border-top: 2px solid #fbb117;
-  width: 30%;
-  padding: 10px;
-  margin-left: 35%;
+  width: 50%;
+  padding: 10px !important;
   font-size: 36pt;
-  font-family: "Georgia", sans-serif;
+  text-align: center;
+  margin-bottom: 20px !important;
+  /* margin-top: 150px; */
 }
-
 .carousel h2 {
   margin-bottom: 30px;
 }
@@ -783,17 +786,7 @@ iframe {
   filter: drop-shadow(0px 0px 1px black);
 }
 
-#IndexBierenTitle {
-  margin: 0;
-  width: 50%;
-  margin: 20px 0 20px 0;
-  /* height: 50px; */
-  font-size: 32pt;
-  /* -webkit-text-stroke: 2px #fff593; */
-  color: #de1420;
-  border-top: #fff593 5px solid;
-  border-bottom: #fff593 5px solid;
-}
+
 
 .carousel {
   /* display: flex; */

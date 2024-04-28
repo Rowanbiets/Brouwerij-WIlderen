@@ -81,16 +81,16 @@ export default function carousel() {
     if (directions.left) {
       moveRight();
 
-      console.log("Swiped left.");
+      // console.log("Swiped left.");
     }
 
     if (directions.right) {
-      console.log("Swiped right.");
+      // console.log("Swiped right.");
       moveLeft();
     }
 
-    console.log("Started horizontally at", x[0], "and ended at", x[1]);
-    console.log("Started vertically at", y[0], "and ended at", y[1]);
+    // console.log("Started horizontally at", x[0], "and ended at", x[1]);
+    // console.log("Started vertically at", y[0], "and ended at", y[1]);
   });
 }
 // carousel();
