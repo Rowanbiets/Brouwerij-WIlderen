@@ -422,7 +422,7 @@ input[type="radio"]:nth-child(11):hover {
   }
 
   .spiritBackground {
-    object-position: left;
+    object-position: left bottom;
     height: 40vh;
     width: 100vw;
   }
@@ -440,8 +440,8 @@ input[type="radio"]:nth-child(11):hover {
     flex-direction: column-reverse;
   }
 
-  .logo {
-    display: none;
+  #spiritLogo {
+    display: none !important;
   }
 
   body > div.position-relative > div.overlay > div > div.beerInfo > div {
