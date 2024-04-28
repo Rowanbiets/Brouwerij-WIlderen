@@ -422,7 +422,7 @@ input[type="radio"]:nth-child(11):hover {
   }
 
   .spiritBackground {
-    object-position: left;
+    object-position: left bottom;
     height: 40vh;
     width: 100vw;
   }
@@ -438,6 +438,10 @@ input[type="radio"]:nth-child(11):hover {
 
   .beerInfo {
     flex-direction: column-reverse;
+  }
+
+  #spiritLogo {
+    display: none !important;
   }
 
   body > div.position-relative > div.overlay > div > div.beerInfo > div {
@@ -466,7 +470,7 @@ input[type="radio"]:nth-child(11):hover {
 
   .awards {
     /* display: none; */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     right: 0 !important;
     top: 0;
@@ -475,7 +479,8 @@ input[type="radio"]:nth-child(11):hover {
     margin-top: 0;
     justify-content: flex-end !important;
     width: 100px !important;
-    margin-top: 20px; /*prevent awards from overlapping with hamburger menu */
+    margin-top: 20px; prevent awards from overlapping with hamburger menu */
+    display: none;
   }
 
   .awards img {
