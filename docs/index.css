@@ -38,9 +38,10 @@ body {
 }
 
 .text-fade-in {
-  font-family: "Helvetica Neue", Raleway, sans-serif;
+  
   font-size: 21pt; /* Aanpassen aan de gewenste grootte */
   line-height: 1.5; /* Regelhoogte */
+  width: 60%;
 }
 
 .signature {
@@ -50,6 +51,7 @@ body {
   display: block;
   color: #fbb117;
   margin-top: 10px;
+  
 }
 
 .homeimg {
@@ -605,9 +607,7 @@ iframe {
     /* height: 200px; */
   }
 
-  .carousel-item {
-    /* height: 400px !important; */
-  }
+  
 
   .carousel-item img {
     height: 200px !important;

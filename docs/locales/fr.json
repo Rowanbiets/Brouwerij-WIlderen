@@ -37,32 +37,32 @@
       },
 
       "table2": {
-        "row1": [" Friday ", " 12h - 00h "],
+        "row1": [" Vendredi", " 19h - 00h "],
         "row2": [" Samedi ", " 13h - 00h "],
         "row3": [" Dimanche ", " 13h - 21h "]
       },
       "table3": {
-        "row1": ["31/03", " OUVERT PÂQUES ", "12h - 21h"],
-        "row2": ["1/04", " OUVERT LUNDI de PÂQUES", "12h - 19h"],
+        "row1": ["31/03", "  PÂQUES ", "12h - 21h"],
+        "row2": ["1/04", "  LUNDI de PÂQUES", "12h - 19h"],
         "row3": [
           "29/04 - 30/04",
           "FLORAISON exceptionnellement ouvert",
           "12h - 19h"
         ],
-        "row4": ["1/05", "OUVERT 1er MAI", "12h - 19h"],
-        "row5": ["9/05", "OUVERT L'ASCENSION", "12h - 19h"],
-        "row6": ["19/05", " OUVERT PENTECÔTE", "12h - 21h"],
-        "row7": ["20/05", " OUVERT  LUNDI de PENTECÔTE", "12h - 19h"],
-        "row8": ["21/07", " OUVERT FÊTE NATIONAL", "12h - 21h"],
-        "row9": ["15/08", " OUVERT L'ASSOMPTION", "12h - 19h"],
-        "row10": ["1/11", " OUVERT TOUSSAINT", " 13h - 00h "],
-        "row11": ["2/11", "OUVERT TOUSSAINT", "13h - 00h"],
-        "row12": ["11/11", " OUVERT 11 NOVEMBRE", "13h -19h"]
+        "row4": ["1/05", " 1er MAI", "12h - 19h"],
+        "row5": ["9/05", " L'ASCENSION", "12h - 19h"],
+        "row6": ["19/05", "  PENTECÔTE", "12h - 21h"],
+        "row7": ["20/05", "   LUNDI de PENTECÔTE", "12h - 19h"],
+        "row8": ["21/07", "  FÊTE NATIONAL", "12h - 21h"],
+        "row9": ["15/08", "  L'ASSOMPTION", "12h - 19h"],
+        "row10": ["1/11", "  TOUSSAINT", " 13h - 00h "],
+        "row11": ["2/11", " TOUSSAINT", "13h - 00h"],
+        "row12": ["11/11", "  11 NOVEMBRE", "13h -19h"]
       }
     }
   ],
 
-  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES"],
+  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES(OUVERT)"],
   "tableExtraInfo": [
     "- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."
   ],
@@ -118,14 +118,14 @@
     "Lundi : Fermé <br> mar-mer-jeu : 9h - 16h <br> Vendredi : 9h - 12h",
     "Informations et email",
     "Comptabilité & facturation",
-    "Commandes en gros :",
+    "Commandes en magasin :",
     "Ventes et Exportation :",
     "Café brasserie & visites de groupes :",
     "Emballage cadeau :",
     "Réservations de visites guidées :",
     "Reservation en ligne",
     "Entrée/parking du café de la brasserie",
-    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Saint-Trond <br /> <br /> +32 11 580 680 Bureau <br /> +32 11 580 640 Production"
+    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Saint-Trond <br /> <br /> Bureau: +32 11 580 680  <br /> Production: +32 11 580 640 "
   ],
 
   "wilderenTeam": [
@@ -134,7 +134,7 @@
     "Responsable de Production Brasseur - Distillateur",
     "Production",
     "Entrepôt",
-    "Ventes Belgique & Facturation",
+    "Ventes Belgique & Administration",
     "Ventes Belgique & Pays-Bas",
     "Ventes Pays-Bas",
     "Ventes supermarchés & dégustations",

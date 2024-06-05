@@ -36,27 +36,27 @@
       },
 
       "table2": {
-        "row1": ["Friday", "12 PM - midnight"],
+        "row1": ["Friday", "19 PM - midnight"],
         "row2": ["Saturday", "1 PM - midnight"],
         "row3": ["Sunday", "1 PM - 9  PM"]
       },
       "table3": {
-        "row1": ["31/03", "OPEN EASTER", "12h - 9 PM"],
-        "row2": ["1/04", "OPEN EASTER MONDAY", "12 PM - 7 PM"],
+        "row1": ["31/03", " EASTER", "12h - 9 PM"],
+        "row2": ["1/04", " EASTER MONDAY", "12 PM - 7 PM"],
         "row3": ["29/04 - 30/04", "BLOSSOM exceptionally open", "12 PM - 7 PM"],
-        "row4": ["1/05", "OPEN LABOR DAY", "12 PM - 7 PM"],
-        "row5": ["9/05", "OPEN ASCENSION", "12 PM - 7 PM"],
-        "row6": ["19/05", "OPEN PENTECOST ", "12 PM - 9 PM"],
-        "row7": ["20/05", "OPEN PENTECOST MONDAY", "12 PM - 7 PM"],
-        "row8": ["21/07", "OPEN NATIONALE DAY", "12 PM - 9 PM"],
-        "row9": ["15/08", "OPEN ASSUMPTION", "12 PM - 7 PM"],
-        "row10": ["1/11", "OPEN  ALL SAINTS' DAY", "1 PM - 00 PM"],
+        "row4": ["1/05", " LABOR DAY", "12 PM - 7 PM"],
+        "row5": ["9/05", " ASCENSION", "12 PM - 7 PM"],
+        "row6": ["19/05", " PENTECOST ", "12 PM - 9 PM"],
+        "row7": ["20/05", " PENTECOST MONDAY", "12 PM - 7 PM"],
+        "row8": ["21/07", " NATIONALE DAY", "12 PM - 9 PM"],
+        "row9": ["15/08", " ASSUMPTION", "12 PM - 7 PM"],
+        "row10": ["1/11", " ALL SAINTS' DAY", "1 PM - 00 PM"],
         "row11": ["2/11", "ALL SOULS' DAY", "1 PM - midnight"],
         "row12": ["11/11", "ARMISTICE DAY", "1 PM - 7 PM"]
       }
     }
   ],
-  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS"],
+  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS (OPEN)"],
 
   "tableExtraInfo": [
     "- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"
@@ -114,14 +114,14 @@
     "Monday: Closed <br> Tue-Wed-Thurs: 9am - 4pm <br> Friday: 9am - 12pm",
     "Information and email",
     "Accounting & invoicing",
-    "Orders wholesale:",
+    "Orders Stockroom:",
     "Sales & Export:",
     "Brewery café & group visits:",
     "Gift packaging:",
     "Reservations for guided tours:",
     "Online booking",
     "Brewery Cafe entrance/parking",
-    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> +32 11 580 680 Office <br /> +32 11 580 640 Production"
+    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> Office: +32 11 580 680  <br /> Production: +32 11 580 640 "
   ],
 
   "wilderenTeam": [
@@ -130,7 +130,7 @@
     "Production Responsible Brewer - Distiller",
     "Production",
     "Warehouse",
-    "Sales Belgium & Invoicing",
+    "Sales Belgium & Administration",
     "Sales Belgium & the Netherlands",
     "Sales Netherlands",
     "Sales supermarkets & tastings",

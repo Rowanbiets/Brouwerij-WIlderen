@@ -23,7 +23,7 @@
   "indexButtons": ["Webshop", "Rondleiding boeken", "Openingsuren"],
   "table": [
     {
-      "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+      "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN (OPEN)"],
 
       "table1": {
         "row1": ["Maandag", "GESLOTEN"],
@@ -36,27 +36,27 @@
       },
 
       "table2": {
-        "row1": ["vrijdag", "12u - 00u"],
-        "row2": ["zaterdag", "13u - 00u"],
-        "row3": ["zondag", "13u - 21u"]
+        "row1": ["Vrijdag", "19u - 00u"],
+        "row2": ["Zaterdag", "13u - 00u"],
+        "row3": ["Zondag", "13u - 21u"]
       },
       "table3": {
-        "row1": ["31/03", "OPEN PASEN", "12u - 21u"],
-        "row2": ["1/04", "OPEN PAASMAANDAG", "12u - 19u"],
-        "row3": ["29/04 - 30/04", "BLOESEM uitzonderlijk open", "12u - 19u"],
-        "row4": ["1/05", "OPEN 1 MEI", "12u - 19u"],
-        "row5": ["9/05", "OPEN HEMELVAART", "12u - 19u"],
-        "row6": ["19/05", "OPEN PINKSTERZONDAG", "12u - 21u"],
-        "row7": ["20/05", "OPEN PINKSTERMAANDAG", "12u - 19u"],
-        "row8": ["21/07", "OPEN NATIONALE FEESTDAG", "12u - 21u"],
-        "row9": ["15/08", "OPEN OLV HEMELVAART", "12u - 19u"],
-        "row10": ["1/11", "OPEN ALLERHEILIGEN", "13u - 00u"],
-        "row11": ["2/11", "OPEN ALLERZIELEN", "13u - 00u"],
-        "row12": ["11/11", "OPEN WAPENSTILSTAND", "13u -19u"]
+        "row1": ["31/03", " PASEN", "12u - 21u"],
+        "row2": ["1/04", " PAASMAANDAG", "12u - 19u"],
+        "row3": ["29/04 - 30/04", "BLOESEM uitzonderlijk", "12u - 19u"],
+        "row4": ["1/05", " 1 MEI", "12u - 19u"],
+        "row5": ["9/05", " HEMELVAART", "12u - 19u"],
+        "row6": ["19/05", " PINKSTERZONDAG", "12u - 21u"],
+        "row7": ["20/05", " PINKSTERMAANDAG", "12u - 19u"],
+        "row8": ["21/07", " NATIONALE FEESTDAG", "12u - 21u"],
+        "row9": ["15/08", " OLV HEMELVAART", "12u - 19u"],
+        "row10": ["1/11", " ALLERHEILIGEN", "13u - 00u"],
+        "row11": ["2/11", " ALLERZIELEN", "13u - 00u"],
+        "row12": ["11/11", " WAPENSTILSTAND", "13u -19u"]
       }
     }
   ],
-  "tableDateSpan": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN"],
+  "tableDateSpan": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN (OPEN)"],
 
   "tableExtraInfo": [
     "- Laatste tap: een 1/2u voor sluiting <br /> - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang <br /> - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer <br /> - Geen trouwlocatie of feestzalenverhuur <br /> - Honden toegelaten in het brouwerijcafé/terras <br /> - Honden niet toegelaten tijdens de rondleidingen/productieruimte <br /> - Picknick niet toegelaten"
@@ -64,7 +64,7 @@
   "footer": ["Ontdek meer over ons"],
 
   "cafe": [
-    "warme gastvrijheid en charmant interieur.",
+    "Warme gastvrijheid en charmant interieur.",
     "Gezelligheid troef.",
     "Het trendy brouwerijcafé is de ideale bestemming voor de levensgenieter. Het is er warm en gezellig: terug naar de Belgische cafécultuur. In een gerestaureerde vakwerkhoeve biedt het brouwerijcafé een meer dan unieke setting. In goed gezelschap genieten tussen pot &amp pint. In de winter aan het haardvuur, in de lente geniet je tussen op het prachtig tuinterras.",
     "Menukaart"
@@ -114,14 +114,14 @@
     "Maandag: Gesloten <br> Di-Woe-Do: 9u - 16u <br> Vrijdag: 9u - 12u",
     "Info en mail",
     "Boekhouding &amp facturatie",
-    "Bestellingen groothandel:",
+    "Bestellingen Magazijn:",
     "Sales &amp Export:",
     "Brouwerijcafé &amp groepsbezoeken:",
     "Geschenkverpakkingen:",
     "Reservaties rondleidingen:",
     "Online boeking",
     "Ingang/parking Brouwerijcafé",
-    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> +32 11 580 680 Kantoor <br /> +32 11 580 640 Productie"
+    "<br /> Zoutleeuwsesteenweg 120 <br /> 3803 Sint-Truiden <br /> <br /> Kantoor: +32 11 580 680 <br /> Productie: +32 11 580 640 "
   ],
 
   "wilderenTeam": [
@@ -130,7 +130,7 @@
     "Productieverantwoordelijke Brouwer - Distillateur",
     "Productie",
     "Magazijn",
-    "Sales België &amp Facturatie",
+    "Sales België &amp Administratie",
     "Sales België &amp Nederland",
     "Sales Nederland",
     "Sales supermarkten &amp degustaties",
