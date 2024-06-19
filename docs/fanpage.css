@@ -118,14 +118,7 @@ p {
   text-align: center;
   line-height: 2em;
 }
-.item {
-  position: relative;
-  width: 30%;
 
-  display: inline-block;
-  position: relative;
-  filter: grayscale(100%);
-}
 .item .polaroid:before {
   content: "";
   position: absolute;
