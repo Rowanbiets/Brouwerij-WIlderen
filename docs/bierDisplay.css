@@ -158,7 +158,7 @@ ul {
   }
 }
 
-.buy-button2:hover{
+.buy-button2:hover {
   box-shadow: var(--themeColor) 0px 0px 10px;
 }
 
@@ -424,7 +424,7 @@ input[type="radio"]:checked {
   filter: drop-shadow(0px 0px 5px var(--themeColor));
 }
 
-input[type="radio"]:nth-child(1):hover {
+input[type="radio"]:nth-child(3):hover {
   border-color: gold;
   filter: drop-shadow(0px 0px 5px gold);
 }
@@ -434,7 +434,7 @@ input[type="radio"]:nth-child(2):hover {
   filter: drop-shadow(0px 0px 5px #6d9170);
 }
 
-input[type="radio"]:nth-child(3):hover {
+input[type="radio"]:nth-child(1):hover {
   border-color: #f97700;
   filter: drop-shadow(0px 0px 5px #f97700);
 }
@@ -508,6 +508,7 @@ input[type="radio"]:nth-child(8):checked {
   }
 
   .bierTitle {
+    margin-top: 20px;
     width: 100vw;
   }
 
@@ -560,18 +561,17 @@ input[type="radio"]:nth-child(8):checked {
     color: white !important;
     font-size: small;
   }
-.extraInfo{
-  display: unset;
-}
+  .extraInfo {
+    display: unset;
+  }
 
-#beerLogo{
-  display: none !important;
-}
+  #beerLogo {
+    display: none !important;
+  }
 
-body > header > div > a > img{
-  width: 50px !important;
-}
-
+  body > header > div > a > img {
+    width: 50px !important;
+  }
 
   form {
     /* position: absolute !important; */
@@ -589,7 +589,7 @@ body > header > div > a > img{
     z-index: 10;
   }
 
-  .beerInfo{
+  .beerInfo {
     margin-top: 0 !important;
   }
 
