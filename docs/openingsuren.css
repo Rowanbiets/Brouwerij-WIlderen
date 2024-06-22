@@ -161,11 +161,8 @@ td {
 .tableExtraInfoContainer {
   display: flex;
   height: fit-content;
-  /* justify-content: center; */
-  /* justify-content: space-between; */
-  /* justify-content: space-around; */
   gap: 73px;
-  /* margin-top: 20px; */
+  
   flex-direction: column;
 }
 
@@ -173,16 +170,16 @@ td {
   margin-top: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1768px) {
   #openingsuren {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-height: fit-content;
-gap: 20px;
+    height: fit-content;
+    gap: 20px;
 
   }
-
+  
   table{
   width: 80% !important;
   border-right: none !important;
@@ -197,6 +194,15 @@ gap: 20px;
   /* hide empty table data for mobile */
   table .empty {
     display: none;
+  }
+
+  .tableExtraInfoContainer {
+    display: flex;
+    height: fit-content;
+    gap: 5px;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 
 }
