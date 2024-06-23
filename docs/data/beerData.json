@@ -18,6 +18,7 @@
     "beerLogo": "",
     "neonColor": "#F97700",
     "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Tripel Kanunnik/WBA18-Belgium-GOLD.png",
       "WEBSITE/Awards/Tripel Kanunnik/WBA19-Belgium-GOLD.png"
@@ -41,7 +42,8 @@
     "themeColor": "#6D9170",
     "beerLogo": "WEBSITE/Betty Ford/BF LOGO 2023.png",
     "neonColor": "#20ff32",
-    "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg"
+    "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded-mobile.jpg"
   },
 
   {
@@ -63,6 +65,7 @@
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
     "neonColor": "gold",
     "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg",
+    "beerBGMobile": "WEBSITE/Wilderen Goud/Wild Goud BG-mobile.jpg",
     "awards": ["WEBSITE/Awards/Wilderen Goud/bbc2016-gold-medal.png"]
   },
   {
@@ -84,6 +87,7 @@
     "beerLogo": "",
     "neonColor": "#460610",
     "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Cuv‚e Clarisse/bbc2016-gold-medal.png",
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA17-Silver-1.png"
@@ -108,6 +112,7 @@
     "beerLogo": "",
     "neonColor": "#521B6D",
     "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-Belgium-WINNER.png",
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-WB-StyleWinner.png"
@@ -131,7 +136,8 @@
     "themeColor": "#FBA953",
     "beerLogo": "",
     "neonColor": "#FBA953",
-    "beerBG": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background.jpg"
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background-mobile.jpg"
   },
   {
     "id": 7,
@@ -151,7 +157,8 @@
     "themeColor": "#FF232D",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
     "neonColor": "#FF232D",
-    "beerBG": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended.jpg"
+    "beerBG": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended.jpg",
+    "beerBGMobile": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended-mobile.jpg"
   },
   {
     "id": 8,
@@ -166,6 +173,7 @@
     "themeColor": "#cc1223",
     "beerLogo": "WEBSITE/Clarisse Rouge/Rouge.png",
     "neonColor": "#cc1223",
-    "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg"
+    "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg",
+    "beerBGMobile": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background-mobile.jpg"
   }
 ]

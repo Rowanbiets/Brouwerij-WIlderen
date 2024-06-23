@@ -166,7 +166,12 @@ function renderBeer(data, beer) {
   beerTagline.innerHTML = data[beer].beerTagline;
   beerDescription.innerHTML = data[beer].beerDescription;
   beerInfo.innerHTML = "";
-  beerBackground.src = data[beer].beerBG;
+  // media query voor de achtergrond van de bieren
+  if (window.innerWidth <= 768) {
+    beerBackground.src = data[beer].beerBGMobile;
+  } else {
+    beerBackground.src = data[beer].beerBG;
+  }
   // console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
   // console.error(data[beer]);
   data[beer].beerInfo.forEach((beer) => {
