@@ -56,7 +56,11 @@
       }
     }
   ],
-  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS (OPEN)"],
+  "tableDateSpan": [
+    "APRIL to SEPTEMBER",
+    "OCTOBER to MARCH",
+    "HOLIDAYS (OPEN)"
+  ],
 
   "tableExtraInfo": [
     "- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"
@@ -203,11 +207,11 @@
 
   "bieren": [
     {
-      "id": 1,
-      "tagLine": "Tough and irresistible.",
-      "beerDescription": "Perfect alternative to a thirst-quenching lager or a light abbey beer. Deliciously refreshing beer to accompany ribs or barbecue in good company. The eccentric glass is its own design and has been called an icon among beer glasses.",
-      "beerInfo": "<li>Gold-coloured special beer</li><li>High fermentation - refermented in bottle</li><li>6.2% Vol.</li><li>Cask - bottle</li>",
-      "beerBuyButton": "Buy Wilderen Goud"
+      "id": 3,
+      "tagLine": "Classic finesse in solid body.",
+      "beerDescription": "A classically brewed 4-grain Tripel for the modern connoisseur. Rye was exceptionally added in this spicy Tripel alongside barley, wheat and oats. Noble hops give this rich Tripel a typical and recognisable character. Velvety smooth, sweet & fruity. Delicious with a pot of mussels or spicy dishes. The classic Tripel Canon glass represents confidence and hides a secret image.",
+      "beerInfo": "<li>gold-coloured triple</li> <li>high fermentation - refermented in bottle</li> <li>8.2% Vol.</li> <li>keg - bottle</li>",
+      "beerBuyButton": "Buy Tripel Kanunnik"
     },
     {
       "id": 2,
@@ -216,12 +220,13 @@
       "beerInfo": "<li>Clear amber coloured beer</li> <li>Retro “Speciale Belge”</li> <li>High fermentation</li> <li>5.2% Vol.</li> <li>Cask - bottle</li>",
       "beerBuyButton": "Buy Betty Ford"
     },
+
     {
-      "id": 3,
-      "tagLine": "Classic finesse in solid body.",
-      "beerDescription": "A classically brewed 4-grain Tripel for the modern connoisseur. Rye was exceptionally added in this spicy Tripel alongside barley, wheat and oats. Noble hops give this rich Tripel a typical and recognisable character. Velvety smooth, sweet & fruity. Delicious with a pot of mussels or spicy dishes. The classic Tripel Canon glass represents confidence and hides a secret image.",
-      "beerInfo": "<li>gold-coloured triple</li> <li>high fermentation - refermented in bottle</li> <li>8.2% Vol.</li> <li>keg - bottle</li>",
-      "beerBuyButton": "Buy Tripel Kanunnik"
+      "id": 1,
+      "tagLine": "Tough and irresistible.",
+      "beerDescription": "Perfect alternative to a thirst-quenching lager or a light abbey beer. Deliciously refreshing beer to accompany ribs or barbecue in good company. The eccentric glass is its own design and has been called an icon among beer glasses.",
+      "beerInfo": "<li>Gold-coloured special beer</li><li>High fermentation - refermented in bottle</li><li>6.2% Vol.</li><li>Cask - bottle</li>",
+      "beerBuyButton": "Buy Wilderen Goud"
     },
     {
       "id": 4,

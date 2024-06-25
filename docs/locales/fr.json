@@ -205,11 +205,11 @@
 
   "bieren": [
     {
-      "id": 1,
-      "tagLine": "Dure et irrésistible.",
-      "beerDescription": "Alternative parfaite à une lager désaltérante ou à une bière d'abbaye légère. Une bière délicieusement rafraîchissante pour accompagner des côtes ou un barbecue en bonne compagnie. Le verre excentrique est un design propre et a été qualifié d'icône parmi les verres à bière",
-      "beerInfo": "<li>Bière spéciale de couleur or</li><li>Haute fermentation - refermentée en bouteille</li><li>6,2% Vol.</li><li>Tonneau - bottle</li>",
-      "beerBuyButton": "Acheter Wilderen Goud"
+      "id": 3,
+      "tagLine": "Finesse classique dans un corps solide.",
+      "beerDescription": "Une Tripel classique à 4 grains pour les connaisseurs modernes. Le seigle a été exceptionnellement ajouté dans cette Tripel épicée aux côtés de l'orge, du blé et de l'avoine. Des houblons nobles confèrent à cette riche Tripel un caractère typique et reconnaissable. Veloutée, douce et fruitée. Délicieuse avec une marmite de moules ou des plats épicés. Le verre Canon de la Tripel classique représente la confiance et cache une image secrète",
+      "beerInfo": "<li>Triple de couleur or</li> <li>haute fermentation - refermentée en bouteille</li> <li>8,2% Vol.</li> <li>Tonneau - bouteille</li>",
+      "beerBuyButton": "Acheter Tripel Kanunnik"
     },
     {
       "id": 2,
@@ -218,12 +218,14 @@
       "beerInfo": "<li>Bière claire de couleur ambrée</li> <li>Rétro “Speciale Belge”</li> <li>Haute fermentation</li> <li>5,2% Vol.</li> <li>Tonneau - bouteille</li>",
       "beerBuyButton": "Acheter Betty Ford"
     },
+ 
+
     {
-      "id": 3,
-      "tagLine": "Finesse classique dans un corps solide.",
-      "beerDescription": "Une Tripel classique à 4 grains pour les connaisseurs modernes. Le seigle a été exceptionnellement ajouté dans cette Tripel épicée aux côtés de l'orge, du blé et de l'avoine. Des houblons nobles confèrent à cette riche Tripel un caractère typique et reconnaissable. Veloutée, douce et fruitée. Délicieuse avec une marmite de moules ou des plats épicés. Le verre Canon de la Tripel classique représente la confiance et cache une image secrète",
-      "beerInfo": "<li>Triple de couleur or</li> <li>haute fermentation - refermentée en bouteille</li> <li>8,2% Vol.</li> <li>Tonneau - bouteille</li>",
-      "beerBuyButton": "Acheter Tripel Kanunnik"
+      "id": 1,
+      "tagLine": "Dure et irrésistible.",
+      "beerDescription": "Alternative parfaite à une lager désaltérante ou à une bière d'abbaye légère. Une bière délicieusement rafraîchissante pour accompagner des côtes ou un barbecue en bonne compagnie. Le verre excentrique est un design propre et a été qualifié d'icône parmi les verres à bière",
+      "beerInfo": "<li>Bière spéciale de couleur or</li><li>Haute fermentation - refermentée en bouteille</li><li>6,2% Vol.</li><li>Tonneau - bottle</li>",
+      "beerBuyButton": "Acheter Wilderen Goud"
     },
     {
       "id": 4,

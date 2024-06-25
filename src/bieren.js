@@ -162,9 +162,13 @@ function renderBeer(data, beer) {
   });
 
   buyButton.href = data[beer].buyLink;
+  console.warn(data[beer].beerTagline);
+  console.warn(data[beer]);
   beerName.innerHTML = data[beer].beerName;
   beerTagline.innerHTML = data[beer].beerTagline;
   beerDescription.innerHTML = data[beer].beerDescription;
+  console.warn(beerTagline.innerHTML);
+
   beerInfo.innerHTML = "";
   // media query voor de achtergrond van de bieren
   if (window.innerWidth <= 768) {
@@ -172,8 +176,8 @@ function renderBeer(data, beer) {
   } else {
     beerBackground.src = data[beer].beerBG;
   }
-  // console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
-  // console.error(data[beer]);
+  console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
+  console.error(data[beer]);
   data[beer].beerInfo.forEach((beer) => {
     beerInfo.innerHTML += `<li>${beer}</li>`;
   });
