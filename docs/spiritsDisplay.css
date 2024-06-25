@@ -29,7 +29,7 @@ body {
   transform: translateX(15px);
 }
 
-.buy-button2:hover{
+.buy-button2:hover {
   box-shadow: var(--themeColor) 0px 0px 10px;
 }
 
@@ -327,13 +327,11 @@ input[type="radio"]:checked {
   transition: all 0.3s ease-in-out;
 }
 
-
 /* double you */
 input[type="radio"]:nth-child(1):hover {
   border-color: #d8d9dd;
   filter: drop-shadow(0px 0px 5px #d8d9dd);
 }
-
 
 /* vanilla */
 input[type="radio"]:nth-child(2):hover {
@@ -341,11 +339,10 @@ input[type="radio"]:nth-child(2):hover {
   filter: drop-shadow(0px 0px 5px #d3b378);
 }
 
-
 /* ocus */
 input[type="radio"]:nth-child(3):hover {
-  border-color: #A6129A;
-  filter: drop-shadow(0px 0px 5px #A6129A);
+  border-color: #a6129a;
+  filter: drop-shadow(0px 0px 5px #a6129a);
 }
 
 /* omerta rum */
@@ -362,20 +359,20 @@ input[type="radio"]:nth-child(5):hover {
 
 /* cask */
 input[type="radio"]:nth-child(6):hover {
-  border-color: #242A2C;
-  filter: drop-shadow(0px 0px 5px #242A2C);
+  border-color: #242a2c;
+  filter: drop-shadow(0px 0px 5px #242a2c);
 }
 
 /* finest blend */
 input[type="radio"]:nth-child(7):hover {
-  border-color: #0C4135;
-  filter: drop-shadow(0px 0px 5px #0C4135);
+  border-color: #0c4135;
+  filter: drop-shadow(0px 0px 5px #0c4135);
 }
 
 /* single malt */
 input[type="radio"]:nth-child(8):hover {
-  border-color: #711F1F;
-  filter: drop-shadow(0px 0px 5px #711F1F);
+  border-color: #711f1f;
+  filter: drop-shadow(0px 0px 5px #711f1f);
 }
 
 /* Wiggle */
@@ -422,8 +419,10 @@ input[type="radio"]:nth-child(11):hover {
   }
 
   .spiritBackground {
-    object-position: left bottom;
-    height: 40vh;
+    object-position: 20% 80%;
+    /* object-position: left;  */
+    height: 100% !important;
+    position: absolute !important;
     width: 100vw;
   }
 
@@ -436,8 +435,10 @@ input[type="radio"]:nth-child(11):hover {
     max-width: 100vw;
   }
 
-  .beerInfo {
-    flex-direction: column-reverse;
+  .overlay {
+    /* margin-top: 50%; */
+    display: flex !important;
+    justify-content: flex-end !important;
   }
 
   #spiritLogo {
@@ -462,6 +463,8 @@ input[type="radio"]:nth-child(11):hover {
 
   .spiritTitle {
     width: 100vw;
+    top: 0;
+    position: absolute;
   }
 
   body > header > div > a > img {
@@ -502,6 +505,7 @@ input[type="radio"]:nth-child(11):hover {
   #spiritDescription {
     width: 100vw;
     padding: 10px;
+    font-size: 13px;
   }
 
   .overlay {

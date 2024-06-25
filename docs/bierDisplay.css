@@ -467,6 +467,9 @@ input[type="radio"]:nth-child(8):checked {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+  }
+
   .position-relative {
     flex-direction: column;
     /* height: 100% !important; */
@@ -478,7 +481,7 @@ input[type="radio"]:nth-child(8):checked {
   }
 
   .beerBackground {
-    object-position: 20% 80% ;
+    object-position: 20% 80%;
     /* object-position: left;  */
     height: 100% !important;
     position: absolute !important;
@@ -515,12 +518,17 @@ input[type="radio"]:nth-child(8):checked {
   }
 
   .overlay {
-    margin-top: 50%;
+    /* margin-top: 50%; */
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-top: -200px;
   }
 
   .bierTitle {
     margin-top: 20px;
     width: 100vw;
+    top: 0;
+    position: absolute;
   }
 
   .awards {

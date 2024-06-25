@@ -2,7 +2,6 @@
 import SwipeListener from "swipe-listener";
 import { updateTranslations } from "./index.js";
 
-
 // deze madness is nodig om elementen te selecteren na de transitie animatie (Swup)
 let spiritName,
   spiritTagline,
@@ -21,25 +20,24 @@ let spiritName,
   rightArrow,
   leftArrow;
 
-
-  function initDom() {
-    spiritName = document.getElementById("spiritName");
-    spiritTagline = document.getElementById("spiritTagLine");
-    spiritDescription = document.getElementById("spiritDescription");
-    spiritInfo = document.getElementById("spiritInfo");
-    spiritImage = document.getElementById("spiritImage");
-    spiritLogo = document.getElementById("spiritLogo");
-    colors = document.querySelectorAll(".themed");
-    buyButton = document.querySelector(".buy-button2");
-    neonborder = document.querySelector(".imgBorder");
-    root = document.querySelector(":root");
-    spiritBackground = document.querySelector(".spiritBackground");
-    navLogo = document.querySelector(".logo");
-    nav = document.querySelectorAll("nav > ul >  li  > a");
-    awards = document.querySelector(".awards");
-    leftArrow = document.getElementById("arrowLeft");
-    rightArrow = document.getElementById("arrowRight");
-  }
+function initDom() {
+  spiritName = document.getElementById("spiritName");
+  spiritTagline = document.getElementById("spiritTagLine");
+  spiritDescription = document.getElementById("spiritDescription");
+  spiritInfo = document.getElementById("spiritInfo");
+  spiritImage = document.getElementById("spiritImage");
+  spiritLogo = document.getElementById("spiritLogo");
+  colors = document.querySelectorAll(".themed");
+  buyButton = document.querySelector(".buy-button2");
+  neonborder = document.querySelector(".imgBorder");
+  root = document.querySelector(":root");
+  spiritBackground = document.querySelector(".spiritBackground");
+  navLogo = document.querySelector(".logo");
+  nav = document.querySelectorAll("nav > ul >  li  > a");
+  awards = document.querySelector(".awards");
+  leftArrow = document.getElementById("arrowLeft");
+  rightArrow = document.getElementById("arrowRight");
+}
 
 let spirit = 0;
 let allSpirits = [];
@@ -58,8 +56,6 @@ const spiritNames = [
 ];
 
 const blackTextNeeded = [3];
-
-
 
 export function getParamSpirit() {
   // zoek de spiritnaam op in de url -> ?spirit=""
@@ -123,7 +119,13 @@ function renderSpirits(data, spirit) {
   buyButton.href = data[spirit].buyLink;
 
   // console.log(spirit);
-  spiritBackground.src = data[spirit].spiritBG;
+  // spiritBackground.src = data[spirit].spiritBG;
+  if (window.innerWidth <= 768) {
+    spiritBackground.src = data[spirit].spiritBGMobile;
+  } else {
+    spiritBackground.src = data[spirit].spiritBG;
+  }
+
   // console.log(data[spirit].spiritBG);
   // spiritImage.src = data[spirit].spiritImg;
 
@@ -216,10 +218,10 @@ function renderSpirits(data, spirit) {
 
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-moveLeft();
+    moveLeft();
   });
   rightArrow.addEventListener("click", function () {
-moveRight();
+    moveRight();
   });
 }
 
@@ -250,33 +252,31 @@ function radioClick() {
   });
 }
 
+function moveLeft() {
+  // spiritBackground.style.opacity = 0;
 
-function moveLeft(){
-      // spiritBackground.style.opacity = 0;
-
-      if (getParamSpirit() > 0) {
-        spirit--;
-        updateParams(getParamSpirit() - 1);
-        renderSpirits(allSpirits, getParamSpirit());
-        handleRadio();
-        updateTranslations();
-      }
+  if (getParamSpirit() > 0) {
+    spirit--;
+    updateParams(getParamSpirit() - 1);
+    renderSpirits(allSpirits, getParamSpirit());
+    handleRadio();
+    updateTranslations();
+  }
 }
-function moveRight(){
-      // spiritBackground.style.transition = 'none';
-    // spiritBackground.style.opacity = 0;
+function moveRight() {
+  // spiritBackground.style.transition = 'none';
+  // spiritBackground.style.opacity = 0;
 
-    if (getParamSpirit() < allSpirits.length - 1) {
-      spirit++;
-      updateParams(getParamSpirit() + 1);
-      renderSpirits(allSpirits, getParamSpirit());
-      handleRadio();
-      updateTranslations();
-    }
+  if (getParamSpirit() < allSpirits.length - 1) {
+    spirit++;
+    updateParams(getParamSpirit() + 1);
+    renderSpirits(allSpirits, getParamSpirit());
+    handleRadio();
+    updateTranslations();
+  }
 }
 
-
-function swipe(){
+function swipe() {
   const container = document.querySelector(".position-relative");
   var listener = SwipeListener(container);
   container.addEventListener("swipe", function (e) {

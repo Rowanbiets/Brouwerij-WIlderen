@@ -314,7 +314,6 @@ html {
 /* ------------------------------------------HAMBURGER------------------------------------------ */
 
 @media (max-width: 1468px) {
-
   nav {
     display: none !important;
   }
@@ -326,7 +325,7 @@ html {
 #toggleHamburgerMenu {
   all: unset;
   position: fixed !important;
-  z-index: 1000;
+  z-index: 10000;
   right: 0;
   top: 0;
   margin-top: 20px;
