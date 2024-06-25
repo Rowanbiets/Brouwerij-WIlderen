@@ -48,9 +48,11 @@ function initDom() {
 let beer = 0;
 let allBeer = [];
 const bierNames = [
-  "wilderen-goud",
-  "betty-ford",
   "tripel-kanunnik",
+  "betty-ford",
+
+  "wilderen-goud",
+
   "cuvee-clarisse",
   "whiskey-infused",
   "rum-infused",
@@ -70,6 +72,7 @@ export default function fetchBeer() {
       // showData(data);
       allBeer = data;
       renderBeer(data, getParamBeer());
+      console.log(data);
       buttonClick();
       handleRadio();
       radioClick();
@@ -77,17 +80,16 @@ export default function fetchBeer() {
       //       buttonClick();
       // handleRadio();
       // radioClick();
-    }); 
-
+    });
 }
 
 export function getParamBeer() {
   // zoek de biernaam op in de url -> ?beer=""
   // selecteer de array index op basis van de naam
   const bierParams = new URLSearchParams(window.location.search).get("beer");
-
   const bierIndex = bierNames.indexOf(bierParams);
-
+  console.log(bierIndex);
+  console.log(bierParams);
   return bierIndex;
 }
 
@@ -95,15 +97,14 @@ export function getParamBeer() {
 //   "taal"
 // );
 
-
 // function radioPlacement(){
 //   const body = document.querySelector("body");
 //   if(window.innerWidth <= 768){
 //   body.removeAttribute(form);
-  // console.warn("form removed");
+// console.warn("form removed");
 //     beerTagline.insertAdjacentHTML("afterend", form.outerHTML);
 //   } else{
-  // console.warn("form is already in place");
+// console.warn("form is already in place");
 //   }
 // }
 
@@ -112,7 +113,6 @@ export function getParamBeer() {
 function renderBeer(data, beer) {
   // beerTagline.inserAdjecentHTML("afterend", form)
   // console.warn(form);
-
 
   // console.warn("🚀 ~ renderBeer ~ beer", beer);
   // Verander thema kleur (zie css variabelen in bierDisplay.css)
@@ -166,7 +166,12 @@ function renderBeer(data, beer) {
   beerTagline.innerHTML = data[beer].beerTagline;
   beerDescription.innerHTML = data[beer].beerDescription;
   beerInfo.innerHTML = "";
-  beerBackground.src = data[beer].beerBG;
+  // media query voor de achtergrond van de bieren
+  if (window.innerWidth <= 768) {
+    beerBackground.src = data[beer].beerBGMobile;
+  } else {
+    beerBackground.src = data[beer].beerBG;
+  }
   // console.log("🚀 ~ renderBeer ~ beerBackground:", beerBackground);
   // console.error(data[beer]);
   data[beer].beerInfo.forEach((beer) => {
@@ -223,7 +228,7 @@ const beerNameTitle = document.getElementById("beerName");
 
 function buttonClick() {
   leftArrow.addEventListener("click", function () {
-  moveLeft();
+    moveLeft();
   });
   rightArrow.addEventListener("click", function () {
     moveRight();
@@ -257,7 +262,6 @@ function radioClick() {
   });
 }
 
-
 function moveLeft() {
   if (getParamBeer() > 0) {
     // beerNameTitle.style.transform = "scaleX(0)";
@@ -267,7 +271,6 @@ function moveLeft() {
     renderBeer(allBeer, getParamBeer());
     handleRadio();
     updateTranslations();
-
   }
 }
 function moveRight() {
@@ -279,11 +282,10 @@ function moveRight() {
     renderBeer(allBeer, getParamBeer());
     handleRadio();
     updateTranslations();
-
   }
 }
 
-function swipe(){
+function swipe() {
   const container = document.querySelector(".position-relative");
   var listener = SwipeListener(container);
   container.addEventListener("swipe", function (e) {

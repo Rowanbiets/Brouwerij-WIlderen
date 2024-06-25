@@ -1,49 +1,7 @@
 [
   {
-    "id": 3,
-    "beerName": "Wilderen Goud 6,2%",
-    "buyname": "Wilderen Goud",
-    "buyLink": "https://webshop.brouwerijwilderen.be/collections/bieren/products/wilderen-goud-6-2-4x33cl",
-
-    "beerTagline": "Stoer en onweerstaanbaar.", 
-    "beerInfo": [
-      "Goudkleurig speciaal bier",
-      "Hoge gisting - hergist in fles",
-      "6,2% Vol.",
-      "Vat - fles"
-    ],
-    "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
-    "beerImg": "WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png",
-    "themeColor": "gold",
-    "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
-    "neonColor": "gold",
-    "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg",
-    "awards": ["WEBSITE/Awards/Wilderen Goud/bbc2016-gold-medal.png"]
-  },
-
-  {
-    "id": 2,
-    "beerName": "Betty Ford 5,2%",
-    "buyname": "Betty Ford",
-    "beerTagline": "Verfrissend oldskool.",
-    "buyLink": "https://webshop.brouwerijwilderen.be/nl/products/betty-ford-5-2-4x25cl",
-    "beerInfo": [
-      "Helder amberkleurig bier",
-      "Retro “Speciale Belge”",
-      "Hoge gisting",
-      "5.2% Vol.",
-      "Vat - fles"
-    ],
-    "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio.",
-    "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png.",
-    "themeColor": "#6D9170",
-    "beerLogo": "WEBSITE/Betty Ford/BF LOGO 2023.png",
-    "neonColor": "#20ff32",
-    "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg"
-  },
-  {
     "id": 1,
-    "beerName": "Tripel Kanunnik 8,2%",
+    "beerName": "Tripel Kanunnik",
     "buyname": "Tripel Kanunnik",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/tripel-kanunnik-8-2-4x33cl",
 
@@ -60,14 +18,59 @@
     "beerLogo": "",
     "neonColor": "#F97700",
     "beerBG": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Tripel Kanunnik/Wilderen-Kanunnik-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Tripel Kanunnik/WBA18-Belgium-GOLD.png",
       "WEBSITE/Awards/Tripel Kanunnik/WBA19-Belgium-GOLD.png"
     ]
   },
   {
+    "id": 2,
+    "beerName": "Betty Ford",
+    "buyname": "Betty Ford",
+    "beerTagline": "Verfrissend oldskool.",
+    "buyLink": "https://webshop.brouwerijwilderen.be/nl/products/betty-ford-5-2-4x25cl",
+    "beerInfo": [
+      "Helder amberkleurig bier",
+      "Retro “Speciale Belge”",
+      "Hoge gisting",
+      "5.2% Vol.",
+      "Vat - fles"
+    ],
+    "beerDescription": "De intense amberkleur is te danken aan een speciaal geselecteerde donkere mout. Betty Ford bier is vernoemd naar Betty Ford, de voormalige First Lady van de Verenigde Staten, en draagt daarmee een historische en culturele verwijzing naar de Betty Ford Clinic. Het bier zelf is een eerbetoon maar verwijst vooral als gimmick naar het lage alcoholgehalte in het Wilderen portfolio.",
+    "beerImg": "WEBSITE/Afbeeldingen voor website/Betty Ford flesje + glas droplets.png.",
+    "themeColor": "#6D9170",
+    "beerLogo": "WEBSITE/Betty Ford/BF LOGO 2023.png",
+    "neonColor": "#20ff32",
+    "beerBG": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Betty Ford/Betty-op-spring-backgr-expanded-mobile.jpg"
+  },
+
+  {
+    "id": 3,
+    "beerName": "Wilderen Goud",
+    "buyname": "Wilderen Goud",
+    "buyLink": "https://webshop.brouwerijwilderen.be/collections/bieren/products/wilderen-goud-6-2-4x33cl",
+
+    "beerTagline": "Stoer en onweerstaanbaar.",
+    "beerInfo": [
+      "Goudkleurig speciaal bier",
+      "Hoge gisting - hergist in fles",
+      "6,2% Vol.",
+      "Vat - fles"
+    ],
+    "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
+    "beerImg": "WEBSITE/Wilderen Goud/Wilderen Goud/Wild Goud fles en glas no backgr.png",
+    "themeColor": "gold",
+    "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
+    "neonColor": "gold",
+    "beerBG": "WEBSITE/Wilderen Goud/Wild Goud BG.jpg",
+    "beerBGMobile": "WEBSITE/Wilderen Goud/Wild Goud BG-mobile.jpg",
+    "awards": ["WEBSITE/Awards/Wilderen Goud/bbc2016-gold-medal.png"]
+  },
+  {
     "id": 4,
-    "beerName": "Cuvée Clarisse 9,2%",
+    "beerName": "Cuvée Clarisse",
     "buyname": "Cuvée Clarisse",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-9-2-4x33cl",
 
@@ -84,6 +87,7 @@
     "beerLogo": "",
     "neonColor": "#460610",
     "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/Cuvee-Clarisse-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Cuv‚e Clarisse/bbc2016-gold-medal.png",
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA17-Silver-1.png"
@@ -91,7 +95,7 @@
   },
   {
     "id": 5,
-    "beerName": "Cuvée Clarisse Whisky Infused 10,2%",
+    "beerName": "Cuvée Clarisse Whisky Infused",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-whisky-infused-10-2-75cl",
 
     "beerTagline": "Intens en uitdagend.",
@@ -108,6 +112,7 @@
     "beerLogo": "",
     "neonColor": "#521B6D",
     "beerBG": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/Cuvee Clarisse Whisky Infused/ccwi2023-wba-expanded-mobile.jpg",
     "awards": [
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-Belgium-WINNER.png",
       "WEBSITE/Awards/Cuv‚e Clarisse/WBA18-WB-StyleWinner.png"
@@ -115,7 +120,7 @@
   },
   {
     "id": 6,
-    "beerName": "Cuvée Clarisse Rum Infused 11,2%",
+    "beerName": "Cuvée Clarisse Rum Infused",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/cuvee-clarisse-omerta-rum-liquor-infused-4x33cl",
 
     "beerTagline": "Verleiding en geheimzinnigheid.",
@@ -131,11 +136,12 @@
     "themeColor": "#FBA953",
     "beerLogo": "",
     "neonColor": "#FBA953",
-    "beerBG": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background.jpg"
+    "beerBG": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background.jpg",
+    "beerBGMobile": "WEBSITE/Cuv‚e Clarisse/CC-Rum-inf-flesje-background-mobile.jpg"
   },
   {
     "id": 7,
-    "beerName": "Wilderen Kriek 3,5%",
+    "beerName": "Wilderen Kriek",
     "buyname": "Wilderen Kriek",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/collections/bieren/products/wilderen-kriek-3-5-4x25cl",
 
@@ -151,11 +157,12 @@
     "themeColor": "#FF232D",
     "beerLogo": "WEBSITE/Logo/Wilderen Logo 2020.png",
     "neonColor": "#FF232D",
-    "beerBG": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended.jpg"
+    "beerBG": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended.jpg",
+    "beerBGMobile": "WEBSITE/Wilderen Kriek/Wilderen-Kriek-extended-mobile.jpg"
   },
   {
     "id": 8,
-    "beerName": "Clarisse Rouge 8%",
+    "beerName": "Clarisse Rouge",
     "buyname": "Clarisse Rouge",
     "buyLink": "https://webshop.brouwerijwilderen.be/nl/products/clarisse-rouge-glass-33cl",
 
@@ -166,6 +173,7 @@
     "themeColor": "#cc1223",
     "beerLogo": "WEBSITE/Clarisse Rouge/Rouge.png",
     "neonColor": "#cc1223",
-    "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg"
+    "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg",
+    "beerBGMobile": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background-mobile.jpg"
   }
 ]

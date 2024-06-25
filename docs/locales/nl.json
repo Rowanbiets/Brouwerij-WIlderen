@@ -23,7 +23,11 @@
   "indexButtons": ["Webshop", "Rondleiding boeken", "Openingsuren"],
   "table": [
     {
-      "headers": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN (OPEN)"],
+      "headers": [
+        "APRIL t/m SEPTEMBER",
+        "OKTOBER t/m MAART",
+        "FEESTDAGEN (OPEN)"
+      ],
 
       "table1": {
         "row1": ["Maandag", "GESLOTEN"],
@@ -56,7 +60,11 @@
       }
     }
   ],
-  "tableDateSpan": ["APRIL t/m SEPTEMBER", "OKTOBER t/m MAART", "FEESTDAGEN (OPEN)"],
+  "tableDateSpan": [
+    "APRIL t/m SEPTEMBER",
+    "OKTOBER t/m MAART",
+    "FEESTDAGEN (OPEN)"
+  ],
 
   "tableExtraInfo": [
     "- Laatste tap: een 1/2u voor sluiting <br /> - Brouwerijcafé: reserveren niet mogelijk – Vrije toegang <br /> - Reserveren kan indien maaltijd voor groepen vanaf 10p of meer <br /> - Geen trouwlocatie of feestzalenverhuur <br /> - Honden toegelaten in het brouwerijcafé/terras <br /> - Honden niet toegelaten tijdens de rondleidingen/productieruimte <br /> - Picknick niet toegelaten"
@@ -199,10 +207,7 @@
     "“ Ik vond het design van Betty Ford helemaal geweldig vanaf het eerste moment! Vandaar deze prachtige tattoo op mijn been. Ik ben een grote fan van jullie brouwerij en ben ook een keer bij jullie geweest met het café van een vriend van mij uit Bergen op Zoom. Samen met mijn vriendin run ik nu Café Jacob Cats in Rotterdam waar wij ook meerdere Wilderen bieren serveren: Betty ford op tap, Wilderen Goud, Tripel Kanunnik, Cuvée Clarisse, Cuvee Clarisse Rum Infused én de Omerta verkopen. Hier zijn wij zeer blij mee want we hebben iets “anders” te bieden dan de meeste cafés. “ <br /> <br /> - Rein van der Walle"
   ],
 
-  "vroegernu": [
-    "Brouwerij",
-    "Distilleerderij"
-  ],
+  "vroegernu": ["Brouwerij", "Distilleerderij"],
 
   "bieren": [
     {
@@ -315,7 +320,7 @@
     },
     {
       "id": 9,
-      "spiritTagLine": "Have fun.",
+      "spiritTagLine": "",
       "spiritDescription": "Wiggle is een heerlijke apéro die geserveerd wordt met ijsblokjes aangelengd met cava, prosecco of bubbles, Werk af met wat bevroren rode vrucheten zoals aardbei, bes of framboos. <br> Ook lekker in de mix of in cocktails! O.a met met Fever Tree Elderflower, Soda, Almdudler, Red Bull e.a. …kleur je zomercocktail of geef deze zomer je Apéro een extra touch!  <br> Mix, proef & geniet!",
       "spiritBuyButton": "Koop Wiggle Red Fruits"
     },

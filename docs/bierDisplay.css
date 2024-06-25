@@ -158,7 +158,7 @@ ul {
   }
 }
 
-.buy-button2:hover{
+.buy-button2:hover {
   box-shadow: var(--themeColor) 0px 0px 10px;
 }
 
@@ -424,7 +424,7 @@ input[type="radio"]:checked {
   filter: drop-shadow(0px 0px 5px var(--themeColor));
 }
 
-input[type="radio"]:nth-child(1):hover {
+input[type="radio"]:nth-child(3):hover {
   border-color: gold;
   filter: drop-shadow(0px 0px 5px gold);
 }
@@ -434,7 +434,7 @@ input[type="radio"]:nth-child(2):hover {
   filter: drop-shadow(0px 0px 5px #6d9170);
 }
 
-input[type="radio"]:nth-child(3):hover {
+input[type="radio"]:nth-child(1):hover {
   border-color: #f97700;
   filter: drop-shadow(0px 0px 5px #f97700);
 }
@@ -467,14 +467,24 @@ input[type="radio"]:nth-child(8):checked {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+  }
+
   .position-relative {
     flex-direction: column;
+    /* height: 100% !important; */
     /* max-width: 100vw; */
   }
 
+  form {
+    height: fit-content !important;
+  }
+
   .beerBackground {
-    object-position: left;
-    height: 40vh;
+    object-position: 20% 80%;
+    /* object-position: left;  */
+    height: 100% !important;
+    position: absolute !important;
     width: 100vw;
   }
 
@@ -507,8 +517,18 @@ input[type="radio"]:nth-child(8):checked {
     text-align: center;
   }
 
+  .overlay {
+    /* margin-top: 50%; */
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-top: -200px;
+  }
+
   .bierTitle {
+    margin-top: 20px;
     width: 100vw;
+    top: 0;
+    position: absolute;
   }
 
   .awards {
@@ -560,18 +580,17 @@ input[type="radio"]:nth-child(8):checked {
     color: white !important;
     font-size: small;
   }
-.extraInfo{
-  display: unset;
-}
+  .extraInfo {
+    display: unset;
+  }
 
-#beerLogo{
-  display: none !important;
-}
+  #beerLogo {
+    display: none !important;
+  }
 
-body > header > div > a > img{
-  width: 50px !important;
-}
-
+  body > header > div > a > img {
+    width: 50px !important;
+  }
 
   form {
     /* position: absolute !important; */
@@ -589,7 +608,7 @@ body > header > div > a > img{
     z-index: 10;
   }
 
-  .beerInfo{
+  .beerInfo {
     margin-top: 0 !important;
   }
 
