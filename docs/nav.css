@@ -315,7 +315,8 @@ html {
 
 /* ------------------------------------------HAMBURGER------------------------------------------ */
 
-@media (max-width: 1468px) {
+@media (max-width: 1399px) {
+
   nav {
     display: none !important;
   }
@@ -362,7 +363,7 @@ button:focus {
   width: 50px;
   height: 50px;
 }
-@media (min-width: 1768px) {
+@media (min-width: 1399px) {
   .hamburger,
   #toggleHamburgerMenu {
     display: none;

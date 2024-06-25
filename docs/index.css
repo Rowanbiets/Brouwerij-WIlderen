@@ -862,9 +862,16 @@ iframe {
   filter: drop-shadow(0px 0px 8px gold);
 }
 
-@media (max-width:400px) {
+@media (max-width:700px) {
   .text-container p {
     font-size: 12px; /* Grootte van de alinea */
     line-height: 1.5; /* Regelhoogte van de alinea */
+    width: 80%;
+  }
+
+  .text-container h2 {
+    font-size: 18px; /* Grootte van de alinea */
+    line-height: 1.5; /* Regelhoogte van de alinea */
+    width: 80%;
   }
 }
