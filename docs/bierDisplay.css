@@ -486,6 +486,7 @@ input[type="radio"]:nth-child(8):checked {
     height: 100% !important;
     position: absolute !important;
     width: 100vw;
+    position: fixed !important;
   }
 
   .arrows {
