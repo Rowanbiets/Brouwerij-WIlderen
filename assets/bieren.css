@@ -17,6 +17,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+  font-style: italic;
   /* Voeg eventueel aanvullende stijlen toe, zoals lettergrootte, gewicht, etc. */
 }
 
@@ -41,8 +42,6 @@ body {
   height: 200px; /* Stel de hoogte van alle afbeeldingen in op 200px */
   transition: transform 0.3s ease; /* Voeg een soepele overgang toe voor het vergroten van de afbeeldingen */
 }
-
-
 
 .shelf img {
   margin-top: -100px;
@@ -130,19 +129,19 @@ h2 {
   position: fixed;
   top: 0;
   object-fit: cover;
-/* filter: blur(1px); */
-
+  /* filter: blur(1px); */
 }
 
-h3{
+h3 {
   transition: all 0.3s ease;
   font-family: "Helvetica Neue", Raleway, sans-serif;
 }
 
 .container img:hover:not(.shelf img) {
-transform: translate(0, -20px) scale(1.1);
+  transform: translate(0, -20px) scale(1.1);
 }
 
-.container .lowered-image:hover h3, .container .col-md-3:hover h3 {
-transform: translate(0, -20px);
+.container .lowered-image:hover h3,
+.container .col-md-3:hover h3 {
+  transform: translate(0, -20px);
 }

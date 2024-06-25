@@ -17,6 +17,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+  font-style: italic;
 }
 
 p {
@@ -48,6 +49,7 @@ body {
   color: #ad9a64;
   left: 50px;
   font-family: "Playfair Display", serif;
+  font-style: italic;
   opacity: 0; /* Zorg ervoor dat de titel in eerste instantie onzichtbaar is */
   animation: fade-in 2s ease-in-out forwards; /* Definieer de fade-in animatie */
   font-family: "Roboto", sans-serif; /* Gebruik het gewenste lettertype */
