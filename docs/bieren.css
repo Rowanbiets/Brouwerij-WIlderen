@@ -12,7 +12,7 @@ ul {
 
 @font-face {
   font-family: "Oswald";
-  src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bangers&family=Eagle+Lake&family=Long+Cang&family=Neucha&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Short+Stack&display=swap");
 }
 h1,
 h2,
@@ -130,17 +130,18 @@ h3 {
   font-family: "Helvetica Neue", Raleway, sans-serif;
 }
 
+/* REMOVED ANIMATION */
+
 .container img:hover:not(.shelf img) {
   transform: translate(0, -20px) scale(1.1);
 }
 
-.container .lowered-image:hover h3,
+/* .container .lowered-image:hover h3,
 .container .col-md-3:hover h3 {
-  /* transform: translate(0, -20px); */
   color: white;
   opacity: 1;
   transition: all 0.5s ease;
-}
+} */
 
 .container h3 {
   width: 100%;
@@ -152,7 +153,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .hider {
@@ -266,13 +267,12 @@ h3 {
   transform: translateX(100%);
 }
 
-
-@media screen and (max-width: 768px){
-  .hider{
+@media screen and (max-width: 768px) {
+  .hider {
     display: none;
   }
 
-  h3{
+  h3 {
     max-width: 80%;
   }
 }
