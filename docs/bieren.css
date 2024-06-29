@@ -21,6 +21,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+  font-style: italic;
   /* Voeg eventueel aanvullende stijlen toe, zoals lettergrootte, gewicht, etc. */
 }
 

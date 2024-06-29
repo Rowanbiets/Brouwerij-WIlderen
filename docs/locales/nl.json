@@ -213,11 +213,11 @@
 
   "bieren": [
     {
-      "id": 1,
-      "tagLine": "Stoer en onweerstaanbaar.",
-      "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
-      "beerInfo": "<li>Goudkleurig speciaal bier</li><li>Hoge gisting - hergist in fles</li><li>6,2% Vol.</li><li>Vat - fles</li>",
-      "beerBuyButton": "Koop Wilderen Goud"
+      "id": 3,
+      "tagLine": "Klassieke finesse in stevige body.",
+      "beerDescription": "Een klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever. In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd. Edele hopsoorten geven deze rijke Tripel een typisch en herkenbaar karakter. Fluweelzacht, zoet & fruitig. Heerlijk bij een pot mosselen of gekruide gerechten. Het klassieke Tripel Kanunnikglas staat voor vertrouwen en verbergt een geheime afbeelding.",
+      "beerInfo": "<li>goudkleurige tripel</li> <li>hoge gisting - hergist in fles</li> <li>8,2% Vol.</li> <li>vat - fles</li>",
+      "beerBuyButton": "Koop Tripel Kanunnik"
     },
     {
       "id": 2,
@@ -226,12 +226,13 @@
       "beerInfo": "<li>Helder amberkleurig bier</li> <li>Retro “Speciale Belge”</li> <li>Hoge gisting</li> <li>5,2% Vol.</li> <li>Vat - fles</li>",
       "beerBuyButton": "Koop Betty Ford"
     },
+
     {
-      "id": 3,
-      "tagLine": "Klassieke finesse in stevige body.",
-      "beerDescription": "Een klassiek gebrouwen 4-granen Tripel voor de moderne fijnproever. In deze kruidige tripel werd naast gerst, tarwe en haver uitzonderlijk ook rogge toegevoegd. Edele hopsoorten geven deze rijke Tripel een typisch en herkenbaar karakter. Fluweelzacht, zoet & fruitig. Heerlijk bij een pot mosselen of gekruide gerechten. Het klassieke Tripel Kanunnikglas staat voor vertrouwen en verbergt een geheime afbeelding.",
-      "beerInfo": "<li>goudkleurige tripel</li> <li>hoge gisting - hergist in fles</li> <li>8,2% Vol.</li> <li>vat - fles</li>",
-      "beerBuyButton": "Koop Tripel Kanunnik"
+      "id": 1,
+      "tagLine": "Stoer en onweerstaanbaar.",
+      "beerDescription": "Perfect alternatief voor een dorstlessende pils of een licht abdijbier. Heerlijk verfrissend bier bij ribbekes of bij de barbecue in goed gezelschap. Het excentrieke glas is een eigen ontwerp en wordt een icoon onder de bierglazen genoemd.",
+      "beerInfo": "<li>Goudkleurig speciaal bier</li><li>Hoge gisting - hergist in fles</li><li>6,2% Vol.</li><li>Vat - fles</li>",
+      "beerBuyButton": "Koop Wilderen Goud"
     },
     {
       "id": 4,
