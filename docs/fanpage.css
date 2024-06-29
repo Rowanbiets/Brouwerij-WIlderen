@@ -530,7 +530,7 @@ p {
 }
 .IconTopRight {
   position: absolute;
-
+margin-right: 200px;
   transform: translateX(320px) translateY(-250px) rotate(-10deg);
   z-index: 5;
   animation: floatFaster 4s infinite;

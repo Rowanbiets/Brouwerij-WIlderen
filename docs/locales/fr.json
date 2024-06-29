@@ -62,7 +62,7 @@
     }
   ],
 
-  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES(OUVERT)"],
+  "tableDateSpan": ["AVRIL à SEPTEMBRE", "OCTOBRE à MARS", "VACANCES: OUVERT"],
   "tableExtraInfo": [
     "- Dernière prise : une 1/2h avant la fermeture <br /> - Pub de la brasserie : pas de réservation possible - Accès libre <br /> - Réservation possible si repas pour groupe à partir de 10p <br /> - Pas de location de salle de mariage ou de fête <br /> - Chiens admis dans le pub de la brasserie/terrasse <br /> - Chiens non admis lors des visites/zone de production <br /> - Pique-nique non admis."
   ],
@@ -71,7 +71,9 @@
     "L'hospitalité chaleureuse et l'intérieur charmant",
     "La convivialité l'emporte",
     "Le pub branché de la brasserie est la destination idéale pour les épicuriens. Il est chaleureux et accueillant : retour à la culture des pubs belges. Dans une ferme à colombages restaurée, le pub de la brasserie offre un cadre plus qu'unique. On y savoure en bonne compagnie un pot et une pinte. En hiver, au coin du feu, au printemps, sur la belle terrasse du jardin.",
-    "Carte de menu"
+    "Carte de menu",
+    "Fringale?",
+    "affamé?"
   ],
 
   "rondleiding": [

@@ -96,6 +96,7 @@
 
 .book-now a{
   font-family: "Roboto-Slab";
+  width: 100%;
 }
 
 .book-now:hover {
@@ -207,5 +208,19 @@
 
   .picknick {
     flex-direction: column;
+  }
+
+  .book-now{
+    
+    background-color:#c31212;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    margin-left:40%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto Slab", serif;
+   
   }
 }

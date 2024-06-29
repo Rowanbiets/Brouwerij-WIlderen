@@ -26,7 +26,7 @@
       "headers": [
         "APRIL t/m SEPTEMBER",
         "OKTOBER t/m MAART",
-        "FEESTDAGEN (OPEN)"
+        "FEESTDAGEN : Open"
       ],
 
       "table1": {
@@ -63,7 +63,7 @@
   "tableDateSpan": [
     "APRIL t/m SEPTEMBER",
     "OKTOBER t/m MAART",
-    "FEESTDAGEN (OPEN)"
+    "FEESTDAGEN: OPEN"
   ],
 
   "tableExtraInfo": [
@@ -75,7 +75,9 @@
     "Warme gastvrijheid en charmant interieur.",
     "Gezelligheid troef.",
     "Het trendy brouwerijcafé is de ideale bestemming voor de levensgenieter. Het is er warm en gezellig: terug naar de Belgische cafécultuur. In een gerestaureerde vakwerkhoeve biedt het brouwerijcafé een meer dan unieke setting. In goed gezelschap genieten tussen pot &amp pint. In de winter aan het haardvuur, in de lente geniet je tussen op het prachtig tuinterras.",
-    "Menukaart"
+    "Menukaart",
+    "Goesting?",
+    "Honger?"
   ],
 
   "rondleiding": [
@@ -158,7 +160,7 @@
     "Parking ingang = via de Zoutleeuwsesteenweg, dit achter tenniscenter Wimbledon. Daar is ook de hoofdingang: via een zijdelingse poort kom je op het tuinterras van het brouwerijcafé.",
     "Gratis Wi-fi?",
     "Gratis Guest Wi-Fi beschikbaar",
-    "rondleidingen",
+    "Rondleidingen",
     "Wanneer is er een vaste rondleiding waarop ik me kan inschrijven?",
     "Elke zaterdag, zon- en feestdag is er een vaste rondleiding om 15u",
     "Hoe annuleer ik mijn rondleiding?",

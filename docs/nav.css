@@ -313,7 +313,7 @@ html {
 
 /* ------------------------------------------HAMBURGER------------------------------------------ */
 
-@media (max-width: 1399px) {
+@media (max-width: 1000px) {
 
   nav {
     display: none !important;
@@ -361,7 +361,7 @@ button:focus {
   width: 50px;
   height: 50px;
 }
-@media (min-width: 1399px) {
+@media (min-width: 1200px) {
   .hamburger,
   #toggleHamburgerMenu {
     display: none;
@@ -377,7 +377,7 @@ button:focus {
   overflow-y: scroll;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   .hamburgerNav {
     width: 100vw;
   }

@@ -16,8 +16,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 58%;
+  width: 50%;
+  height: 30%;
 }
 
 .image-container img {
@@ -125,11 +125,11 @@ p {
   }
 
   .title {
-    width: 60%; /* Pas de breedte aan */
+    width: 100%; /* Pas de breedte aan */
   }
 
   .container,
   .faq {
-    width: 60%; /* Pas de breedte aan */
+    width: 100%; /* Pas de breedte aan */
   }
 }
