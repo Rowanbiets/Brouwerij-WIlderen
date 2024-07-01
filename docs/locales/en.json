@@ -297,10 +297,10 @@
       "spiritBuyButton": "Buy Omerta Black Magnum"
     },
     {
-      "id": "6",
-      "spiritTagLine": "Pure Wilderness!",
-      "spiritDescription": "This Whisky has an alcohol content of around 63%, depending on the properties of the cask. The Cask Strenght, as the word itself says, is bottled at cask strength, i.e. pure from the cask. The beautiful nose then gives tobacco, nut-almond and caramel qua usual suspects Soft , oak finish with warming finish.",
-      "spiritBuyButton": "Buy Wild Weasel Whisky Cash Strength"
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "This Whisky comes from a single cask matured in our cellar for three years. The Wild Weasel Single Malt has an exceptionally beautiful nose and balanced smoothness. Fruity aromas with nuts, caramel, hints of oak give this Whisky a nice finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Single Malt Single Cask"
     },
     {
       "id": 7,
@@ -308,13 +308,13 @@
       "spiritDescription": "The Wild Weasel Whisky is carefully blended with a fine Whisky from Distillerie Radermacher. It is a special Belgian Blend matured in selected oak barrels. This gives this Wild Weasel Finest Blend a unique and robust character.",
       "spiritBuyButton": "Buy Wild Weasel Whisky Finest Blend"
     },
-    {
-      "id": 8,
-      "spiritTagLine": "",
-      "spiritDescription": "This Whisky comes from a single cask matured in our cellar for three years. The Wild Weasel Single Malt has an exceptionally beautiful nose and balanced smoothness. Fruity aromas with nuts, caramel, hints of oak give this Whisky a nice finish.",
-      "spiritBuyButton": "Buy Wild Weasel Whisky Single Malt Single Cask"
-    },
 
+    {
+      "id": "6",
+      "spiritTagLine": "Pure Wilderness!",
+      "spiritDescription": "This Whisky has an alcohol content of around 63%, depending on the properties of the cask. The Cask Strenght, as the word itself says, is bottled at cask strength, i.e. pure from the cask. The beautiful nose then gives tobacco, nut-almond and caramel qua usual suspects Soft , oak finish with warming finish.",
+      "spiritBuyButton": "Buy Wild Weasel Whisky Cask Strength"
+    },
     {
       "id": 9,
       "spiritTagLine": "",
