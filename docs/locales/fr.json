@@ -220,7 +220,6 @@
       "beerInfo": "<li>Bière claire de couleur ambrée</li> <li>Rétro “Speciale Belge”</li> <li>Haute fermentation</li> <li>5,2% Vol.</li> <li>Tonneau - bouteille</li>",
       "beerBuyButton": "Acheter Betty Ford"
     },
- 
 
     {
       "id": 1,
@@ -298,10 +297,10 @@
       "spiritBuyButton": "Acheter Omerta Black Magnum"
     },
     {
-      "id": 6,
-      "spiritTagLine": "Pure Wilderness !",
-      "spiritDescription": "Ce whisky a une teneur en alcool d'environ 63%, en fonction des propriétés du fût. Le Cask Strenght, comme son nom l'indique, est mis en bouteille à la force du fût, c'est-à-dire à l'état pur. Le beau nez donne ensuite du tabac, de la noix-amande et du caramel, comme les suspects habituels",
-      "spiritBuyButton": "Acheter Wild Weasel Whisky Cash Strength"
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "Ce whisky provient d'un single cask mûri dans notre cave pendant trois ans. Le Wild Weasel Single Malt a un nez exceptionnellement beau et une douceur équilibrée. Des arômes fruités avec des noix, du caramel, des notes de chêne donnent à ce whisky une belle finale",
+      "spiritBuyButton": "Acheter le whisky Wild Weasel Single Malt Single Cask"
     },
     {
       "id": 7,
@@ -309,16 +308,16 @@
       "spiritDescription": "Le whisky Wild Weasel est soigneusement mélangé à un excellent whisky de la Distillerie Radermacher. Il s'agit d'un mélange belge spécial mûri dans des fûts de chêne sélectionnés. Cela confère à ce Wild Weasel Finest Blend un caractère unique et robuste",
       "spiritBuyButton": "Acheter Wild Weasel Whisky Finest Blend"
     },
-    {
-      "id": 8,
-      "spiritTagLine": "",
-      "spiritDescription": "Ce whisky provient d'un single cask mûri dans notre cave pendant trois ans. Le Wild Weasel Single Malt a un nez exceptionnellement beau et une douceur équilibrée. Des arômes fruités avec des noix, du caramel, des notes de chêne donnent à ce whisky une belle finale",
-      "spiritBuyButton": "Acheter le whisky Wild Weasel Single Malt Single Cask"
-    },
 
     {
+      "id": 6,
+      "spiritTagLine": "Pure Wilderness !",
+      "spiritDescription": "Ce whisky a une teneur en alcool d'environ 63%, en fonction des propriétés du fût. Le Cask Strenght, comme son nom l'indique, est mis en bouteille à la force du fût, c'est-à-dire à l'état pur. Le beau nez donne ensuite du tabac, de la noix-amande et du caramel, comme les suspects habituels",
+      "spiritBuyButton": "Acheter Wild Weasel Whisky Cask Strength"
+    },
+    {
       "id": 9,
-      "spiritTagLine": "Amusez-vous",
+      "spiritTagLine": "",
       "spiritDescription": "Wiggle est un délicieux apéro servi avec des glaçons dilués avec du cava, du prosecco ou des bulles, terminé par des fromages de fruits rouges congelés comme des fraises, des baies ou des framboises. <br> Il est également délicieux dans les mélanges ou les cocktails ! Entre autres avec Fever Tree Elderflower, Soda, Almdudler, Red Bull et al. ...colorez votre cocktail estival ou ajoutez une touche supplémentaire à votre apéro cet été !  <br> Mélangez, goûtez et appréciez !",
       "spiritBuyButton": "Acheter Wiggle Red Fruits"
     },

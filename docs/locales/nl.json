@@ -304,10 +304,10 @@
       "spiritBuyButton": "Koop Omerta Black Magnum"
     },
     {
-      "id": 6,
-      "spiritTagLine": "Pure Wildernis!",
-      "spiritDescription": "Deze Whisky heeft een alcoholpercentage van rond de 63%, afhankelijk van de eigenschappen van het vat. De Cask Strenght, wordt zoals het woord het zelf zegt afgevuld op vatsterkte, dus puur uit het vat. De mooie neus geeft vervolgens tabak, noten-amandel en karamel qua usual suspects Zachte , eiken finish met verwarmende afdronk.",
-      "spiritBuyButton": "Koop Wild Weasel Whisky Cash Strength"
+      "id": 8,
+      "spiritTagLine": "",
+      "spiritDescription": "Deze Whisky komt uit één vat dat gedurende drie jaar in onze kelder heeft liggen rijpen. De Wild Weasel Single Malt heeft een uitzonderlijk mooie neus en gebalanceerde zachtheid. Fruitige aroma’s met noten, karamel, toetsen van eik geven deze Whisky een mooie afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Single Malt Single Cask"
     },
     {
       "id": 7,
@@ -315,11 +315,12 @@
       "spiritDescription": "De Wild Weasel Whisky wordt zorgvuldig geblend met een mooie Whisky van Distillerie Radermacher. Het is een speciale Belgische Blend gerijpt op geselecteerde eikenhouten vaten. Dit geeft deze Wild Weasel Finest Blend een uniek en robuust karakter.",
       "spiritBuyButton": "Koop Wild Weasel Whisky Finest Blend"
     },
+   
     {
-      "id": 8,
-      "spiritTagLine": "",
-      "spiritDescription": "Deze Whisky komt uit één vat dat gedurende drie jaar in onze kelder heeft liggen rijpen. De Wild Weasel Single Malt heeft een uitzonderlijk mooie neus en gebalanceerde zachtheid. Fruitige aroma’s met noten, karamel, toetsen van eik geven deze Whisky een mooie afdronk.",
-      "spiritBuyButton": "Koop Wild Weasel Whisky Single Malt Single Cask"
+      "id": 6,
+      "spiritTagLine": "Pure Wildernis!",
+      "spiritDescription": "Deze Whisky heeft een alcoholpercentage van rond de 63%, afhankelijk van de eigenschappen van het vat. De Cask Strenght, wordt zoals het woord het zelf zegt afgevuld op vatsterkte, dus puur uit het vat. De mooie neus geeft vervolgens tabak, noten-amandel en karamel qua usual suspects Zachte , eiken finish met verwarmende afdronk.",
+      "spiritBuyButton": "Koop Wild Weasel Whisky Cask Strength"
     },
     {
       "id": 9,

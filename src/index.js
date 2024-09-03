@@ -262,11 +262,11 @@ function reAddEventListeners() {
   });
 
   toggleLangFr[2].addEventListener("click", () => {
-    i18next.changeLanguage("fr", updateTranslations);
+    i18next.changeLanguage("nl", updateTranslations);
   });
 
   toggleLangEn[2].addEventListener("click", () => {
-    i18next.changeLanguage("en", updateTranslations);
+    i18next.changeLanguage("nl", updateTranslations);
   });
 
   // console.log(toggleLangNl[1]);
@@ -286,12 +286,12 @@ toggleLangNl.forEach((element) => {
 });
 toggleLangFr.forEach((element) => {
   element.addEventListener("click", () => {
-    i18next.changeLanguage("fr", updateTranslations);
+    i18next.changeLanguage("nl", updateTranslations);
   });
 });
 toggleLangEn.forEach((element) => {
   element.addEventListener("click", () => {
-    i18next.changeLanguage("en", updateTranslations);
+    i18next.changeLanguage("nl", updateTranslations);
   });
 });
 // reAddEventListeners();

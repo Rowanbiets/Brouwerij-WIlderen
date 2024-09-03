@@ -136,17 +136,16 @@ h3 {
   filter: drop-shadow(0px 0px 50px #e6aa4154);
 }
 
-
-#wwcask:hover{
-  filter: drop-shadow(0px 0px 50px #242A2C);
+#wwcask:hover {
+  filter: drop-shadow(0px 0px 50px #242a2c);
 }
 
-#wwfinest:hover{
-  filter: drop-shadow(0px 0px 50px #0C4135);
+#wwfinest:hover {
+  filter: drop-shadow(0px 0px 50px #0c4135);
 }
 
-#wwmalt:hover{
-  filter: drop-shadow(0px 0px 50px #711F1F);
+#wwmalt:hover {
+  filter: drop-shadow(0px 0px 50px #711f1f);
 }
 
 h3 {
@@ -176,7 +175,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .hider {
@@ -216,12 +215,12 @@ h3 {
 .col-md-4 h3 {
   transition: all 0.5s ease;
 
-  transform: scaleX(0);
+  /* transform: scaleX(0); */
 }
-
+/* 
 .col-md-4:hover h3 {
   transform: scaleX(1) !important;
-}
+} */
 
 /* Wilderen-goud title */
 
@@ -244,7 +243,7 @@ h3 {
   background-image: linear-gradient(
     to right,
     transparent,
-    #A6129A,
+    #a6129a,
     transparent
   );
 }
@@ -313,12 +312,11 @@ h3 {
   );
 }
 
-
 #wwcask h3 {
   background-image: linear-gradient(
     to right,
     transparent,
-    #242A2C,
+    #242a2c,
     transparent
   );
 }
@@ -327,31 +325,29 @@ h3 {
   background-image: linear-gradient(
     to right,
     transparent,
-    #0C4135,
+    #0c4135,
     transparent
   );
-}#wwmalt h3 {
+}
+#wwmalt h3 {
   background-image: linear-gradient(
     to right,
     transparent,
-    #711F1F,
+    #711f1f,
     transparent
   );
 }
 
-@media screen and (max-width: 768px){
-
-
+@media screen and (max-width: 768px) {
   .col-md-4 h3 {
-  
     transform: scaleX(1);
   }
 
-  .col-md-4{
+  .col-md-4 {
     margin-bottom: 50px;
   }
 
-  h3{
+  h3 {
     max-width: 80%;
   }
 }
