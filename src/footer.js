@@ -37,11 +37,10 @@ export default function addFooter() {
 </div>
 <div class="bottomFooter">
   <div class="leftBottom">
-    <p>Brouwerij Wilderen - extra info</p>
+    <p>Brouwerij Wilderen</p>
   </div>
   <div class="rightBottom">
-    <a href="">Sitemap</a>
-    <a href="">Privacy</a>
+
   </div>
 </div>
 </div>`;
