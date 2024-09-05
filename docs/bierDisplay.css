@@ -466,9 +466,8 @@ input[type="radio"]:nth-child(8):checked {
   filter: drop-shadow(0px 0px 5px red);
 }
 
-@media screen and (max-width: 1000px) {
-  body {
-  }
+@media screen and (max-width: 1300px) {
+
 
   .position-relative {
     flex-direction: column;
