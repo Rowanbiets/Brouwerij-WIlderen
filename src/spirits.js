@@ -120,7 +120,7 @@ function renderSpirits(data, spirit) {
 
   // console.log(spirit);
   // spiritBackground.src = data[spirit].spiritBG;
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1025) {
     spiritBackground.src = data[spirit].spiritBGMobile;
   } else {
     spiritBackground.src = data[spirit].spiritBG;

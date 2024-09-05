@@ -480,12 +480,20 @@ input[type="radio"]:nth-child(8):checked {
   }
 
   .beerBackground {
-    object-position: 20% 80%;
+    /* object-position: 20% 50%; */
     /* object-position: left;  */
     height: 100% !important;
     position: absolute !important;
     width: 100vw;
+    /* top: -200px !important; */
+    bottom: -100px;
     position: fixed !important;
+  }
+
+  #beerDescription {
+padding-left: 20% !important;
+padding-right: 20% !important;
+
   }
 
   .arrows {

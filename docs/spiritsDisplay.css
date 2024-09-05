@@ -311,8 +311,8 @@ input[type="radio"] {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   border: 2px solid #999; /* Border color for unchecked */
   outline: none;
@@ -437,6 +437,11 @@ input[type="radio"]:nth-child(11):hover {
     max-width: 100vw;
   }
 
+  #spiritDescription {
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+  }
+
   .overlay {
     /* margin-top: 50%; */
     display: flex !important;
@@ -445,6 +450,13 @@ input[type="radio"]:nth-child(11):hover {
 
   #spiritLogo {
     display: none !important;
+  }
+
+  @media screen and (max-width: 700px) {
+    #spiritDescription {
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
   }
 
   body > div.position-relative > div.overlay > div > div.beerInfo > div {

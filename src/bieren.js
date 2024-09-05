@@ -171,7 +171,7 @@ function renderBeer(data, beer) {
 
   beerInfo.innerHTML = "";
   // media query voor de achtergrond van de bieren
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth <= 1025) {
     beerBackground.src = data[beer].beerBGMobile;
   } else {
     beerBackground.src = data[beer].beerBG;
