@@ -45,18 +45,7 @@
         "row3": ["Zondag", "13u - 21u"]
       },
       "table3": {
-        "row1": ["31/03", " PASEN", "12u - 21u"],
-        "row2": ["1/04", " PAASMAANDAG", "12u - 19u"],
-        "row3": ["29/04 - 30/04", "BLOESEM uitzonderlijk", "12u - 19u"],
-        "row4": ["1/05", " 1 MEI", "12u - 19u"],
-        "row5": ["9/05", " HEMELVAART", "12u - 19u"],
-        "row6": ["19/05", " PINKSTERZONDAG", "12u - 21u"],
-        "row7": ["20/05", " PINKSTERMAANDAG", "12u - 19u"],
-        "row8": ["21/07", " NATIONALE FEESTDAG", "12u - 21u"],
-        "row9": ["15/08", " OLV HEMELVAART", "12u - 19u"],
-        "row10": ["1/11", " ALLERHEILIGEN", "13u - 00u"],
-        "row11": ["2/11", " ALLERZIELEN", "13u - 00u"],
-        "row12": ["11/11", " WAPENSTILSTAND", "13u -19u"]
+        "row1": ["1/11", " ALLERHEILIGEN", "13u - 00u"]
       }
     }
   ],
@@ -315,7 +304,7 @@
       "spiritDescription": "De Wild Weasel Whisky wordt zorgvuldig geblend met een mooie Whisky van Distillerie Radermacher. Het is een speciale Belgische Blend gerijpt op geselecteerde eikenhouten vaten. Dit geeft deze Wild Weasel Finest Blend een uniek en robuust karakter.",
       "spiritBuyButton": "Koop Wild Weasel Whisky Finest Blend"
     },
-   
+
     {
       "id": 6,
       "spiritTagLine": "Pure Wildernis!",

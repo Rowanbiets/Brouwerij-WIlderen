@@ -15,6 +15,9 @@
     "row1": ["vrijdag", "19u - 00u"],
     "row2": ["zaterdag", "13u - 00u"],
     "row3": ["zondag", "13u - 21u"]
+  },
+
+  "table3": {
+    "row1": ["1/11", "OPEN ALLERHEILIGEN", "13u - 00u"]
   }
-  
 }
