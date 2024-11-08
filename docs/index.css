@@ -862,6 +862,113 @@ iframe {
   filter: drop-shadow(0px 0px 8px gold);
 }
 
+/* Warmste Week announcement section styling */
+.warmste-week-announcement {
+  background-color: #f8f8f8; /* Light background */
+  padding: 20px;
+  margin: 20px auto;
+  border-left: 5px solid #e63946; /* Accent color */
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.warmste-week-announcement p {
+  margin: 0 0 10px;
+}
+
+/* Button styling */
+.warmste-week-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #e63946; /* Button color */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.warmste-week-button:hover {
+  background-color: #d62828; /* Darken on hover */
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .warmste-week-announcement {
+    font-size: 1.1rem;
+    padding: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .warmste-week-announcement {
+    font-size: 1.2rem;
+    padding: 30px;
+  }
+
+  .warmste-week-button {
+    font-size: 1.1rem; /* Slightly larger font for desktops */
+  }
+}
+
+.reservation-tool {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 400px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reservation-tool h2 {
+  text-align: center;
+  color: #e63946;
+}
+
+.reservation-tool label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.reservation-tool input,
+.reservation-tool select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.reservation-tool button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reservation-tool button:hover {
+  background-color: #d62828;
+}
+
+#reservationMessage {
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+
 @media (max-width:700px) {
   .text-container p {
     font-size: 12px; /* Grootte van de alinea */
