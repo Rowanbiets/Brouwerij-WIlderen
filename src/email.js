@@ -14,3 +14,5 @@ export default function getEmailData() {
     // console.log("Email sent");
   });
 }
+
+

@@ -8,6 +8,7 @@ module.exports = {
     vroeger: "./src/vroeger.js",
     openingsuren: "./src/openingsuren.js",
     email: "./src/email.js",
+    reservation: "./src/reservation.js",
     // Add entries for other scripts as needed
   },
   output: {

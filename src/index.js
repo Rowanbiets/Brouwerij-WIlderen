@@ -34,6 +34,8 @@ import carousel from "./carousel.js";
 import getEmailData from "./email.js";
 import { getParamBeer } from "./bieren.js";
 import { getParamSpirit } from "./spirits.js";
+import getReservationData from "./reservation.js";
+
 
 // import test from "../docs/testExport.bundle.js";
 
@@ -100,6 +102,7 @@ function init() {
     document.querySelector(".winkelSwup") ||
     document.querySelector(".index")
   ) {
+    getReservationData();
     fetchOpeningsuren().then(() => {
       updateTranslations();
     });
