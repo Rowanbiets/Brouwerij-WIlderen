@@ -111,6 +111,19 @@ body {
   }
 }
 
+.ivm{
+  margin-left: 40px;
+  
+  }
+  .verkleinde-afbeelding {
+    width: 30%; 
+    height: auto; 
+}
+.verkleinde-afbeelding2 {
+  margin-left: 40%;
+  width: 80%; 
+  height: auto; 
+}
 .overlay {
   position: absolute;
   top: 0;
