@@ -120,7 +120,8 @@ body {
     height: auto; 
 }
 .verkleinde-afbeelding2 {
-  margin-left: 40%;
+  /* margin-left: 40%; */
+  margin-top: 30px;
   width: 80%; 
   height: auto; 
 }
