@@ -1,12 +1,10 @@
-
-
 export default function fetchOpeningsuren() {
- return fetch("data/openingHours.json")
+  return fetch("data/openingHours.json")
     .then((response) => response.json())
     .then((data) => {
-    //   console.log(data);
+      //   console.log(data);
       renderTables(data);
-    //   console.error("OPENINGSUREN")
+      //   console.error("OPENINGSUREN")
     });
 }
 
@@ -108,10 +106,109 @@ function renderTables(data) {
             
     <th data-i18n="tableDateSpan.2" colspan="3">${data.headers[2]}</th>
 
-                    <tr>
+        <tr>
                     <td data-i18n="table.0.table3.row1.0">${data.table3.row1[0]}</td>
                     <td data-i18n="table.0.table3.row1.1">${data.table3.row1[1]}</td>
-                    <td data-i18n="table.0.table3.row1.2">${data.table3.row1[2]}</td>`;
+                    <td data-i18n="table.0.table3.row1.2">${data.table3.row1[2]}</td>
+                    
+                </tr>
+                <tr>
+           
+            
+                    <td data-i18n="table.0.table3.row2.0">${data.table3.row2[0]}</td>
+                    <td data-i18n="table.0.table3.row2.1">${data.table3.row2[1]}</td>
+                    <td data-i18n="table.0.table3.row2.2">${data.table3.row2[2]}</td>
+                    
+
+
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row3.0">${data.table3.row3[0]}</td>
+                    <td data-i18n="table.0.table3.row3.1">${data.table3.row3[1]}</td>
+                    <td data-i18n="table.0.table3.row3.2">${data.table3.row3[2]}</td>
+                    
+                </tr>
+                <tr>
+
+                    <td data-i18n="table.0.table3.row4.0">${data.table3.row4[0]}</td>
+                    <td data-i18n="table.0.table3.row4.1">${data.table3.row4[1]}</td>
+                    <td data-i18n="table.0.table3.row4.2">${data.table3.row4[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row5.0">${data.table3.row5[0]}</td>
+                    <td data-i18n="table.0.table3.row5.1">${data.table3.row5[1]}</td>
+                    <td data-i18n="table.0.table3.row5.2">${data.table3.row5[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row6.0">${data.table3.row6[0]}</td>
+                    <td data-i18n="table.0.table3.row6.1">${data.table3.row6[1]}</td>
+                    <td data-i18n="table.0.table3.row6.2">${data.table3.row6[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row7.0">${data.table3.row7[0]}</td>
+                    <td data-i18n="table.0.table3.row7.1">${data.table3.row7[1]}</td>
+                    <td data-i18n="table.0.table3.row7.2">${data.table3.row7[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row8.0">${data.table3.row8[0]}</td>
+                    <td data-i18n="table.0.table3.row8.1">${data.table3.row8[1]}</td>
+                    <td data-i18n="table.0.table3.row8.2">${data.table3.row8[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row9.0">${data.table3.row9[0]}</td>
+                    <td data-i18n="table.0.table3.row9.1">${data.table3.row9[1]}</td>
+                    <td data-i18n="table.0.table3.row9.2">${data.table3.row9[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row10.0">${data.table3.row10[0]}</td>
+                    <td data-i18n="table.0.table3.row10.1">${data.table3.row10[1]}</td>
+                    <td data-i18n="table.0.table3.row10.2">${data.table3.row10[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row11.0">${data.table3.row11[0]}</td>
+                    <td data-i18n="table.0.table3.row11.1">${data.table3.row11[1]}</td>
+                    <td data-i18n="table.0.table3.row11.2">${data.table3.row11[2]}</td>
+                    
+                </tr>
+                <tr>
+                    <td data-i18n="table.0.table3.row12.0">${data.table3.row12[0]}</td>
+                    <td data-i18n="table.0.table3.row12.1">${data.table3.row12[1]}</td>
+                    <td data-i18n="table.0.table3.row12.2">${data.table3.row12[2]}</td>
+                    
+
+                </tr>
+                
+                <tr>
+                    <td data-i18n="table.0.table3.row13.0">${data.table3.row13[0]}</td>
+                    <td data-i18n="table.0.table3.row13.1">${data.table3.row13[1]}</td>
+                    <td data-i18n="table.0.table3.row13.2">${data.table3.row13[2]}</td>
+                    </td>
+                     <tr>
+                    <td data-i18n="table.0.table3.row14.0">${data.table3.row14[0]}</td>
+                    <td data-i18n="table.0.table3.row14.1">${data.table3.row14[1]}</td>
+                    <td data-i18n="table.0.table3.row14.2">${data.table3.row14[2]}</td>
+                    </td> <tr>
+                    <td data-i18n="table.0.table3.row15.0">${data.table3.row15[0]}</td>
+                    <td data-i18n="table.0.table3.row15.1">${data.table3.row15[1]}</td>
+                    <td data-i18n="table.0.table3.row15.2">${data.table3.row15[2]}</td>
+                    </td> <tr>
+                    <td data-i18n="table.0.table3.row16.0">${data.table3.row16[0]}</td>
+                    <td data-i18n="table.0.table3.row16.1">${data.table3.row16[1]}</td>
+                    <td data-i18n="table.0.table3.row16.2">${data.table3.row16[2]}</td>
+                    </td> <tr>
+                    <td data-i18n="table.0.table3.row17.0">${data.table3.row17[0]}</td>
+                    <td data-i18n="table.0.table3.row17.1">${data.table3.row17[1]}</td>
+                    <td data-i18n="table.0.table3.row17.2">${data.table3.row17[2]}</td>
+                    </td>
+                    `;
+
 }
 
 // fetchOpeningsuren();
