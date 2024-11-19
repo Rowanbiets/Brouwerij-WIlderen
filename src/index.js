@@ -36,7 +36,6 @@ import { getParamBeer } from "./bieren.js";
 import { getParamSpirit } from "./spirits.js";
 import getReservationData from "./reservation.js";
 
-
 // import test from "../docs/testExport.bundle.js";
 
 // import test from "./testExport.js";
@@ -94,6 +93,7 @@ function init() {
   //  if transitioning to index
   if (document.querySelector(".index")) {
     carousel();
+    getReservationData();
     // console.log("index");
   }
 
@@ -102,7 +102,7 @@ function init() {
     document.querySelector(".winkelSwup") ||
     document.querySelector(".index")
   ) {
-    getReservationData();
+    console.warn("FETCHING OPENINGSUREN");
     fetchOpeningsuren().then(() => {
       updateTranslations();
     });
