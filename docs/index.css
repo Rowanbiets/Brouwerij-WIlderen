@@ -492,7 +492,7 @@ iframe {
 
 /* Buttons at the top of index become unstable around 1450px  */
 
-@media (max-width: 1450px) {
+@media (max-width: 2000px) {
   video,
   iframe {
     max-width: 80% !important;
@@ -553,6 +553,7 @@ iframe {
     font-size: smaller;
     align-items: center;
     justify-content: center;
+    
     /* padding: 0px; */
     /* height: 10px; */
   }
