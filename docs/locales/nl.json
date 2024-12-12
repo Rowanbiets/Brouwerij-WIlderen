@@ -26,7 +26,8 @@
       "headers": [
         "APRIL t/m SEPTEMBER",
         "OKTOBER t/m MAART",
-        "Kerstvakantie"
+        "Kerstvakantie",
+        "Openingsuren 2025"
       ],
 
       "table1": {
@@ -124,7 +125,7 @@
   "infoContact": [
     "Openingsuren",
     "Kantoor",
-    "Maandag Gesloten <br> Di-Woe-Vrij: 9u - 12u",
+    "Maandag Gesloten <br> Di-Woe-Do-Vrij: 9u - 12u",
     "Magazijn",
     "Maandag: Gesloten <br> Di-Woe-Do: 9u - 16u <br> Vrijdag: 9u - 12u",
     "Info en mail",
