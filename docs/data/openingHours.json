@@ -35,5 +35,32 @@
     "row15": ["03/01", "OPEN", "19u -00u"],
     "row16": ["04/01", "OPEN", "13u -00u"],
     "row17": ["05/01", "OPEN", "13u -21u"]
+  },
+  "table4": {
+    "row1": ["Maandag", "GESLOTEN"],
+    "row2": ["Dinsdag", "GESLOTEN"],
+    "row3": ["Woensdag", "12u - 19u"],
+    "row4": ["Donderdag", "12u - 19u"],
+    "row5": ["Vrijdag", "12u - 00u"],
+    "row6": ["Zaterdag", "12u- 00u"],
+    "row7": ["Zondag", "12u - 21u"]
+  },
+
+  "table5": {
+    "row1": ["Vrijdag", "19u - 00u"],
+    "row2": ["Zaterdag", "13u - 00u"],
+    "row3": ["Zondag", "13u - 21u"]
+  },
+  "table6": {
+"row1": ["01/01", "GESLOTEN", ""],
+"row2": ["21/04", "OPEN", "12u - 19u"],
+"row3": ["01/05", "OPEN", "12u - 19u"],
+"row4": ["29/05", "OPEN", "12u - 19u"],
+"row5": ["09/06", "OPEN", "12u - 19u"],
+"row6": ["21/06", "OPEN", "12u-19u"],
+"row7": ["15/08", "OPEN", "12u-00u"],
+"row8": ["1/11", "OPEN", "13u - 00u"],
+"row9": ["11/11", "OPEN", "12u - 19u"],
+"row10": ["25/12", "GESLOTEN", ""]
   }
 }

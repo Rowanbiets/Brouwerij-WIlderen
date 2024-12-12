@@ -53,7 +53,7 @@ th {
   margin-bottom: 80px;
   margin-top: 80px;
   height: 300px;
-  margin-left: 25%;
+  /* margin-left: 25%; */
 }
 
 td {
@@ -78,6 +78,7 @@ th:last-child {
 }
 
 #extraInfo {
+
   /* position: absolute; */
   /* margin-top: 200px;
   margin-left: 250px; */
@@ -91,7 +92,7 @@ th:last-child {
   font-size: 19px;
   
   /* margin-left: 300px; */
-  margin-left: 40%;
+  /* margin-left: 40%; */
 
   filter: drop-shadow(0px 0px 5px #000000);
 }
@@ -113,7 +114,7 @@ td {
   font-weight: bolder;
 }
 
-#openingsuren {
+#openingsuren, #openingsuren2 {
   margin-top: 20px;
   /* margin-bottom: 500px; */
 
@@ -145,7 +146,7 @@ td {
 
 
 
-#klok {
+#klok, #klok2 {
   background-color: white;
   padding: 5px;
   position: absolute;
@@ -163,8 +164,27 @@ td {
   display: flex;
   height: fit-content;
   gap: 100px;
-  
   flex-direction: column;
+}
+
+.infoContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tableContainer table{
+  max-width: 500px;
+}
+
+#openingsuren, #openingsuren2 {
+min-width: 400px;
+
 }
 
 .openingHoursContainer {
@@ -172,13 +192,13 @@ td {
 }
 
 @media (max-width: 1768px) {
-  #openingsuren {
+  #openingsuren, #openingsuren2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     height: fit-content;
     gap: 20px;
-
+flex-direction: column;
   }
   
   table{
@@ -188,7 +208,7 @@ td {
 
   #extraInfo {
     margin: 0;
-    margin: 105px;
+    /* margin: 105px; */
     
   }
 
@@ -202,7 +222,7 @@ td {
     display: flex;
     height: fit-content;
     gap: 15px;
-    margin-right: 90px;
+    /* margin-right: 90px; */
     flex-direction: column;
     align-items: center;
   }
