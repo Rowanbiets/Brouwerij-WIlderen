@@ -93,7 +93,7 @@ function init() {
   //  if transitioning to index
   if (document.querySelector(".index")) {
     carousel();
-    getReservationData();
+    // getReservationData();
     // console.log("index");
   }
 
