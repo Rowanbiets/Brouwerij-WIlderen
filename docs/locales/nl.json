@@ -47,23 +47,23 @@
         "row3": ["Zondag", "13u - 21u"]
       },
       "table3": {
-    "row1": ["20/12", "OPEN", "13u - 00u"],
-    "row2": ["21/12", "OPEN", "10u - 00u"],
-    "row3": ["22/12", "OPEN", "10u - 21u"],
-    "row4": ["23/12", "OPEN", "10u - 19u"],
-    "row5": ["24/12", "OPEN", "10u - 16u"],
-    "row6": ["25/12", "GESLOTEN", ""],
-    "row7": ["26/12", "GESLOTEN", ""],
-    "row8": ["27/12", "OPEN", "13u - 00u"],
-    "row9": ["28/12", "OPEN", "10u - 00u"],
-    "row10": ["29/12", "OPEN", "10u - 21u"],
-    "row11": ["30/12", "OPEN", "10u - 19u"],
-    "row12": ["31/12", "OPEN", "10u -16u"],
-    "row13": ["01/01", "GESLOTEN", ""],
-    "row14": ["02/01", "GESLOTEN", ""],
-    "row15": ["03/01", "OPEN", "19u -00u"],
-    "row16": ["04/01", "OPEN", "13u -00u"],
-    "row17": ["05/01", "OPEN", "13u -21u"]
+        "row1": ["20/12", "OPEN", "13u - 00u"],
+        "row2": ["21/12", "OPEN", "10u - 00u"],
+        "row3": ["22/12", "OPEN", "10u - 21u"],
+        "row4": ["23/12", "OPEN", "10u - 19u"],
+        "row5": ["24/12", "OPEN", "10u - 16u"],
+        "row6": ["25/12", "GESLOTEN", ""],
+        "row7": ["26/12", "GESLOTEN", ""],
+        "row8": ["27/12", "OPEN", "13u - 00u"],
+        "row9": ["28/12", "OPEN", "10u - 00u"],
+        "row10": ["29/12", "OPEN", "10u - 21u"],
+        "row11": ["30/12", "OPEN", "10u - 19u"],
+        "row12": ["31/12", "OPEN", "10u -16u"],
+        "row13": ["01/01", "GESLOTEN", ""],
+        "row14": ["02/01", "GESLOTEN", ""],
+        "row15": ["03/01", "OPEN", "19u -00u"],
+        "row16": ["04/01", "OPEN", "13u -00u"],
+        "row17": ["05/01", "OPEN", "13u -21u"]
       },
       "table4": {
         "row1": ["Maandag", "GESLOTEN"],
@@ -81,21 +81,17 @@
         "row3": ["Zondag", "13u - 21u"]
       },
       "table6": {
-    "row1": ["01/01", "GESLOTEN", ""],
-    "row2": ["21/04", "OPEN", "12u - 19u"],
-    "row3": ["01/05", "OPEN", "12u - 19u"],
-    "row4": ["29/05", "OPEN", "12u - 19u"],
-    "row5": ["09/06", "OPEN", "12u - 19u"],
-    "row6": ["21/06", "OPEN", "12u-19u"],
-    "row7": ["15/08", "OPEN", "12u-00u"],
-    "row8": ["1/11", "OPEN", "13u - 00u"],
-    "row9": ["11/11", "OPEN", "12u - 19u"],
-    "row10": ["25/12", "GESLOTEN", ""]
-
+        "row1": ["01/01", "GESLOTEN", ""],
+        "row2": ["21/04", "OPEN", "12u - 19u"],
+        "row3": ["01/05", "OPEN", "12u - 19u"],
+        "row4": ["29/05", "OPEN", "12u - 19u"],
+        "row5": ["09/06", "OPEN", "12u - 19u"],
+        "row6": ["21/06", "OPEN", "12u-19u"],
+        "row7": ["15/08", "OPEN", "12u-00u"],
+        "row8": ["1/11", "OPEN", "13u - 00u"],
+        "row9": ["11/11", "OPEN", "12u - 19u"],
+        "row10": ["25/12", "GESLOTEN", ""]
       }
-
-
-
     }
   ],
   "tableDateSpan": [
@@ -307,6 +303,13 @@
       "beerDescription": "Een smaakprofiel van kers, amandel en een toets van marsepein. <br> <br> *Momenteel enkel verkrijgbaar van het vat.",
       "beerInfo": "<li>donkerrood fruitbier</li> <li>hoge gisting</li> <li>8% vol.</li> <li>Vat - fles*</li>",
       "beerBuyButton": "Koop Clarisse Rouge"
+    },
+    {
+      "id": 9,
+      "tagLine": "Alcoholvrije dorstlesser.",
+      "beerInfo": "<li>blond helder bier</li> <li>0.2% Vol. Alcoholvrij</li> <li>fles 33 cl.</li>",
+      "beerDescription": "Wilderen Blond 0.2% is de perfecte alcoholvrije dorstlesser. Dit alcoholvrij bier is een verfrissende en smaakvolle optie voor wie wil genieten van een heerlijk bier zonder de effecten van alcohol. Wilderen Blond 0.2% is gebrouwen met zorg en aandacht voor kwaliteit, waardoor het de kenmerkende smaken van een traditioneel blond bier behoudt, maar met een alcoholpercentage van slechts 0.2%. Koud serveren.",
+      "beerBuyButton": "Koop Wilderen Blond"
     }
   ],
 

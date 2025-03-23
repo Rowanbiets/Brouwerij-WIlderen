@@ -467,8 +467,6 @@ input[type="radio"]:nth-child(8):checked {
 }
 
 @media screen and (max-width: 1300px) {
-
-
   .position-relative {
     flex-direction: column;
     /* height: 100% !important; */
@@ -491,9 +489,8 @@ input[type="radio"]:nth-child(8):checked {
   }
 
   #beerDescription {
-padding-left: 20% !important;
-padding-right: 20% !important;
-
+    padding-left: 20% !important;
+    padding-right: 20% !important;
   }
 
   .arrows {

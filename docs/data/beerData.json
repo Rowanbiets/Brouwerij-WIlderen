@@ -175,5 +175,21 @@
     "neonColor": "#cc1223",
     "beerBG": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background.jpg",
     "beerBGMobile": "WEBSITE/Clarisse Rouge/Clarisse-Rouge-pint-visueel-background-mobile.jpg"
+  },
+  {
+    "id": 9,
+    "beerName": "Wilderen Blond",
+    "buyname": "Wilderen Blond",
+    "buyLink": "",
+
+    "beerTagline": "Alcoholvrije dorstlesser.",
+    "beerInfo": ["Blond helder bier", "0.2% Vol. Alcoholvrij", "Fles 33 Cl."],
+    "beerDescription": "Wilderen Blond 0.2% is de perfecte alcoholvrije dorstlesser. Dit alcoholvrij bier is een verfrissende en smaakvolle optie voor wie wil genieten van een heerlijk bier zonder de effecten van alcohol. Wilderen Blond 0.2% is gebrouwen met zorg en aandacht voor kwaliteit, waardoor het de kenmerkende smaken van een traditioneel blond bier behoudt, maar met een alcoholpercentage van slechts 0.2%. Koud serveren.",
+    "beerImg": "WEBSITE/wilderen-blond/wilderen-blond-bottle.png",
+    "themeColor": "#40B6E8",
+    "beerLogo": "",
+    "neonColor": "#40B6E8",
+    "beerBG": "WEBSITE/wilderen-blond/wilderen-blond.jpg",
+    "beerBGMobile": "WEBSITE/Wilderen Goud/Wild Goud Blond BG-mobile.jpg"
   }
 ]

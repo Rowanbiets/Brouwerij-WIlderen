@@ -50,17 +50,16 @@ let allBeer = [];
 const bierNames = [
   "tripel-kanunnik",
   "betty-ford",
-
   "wilderen-goud",
-
   "cuvee-clarisse",
   "whiskey-infused",
   "rum-infused",
   "kriek",
   "clarrise-rouge",
+  "wilderen-blond",
 ];
 
-const textShadowNeeded = [2];
+const textShadowNeeded = [2, 9];
 
 export default function fetchBeer() {
   initDom();
