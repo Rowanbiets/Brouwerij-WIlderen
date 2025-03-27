@@ -59,7 +59,7 @@ const bierNames = [
   "wilderen-blond",
 ];
 
-const textShadowNeeded = [2, 9];
+const textShadowNeeded = [2];
 
 export default function fetchBeer() {
   initDom();
@@ -183,18 +183,33 @@ function renderBeer(data, beer) {
 
   // beerImage.src = data[beer].beerImg;
   beerLogo.innerHTML = data[beer].logo;
+
   if (textShadowNeeded.includes(data[beer].id)) {
     // beerName.style.color = "black";
-    beerTagline.style.textShadow = "0 1px 5px black";
-    beerDescription.style.textShadow = "0 1px 5px black";
-    beerInfo.style.textShadow = "0 1px 5px black";
+    // beerTagline.style.textShadow = "0 1px 5px black";
+    // beerDescription.style.textShadow = "0 1px 5px black";
+    // beerInfo.style.textShadow = "0 1px 5px black";
 
     // navLogo.src = "WEBSITE/Logo/LOGO W 2020BW.png";
     nav.forEach((navItem) => {
       navItem.style.textShadow = "0 1px 5px black";
       navItem.style.textShadow = "0 1px 5px black";
     });
+    beerTagline.style.color = "white";
+    beerDescription.style.color = "white";
+    beerInfo.style.color = "white";
+    buyButton.style.color = "white";
     // buyButton.style.color = "black";
+  } else if (data[beer].id == 9) {
+    console.log("wop");
+    beerTagline.style.color = "#03222D";
+    beerDescription.style.color = "#03222D";
+    beerInfo.style.color = "#03222D";
+    buyButton.style.color = "#03222D";
+    console.log("checking beer id");
+    // beerTagline.style.textShadow = "0 1px 5px black";
+    // beerDescription.style.textShadow = "0 1px 5px black";
+    // beerInfo.style.textShadow = "0 1px 5px black";
   } else {
     // beerName.style.color = "white";
     beerTagline.style.color = "white";
@@ -205,7 +220,7 @@ function renderBeer(data, beer) {
       navItem.style.color = "white";
       navItem.style.textShadow = "#333333 1px 1px 1px";
     });
-    // buyButton.style.color = "white";
+    buyButton.style.color = "white";
   }
 
   if (getParamBeer() == 0) {

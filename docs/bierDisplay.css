@@ -119,7 +119,7 @@ ul {
 }
 
 .buy-button2 {
-  color: white !important;
+  /* color: white !important; */
 
   /* margin-left: 10px; */
   /* background: green; */
@@ -582,7 +582,7 @@ input[type="radio"]:nth-child(8):checked {
   #beerInfo,
   #beerDescription,
   #beerTagLine {
-    color: white !important;
+    color: white;
     font-size: small;
   }
   .extraInfo {
