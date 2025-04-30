@@ -70,24 +70,20 @@
         "row3": ["Zondag", "13u - 21u"]
       },
       "table6": {
-    "row1": ["01/01", "GESLOTEN", ""],
-    "row2": ["21/04", "OPEN", "12u - 19u"],
-    "row3": ["01/05", "OPEN", "12u - 19u"],
-    "row4": ["29/05", "OPEN", "12u - 19u"],
-    "row5": ["09/06", "OPEN", "12u - 19u"],
-    "row6": ["21/06", "OPEN", "12u-19u"],
-    "row7": ["15/08", "OPEN", "12u-00u"],
-    "row8": ["1/11", "OPEN", "13u - 00u"],
-    "row9": ["11/11", "OPEN", "12u - 19u"],
-    "row10": ["25/12", "GESLOTEN", ""]
+        "row1": ["01/01", "GESLOTEN", ""],
+        "row2": ["21/04", "OPEN", "12u - 19u"],
+        "row3": ["01/05", "OPEN", "12u - 21u"],
+        "row4": ["29/05", "OPEN", "12u - 19u"],
+        "row5": ["09/06", "OPEN", "12u - 19u"],
+        "row6": ["21/06", "OPEN", "12u-19u"],
+        "row7": ["15/08", "OPEN", "12u-00u"],
+        "row8": ["1/11", "OPEN", "13u - 00u"],
+        "row9": ["11/11", "OPEN", "12u - 19u"],
+        "row10": ["25/12", "GESLOTEN", ""]
       }
     }
   ],
-  "tableDateSpan": [
-    "APRIL to SEPTEMBER",
-    "OCTOBER to MARCH",
-    "HOLIDAYS: OPEN"
-  ],
+  "tableDateSpan": ["APRIL to SEPTEMBER", "OCTOBER to MARCH", "HOLIDAYS: OPEN"],
 
   "tableExtraInfo": [
     "- Last tap: a 1/2h before closing <br /> - Brewery pub: reservations not possible - Free access <br /> - Reservations can be made if meal for groups of 10p or more <br /> - No wedding location or party room hire <br /> - Dogs allowed in the brewery pub/terrace <br /> - Dogs not allowed during tours/production area <br /> - Picnic not allowed"

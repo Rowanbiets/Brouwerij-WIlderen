@@ -83,7 +83,7 @@
       "table6": {
         "row1": ["01/01", "GESLOTEN", ""],
         "row2": ["21/04", "OPEN", "12u - 19u"],
-        "row3": ["01/05", "OPEN", "12u - 19u"],
+        "row3": ["01/05", "OPEN", "12u - 21u"],
         "row4": ["29/05", "OPEN", "12u - 19u"],
         "row5": ["09/06", "OPEN", "12u - 19u"],
         "row6": ["21/06", "OPEN", "12u-19u"],
@@ -98,7 +98,7 @@
     "APRIL t/m SEPTEMBER",
     "OKTOBER t/m MAART",
     "KERSTVAKANTIE",
-    "VAKANTIES"
+    "VAKANTIES EN FEESTDAGEN"
   ],
 
   "tableExtraInfo": [
