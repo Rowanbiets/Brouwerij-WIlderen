@@ -38,6 +38,7 @@ body {
 }
 
 .text-fade-in {
+  
   font-size: 21pt; /* Aanpassen aan de gewenste grootte */
   line-height: 1.5; /* Regelhoogte */
   width: 80%;
@@ -50,6 +51,7 @@ body {
   display: block;
   color: #fbb117;
   margin-top: 10px;
+  
 }
 
 .homeimg {
@@ -109,18 +111,19 @@ body {
   }
 }
 
-.ivm {
+.ivm{
   margin-left: 40px;
-}
-.verkleinde-afbeelding {
-  width: 30%;
-  height: auto;
+  
+  }
+  .verkleinde-afbeelding {
+    width: 30%; 
+    height: auto; 
 }
 .verkleinde-afbeelding2 {
   /* margin-left: 40%; */
   margin-top: 30px;
-  width: 80%;
-  height: auto;
+  width: 80%; 
+  height: auto; 
 }
 .overlay {
   position: absolute;
@@ -487,26 +490,6 @@ iframe {
   /* height: fit-content; */
 }
 
-.warmsteWeek img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: -40px;
-}
-
-.warmsteWeek ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.warmsteWeekText {
-  font-size: 18px;
-  margin-bottom: 20px;
-  margin-left: 40px;
-  width: 60%;
-}
-
 /* Buttons at the top of index become unstable around 1450px  */
 
 @media (max-width: 2000px) {
@@ -570,7 +553,7 @@ iframe {
     font-size: smaller;
     align-items: center;
     justify-content: center;
-
+    
     /* padding: 0px; */
     /* height: 10px; */
   }
@@ -607,21 +590,6 @@ iframe {
   width: 200px;
 }
 
-.imgContainerOpening.nonMobile img {
-  width: 30vw;
-  height: auto;
-  margin-left: 20px;
-  margin-top: 10px;
-  margin: 0;
-}
-
-.imgContainerOpening.mobileImg img {
-  width: 90vw !important;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 @media (max-width: 768px) {
   .imageL img {
     width: 100%;
@@ -653,6 +621,8 @@ iframe {
     width: 100%;
     /* height: 200px; */
   }
+
+  
 
   .carousel-item img {
     height: 200px !important;
@@ -688,29 +658,6 @@ iframe {
   /* .item4{
     width: 0 !important;
   } */
-
-  .warmsteWeekText {
-    margin-top: 10px;
-    width: 90%;
-    margin-left: 10px;
-    text-align: center;
-  }
-
-  .nonMobile {
-    display: none;
-  }
-
-  .mobileImg {
-    display: block !important ;
-    /* width: 100vw; */
-    /* width: 80%;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: -40px; */
-  }
-}
-.mobileImg {
-  display: none;
 }
 
 /* .carouselContainer a{
@@ -854,6 +801,8 @@ iframe {
   filter: drop-shadow(0px 0px 1px black);
 }
 
+
+
 .carousel {
   /* display: flex; */
   justify-content: center;
@@ -934,7 +883,7 @@ iframe {
   padding: 20px;
   margin: 20px auto;
   border-left: 5px solid #e63946; /* Accent color */
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
   max-width: 800px;
   line-height: 1.6;
@@ -987,7 +936,7 @@ iframe {
   margin: 20px auto;
   border-radius: 8px;
   max-width: 400px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .reservation-tool h2 {
@@ -1034,7 +983,8 @@ iframe {
   margin-top: 15px;
 }
 
-@media (max-width: 700px) {
+
+@media (max-width:700px) {
   .text-container p {
     font-size: 12px; /* Grootte van de alinea */
     line-height: 1.5; /* Regelhoogte van de alinea */
