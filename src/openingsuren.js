@@ -360,12 +360,6 @@ function renderTables(data) {
                                 <td data-i18n="table.0.table6.row9.1">${data.table6.row9[1]}</td>
                                 <td data-i18n="table.0.table6.row9.2">${data.table6.row9[2]}</td>
                                 
-                            </tr>
-                            <tr>
-                                <td data-i18n="table.0.table6.row10.0">${data.table6.row10[0]}</td>
-                                <td data-i18n="table.0.table6.row10.1">${data.table6.row10[1]}</td>
-                                <td data-i18n="table.0.table6.row10.2">${data.table6.row10[2]}</td>
-                                
                             </tr>`;
 }
 

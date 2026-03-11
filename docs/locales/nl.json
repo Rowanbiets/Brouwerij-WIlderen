@@ -18,7 +18,7 @@
     "Spirits",
     "Bezoek ons",
     "",
-    "Openingsuren 2025 <br> Brouwerijcafé"
+    "Openingsuren 2026 <br> Brouwerijcafé"
   ],
   "indexSubtitle": "“Brouwerij & Distilleerderij Wilderen staat ondertussen gekend voor het produceren van hoogwaardige bieren en distillaten. Belgisch vakmanschap in een eigentijdse en eigenzinnige context. We gaan met ons Wilderen Team voor innovatie en creativiteit, waarbij we klassieke stijlen combineren met moderne invloeden om unieke en verrassende bieren te creëren. De brouwerij beleeft een sterke band met zijn lokale gemeenschap & erfgoed, wat zich vertaalt in kwaliteit en trots die we in onze producten leggen. Zo willen we graag Wilderen op de wereldkaart zetten. Daarvoor hebben we jullie als enthousiaste fan, klant of bezoeker nodig.“ ",
   "indexButtons": ["Webshop", "Rondleiding boeken", "Openingsuren"],
@@ -28,7 +28,7 @@
         "APRIL t/m SEPTEMBER",
         "OKTOBER t/m MAART",
         "lol",
-        "Openingsuren 2025"
+        "Openingsuren 2026"
       ],
 
       "table1": {
@@ -81,15 +81,15 @@
         "row3": ["Zondag", "13u - 21u"]
       },
       "table6": {
-      "row1": ["06/04", "OPEN", "12u - 19u"],
-      "row2": ["01/05", "OPEN", "12u - 00u"],
-      "row3": ["14/05", "OPEN", "12u - 19u"],
-      "row4": ["25/05", "OPEN", "12u - 19u"],
-      "row5": ["21/07", "OPEN", "12u - 19u"],
-      "row6": ["15/08", "OPEN", "12u - 00u"],
-      "row7": ["01/11", "OPEN", "13u - 21u"],
-      "row8": ["11/11", "OPEN", "12u - 19u"],
-      "row9": ["25/12", "GESLOTEN", ""]
+      "row1": ["06/04", "Paasmaandag <br> OPEN", "12u - 19u"],
+      "row2": ["01/05", "Dag van de Arbeid <br> OPEN", "12u - 00u"],
+      "row3": ["14/05", "O.H. Hemelvaart <br> OPEN", "12u - 19u"],
+      "row4": ["25/05", "Pinkstermaandag <br> OPEN", "12u - 19u"],
+      "row5": ["21/07", "Nationale Feestdag <br> OPEN", "12u - 19u"],
+      "row6": ["15/08", "O.L.V. Hemelvaart <br> OPEN", "12u - 00u"],
+      "row7": ["01/11", "Allerheiligen <br> OPEN", "13u - 21u"],
+      "row8": ["11/11", "Wapenstilstand <br> OPEN", "12u - 19u"],
+      "row9": ["25/12", "KERSTDAG <br> GESLOTEN", ""]
       }
     }
   ],
